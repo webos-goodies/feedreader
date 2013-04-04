@@ -2,30 +2,26 @@ import lxml.objectify
 import httplib
 import urlparse
 
-from utils.dates import *
-from feeds import InvalidFeed
-
-__all__ = ('ParseError', 'InvalidFeed', 'from_string', 'from_url', 'from_file', 'parse_date')
+__all__ = ('ParseError', 'InvalidFeed', 'from_string', 'from_url', 'from_file')
 
 # TODO: change the feeds to a registration model
 from feeds.atom10 import Atom10Feed
 from feeds.rss20 import RSS20Feed
+from feeds.rss10 import RSS10Feed
 
-feeds = (RSS20Feed, Atom10Feed)
+feeds = (RSS20Feed, Atom10Feed, RSS10Feed)
 
 ACCEPT_HEADER = "application/atom+xml,application/rdf+xml,application/rss+xml,application/x-netcdf,application/xml;q=0.9,text/xml;q=0.2,*/*;q=0.1"
 
 USER_AGENT = 'py-feedreader'
 
+class InvalidFeed(Exception): pass
 class ParseError(Exception): pass
 
 def _from_parsed(parsed):
     for feed in feeds:
-        try:
-            result = feed(parsed)
-        except InvalidFeed:
-            pass
-        else:
+        result = feed(parsed)
+        if result.is_valid:
             return result
     raise InvalidFeed(parsed.tag)
 

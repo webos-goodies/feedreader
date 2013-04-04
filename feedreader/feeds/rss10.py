@@ -1,27 +1,26 @@
 """
-RSS 2.0 Support
+RSS 1.0 Support
 """
 
 from feedreader.feeds.base import (Feed, Item, get_element_text, get_attribute, search_child,
                                    get_descendant, get_descendant_text, get_descendant_datetime)
 
 
-class RSS20Feed(Feed):
-  __feed__ = 'RSS 2.0'
+class RSS10Feed(Feed):
+  __feed__ = 'RSS 1.0'
 
   @property
   def channel(self):
-    return getattr(self._element, 'channel', None)
+    return getattr(self._element, '{http://purl.org/rss/1.0/}channel', None)
 
   @property
   def is_valid(self):
-    return (self._element.tag == 'rss' and
-            self._element.attrib['version'] == '2.0' and
+    return (self._element.tag == '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}RDF' and
             self.channel is not None)
 
   @property
   def id(self):
-    return None
+    return get_attribute(self._element, '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about')
 
   @property
   def title(self):
@@ -37,8 +36,7 @@ class RSS20Feed(Feed):
 
   @property
   def published(self):
-    return (get_descendant_datetime(self._channel, 'pubDate') or
-            get_descendant_datetime(self._channel, '{http://purl.org/dc/elements/1.1/}date'))
+    return None
 
   @property
   def updated(self):
@@ -46,14 +44,15 @@ class RSS20Feed(Feed):
 
   @property
   def entries(self):
-    return [RSS20Item(item) for item in self.channel.iterchildren(tag='item')]
+    node_name = '{http://purl.org/rss/1.0/}item'
+    return [RSS10Item(item) for item in self._element.iterchildren(tag=node_name)]
 
 
-class RSS20Item(Item):
+class RSS10Item(Item):
 
   @property
   def id(self):
-    return get_descendant_text(self._element, 'guid')
+    return get_attribute(self._element, '{http://www.w3.org/1999/02/22-rdf-syntax-ns#}about')
 
   @property
   def title(self):
@@ -65,7 +64,7 @@ class RSS20Item(Item):
 
   @property
   def author_name(self):
-    return get_descendant_text(self._element, 'author')
+    return None
 
   @property
   def author_email(self):
@@ -77,12 +76,12 @@ class RSS20Item(Item):
 
   @property
   def description(self):
-    return get_descendant_text(self._element, 'description')
+    return get_descendant_text(self._element,
+                               '{http://purl.org/rss/1.0/modules/content/}encoded')
 
   @property
   def published(self):
-    return (get_descendant_datetime(self._element, 'pubDate') or
-            get_descendant_datetime(self._element, '{http://purl.org/dc/elements/1.1/}date'))
+    return get_descendant_datetime(self._element, '{http://purl.org/dc/elements/1.1/}date')
 
   @property
   def updated(self):

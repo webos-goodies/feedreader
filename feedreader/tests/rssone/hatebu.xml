@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/" xmlns:opensearch="http://a9.com/-/spec/opensearchrss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:hatena="http://www.hatena.ne.jp/info/xmlns#" xmlns:media="http://search.yahoo.com/mrss">
+  <channel rdf:about="http://b.hatena.ne.jp/hotentry">
+    <title>はてなブックマーク - 人気エントリー</title>
+    <link>http://b.hatena.ne.jp/hotentry</link>
+    <description>最近の人気エントリー</description>
+
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="http://bazubu.com/seo-13666.html" />
+        <rdf:li rdf:resource="http://togech.jp/2013/04/03/741" />
+        <rdf:li rdf:resource="http://headlines.yahoo.co.jp/hl?a=20130403-00000133-jij-pol" />
+        <rdf:li rdf:resource="http://www.atmarkit.co.jp/ait/articles/1304/03/news011.html" />
+        <rdf:li rdf:resource="http://www.matome-life.com/?p=283" />
+        <rdf:li rdf:resource="http://jin115.com/archives/51940741.html" />
+        <rdf:li rdf:resource="http://yusukebe.com/archives/20130403/175531.html" />
+        <rdf:li rdf:resource="http://blog.livedoor.jp/dqnplus/archives/1756922.html" />
+        <rdf:li rdf:resource="http://zasshi.news.yahoo.co.jp/article?a=20130403-00416257-sspa-soci" />
+        <rdf:li rdf:resource="http://togetter.com/li/482228" />
+        <rdf:li rdf:resource="http://jp.techcrunch.com/2013/04/03/20130401famo-us-the-framework-for-fast-and-beautiful-html5-apps-will-be-free-thanks-to-huge-hardware-vendor-interest/" />
+        <rdf:li rdf:resource="http://blog.livedoor.jp/kinisoku/archives/3738720.html" />
+        <rdf:li rdf:resource="http://markezine.jp/article/detail/17550" />
+        <rdf:li rdf:resource="http://blog.livedoor.jp/dqnplus/archives/1756939.html" />
+        <rdf:li rdf:resource="http://alfalfalfa.com/archives/6416851.html" />
+        <rdf:li rdf:resource="http://k-tai.impress.co.jp/docs/news/20130403_594437.html" />
+        <rdf:li rdf:resource="http://portal.nifty.com/kiji/130403160209_1.htm" />
+        <rdf:li rdf:resource="http://bipblog.com/archives/4422910.html" />
+        <rdf:li rdf:resource="http://www.lifehacker.jp/2013/04/130403criticism_ratio.html" />
+        <rdf:li rdf:resource="http://www.roomie.jp/2013/04/63059/" />
+        <rdf:li rdf:resource="http://cookpad.com/recipe/2136896" />
+        <rdf:li rdf:resource="http://blog.livedoor.jp/dqnplus/archives/1756900.html" />
+        <rdf:li rdf:resource="http://www.gizmodo.jp/2013/04/jawbone_up24.html" />
+        <rdf:li rdf:resource="http://www.mbs.jp/news/kansaiflash_GE000000000000000584.shtml" />
+        <rdf:li rdf:resource="http://d.hatena.ne.jp/Chikirin/20130403" />
+        <rdf:li rdf:resource="http://news.nicovideo.jp/watch/nw570372" />
+        <rdf:li rdf:resource="http://blog.livedoor.jp/dqnplus/archives/1756945.html" />
+        <rdf:li rdf:resource="http://www.asahi.com/politics/update/0403/TKY201304030324.html" />
+        <rdf:li rdf:resource="http://www.gamecast-blog.com/archives/65740939.html" />
+        <rdf:li rdf:resource="http://sankei.jp.msn.com/entertainments/news/130403/ent13040319110016-n1.htm" />
+      </rdf:Seq>
+    </items>
+  <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rdf+xml" href="http://feeds.feedburner.com/hatena/b/hotentry" /><feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="hatena/b/hotentry" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /></channel>
+  <item rdf:about="http://bazubu.com/seo-13666.html">
+    <title>SEO対策｜検索順位の上位を独占するために私が行っている36の手順</title>
+    <link>http://bazubu.com/seo-13666.html</link>
+    <description>Tweet Tweet あなたは今、SEO対策で結果が出ないどころかペナルティを受けて検索エンジンからの集客数が大きく落ち込んでしまったりしていないだろうか？ そして、何をやっても検索順位が戻らずに絶望的な気持ちになっていないだろうか？その理由は非常に簡単で、あなたが今までGoogleに嫌われるSEO対策に終始していたからだ。 そして、以前は効果があったが、今では逆効果しか生まないSEO対策ばかり...</description>
+    <content:encoded><![CDATA[<blockquote cite="http://bazubu.com/seo-13666.html" title=]]></content:encoded>
+    <dc:date>2013-04-03T17:01:42+09:00</dc:date>
+    <dc:subject>テクノロジー</dc:subject>
+    <hatena:bookmarkcount>598</hatena:bookmarkcount>
+  </item>
+  <item rdf:about="http://togech.jp/2013/04/03/741">
+    <title>人気Twitter女子に聞く！　モテツイートの鉄則 - トゥギャッチ</title>
+    <link>http://togech.jp/2013/04/03/741</link>
+    <description>こんにちは。小野ほりでいです。 突然ですが、インターネットでチヤホヤされたくありませんか？ Twitterに限らず、さまざまなSNSで自分のことを諦めて「モテない」などと書き込む人が増えていますが、そんなことをしていては悪循環です。 今日は覚悟を決めて、Twitterモテの第一人者から生き馬の目を抜く戦術を教えてもらいましょう。 ＜登場人物＞ エリコちゃん パソコンとインターネットのことはからっき...</description>
+    <content:encoded><![CDATA[<blockquote cite="http://togech.jp/2013/04/03/741" title="]]></content:encoded>
+    <dc:date>2013-04-03T17:04:48+09:00</dc:date>
+    <dc:subject>暮らし</dc:subject>
+    <hatena:bookmarkcount>290</hatena:bookmarkcount>
+  </item>
+  <item rdf:about="http://headlines.yahoo.co.jp/hl?a=20130403-00000133-jij-pol">
+    <title>国内クリエーター結集を＝クールジャパン推進で―政府 （時事通信） - Yahoo!ニュース</title>
+    <link>http://headlines.yahoo.co.jp/hl?a=20130403-00000133-jij-pol</link>
+    <description>政府は3日、クールジャパン推進会議を開き、食やアニメ、ファッションを「クールジャパン」（格好いい日本）として外国に売り込むための具体策を議論した。民間議員で「AKB48」プロデューサーの秋元康氏は「日本中の優秀なクリエーターにひと肌脱いでもらうべきだ」と指摘。アニメや芸術の関係者に、ポスターやキャッチコピーづくりに無報酬での協力を求めるよう提案した。 角川グループホールディングスの角川歴彦会長は、...</description>
+    <content:encoded><![CDATA[<blockquote cite="http://headlines.yahoo.co.jp/hl?a=201304]]></content:encoded>
+    <dc:date>2013-04-03T20:39:31+09:00</dc:date>
+    <dc:subject>世の中</dc:subject>
+    <hatena:bookmarkcount>94</hatena:bookmarkcount>
+  </item>
+  <item rdf:about="http://www.atmarkit.co.jp/ait/articles/1304/03/news011.html">
+    <title>グリーはいかにしてJenkinsを導入したのか（2）：JenkinsでCIすればiOSアプリのビルドは、もう面倒くさくない (1/2) - ＠IT</title>
+    <link>http://www.atmarkit.co.jp/ait/articles/1304/03/news011.html</link>
+    <description>続いて、開発するアプリの登録を行います。アプリの登録では【1】アプリ名や識別名などの登録、【2】プロビジョニングプロファイルを作成しダウンロード、インストールします。 これらの準備が終わったら、App Storeへ公開するためのアプリ開発、パッケージング、アップロードといった流れになります。 「Jenkins Xcode Integration Plugin」でビルドを自動化 このアプリ公開までの...</description>
+    <content:encoded><![CDATA[<blockquote cite="http://www.atmarkit.co.jp/ait/articles/1]]></content:encoded>
+    <dc:date>2013-04-03T18:41:12+09:00</dc:date>
+    <dc:subject>テクノロジー</dc:subject>
+    <hatena:bookmarkcount>194</hatena:bookmarkcount>
+  </item>
+</rdf:RDF>

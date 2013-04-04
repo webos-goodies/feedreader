@@ -2,112 +2,92 @@
 Atom 1.0 Support
 """
 
-from feedreader.utils.dates import parse_date
-from feedreader.feeds import Feed, Item, Author, Image, Enclosure
+from feedreader.feeds.base import (PREFERRED_TITLE_TYPES, PREFERRED_LINK_TYPES,
+                                   PREFERRED_CONTENT_TYPES,
+                                   Feed, Item, get_element_text, get_attribute, search_child,
+                                   get_descendant, get_descendant_text, get_descendant_datetime)
 
-class Atom10Item(Item):
-    _enclosures = None
-    _published = None
-    _updated = None
-    _link = None
-    _author = None
-    
-    def _process_links(self):
-        self._enclosures = []
-        for link in self._xml.iterchildren(tag='{http://www.w3.org/2005/Atom}link'):
-            if link.attrib.get('rel', 'alternate') == 'alternate':
-                self._link = link.attrib['href']
-            elif link.attrib['rel'] == 'enclosure':
-                if link.attrib['type'].startswith('image/'):
-                    cls = Image
-                else:
-                    cls = Enclosure
-                self._enclosures.append(cls(link.attrib['href'], link.attrib['type']))
-    
-    @property
-    def author(self):
-        if self._author is None:
-            author = self._xml.author
-            self._author = Author(
-                name=getattr(author, 'name', None),
-                email=getattr(author, 'email', None),
-                link=getattr(author, 'uri', None),
-            )
-        return self._author
-    
-    @property
-    def link(self):
-        if self._link is None:
-            self._process_links()
-        return self._link
-    
-    @property
-    def enclosures(self):
-        if self._enclosures is None:
-            self._process_links()
-        return self._enclosures
-    
-    media = enclosures
-    
-    @property
-    def description(self):
-        return unicode(self._xml.content).strip()
-    
-    @property
-    def published(self):
-        if self._published is None:
-            try:
-                datestr = self._xml.published
-            except AttributeError:
-                self._published = self.updated
-            else:
-                self._published = parse_date(datestr)
-        return self._published
-
-    @property
-    def updated(self):
-        if self._updated is None:
-            try:
-                datestr = self._xml.updated
-            except AttributeError:
-                self._updated = None
-            else:
-                self._updated = parse_date(datestr)
-        return self._updated
 
 class Atom10Feed(Feed):
-    _published = None
-    _updated = None
-    
-    __feed__ = 'Atom 1.0'
-    
-    @property
-    def published(self):
-        if self._published is None:
-            try:
-                datestr = self._xml.published
-            except AttributeError:
-                self._published = self.updated
-            else:
-                self._published = parse_date(datestr)
-        return self._published
+  __feed__ = 'Atom 1.0'
 
-    @property
-    def updated(self):
-        if self._updated is None:
-            try:
-                datestr = self._xml.updated
-            except AttributeError:
-                self._updated = None
-            else:
-                self._updated = parse_date(datestr)
-        return self._updated
-    
-    @property
-    def is_valid(self):
-        # <feed xmlns="http://www.w3.org/2005/Atom">
-        return self._xml.tag == '{http://www.w3.org/2005/Atom}feed'
-    
-    @property
-    def entries(self):
-        return [Atom10Item(item) for item in self._xml.iterchildren(tag='{http://www.w3.org/2005/Atom}entry')]
+  @property
+  def is_valid(self):
+    # <feed xmlns="http://www.w3.org/2005/Atom">
+    return self._element.tag == '{http://www.w3.org/2005/Atom}feed'
+
+  @property
+  def id(self):
+    return get_descendant_text(self._element, 'id')
+
+  @property
+  def title(self):
+    return get_descendant_text(self._element, 'title')
+
+  @property
+  def link(self):
+    link = search_child(self._element, '{http://www.w3.org/2005/Atom}link',
+                        ('rel', 'alternate', 'type', PREFERRED_LINK_TYPES))
+    return get_attribute(link, 'href')
+
+  @property
+  def description(self):
+    subtitle = search_child(self._element, '{http://www.w3.org/2005/Atom}subtitle',
+                            ('type', PREFERRED_CONTENT_TYPES))
+    return get_element_text(subtitle)
+
+  @property
+  def published(self):
+    return get_descendant_datetime(self._element, 'published')
+
+  @property
+  def updated(self):
+    return get_descendant_datetime(self._element, 'updated')
+
+  @property
+  def entries(self):
+    node_name = '{http://www.w3.org/2005/Atom}entry'
+    return [Atom10Item(item) for item in self._element.iterchildren(tag=node_name)]
+
+
+class Atom10Item(Item):
+
+  @property
+  def id(self):
+    return get_descendant_text(self._element, 'id')
+
+  @property
+  def title(self):
+    return get_descendant_text(self._element, 'title')
+
+  @property
+  def link(self):
+    link = search_child(self._element, '{http://www.w3.org/2005/Atom}link',
+                        ('rel', 'alternate', 'type', PREFERRED_LINK_TYPES))
+    return get_attribute(link, 'href')
+
+  @property
+  def author_name(self):
+    return get_descendant_text(self._element, 'author', 'name')
+
+  @property
+  def author_email(self):
+    return get_descendant_text(self._element, 'author', 'email')
+
+  @property
+  def author_link(self):
+    return get_descendant_text(self._element, 'author', 'uri')
+
+  @property
+  def description(self):
+    content = search_child(self._element, '{http://www.w3.org/2005/Atom}content',
+                           ('type', PREFERRED_CONTENT_TYPES))
+    return get_element_text(content)
+
+  @property
+  def published(self):
+    return get_descendant_datetime(self._element, 'published')
+
+  @property
+  def updated(self):
+    return get_descendant_datetime(self._element, 'updated')
