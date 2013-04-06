@@ -14,8 +14,8 @@ Our mission was simple:
 Features
 --------
 
-- RSS 2.0 (incl. media enclosures)
-- Atom 1.0 (incl. link enclosures)
+- RSS 2.0, 1.0
+- Atom 1.0, 0.3
 
 Installation
 ------------
