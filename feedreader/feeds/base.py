@@ -4,10 +4,17 @@ PREFERRED_TITLE_TYPES   = ('text', 'html')
 PREFERRED_LINK_TYPES    = ('text/html', 'application/xhtml+xml', 'text/plain')
 PREFERRED_CONTENT_TYPES = ('html', 'text')
 
+def unicodify(s):
+  if s is None:
+    return u''
+  elif isinstance(s, unicode):
+    return s
+  return unicode(s, errors='replace')
+
 def get_element_text(element):
   if element is None:
     return None
-  return unicode(element).strip()
+  return unicodify(element.text).strip()
 
 def get_descendant(element, *args):
   for node_name in args:
@@ -32,7 +39,7 @@ def get_attribute(element, attr_name):
   attr = element.get(attr_name, None)
   if attr is None:
     return None
-  return unicode(attr).strip()
+  return unicodify(attr).strip()
 
 def search_child(element, node_name, attrs):
   if element is None:

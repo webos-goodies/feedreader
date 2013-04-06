@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../../../css/rss/feedAtom.xsl" media="screen" type="text/xsl"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">  
+  <title>gihyo.jp：DEVELOPER STAGE</title>  
+  <subtitle>gihyo.jp（DEVELOPER STAGE）の更新情報をお届けします</subtitle>  
+  <id>http://gihyo.jp/dev</id>  
+  <link href="http://gihyo.jp/dev"/>  
+  <author> 
+    <name>技術評論社</name> 
+  </author>  
+  <updated>2013-04-06T10:52:00+09:00</updated>  
+  <rights>技術評論社 2013</rights>  
+  <icon>http://gihyo.jp/assets/templates/gihyojp2007/image/header_logo_gihyo.gif</icon>  
+  <link rel="start" href="http://rss.rssad.jp/rss/gihyo/dev/feed/atom" type="application/rss+xml"/>  
+  <entry> 
+    <title>第12回　［最終回］Meteorが指し示すWebアプリ開発の未来 ── 体感！JavaScriptで超速アプリケーション開発 －Meteor完全解説</title>  
+    <link href="http://rss.rssad.jp/rss/artclk/6kFPmDSBc8CI/5117feb031ce10175e22718e9125ba10?ul=qFLnlCCiJCv.k11G1fG.YKSSaQnenmAUw7YiCwq7IRtXwUWObJzF59R8m5.HCUrt9arCw5T"/>  
+    <id>http://gihyo.jp/dev/serial/01/meteor/0012</id>  
+    <published>2013-04-05T18:02:00+09:00</published>  
+    <updated>2013-04-05T18:02:00+09:00</updated>  
+    <author> 
+      <name>白石俊平</name> 
+    </author>  
+    <category scheme="http://gihyo.jp/dev/serial/01/meteor" term="体感！JavaScriptで超速アプリケーション開発 －Meteor完全解説" xml:lang="ja"/>  
+    <summary type="html"><![CDATA[<p>さて，これまで10回以上に渡って続けさせていただいたこの]]></summary> 
+  </entry>  
+  <entry> 
+    <title>第6回　node.js，SignalRとクラウド，まとめ ── リアルタイムWebを極める</title>  
+    <link href="http://rss.rssad.jp/rss/artclk/6kFPmDSBc8CI/c0df4e6311e69382b68c992ca7b09c6f?ul=lTVXR6hb6XP1vijiBl9iZMuSXiVGnMeroLM1v5lydTGG5OBxgOT1tUcaE9AzYJ5PUX_BSB9"/>  
+    <id>http://gihyo.jp/dev/serial/01/realtimeweb/0006</id>  
+    <published>2013-04-05T11:00:00+09:00</published>  
+    <updated>2013-04-05T11:00:00+09:00</updated>  
+    <author> 
+      <name>芝村達郎</name> 
+    </author>  
+    <category scheme="http://gihyo.jp/dev/serial/01/realtimeweb" term="リアルタイムWebを極める" xml:lang="ja"/>  
+    <summary type="html"><![CDATA[最終回となる今回は，node.jsとSignalRのそれぞれを実際に]]></summary> 
+  </entry>  
+  <entry> 
+    <title>第3回　Mahoutの環境構築とFP-Growthによるマーケットバスケット分析 ── Mahoutで体感する機械学習の実践</title>  
+    <link href="http://rss.rssad.jp/rss/artclk/6kFPmDSBc8CI/2d032d5244a41f534cf7a4b65bb9e869?ul=IQ_0lyTW5R7OJbdLTanC44B79QNnSaRtLiNJuEOIdCSs3mxXy0fEeBOAh0mHB_U_N40jk8Q"/>  
+    <id>http://gihyo.jp/dev/serial/01/mahout/0003</id>  
+    <published>2013-04-04T10:54:00+09:00</published>  
+    <updated>2013-04-04T10:54:00+09:00</updated>  
+    <author> 
+      <name>やまかつ</name> 
+    </author>  
+    <category scheme="http://gihyo.jp/dev/serial/01/mahout" term="Mahoutで体感する機械学習の実践" xml:lang="ja"/>  
+    <summary type="html"><![CDATA[今回は，実践編として，Mahoutが実装しているアプリオリアルゴリズム]]></summary> 
+  </entry>  
+  <entry> 
+    <title>第1回　全文検索エンジンgroongaを紹介します！ ── 隔週連載groonga</title>  
+    <link href="http://rss.rssad.jp/rss/artclk/6kFPmDSBc8CI/d4a4314f2a518694bf8214ad2d20a142?ul=wNwWJqZuGH9ZSoOlD8KRty7Gn5nQqbfNY1Hp.Ny2nGHaBwxLY._5OvYwjp925JRk0vH6zBO"/>  
+    <id>http://gihyo.jp/dev/clip/01/groonga/0001</id>  
+    <published>2013-04-02T10:54:00+09:00</published>  
+    <updated>2013-04-02T10:54:00+09:00</updated>  
+    <author> 
+      <name>Haruka Yoshihara</name> 
+    </author>  
+    <category scheme="http://gihyo.jp/dev/clip/01/groonga" term="隔週連載groonga" xml:lang="ja"/>  
+    <summary type="html"><![CDATA[<p>今回から始まった隔週連載groongaでは，groongaを使いたくなるような]]></summary> 
+  </entry>  
+</feed>

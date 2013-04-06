@@ -103,5 +103,68 @@ ATOM_FILES = (
                 'description': u'去る3月24日、「所得税法等の一部を改正する法律」と共に、'
             }
         )
-    })
+    }),
+    ('atom/gihyo.xml', {
+        'id': 'http://gihyo.jp/dev',
+        'title': u'gihyo.jp：DEVELOPER STAGE',
+        'link': 'http://gihyo.jp/dev',
+        'description': u'gihyo.jp（DEVELOPER STAGE）の更新情報をお届けします',
+        'updated': parse('2013-04-06T10:52:00+09:00'),
+        'entries': (
+            {
+                'id': 'http://gihyo.jp/dev/serial/01/meteor/0012',
+                'title': u'第12回　［最終回］Meteorが指し示すWebアプリ開発の未来 ── 体感！JavaScriptで超速アプリケーション開発 －Meteor完全解説',
+                'link': 'http://rss.rssad.jp/rss/artclk/6kFPmDSBc8CI/5117feb031ce10175e22718e9125ba10?ul=qFLnlCCiJCv.k11G1fG.YKSSaQnenmAUw7YiCwq7IRtXwUWObJzF59R8m5.HCUrt9arCw5T',
+                'description': u'<p>さて，これまで10回以上に渡って続けさせていただいたこの',
+                'published': parse('2013-04-05T18:02:00+09:00'),
+                'updated': parse('2013-04-05T18:02:00+09:00'),
+                'author_name': u'白石俊平'
+            },
+            {
+                'id': 'http://gihyo.jp/dev/serial/01/realtimeweb/0006',
+                'title': u'第6回　node.js，SignalRとクラウド，まとめ ── リアルタイムWebを極める',
+                'link': 'http://rss.rssad.jp/rss/artclk/6kFPmDSBc8CI/c0df4e6311e69382b68c992ca7b09c6f?ul=lTVXR6hb6XP1vijiBl9iZMuSXiVGnMeroLM1v5lydTGG5OBxgOT1tUcaE9AzYJ5PUX_BSB9',
+                'description': u'最終回となる今回は，node.jsとSignalRのそれぞれを実際に',
+                'published': parse('2013-04-05T11:00:00+09:00'),
+                'updated': parse('2013-04-05T11:00:00+09:00'),
+                'author_name': u'芝村達郎'
+            },
+            {
+                'id': 'http://gihyo.jp/dev/serial/01/mahout/0003',
+                'title': u'第3回　Mahoutの環境構築とFP-Growthによるマーケットバスケット分析 ── Mahoutで体感する機械学習の実践',
+                'link': 'http://rss.rssad.jp/rss/artclk/6kFPmDSBc8CI/2d032d5244a41f534cf7a4b65bb9e869?ul=IQ_0lyTW5R7OJbdLTanC44B79QNnSaRtLiNJuEOIdCSs3mxXy0fEeBOAh0mHB_U_N40jk8Q',
+                'description': u'今回は，実践編として，Mahoutが実装しているアプリオリアルゴリズム',
+                'published': parse('2013-04-04T10:54:00+09:00'),
+                'updated': parse('2013-04-04T10:54:00+09:00'),
+                'author_name': u'やまかつ'
+            },
+            {
+                'id': 'http://gihyo.jp/dev/clip/01/groonga/0001',
+                'title': u'第1回　全文検索エンジンgroongaを紹介します！ ── 隔週連載groonga',
+                'link': 'http://rss.rssad.jp/rss/artclk/6kFPmDSBc8CI/d4a4314f2a518694bf8214ad2d20a142?ul=wNwWJqZuGH9ZSoOlD8KRty7Gn5nQqbfNY1Hp.Ny2nGHaBwxLY._5OvYwjp925JRk0vH6zBO',
+                'description': u'<p>今回から始まった隔週連載groongaでは，groongaを使いたくなるような',
+                'published': parse('2013-04-02T10:54:00+09:00'),
+                'updated': parse('2013-04-02T10:54:00+09:00'),
+                'author_name': u'Haruka Yoshihara'
+            }
+        )
+    }),
+    ('atom/atom03.xml', {
+        'id': 'tag:example.com,2006:hogehoge',
+        'title': u'Atom 0.3 sample',
+        'link': 'http://atom03.example.com/',
+        'description': u'A sample of Atom 0.3 feed.',
+        'updated': parse('2013-04-06T05:45:46Z'),
+        'entries': (
+            {
+                'id': 'tag:example.com,2006:hogehoge.50450919',
+                'title': u'タイトル',
+                'link': 'http://example.com/articles/01.html',
+                'description': u'コンテンツ',
+                'published': parse('2006-12-16T15:18:25+09:00'),
+                'updated': parse('2006-12-16T06:22:55Z'),
+                'author_name': u'hogehoge'
+            },
+        )
+    }),
 )

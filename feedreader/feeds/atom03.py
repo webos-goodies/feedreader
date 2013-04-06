@@ -1,5 +1,5 @@
 """
-Atom 1.0 Support
+Atom 0.3 Support
 """
 
 from feedreader.feeds.base import (PREFERRED_TITLE_TYPES, PREFERRED_LINK_TYPES,
@@ -8,13 +8,13 @@ from feedreader.feeds.base import (PREFERRED_TITLE_TYPES, PREFERRED_LINK_TYPES,
                                    get_descendant, get_descendant_text, get_descendant_datetime)
 
 
-class Atom10Feed(Feed):
-  __feed__ = 'Atom 1.0'
+class Atom03Feed(Feed):
+  __feed__ = 'Atom 0.3'
 
   @property
   def is_valid(self):
-    # <feed xmlns="http://www.w3.org/2005/Atom">
-    return self._element.tag == '{http://www.w3.org/2005/Atom}feed'
+    # <feed version="0.3" xmlns="http://purl.org/atom/ns#">
+    return self._element.tag == '{http://purl.org/atom/ns#}feed'
 
   @property
   def id(self):
@@ -26,31 +26,29 @@ class Atom10Feed(Feed):
 
   @property
   def link(self):
-    link = search_child(self._element, '{http://www.w3.org/2005/Atom}link',
+    link = search_child(self._element, '{http://purl.org/atom/ns#}link',
                         ('rel', 'alternate', 'type', PREFERRED_LINK_TYPES))
     return get_attribute(link, 'href')
 
   @property
   def description(self):
-    subtitle = search_child(self._element, '{http://www.w3.org/2005/Atom}subtitle',
-                            ('type', PREFERRED_CONTENT_TYPES))
-    return get_element_text(subtitle)
+    return get_descendant_text(self._element, 'tagline')
 
   @property
   def published(self):
-    return get_descendant_datetime(self._element, 'published')
+    return get_descendant_datetime(self._element, 'issued')
 
   @property
   def updated(self):
-    return get_descendant_datetime(self._element, 'updated')
+    return get_descendant_datetime(self._element, 'modified')
 
   @property
   def entries(self):
-    node_name = '{http://www.w3.org/2005/Atom}entry'
-    return [Atom10Item(item) for item in self._element.iterchildren(tag=node_name)]
+    node_name = '{http://purl.org/atom/ns#}entry'
+    return [Atom03Item(item) for item in self._element.iterchildren(tag=node_name)]
 
 
-class Atom10Item(Item):
+class Atom03Item(Item):
 
   @property
   def id(self):
@@ -62,7 +60,7 @@ class Atom10Item(Item):
 
   @property
   def link(self):
-    link = search_child(self._element, '{http://www.w3.org/2005/Atom}link',
+    link = search_child(self._element, '{http://purl.org/atom/ns#}link',
                         ('rel', 'alternate', 'type', PREFERRED_LINK_TYPES))
     return get_attribute(link, 'href')
 
@@ -80,17 +78,17 @@ class Atom10Item(Item):
 
   @property
   def description(self):
-    content = search_child(self._element, '{http://www.w3.org/2005/Atom}content',
+    content = search_child(self._element, '{http://purl.org/atom/ns#}content',
                            ('type', PREFERRED_CONTENT_TYPES))
     if content is None:
-      content = search_child(self._element, '{http://www.w3.org/2005/Atom}summary',
+      content = search_child(self._element, '{http://purl.org/atom/ns#}summary',
                              ('type', PREFERRED_CONTENT_TYPES))
     return get_element_text(content)
 
   @property
   def published(self):
-    return get_descendant_datetime(self._element, 'published')
+    return get_descendant_datetime(self._element, 'issued')
 
   @property
   def updated(self):
-    return get_descendant_datetime(self._element, 'updated')
+    return get_descendant_datetime(self._element, 'modified')

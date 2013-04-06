@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<feed version="0.3" xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="ja">
+<title>Atom 0.3 sample</title> 
+<link rel="alternate" type="text/html" href="http://atom03.example.com/" />
+<link rel="self" href="http://example.com" />
+<modified>2013-04-06T05:45:46Z</modified> 
+<tagline><![CDATA[A sample of Atom 0.3 feed.]]></tagline> 
+<id>tag:example.com,2006:hogehoge</id>
+<author>
+<name>hogehoge</name> 
+</author>
+<generator url="http://example.com/" version="1.0">Example.com</generator> 
+<copyright>Copyright (c) 2013</copyright>
+<entry>
+<title>タイトル</title> 
+<link rel="alternate" type="text/html" href="http://example.com/articles/01.html" />
+<modified>2006-12-16T06:22:55Z</modified> 
+<issued>2006-12-16T15:18:25+09:00</issued> 
+<id>tag:example.com,2006:hogehoge.50450919</id>
+<summary type="text/plain">サマリー</summary> 
+<dc:subject></dc:subject>
+<content type="text/html" mode="escaped" xml:lang="ja" xml:base="http://example.com/articles/01.html">
+<![CDATA[コンテンツ]]> 
+</content>
+<author>
+<name>hogehoge</name> 
+</author>
+</entry>
+</feed>

@@ -76,8 +76,12 @@ class RSS10Item(Item):
 
   @property
   def description(self):
-    return get_descendant_text(self._element,
+    text = get_descendant_text(self._element,
                                '{http://purl.org/rss/1.0/modules/content/}encoded')
+    if text is None:
+      text = get_descendant_text(self._element,
+                                 '{http://purl.org/rss/1.0/}description')
+    return text
 
   @property
   def published(self):

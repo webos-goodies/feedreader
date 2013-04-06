@@ -36,7 +36,10 @@ class AtomTestCase(unittest2.TestCase):
     for fname, test_data in ATOM_FILES:
       fp = open(os.path.join(DIR, fname), 'r')
       parsed = from_file(fp)
-      self.assertEquals(parsed.feed, 'Atom 1.0')
+      if fname != 'atom/atom03.xml':
+        self.assertEquals(parsed.feed, 'Atom 1.0')
+      else:
+        self.assertEquals(parsed.feed, 'Atom 0.3')
       self.assertEquals(parsed.title, test_data['title'])
       self.assertEquals(parsed.link, test_data['link'])
       self.assertEquals(parsed.description, test_data['description'])

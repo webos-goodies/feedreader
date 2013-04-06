@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../../../css/rss/feedRss1.xsl" media="screen" type="text/xsl"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns:admin="http://webns.net/mvcb/" xmlns:content="http://purl.org/rss/1.0/modules/content/">  
+  <channel rdf:about="http://news.mynavi.jp/enterprise/"> 
+    <title>マイナビニュース エンタープライズ</title>  
+    <link>http://news.mynavi.jp/enterprise/</link>  
+    <description>「マイナビニュース」は、ニュースと読み物を中心とした総合専門サイトです。</description>  
+    <dc:language>ja</dc:language>  
+    <dc:rights>Copyright(C) Mynavi Corporation All rights reserved. 掲載記事の無断転載を禁じます.</dc:rights>  
+    <dc:date>2013-04-06T13:00:36+09:00</dc:date>  
+    <dc:publisher>株式会社マイナビ</dc:publisher>  
+    <dc:creator>マイナビニュース編集部&lt;mj-reader@mycom.co.jp&gt;</dc:creator>  
+    <dc:subject>マイナビニュース エンタープライズ</dc:subject>  
+    <items> 
+      <rdf:Seq> 
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/05/220/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/05/143/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/05/142/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/05/107/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/05/106/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/05/095/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/05/092/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/05/090/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/05/089/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/05/080/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/05/078/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/05/066/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/05/055/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/05/050/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/05/046/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/05/041/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/05/039/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/column/sdn/003/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/05/032/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/05/031/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/articles/2013/04/05/weekends/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/04/256/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/04/255/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/04/238/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/04/224/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/04/183/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/04/180/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/04/173/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/04/165/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/04/123/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/04/111/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/04/108/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/04/094/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/04/088/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/04/080/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/04/073/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/04/072/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/04/070/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/04/069/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/04/068/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/04/062/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/04/061/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/04/060/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/series/excelfunc/041/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/04/037/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/04/035/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/04/034/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/column/svalley/508/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/04/026/index.html"/>  
+        <rdf:li rdf:resource="http://news.mynavi.jp/news/2013/04/04/023/index.html"/> 
+      </rdf:Seq> 
+    </items>  
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="self" href="http://rss.rssad.jp/rss/mycom/enterprise" type="application/rss+xml"/>
+  </channel>  
+  <item rdf:about="http://news.mynavi.jp/news/2013/04/05/220/index.html"> 
+    <title>PostgreSQLセキュリティアップデート版登場</title>  
+    <description><![CDATA[<p>PostgreSQL Global Development Groupは4月4日(米国時間)]]></description>  
+    <link>http://rss.rssad.jp/rss/artclk/MCpt8OV0jzw0/47958d2ee87693baee2ea6b22518d995?ul=AJu1bqB67gY2itpnemUJLNRFzzYrD_29LgmLK5dFVfqOTQZo1seyVTKAqvkwzbQle_9wHqIxiusSfSr9J9v.pfMWPVmS</link>  
+    <dc:date>2013-04-05T17:45:46+09:00</dc:date> 
+  </item>  
+  <item rdf:about="http://news.mynavi.jp/news/2013/04/05/143/index.html"> 
+    <title>ライフボート、Windows Server 2012対応のサーバー用バックアップソフト</title>  
+    <description><![CDATA[<p>ライフボートは4月5日、独パラゴンソフトウェアグループが開発]]></description>  
+    <link>http://rss.rssad.jp/rss/artclk/MCpt8OV0jzw0/fbd8278f34289b1714fd85800d57a378?ul=TIHMO3S3e4qiquV.SakKYkUrucq._PEER8ede6_rBO4ECOf1ebppaClBzEOogTnepEPWz8VsHgIbMmeEVQfyusKQ0QBb</link>  
+    <dc:date>2013-04-05T13:44:04+09:00</dc:date> 
+  </item>  
+  <item rdf:about="http://news.mynavi.jp/news/2013/04/05/142/index.html"> 
+    <title>DNP、新規事業に向け研究や実証実験を行う「サービスデザイン・ラボ」設立</title>  
+    <description><![CDATA[<p>大日本印刷(DNP)は4月5日、生活者中心の価値分析からサービスを]]></description>  
+    <link>http://rss.rssad.jp/rss/artclk/MCpt8OV0jzw0/8b3d6d2859cf06a18cdbb126184298f9?ul=uBOdgPVrYVIA02EjCAXF9IQXysIsNUeFOfvZwQtXSbjmkJtP5.W6XgWCXNVNmUkaICgBPQPt7UtD4xmFSd2_WWlebWkD</link>  
+    <dc:date>2013-04-05T13:40:00+09:00</dc:date> 
+  </item>  
+  <item rdf:about="http://news.mynavi.jp/news/2013/04/05/107/index.html"> 
+    <title>タブレットの低価格・高機能化でPC減少、前年比7.6%減 - Androidシェア拡大</title>  
+    <description><![CDATA[<p>米Gartnerは4月4日(英国時間)、PC、タブレット、スマートフォン]]></description>  
+    <link>http://rss.rssad.jp/rss/artclk/MCpt8OV0jzw0/e6da81eac81c4a0de99653a67100247a?ul=MComG95.FADWE9aSxGTIyQJ5LnDf_v_jWqNQHlc5Gwjq2F3AyhUx4twQ0F9F1oBlam6hkT9rvd3PnZCjGUL0NoDzZ6ZP</link>  
+    <dc:date>2013-04-05T11:54:03+09:00</dc:date> 
+  </item>  
+</rdf:RDF>
