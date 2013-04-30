@@ -9,8 +9,9 @@ from feeds.atom10 import Atom10Feed
 from feeds.atom03 import Atom03Feed
 from feeds.rss20 import RSS20Feed
 from feeds.rss10 import RSS10Feed
+from feeds.rss091 import RSS091Feed
 
-feeds = (Atom10Feed, RSS20Feed, RSS10Feed, Atom03Feed)
+feeds = (Atom10Feed, RSS20Feed, RSS10Feed, Atom03Feed, RSS091Feed)
 
 ACCEPT_HEADER = "application/atom+xml,application/rdf+xml,application/rss+xml,application/x-netcdf,application/xml;q=0.9,text/xml;q=0.2,*/*;q=0.1"
 
