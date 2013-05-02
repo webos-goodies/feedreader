@@ -11,6 +11,14 @@ def unicodify(s):
     return s
   return unicode(s, errors='replace')
 
+def parse_date(s):
+  result = None
+  try:
+    result = dateutil.parser.parse(s)
+  except:
+    pass
+  return result
+
 def get_element_text(element):
   if element is None:
     return None
@@ -31,7 +39,7 @@ def get_descendant_datetime(element, *args):
   text = get_descendant_text(element, *args)
   if text is None:
     return None
-  return dateutil.parser.parse(text)
+  return parse_date(text)
 
 def get_attribute(element, attr_name):
   if element is None:

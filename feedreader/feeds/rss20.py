@@ -65,7 +65,8 @@ class RSS20Item(Item):
 
   @property
   def author_name(self):
-    return get_descendant_text(self._element, 'author')
+    return (get_descendant_text(self._element, 'author') or
+            get_descendant_text(self._element, '{http://purl.org/dc/elements/1.1/}creator'))
 
   @property
   def author_email(self):

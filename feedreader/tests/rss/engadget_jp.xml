@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../../../../css/rss/feedRss2.xsl" media="screen" type="text/xsl"?>
+
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">  
+  <channel> 
+    <title>Engadget Japanese</title>  
+    <link>http://japanese.engadget.com</link>  
+    <description>Engadget Japanese</description>  
+    <image> 
+      <url>http://www.blogsmithmedia.com/japanese.engadget.com/media/feedlogo.gif</url>  
+      <title>Engadget Japanese</title>  
+      <link>http://japanese.engadget.com</link> 
+    </image>  
+    <language>en-us</language>  
+    <copyright>Copyright 2013 AOL Inc. The contents of this feed are available for non-commercial use only.</copyright>  
+    <atom:link xmlns:atom="http://www.w3.org/2005/Atom" rel="self" href="http://feed.rssad.jp/rss/engadget/rss" type="application/rss+xml"/>
+    <generator>Blogsmith http://www.blogsmith.com/</generator>
+    <item>
+      <title><![CDATA[デル S2240T発売、10点タッチ対応の21.5型フルHD液晶モニタ]]></title>
+      <link>http://japanese.engadget.com/2013/05/01/st2240t-10-21-5-hd/</link>
+      <guid isPermaLink="true">http://japanese.engadget.com/2013/05/01/st2240t-10-21-5-hd/</guid>
+      <comments>http://japanese.engadget.com/2013/05/01/st2240t-10-21-5-hd/#comments</comments>
+      <description><![CDATA[デルがマルチタッチ対応液晶モニタの新製品 S2240T を国内向けに発売しました。]]></description>
+      <category>dell</category>
+      <category>s2240T</category>
+      <dc:creator><![CDATA[Ittousai]]></dc:creator>
+      <pubDate>2013年05月02日 11時18分</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Androidのバージョン別シェア更新、Jelly Bean(4.1+) が ICS (4.0)を追い越す。計55.9%]]></title>
+      <link>http://japanese.engadget.com/2013/05/01/android-jelly-bean-4-1-ics-4-0-55-9/</link>
+      <guid isPermaLink="true">http://japanese.engadget.com/2013/05/01/android-jelly-bean-4-1-ics-4-0-55-9/</guid>
+      <comments>http://japanese.engadget.com/2013/05/01/android-jelly-bean-4-1-ics-4-0-55-9/#comments</comments>
+      <description><![CDATA[月に一度のお楽しみ、でもありませんが、Google が Android開発者ダッシュボードの]]></description>
+      <category>android</category>
+      <category>gingerbread</category>
+      <category>ice cream sandwich</category>
+      <category>IceCreamSandwich</category>
+      <category>jelly bean</category>
+      <category>JellyBean</category>
+      <dc:creator><![CDATA[Ittousai]]></dc:creator>
+      <pubDate>2013年05月02日 10時46分</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[PR: 【三井の賃貸】最新値下げ物件が集結！賃料改定物件特集]]></title>
+      <link>http://rss.rssad.jp/rss/ad/Du1eQMczaHjX/jPjwBLIVhnwY?type=2&amp;ent=9995d519158078b05d269016b3e82d53</link>
+      <description><![CDATA[<table cellspacing="0" cellpadding="0"><tbody>]]></description>
+      <pubDate>2013年05月02日 10時46分</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[iOS / Androidの公式Twitter アプリ更新、トレンドの地域選択や仕様変更]]></title>
+      <link>http://japanese.engadget.com/2013/05/01/ios-android-twitter/</link>
+      <guid isPermaLink="true">http://japanese.engadget.com/2013/05/01/ios-android-twitter/</guid>
+      <comments>http://japanese.engadget.com/2013/05/01/ios-android-twitter/#comments</comments>
+      <description><![CDATA[Twitter が iOS と Android版の公式 Twitter アプリを更新しました。]]></description>
+      <category>android</category>
+      <category>ios</category>
+      <category>ipad</category>
+      <category>iphone</category>
+      <category>software</category>
+      <category>twitter</category>
+      <dc:creator><![CDATA[Ittousai]]></dc:creator>
+      <pubDate>2013年05月02日 09時04分</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,3 +1,5 @@
+# -*- encoding: utf-8; -*-
+
 from dateutil.parser import parse
 
 RSS_FILES = (
@@ -83,6 +85,45 @@ RSS_FILES = (
                         'media': 'thumbnail',
                     },
                 ),
+            },
+        )
+    }),
+    ('rss/engadget_jp.xml', {
+        'title': 'Engadget Japanese',
+        'link': 'http://japanese.engadget.com',
+        'description': 'Engadget Japanese',
+        'entries': (
+            {
+                'title': u'デル S2240T発売、10点タッチ対応の21.5型フルHD液晶モニタ',
+                'link': 'http://japanese.engadget.com/2013/05/01/st2240t-10-21-5-hd/',
+                'id': 'http://japanese.engadget.com/2013/05/01/st2240t-10-21-5-hd/',
+                'description': u'デルがマルチタッチ対応液晶モニタの新製品 S2240T を国内向けに発売しました。',
+                'author_name': 'Ittousai',
+                'published': None
+            },
+            {
+                'title': u'Androidのバージョン別シェア更新、Jelly Bean(4.1+) が ICS (4.0)を追い越す。計55.9%',
+                'link': 'http://japanese.engadget.com/2013/05/01/android-jelly-bean-4-1-ics-4-0-55-9/',
+                'id': 'http://japanese.engadget.com/2013/05/01/android-jelly-bean-4-1-ics-4-0-55-9/',
+                'description': u'月に一度のお楽しみ、でもありませんが、Google が Android開発者ダッシュボードの',
+                'author_name': 'Ittousai',
+                'published': None
+            },
+            {
+                'title': u'PR: 【三井の賃貸】最新値下げ物件が集結！賃料改定物件特集',
+                'link': 'http://rss.rssad.jp/rss/ad/Du1eQMczaHjX/jPjwBLIVhnwY?type=2&ent=9995d519158078b05d269016b3e82d53',
+                'id': None,
+                'description': u'<table cellspacing="0" cellpadding="0"><tbody>',
+                'author_name': None,
+                'published': None
+            },
+            {
+                'title': u'iOS / Androidの公式Twitter アプリ更新、トレンドの地域選択や仕様変更',
+                'link': 'http://japanese.engadget.com/2013/05/01/ios-android-twitter/',
+                'id': 'http://japanese.engadget.com/2013/05/01/ios-android-twitter/',
+                'description': u'Twitter が iOS と Android版の公式 Twitter アプリを更新しました。',
+                'author_name': 'Ittousai',
+                'published': None
             },
         )
     }),
