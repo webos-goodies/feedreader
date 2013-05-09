@@ -1,8 +1,7 @@
 import lxml.objectify
-import httplib
-import urlparse
+import re
 
-__all__ = ('ParseError', 'InvalidFeed', 'from_string', 'from_url', 'from_file')
+__all__ = ('ParseError', 'InvalidFeed', 'from_string')
 
 # TODO: change the feeds to a registration model
 from feeds.atom10 import Atom10Feed
@@ -20,6 +19,23 @@ USER_AGENT = 'py-feedreader'
 class InvalidFeed(Exception): pass
 class ParseError(Exception): pass
 
+CDATA_RE  = re.compile(r'<!\[CDATA\[(.*?)\]\]>', re.DOTALL)
+ENTITY_RE = re.compile(r'&(?!(?:lt|gt|quot|amp|apos|#\d+|#x[0-9a-fA-F]+);)')
+
+def _preprocess(str):
+    cdata = []
+    def mask_cdata(m):
+        cdata.append(m.group(1))
+        return '<![CDATA[%d]]>' % (len(cdata) - 1)
+    def restore_cdata(m):
+        return '<![CDATA[%s]]>' % cdata.pop()
+    str = CDATA_RE.sub(mask_cdata, str)
+    str = ENTITY_RE.sub('&amp;', str)
+    cdata.reverse()
+    str = CDATA_RE.sub(restore_cdata, str)
+    return str
+
+
 def _from_parsed(parsed):
     for feed in feeds:
         result = feed(parsed)
@@ -28,45 +44,5 @@ def _from_parsed(parsed):
     raise InvalidFeed(parsed.tag)
 
 def from_string(data, *args, **kwargs):
-    parsed = lxml.objectify.fromstring(data, *args, **kwargs)
+    parsed = lxml.objectify.fromstring(_preprocess(data), *args, **kwargs)
     return _from_parsed(parsed)
-
-def from_file(fp, *args, **kwargs):
-    parsed = lxml.objectify.parse(fp, **kwargs).getroot()
-    return _from_parsed(parsed)
-
-def from_url(url, **kwargs):
-    url = urlparse.urlparse(url)
-    if url.scheme == 'https':
-        conn = httplib.HTTPSConnection
-    elif url.scheme == 'http':
-        conn = httplib.HTTPConnection
-    else:
-        raise NotImplementedError
-    
-    base_url = '%s://%s' % (url.scheme, url.hostname)
-    
-    headers = {
-        'User-Agent': USER_AGENT,
-        'Accept': ACCEPT_HEADER,
-    }
-    connection = conn(url.hostname)
-    method = kwargs.pop('method', 'GET').upper()
-    if method == 'GET':
-        path, query = url.path, ''
-        if url.query:
-            path += '?' + url.query
-    else:
-        path, query = url.path, url.query
-    connection.request(method, path, query, headers)
-    try:
-        response = connection.getresponse()
-    except httplib.BadStatusLine, exc:
-        raise ParseError('Bad status line: %s' % (exc,))
-    
-    if response.status != 200:
-        if response.status in (301, 302):
-            return from_url(response.getheader('location'), **kwargs)
-        raise ParseError('%s %s' % (response.status, response.reason))
-
-    return from_file(response, base_url=base_url)

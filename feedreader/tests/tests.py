@@ -1,8 +1,10 @@
+# -*- encoding: utf-8; -*-
+
 import itertools
 import os.path
 import unittest2
 
-from feedreader.parser import from_file
+from feedreader.parser import from_string
 
 DIR = os.path.abspath(os.path.dirname(__file__))
 
@@ -14,6 +16,9 @@ from rssnine_files import RSS091_FILES
 ATTRIBUTES = ('author_name', 'author_link', 'author_email',
               'title', 'link', 'description', 'id', 'published', 'pudated')
 
+def from_file(fp):
+  str = fp.read()
+  return from_string(str)
 
 class RSSTestCase(unittest2.TestCase):
   def testParsing(self):

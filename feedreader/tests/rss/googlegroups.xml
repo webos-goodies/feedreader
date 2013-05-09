@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss version="2.0">
+  <channel>
+  <title>Google Groups</title>
+  <link>http://groups.google.com/group/foobar</link>
+  <description>いわゆる掲示板</description>
+  <language>ja</language>
+  <item>
+  <title>おひさしぶりです。</title>
+  <link>http://groups.google.com/group/foobar/browse_thread/thread/xxx?hl=ja&show_docid=xxxx</link>
+  <description>
+  先生、皆様、お元気でしょうか？ &lt;br&gt; &lt;p&gt;談話室が、
+  </description>
+  <guid isPermaLink="true">http://groups.google.com/group/foobar/browse_thread/thread/xxx?hl=ja&show_docid=xxxx</guid>
+  <author>
+  jun.cello1...@gmail.com
+  (かみや)
+  </author>
+  <pubDate>Sun, 18 10月 2009 14:39:25 UT
+</pubDate>
+  </item>
+  <item>
+  <title>おひさしぶりです。</title>
+  <link><![CDATA[http://groups.google.com/group/foobar/browse_thread/thread/aaa?hl=ja&show_docid=aaa]]></link>
+  <description>
+  <![CDATA[
+先生、皆様、お元気でしょうか？
+&lt;br&gt; &lt;p&gt;談話室が、
+]]>
+  </description>
+  <guid isPermaLink="true"><![CDATA[http://groups.google.com/group/foobar/browse_thread/thread/aaa?hl=ja&show_docid=aaa]]></guid>
+  <author>
+  jun.cello1...@gmail.com
+  (かみや)
+  </author>
+  <pubDate>Sun, 18 10月 2009 14:39:25 UT
+</pubDate>
+  </item>
+  </channel>
+</rss>

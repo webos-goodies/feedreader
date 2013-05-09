@@ -16,7 +16,8 @@ class RSS091Feed(Feed):
   @property
   def is_valid(self):
     return (self._element.tag == 'rss' and
-            self._element.attrib['version'] == '0.91' and
+            (self._element.attrib['version'] == '0.91' or
+             self._element.attrib['version'] == '0.92') and
             self.channel is not None)
 
   @property
@@ -52,7 +53,7 @@ class RSS091Item(Item):
 
   @property
   def id(self):
-    return None
+    return get_descendant_text(self._element, 'guid')
 
   @property
   def title(self):
