@@ -11,21 +11,25 @@ parse_date = base.parse_date
 def get_element_text(element):
   if element is None:
     return None
-  return unicodify(element.text).strip()
+  text = element.text
+  if text is None:
+    return u''
+  return unicodify(text).strip()
 
-def get_descendant(element, *args):
-  for node_name in args:
-    if element is None:
-      return None
-    element = getattr(element, node_name, None)
-  return element
+def get_xpath_node(element, xpath):
+  if element is None:
+    return None
+  c = element.xpath(xpath)
+  if(len(c) < 1):
+    return None
+  return c[0]
 
-def get_descendant_text(element, *args):
-  element = get_descendant(element, *args)
+def get_xpath_text(element, xpath):
+  element = get_xpath_node(element, xpath)
   return get_element_text(element)
 
-def get_descendant_datetime(element, *args):
-  text = get_descendant_text(element, *args)
+def get_xpath_datetime(element, xpath):
+  text = get_xpath_text(element, xpath)
   return parse_date(text)
 
 def get_attribute(element, attr_name):
@@ -36,11 +40,11 @@ def get_attribute(element, attr_name):
     return None
   return unicodify(attr).strip()
 
-def search_child(element, node_name, attrs):
+def search_child(element, xpath, attrs):
   if element is None:
     return None
   candidate, level = None, -1
-  for el in element.iterchildren(tag=node_name):
+  for el in element.xpath(xpath):
     l, length = 0, len(attrs)
     for i in xrange(0, length, 2):
       value     = get_attribute(el, attrs[i])

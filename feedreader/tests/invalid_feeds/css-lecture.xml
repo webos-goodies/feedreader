@@ -1,0 +1,1632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>CSS Lecture</title>
+    <link rel="alternate" type="text/html" href="http://www.css-lecture.com/">
+    <link rel="self" type="application/atom+xml" href="http://www.css-lecture.com/atom.xml">
+    <id>tag:www.css-lecture.com,2011-04-03://1</id>
+    <updated></updated>
+    <subtitle>CSSリファレンスに関する記事を中心に、jQuery、(X)HTML、Movable Typeなどの使い方などを紹介、デモページ付きの解説。それ以外にもWebサイト制作に関する役立つツールや情報を掲載しています。</subtitle>
+    <generator uri="http://www.sixapart.com/movabletype/">Movable Type Pro 5.04</generator>
+
+<entry>
+    <title>iPhone スマートフォンサイトのデザインのまとめ</title>
+    <link rel="alternate" type="text/html" href="http://www.css-lecture.com/log/web-design/iphone-design.html">
+    <id>tag:www.css-lecture.com,2011://2.321</id>
+
+    <published>2011-04-05T04:44:25Z</published>
+    <updated>2011-04-05T04:44:06Z</updated>
+
+    <summary>  iPhone スマートフォンユーザーも増えるにつれ、サイトも随分増えてきたと思います。 今回はスマフォ用サイトのデザインをまとめてくれる海外、国内サイトをまとめました。 デザインに行き詰った際の参考にでもして下さい。...</summary>
+    <author>
+        <name>MIYA</name>
+        
+    </author>
+    
+        <category term="Webデザイン" scheme="http://www.sixapart.com/ns/types#category">
+    
+    <category term="iphone" label="iPhone" scheme="http://www.sixapart.com/ns/types#tag">
+    
+    <content type="html" xml:lang="ja" xml:base="http://www.css-lecture.com/">
+        <![CDATA[<p><img src="http://www.css-lecture.com/images/web-design/11/0404.jpg" alt="iPhone スマートフォンサイトのデザインのまとめ" width="570"></p> 
+<p>iPhone スマートフォンユーザーも増えるにつれ、サイトも随分増えてきたと思います。</p>
+<p>今回はスマフォ用サイトのデザインをまとめてくれる海外、国内サイトをまとめました。<br>
+デザインに行き詰った際の参考にでもして下さい。</p>]]>
+        <![CDATA[<div class="introduction">
+<h2>iPad and iPhone Design Inspirations Gallery</h2>
+<p><a href="http://www.iospirations.com/component/iphoneinspirations/category/2-iphone-web-design-inspirations"><img src="/images/web-design/11/0404-01.jpg" alt="iPad and iPhone Design Inspirations Gallery" width="570"></a></p>
+
+<h2>Mobile Website Gallery</h2>
+<p><a href="http://www.mobileawesomeness.com/"><img src="/images/web-design/11/0404-02.jpg" alt="Mobile Website Gallery" width="570"></a></p>
+
+<h2>CSS Inspiration for the iPhone &mdash; CSS iPhone</h2>
+<p><a href="http://cssiphone.com/"><img src="/images/web-design/11/0404-03.jpg" alt="CSS Inspiration for the iPhone &mdash; CSS iPhone<" width="570"></a></p>
+
+
+<h2>iPhoneデザインアーカイブ</h2>
+<p><a href="http://iphonedesignarchive.jp/"><img src="/images/web-design/11/0404-04.jpg" alt="iPhoneデザインアーカイブ" width="570"></a></p>
+
+<h2>iPhoneデザインボックス</h2>
+<p><a href="http://design.web-hon.com/"><img src="/images/web-design/11/0404-05.jpg" alt="iPhoneデザインボックス" width="570"></a></p>
+
+<h2>iShowcase</h2>
+<p><a href="http://www.ishowcase.jp/"><img src="/images/web-design/11/0404-06.jpg" alt="iShowcase" width="570"></a></p>
+
+<h2>meet i [ミートアイ]</h2>
+<p><a href="http://web.meet-i.com/?type=web"><img src="/images/web-design/11/0404-07.jpg" alt="meet i [ミートアイ]" width="570"></a></p>
+</div>]]>
+    </content>
+</entry>
+
+<entry>
+    <title>スマートフォン対応にしてみました</title>
+    <link rel="alternate" type="text/html" href="http://www.css-lecture.com/log/info/for-smart-phone.html">
+    <id>tag:www.css-lecture.com,2011://2.322</id>
+
+    <published>2011-04-04T06:28:47Z</published>
+    <updated>2011-04-04T06:28:06Z</updated>
+
+    <summary> 先日のリニューアルに引き続き今度は、スマートフォン対応にしてみました。 基本的には閲覧専用にしておりますので、コメントの投稿やトラックバックなど一部機能は OFF にしております。 CSS Lecture「Smart Phone」 ...</summary>
+    <author>
+        <name>MIYA</name>
+        
+    </author>
+    
+        <category term="お知らせ" scheme="http://www.sixapart.com/ns/types#category">
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://www.css-lecture.com/">
+        <![CDATA[<p class="imgC"><img src="http://www.css-lecture.com/images/info/11/0404.jpg" alt="スマートフォン対応にしてみました" width="570"></p>
+<p>先日のリニューアルに引き続き今度は、スマートフォン対応にしてみました。</p>
+<p>基本的には閲覧専用にしておりますので、コメントの投稿やトラックバックなど一部機能は OFF にしております。</p>
+<ul>
+<li><a href="http://www.css-lecture.com/sp/">CSS Lecture「Smart Phone」</a></li>
+</ul>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>CSS3 要素を透明に出来る Opacity と RGBa の使い方</title>
+    <link rel="alternate" type="text/html" href="http://www.css-lecture.com/log/css3/css3-opacity-rgba.html">
+    <id>tag:www.css-lecture.com,2011:/css-lecture//2.315</id>
+
+    <published>2011-04-01T02:26:16Z</published>
+    <updated>2011-04-03T12:39:41Z</updated>
+
+    <summary> Opacity、RGBa は共に要素に透明度を指定することができるCSS3のプロパティです。 RGBa の指定については「CSS3 グラデーション（gradient）の指定方法」でも使用してますが、今回は詳しくまとめておきたいと思います。...</summary>
+    <author>
+        <name>MIYA</name>
+        
+    </author>
+    
+        <category term="CSS3" scheme="http://www.sixapart.com/ns/types#category">
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://www.css-lecture.com/">
+        <![CDATA[<p><img src="http://www.css-lecture.com/images/css/11/0401.gif" alt="CSS3 要素を透明に出来る Opacity と RGBa の使い方" width="570"></p>
+<p>Opacity、RGBa は共に要素に透明度を指定することができるCSS3のプロパティです。</p>
+<p>RGBa の指定については「<a href="/log/css3/css3-gradient.html">CSS3 グラデーション（gradient）の指定方法</a>」でも使用してますが、今回は詳しくまとめておきたいと思います。</p>
+
+<p class="demo"><a href="http://www.css-lecture.com/template/2011/0401/"><img src="http://www.css-lecture.com/common/images/demo.jpg" alt="Domo Page" class="btn" width="300"></a></p>]]>
+        <![CDATA[<h2>Opacity プロパティ</h2>
+<dl>
+<dt>対応ブラウザ（2011 4/1 現在）</dt>
+<dd>Firefox 2以上，Safari 2以上，Opera 9以上，IE8以上，Chrome</dd>
+</dl>
+<h3>指定方法・適用できるCSSプロパティ</h3>
+<p><img src="/images/css/11/0401-01.gif" alt="Opacity プロパティ"></p>
+<p>値には，<em>コンマ（.）を使って指定</em>します。<em>「0.1」「0.8」「0.555」</em>と小数点以下を指定することも出来ます。</p>
+<p class="description">border、padding、background、img、テキスト、他のプロパティ</p>
+
+<h3>html</h3>
+<pre class="html" name="code">
+&lt;div class=&quot;demo&quot;&gt;
+	&lt;p class=&quot;opacity&quot;&gt;background: #333;&lt;br&gt;
+	padding: 10px;&lt;br&gt;
+	border: 5px solid #000;&lt;br&gt;
+	color: #fff;&lt;br&gt;
+	opacity: 0.6&lt;/p&gt;
+&lt;/div&gt;
+</pre>
+<h3>css</h3>
+<pre class="css" name="code">
+.demo	{
+	background: url(images/bg1.gif);
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.opacity	{
+	background: #333;
+	padding: 10px;
+	border: 5px solid #000;
+	color: #fff;
+	opacity: 0.6;
+}
+</pre>
+<p class="description"><a href="/template/2011/0401/#opacity">Opacity プロパティのデモページ</a></p>
+
+<h2>RGBa プロパティ</h2>
+<dl>
+<dt>対応ブラウザ（2011 4/1 現在）</dt>
+<dd>Firefox 3以上，Safari 3以上，Opera 10以上，IE8以上，Chrome</dd>
+</dl>
+<h3>指定方法・適用できるCSSプロパティ</h3>
+<p><img src="/images/css/11/0401-02.gif" alt="RGBa プロパティ"></p>
+<p>値には，<em>コンマ（.）を使って指定</em>します。<em>「0.1」「0.8」「0.555」</em>と小数点以下を指定することも出来ます。</p>
+<p class="description">border-color、background-color、color</p>
+
+<h3>html</h3>
+<pre class="html" name="code">
+&lt;h2&gt;background-color&lt;/h2&gt;
+&lt;div class=&quot;demo&quot;&gt;
+	&lt;p class=&quot;rgba1&quot;&gt;background-color: rgba(51,51,51,0.6);&lt;br&gt;
+	padding: 10px;&lt;br&gt;
+	border: 5px solid #000;&lt;br&gt;
+	color: #fff;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;border-color&lt;/h2&gt;
+&lt;div class=&quot;demo&quot;&gt;
+	&lt;p class=&quot;rgba2&quot;&gt;background-color: rgba(51,51,51,0.6);&lt;br&gt;
+	padding: 10px;&lt;br&gt;
+	border: 5px solid rgba(0,0,0,0.6);&lt;br&gt;
+	color: #fff;&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;h2&gt;color&lt;/h2&gt;
+&lt;div class=&quot;demo&quot;&gt;
+	&lt;p class=&quot;rgba3&quot;&gt;background-color: rgba(51,51,51,0.6);&lt;br&gt;
+	padding: 10px;&lt;br&gt;
+	border: 5px solid rgba(0,0,0,0.6);&lt;br&gt;
+	color: rgba(255,255,255,0.6);&lt;/p&gt;
+&lt;/div&gt;
+</pre>
+<h3>css</h3>
+<pre class="css" name="code">
+.demo	{
+	background: url(images/bg1.gif);
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.rgba1	{
+	background-color: rgba(51,51,51,0.6);
+	padding: 10px;
+	border: 5px solid #000;
+	color: #fff;
+}
+.rgba2	{
+	background-color: rgba(51,51,51,0.6);
+	padding: 10px;
+	border: 5px solid rgba(0,0,0,0.6);
+	color: #fff;
+}
+.rgba3	{
+	background-color: rgba(51,51,51,0.6);
+	padding: 10px;
+	border: 5px solid rgba(0,0,0,0.6);
+	color: rgba(255,255,255,0.6);
+}
+</pre>
+<p class="description"><a href="/template/2011/0401/#rgba">RGBa プロパティのデモページ</a></p>
+
+<h2>おまけ</h2>
+<p>RGBa は CSS3 の <em>text-shadow</em>、<em>box-shadow</em> にも適応させる事が出来ます。</p>
+<p>両方非常に分かりにくいですが、デモも作っておきました。</p>
+
+<h3>html</h3>
+<pre class="html" name="code">
+&lt;div class=&quot;demo&quot;&gt;
+    &lt;p class=&quot;text-shadow&quot;&gt;background-color: rgba(51,51,51,0.8);&lt;br&gt;
+    padding: 10px;&lt;br&gt;
+    font-weight: bold;&lt;br&gt;
+    color: #fff;&lt;br&gt;
+    text-shadow: 3px 3px 1px rgba(255,0,0,0.6);&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;demo&quot;&gt;
+    &lt;p class=&quot;box-shadow&quot;&gt;background-color: rgba(51,51,51,0.8);&lt;br&gt;
+    padding: 10px;&lt;br&gt;
+    color: #fff;&lt;br&gt;
+    -webkit-box-shadow: 3px 3px 5px rgba(255,0,0,0.6);&lt;br&gt;
+    -moz-box-shadow: 3px 3px 5px rgba(255,0,0,0.6);&lt;/p&gt;
+&lt;/div&gt;
+</pre>
+
+<h3>css</h3>
+<pre class="css" name="code">
+.text-shadow	{
+	background-color: rgba(51,51,51,0.8);
+	padding: 10px;
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 3px 3px 1px rgba(255,0,0,0.6);
+}
+.box-shadow	{
+	background-color: rgba(51,51,51,0.8);
+	padding: 10px;
+	color: #fff;
+	-webkit-box-shadow: 3px 3px 5px rgba(255,0,0,0.6);
+	-moz-box-shadow: 3px 3px 5px rgba(255,0,0,0.6);
+}
+</pre>
+
+<p class="demo"><a href="http://www.css-lecture.com/template/2011/0401/#text-shadow"><img src="http://www.css-lecture.com/common/images/demo.jpg" alt="Domo Page" class="btn" width="300"></a></p>]]>
+    </content>
+</entry>
+
+<entry>
+    <title>サイトリニューアルしました</title>
+    <link rel="alternate" type="text/html" href="http://www.css-lecture.com/log/info/20110331.html">
+    <id>tag:www.css-lecture.com,2011:/css-lecture//2.314</id>
+
+    <published>2011-03-30T15:00:54Z</published>
+    <updated>2011-04-03T10:56:11Z</updated>
+
+    <summary> けっこう前からリニューアルしようと思っていたんですが、会社立ち上げやら引越しやらで忙しくやっとこそ出来ました。 ブログの更新もだいぶ怠ってますが、今後はちょいちょい更新していこうと思いますので、今後ともよろしくお願いします。 IE は基本...</summary>
+    <author>
+        <name>MIYA</name>
+        
+    </author>
+    
+        <category term="お知らせ" scheme="http://www.sixapart.com/ns/types#category">
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://www.css-lecture.com/">
+        <![CDATA[<p><img src="http://www.css-lecture.com/images/info/11/0331.jpg" alt="サイトリニューアルしました" width="570"></p>
+<p>けっこう前からリニューアルしようと思っていたんですが、会社立ち上げやら引越しやらで忙しくやっとこそ出来ました。</p>
+<p>ブログの更新もだいぶ怠ってますが、今後はちょいちょい更新していこうと思いますので、今後ともよろしくお願いします。</p>
+<p><em>IE は基本的に対応外</em>なのでその他のブラウザで見て下さいねｗ<Br>
+後昔の記事などもしかたら不備があるかもしれないので、もしあった際はコメントやメールにて連絡をくれたら幸いです。</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>CSS3 でボタンを作る為のテクニック、サンプル集</title>
+    <link rel="alternate" type="text/html" href="http://www.css-lecture.com/log/css3/css3-button-sample.html">
+    <id>tag:www.css-lecture.com,2010:/css-lecture//2.298</id>
+
+    <published>2010-12-01T02:32:33Z</published>
+    <updated>2011-04-03T10:56:10Z</updated>
+
+    <summary> CSS3 の基礎をいくつかに渡り紹介していたのですが、その後手付かず...今回はパーツの一部ですが、ボタンのサンプルを作ったので作り方を紹介をしたいと思います。 サンプルは今後自分もコピペでも作れるようシンプルなものにしたので、使えそうと...</summary>
+    <author>
+        <name>MIYA</name>
+        
+    </author>
+    
+        <category term="CSS3" scheme="http://www.sixapart.com/ns/types#category">
+    
+    <category term="boxshadow" label="box-shadow" scheme="http://www.sixapart.com/ns/types#tag">
+    <category term="css3" label="css3" scheme="http://www.sixapart.com/ns/types#tag">
+    <category term="gradient" label="gradient" scheme="http://www.sixapart.com/ns/types#tag">
+    <category term="textshadow" label="text-shadow" scheme="http://www.sixapart.com/ns/types#tag">
+    
+    <content type="html" xml:lang="ja" xml:base="http://www.css-lecture.com/">
+        <![CDATA[<p><img src="http://www.css-lecture.com/images/css/10/1201.jpg" alt="CSS3 でボタンを作る為のテクニック、サンプル集" width="570"></p>
+<p>CSS3 の基礎をいくつかに渡り紹介していたのですが、その後手付かず...今回はパーツの一部ですが、ボタンのサンプルを作ったので作り方を紹介をしたいと思います。</p>
+<p>サンプルは今後自分もコピペでも作れるようシンプルなものにしたので、使えそうと思った際はお好きに使って下さい。</p>
+
+<p class="demo"><a href="http://www.css-lecture.com/template/2010/1201/"><img src="http://www.css-lecture.com/common/images/demo.jpg" alt="Domo Page" class="btn" width="300"></a></p>]]>
+        <![CDATA[<h2>サンプル 1 の解説</h2>
+<p>デモページでは、html5 を使用し、「button」「input type、button reset submit」の4パターンで記載しているのですが、解説って事もあり「button」のみを書いていきたいと思います。</p>
+<h3>HTML</h3>
+<pre class="css" name="code">
+&lt;section class=&quot;demo1&quot;&gt;
+&lt;p&gt;&lt;button&gt;Button&lt;/button&gt;&lt;/p&gt;
+&lt;/section&gt;
+</pre>
+
+<h3>余白をつけたり、ボーダーをつけたりなど CSS3 使わずに装飾</h3>
+<p><img src="/images/css/10/1201-11.jpg" alt="解説1"></p>
+<p>右と下だけボーダーの色を濃く。(google 風にww)</p>
+<pre class="css" name="code">
+.demo1 button	{
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #ccc;
+	padding: 5px 20px;
+	font-weight: bold;
+	cursor: pointer;
+	color: #666;
+}
+</pre>
+
+<h3>角円、テキスト、ボックスの装飾</h3>
+<p><img src="/images/css/10/1201-12.jpg" alt="解説2"></p>
+<p>これで少し立体感のある作りに。</p>
+<pre class="css" name="code">
+.demo1 button	{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	text-shadow: 0 -1px 1px #FFF, -1px 0 1px #FFF, 1px 0 1px #aaa;
+	-webkit-box-shadow: 1px 1px 2px #E7E7E7;
+	-moz-box-shadow: 1px 1px 2px #E7E7E7;
+}
+</pre>
+
+<h3>背景色をグラデーションに</h3>
+<p><img src="/images/css/10/1201-13.jpg" alt="解説3"></p>
+<p>最上部と最下部だけ少し色を変えちゃったりしてます。</p>
+<pre class="css" name="code">
+.demo1 button {
+	background: -moz-linear-gradient(top, #fff, #F1F1F1 1%, #F1F1F1 50%, #DFDFDF 99%, #ccc);
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(0.01, #F1F1F1), color-stop(0.5, #F1F1F1), color-stop(0.99, #DFDFDF), to(#ccc));
+}
+</pre>
+
+<h3>マウスオーバー時のアクション</h3>
+<p><img src="/images/css/10/1201-14.jpg" alt="解説4"></p>
+<p>やや暗めの色に装飾。</p>
+<pre class="css" name="code">
+.demo1 button:hover	{
+	background: -moz-linear-gradient(top, #fff, #e1e1e1 1%, #e1e1e1 50%, #cfcfcf 99%, #ccc);
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(0.01, #e1e1e1), color-stop(0.5, #e1e1e1), color-stop(0.99, #cfcfcf), to(#ccc));
+}
+</pre>
+
+<h3>クリック時のアクション</h3>
+<p><img src="/images/css/10/1201-15.jpg" alt="解説5"></p>
+<p>凹んだ風味にしたつもり。</p>
+<pre class="css" name="code">
+.demo1 button:active	{
+	background: #ccc;
+	padding: 6px 20px 4px;
+}
+</pre>
+
+
+<h2>サンプル 1</h2>
+<p><img src="/images/css/10/1201-01.jpg" alt="サンプル 1"></p>
+<h3>HTML</h3>
+<pre class="css" name="code">
+&lt;section class=&quot;demo1&quot;&gt;
+&lt;h1&gt;サンプル1&lt;/h1&gt;
+&lt;p&gt;&lt;button&gt;Button&lt;/button&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input type=&quot;button&quot; name=&quot;button&quot; value=&quot;input button&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input type=&quot;reset&quot; name=&quot;reset&quot; value=&quot;Reset&quot;&gt;&lt;br&gt;&lt;input type=&quot;submit&quot; name=&quot;submit&quot; value=&quot;Submit&quot;&gt;&lt;/p&gt;
+&lt;/section&gt;
+</pre>
+
+<h3>CSS</h3>
+<pre class="css" name="code">
+.demo1 button, .demo1 input[type=button],
+.demo1 input[type=reset], .demo1 input[type=submit] {
+	background: -moz-linear-gradient(top, #fff, #F1F1F1 1%, #F1F1F1 50%, #DFDFDF 99%, #ccc);
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(0.01, #F1F1F1), color-stop(0.5, #F1F1F1), color-stop(0.99, #DFDFDF), to(#ccc));
+	-moz-box-shadow: 1px 1px 2px #E7E7E7;
+	-webkit-box-shadow: 1px 1px 2px #E7E7E7;
+}
+.demo1 button:hover, .demo1 input[type=button]:hover,
+.demo1 input[type=reset]:hover, .demo1 input[type=submit]:hover	{
+	background: -moz-linear-gradient(top, #fff, #e1e1e1 1%, #e1e1e1 50%, #cfcfcf 99%, #ccc);
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(0.01, #e1e1e1), color-stop(0.5, #e1e1e1), color-stop(0.99, #cfcfcf), to(#ccc));
+}
+.demo1 button:active, .demo1 input[type=button]:active,
+.demo1 input[type=reset]:active, .demo1 input[type=submit]:active	{
+	background: #ccc;
+	padding: 6px 20px 4px;
+}
+</pre>
+
+<h2>サンプル 2</h2>
+<p><img src="/images/css/10/1201-02.jpg" alt="サンプル 2"></p>
+<h3>HTML</h3>
+<pre class="css" name="code">
+&lt;section class=&quot;demo2&quot;&gt;
+&lt;h1&gt;サンプル2　&lt;/h1&gt;
+&lt;p&gt;&lt;button&gt;Button&lt;/button&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input type=&quot;button&quot; name=&quot;button&quot; value=&quot;input button&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input type=&quot;reset&quot; name=&quot;reset&quot; value=&quot;Reset&quot;&gt;&lt;br&gt;&lt;input type=&quot;submit&quot; name=&quot;submit&quot; value=&quot;Submit&quot;&gt;&lt;/p&gt;
+&lt;/section&gt;
+</pre>
+
+<h3>CSS</h3>
+<pre class="css" name="code">
+.demo2 button, .demo2 input[type=button],
+.demo2 input[type=reset], .demo2 input[type=submit] {
+	-webkit-box-shadow: inset 0 1px 3px #F1F1F1, inset 0 -15px #DFDFDF, 1px 1px 2px #E7E7E7;
+	-moz-box-shadow: inset 0 1px 3px #F1F1F1, inset 0 -15px #DFDFDF, 1px 1px 2px #E7E7E7;
+}
+.demo2 button:hover, .demo2 input[type=button]:hover,
+.demo2 input[type=reset]:hover, .demo2 input[type=submit]:hover {
+	-webkit-box-shadow: inset 0 1px 3px #e1e1e1, inset 0 -15px #cfcfcf, 1px 1px 2px #E7E7E7;
+	-moz-box-shadow: inset 0 1px 3px #e1e1e1, inset 0 -15px #cfcfcf, 1px 1px 2px #E7E7E7;
+}
+.demo2 button:active, .demo2 input[type=button]:active,
+.demo2 input[type=reset]:active, .demo2 input[type=submit]:active	{
+	background: #ccc;
+	padding: 6px 20px 4px;
+}
+</pre>
+
+<h2>サンプル 3</h2>
+<p><img src="/images/css/10/1201-03.jpg" alt="サンプル 3"></p>
+<h3>HTML</h3>
+<pre class="css" name="code">
+&lt;section class=&quot;demo3&quot;&gt;
+&lt;h1&gt;サンプル3　半透明&lt;/h1&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;button&gt;Button&lt;/button&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input type=&quot;button&quot; name=&quot;button&quot; value=&quot;input button&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input type=&quot;reset&quot; name=&quot;reset&quot; value=&quot;Reset&quot;&gt;&lt;br&gt;&lt;input type=&quot;submit&quot; name=&quot;submit&quot; value=&quot;Submit&quot;&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+</pre>
+
+<h3>CSS</h3>
+<pre class="css" name="code">
+.demo3 div	{
+	background: url(../images/01.gif) repeat;
+	padding: 10px;
+}
+.demo3 button, .demo3 input[type=button],
+.demo3 input[type=reset], .demo3 input[type=submit] {
+	-webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.6), inset 0 1px rgba(255,255,255,0.2), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.2), inset 0 -15px 30px rgba(0,0,0,0.6);
+	-moz-box-shadow: 0 2px 6px rgba(0,0,0,0.6), inset 0 1px rgba(255,255,255,0.2), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.2), inset 0 -15px 30px rgba(0,0,0,0.6);
+	border: 1px solid rgba(0,0,0,0.4);
+	background: rgba(0,0,0,0.6);
+	color: #fff;
+	text-shadow: 0 -1px 1px #aaa, -1px 0 1px #aaa, 1px 0 1px #000;
+}
+.demo3 button:hover, .demo3 input[type=button]:hover,
+.demo3 input[type=reset]:hover, .demo3 input[type=submit]:hover {
+	-webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.3), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.3), inset 0 10px 20px rgba(255,255,255,0.3), inset 0 -15px 30px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 2px 6px rgba(0,0,0,0.3), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.3), inset 0 10px 20px rgba(255,255,255,0.3), inset 0 -15px 30px rgba(0,0,0,0.3);
+}
+.demo3 button:active, .demo3 input[type=button]:active,
+.demo3 input[type=reset]:active, .demo3 input[type=submit]:active {
+	-webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.3), inset 0 1px rgba(0,0,0,0.3), inset 0 1px rgba(0,0,0,0.8), inset 0 10px 20px rgba(0,0,0,0.8), inset 0 -15px 30px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 2px 6px rgba(0,0,0,0.3), inset 0 1px rgba(0,0,0,0.3), inset 0 1px rgba(0,0,0,0.8), inset 0 10px 20px rgba(0,0,0,0.8), inset 0 -15px 30px rgba(0,0,0,0.3);
+	background: rgba(0,0,0,0.7);
+	padding: 6px 20px 4px;
+}
+</pre>
+
+<h2>その他 CSS3 ボタンに関する記事をまとめてくれるサイト</h2>
+<ul>
+<li><a href="http://toshiiy.blog22.fc2.com/blog-entry-82.html" class="external">今のうちにチェックしておきたいCSS3　ボタンのサンプルでよく分かるその特徴</a></li>
+<li><a href="http://webdesignledger.com/tutorials/12-excellent-css3-button-and-menu-techniques" class="external">12 Excellent CSS3 Button and Menu Techniques</a></li>
+</ul>
+
+<p class="demo"><a href="/template/2010/1201.zip"><img src="http://www.css-lecture.com/common/images/download.jpg" alt="Download" class="btn" width="300"></a></p>
+<p class="demo"><a href="/template/2010/1201/"><img src="/common/images/demo.jpg" alt="Domo Page" class="btn" width="300"></a></p>]]>
+    </content>
+</entry>
+
+<entry>
+    <title>綺麗でリッチなフッターデザイン集のまとめ 60</title>
+    <link rel="alternate" type="text/html" href="http://www.css-lecture.com/log/web-design/rich-beautiful-fotter-design.html">
+    <id>tag:www.css-lecture.com,2010:/css-lecture//2.301</id>
+
+    <published>2010-11-24T01:03:00Z</published>
+    <updated>2011-04-03T10:56:10Z</updated>
+
+    <summary> 最近フッターが凄く豪華で出来てるデザインを見かける事が多いと思います。 実際に何を入れてどうデザインにしよう...迷ってる時になどの参考になるよう、綺麗で尚且つコンテンツの入っているフッターデザインをまとめたので参考にして下さい。...</summary>
+    <author>
+        <name>MIYA</name>
+        
+    </author>
+    
+        <category term="Webデザイン" scheme="http://www.sixapart.com/ns/types#category">
+    
+    <category term="beautiful" label="beautiful" scheme="http://www.sixapart.com/ns/types#tag">
+    <category term="fotter" label="fotter" scheme="http://www.sixapart.com/ns/types#tag">
+    <category term="rich" label="rich" scheme="http://www.sixapart.com/ns/types#tag">
+    <category term="webdesign" label="webdesign" scheme="http://www.sixapart.com/ns/types#tag">
+    
+    <content type="html" xml:lang="ja" xml:base="http://www.css-lecture.com/">
+        <![CDATA[<p><img src="http://www.css-lecture.com/images/web-design/10/1124.jpg" alt="綺麗でリッチなフッターデザイン集のまとめ" width="570"></p>
+<p>最近フッターが凄く豪華で出来てるデザインを見かける事が多いと思います。</p>
+<p>実際に何を入れてどうデザインにしよう...迷ってる時になどの参考になるよう、綺麗で尚且つコンテンツの入っているフッターデザインをまとめたので参考にして下さい。</p>]]>
+        <![CDATA[<div class="introduction">
+<h2>Carreras Con Futuro</h2>
+<p><a href="http://www.carrerasconfuturo.com/"><img src="/images/web-design/10/1124-01.jpg" alt="Carreras Con Futuro" width="570"></a></p>
+<h2>Kdigit-studio</h2>
+<p><a href="http://www.kdigit-studio.com/"><img src="/images/web-design/10/1124-02.jpg" alt="Kdigit-studio" width="570"></a></p>
+<h2>Ectomachine</h2>
+<p><a href="http://www.ectomachine.com/"><img src="/images/web-design/10/1124-03.jpg" alt="Ectomachine" width="570"></a></p>
+<h2>Freelenz</h2>
+<p><a href="http://www.freelenz.at/en/"><img src="/images/web-design/10/1124-04.jpg" alt="Freelenz" width="570"></a></p>
+<h2>Juagn Diego Velasco</h2>
+<p><a href="http://www.juandiegovelasco.com/"><img src="/images/web-design/10/1124-05.jpg" alt="Juagn Diego Velasco" width="570"></a></p>
+
+<h2>Morphix</h2>
+<p><a href="http://morphix.si/"><img src="/images/web-design/10/1124-06.jpg" alt="Morphix" width="570"></a></p>
+<h2>Davidhellmann</h2>
+<p><a href="http://www.davidhellmann.com/"><img src="/images/web-design/10/1124-07.jpg" alt="Davidhellmann" width="570"></a></p>
+<h2>Readymadedesigns</h2>
+<p><a href="http://www.readymadedesigns.co.uk/"><img src="/images/web-design/10/1124-08.jpg" alt="Readymadedesigns" width="570"></a></p>
+<h2>Yodiv</h2>
+<p><a href="http://www.yodiv.com/"><img src="/images/web-design/10/1124-09.jpg" alt="Yodiv" width="570"></a></p>
+<h2>florida flourish</h2>
+<p><a href="http://www.floridaflourish.com/"><img src="/images/web-design/10/1124-10.jpg" alt="florida flourish" width="570"></a></p>
+
+
+<h2>Vill</h2>
+<p><a href="http://www.volll.com/"><img src="/images/web-design/10/1124-11.jpg" alt="Vill" width="570"></a></p>
+<h2>Multiways</h2>
+<p><a href="http://www.multiways.com/"><img src="/images/web-design/10/1124-12.jpg" alt="Multiways" width="570"></a></p>
+<h2>Jiri Tvrdek</h2>
+<p><a href="http://www.tvrdek.cz/en"><img src="/images/web-design/10/1124-13.jpg" alt="Jiri Tvrdek" width="570"></a></p>
+<h2>Elan Snowboards</h2>
+<p><a href="http://www.elansnowboards.com/en/"><img src="/images/web-design/10/1124-14.jpg" alt="Elan Snowboards" width="570"></a></p>
+<h2>Ecoki</h2>
+<p><a href="http://ecoki.com/"><img src="/images/web-design/10/1124-15.jpg" alt="Ecoki" width="570"></a></p>
+
+<h2>Split Da Diz</h2>
+<p><a href="http://splitdadiz.com/"><img src="/images/web-design/10/1124-16.jpg" alt="Split Da Diz" width="570"></a></p>
+<h2>Behance Network</h2>
+<p><a href="http://www.behance.net/"><img src="/images/web-design/10/1124-17.jpg" alt="Behance Network" width="570"></a></p>
+<h2>SamRayner.com</h2>
+<p><a href="http://samrayner.com/"><img src="/images/web-design/10/1124-18.jpg" alt="SamRayner.com" width="570"></a></p>
+<h2>Missy</h2>
+<p><a href="http://missweblash.com/index.asp"><img src="/images/web-design/10/1124-19.jpg" alt="Missy" width="570"></a></p>
+<h2>Blog.SpoonGraphics</h2>
+<p><a href="http://www.blog.spoongraphics.co.uk/"><img src="/images/web-design/10/1124-20.jpg" alt="Blog.SpoonGraphics" width="570"></a></p>
+
+
+<h2>Chris Sharp</h2>
+<p><a href="http://www.csharpdesign.co.uk/"><img src="/images/web-design/10/1124-21.jpg" alt="Chris Sharp" width="570"></a></p>
+<h2>GoMediaZine</h2>
+<p><a href="http://www.gomediazine.com/"><img src="/images/web-design/10/1124-22.jpg" alt="GoMediaZine" width="570"></a></p>
+<h2>I Love Typography</h2>
+<p><a href="http://ilovetypography.com/"><img src="/images/web-design/10/1124-23.jpg" alt="I Love Typography" width="570"></a></p>
+<h2>Jason Santa Maria</h2>
+<p><a href="http://jasonsantamaria.com/"><img src="/images/web-design/10/1124-24.jpg" alt="Jason Santa Maria" width="570"></a></p>
+<h2>Sawyer Hollenshead</h2>
+<p><a href="http://sawyerhollenshead.com/"><img src="/images/web-design/10/1124-25.jpg" alt="Sawyer Hollenshead" width="570"></a></p>
+
+<h2>Larissa Meek</h2>
+<p><a href="http://larissameek.com/"><img src="/images/web-design/10/1124-26.jpg" alt="Larissa Meek" width="570"></a></p>
+<h2>Tennessee Vacation</h2>
+<p><a href="http://www.tnvacation.com/"><img src="/images/web-design/10/1124-27.jpg" alt="Tennessee Vacation" width="570"></a></p>
+<h2>National Mechanics</h2>
+<p><a href="http://www.nationalmechanics.com/"><img src="/images/web-design/10/1124-28.jpg" alt="National Mechanics" width="570"></a></p>
+<h2>Mecannical</h2>
+<p><a href="http://www.mecannical.com/"><img src="/images/web-design/10/1124-29.jpg" alt="Mecannical" width="570"></a></p>
+<h2>Productive Dreams</h2>
+<p><a href="http://www.productivedreams.com/"><img src="/images/web-design/10/1124-30.jpg" alt="Productive Dreams" width="570"></a></p>
+
+
+<h2>Komodo Media</h2>
+<p><a href="http://www.komodomedia.com/"><img src="/images/web-design/10/1124-31.jpg" alt="Komodo Media" width="570"></a></p>
+<h2>Odosketch</h2>
+<p><a href="http://sketch.odopod.com/"><img src="/images/web-design/10/1124-32.jpg" alt="Odosketch" width="570"></a></p>
+<h2>Snail bird</h2>
+<p><a href="http://snailbird.com/"><img src="/images/web-design/10/1124-33.jpg" alt="Snail bird" width="570"></a></p>
+<h2>STPo</h2>
+<p><a href="http://www.stpo.fr/v2/"><img src="/images/web-design/10/1124-34.jpg" alt="STPo" width="570"></a></p>
+<h2>Sohtanaka</h2>
+<p><a href="http://www.sohtanaka.com/"><img src="/images/web-design/10/1124-35.jpg" alt="Sohtanaka" width="570"></a></p>
+
+<h2>Bristolarchiverecords</h2>
+<p><a href="http://www.bristolarchiverecords.com/"><img src="/images/web-design/10/1124-36.jpg" alt="Bristolarchiverecords" width="570"></a></p>
+<h2>I primi dieci</h2>
+<p><a href="http://www.iprimidieci.com/"><img src="/images/web-design/10/1124-37.jpg" alt="I primi dieci" width="570"></a></p>
+<h2>cool tribe</h2>
+<p><a href="http://www.cooltribe.com/"><img src="/images/web-design/10/1124-38.jpg" alt="cool tribe" width="570"></a></p>
+<h2>core engine</h2>
+<p><a href="http://core-engine.com/"><img src="/images/web-design/10/1124-39.jpg" alt="core engine" width="570"></a></p>
+<h2>drupal conference</h2>
+<p><a href="http://dc2009.drupalcon.org/"><img src="/images/web-design/10/1124-40.jpg" alt="drupal conference" width="570"></a></p>
+
+
+<h2>groovy webdesign</h2>
+<p><a href="http://groovywebdesign.com/"><img src="/images/web-design/10/1124-41.jpg" alt="groovy webdesign" width="570"></a></p>
+<h2>jorenrapini</h2>
+<p><a href="http://jorenrapini.com/"><img src="/images/web-design/10/1124-42.jpg" alt="jorenrapini" width="570"></a></p>
+<h2>vanilla vanity</h2>
+<p><a href="http://vanillavanity.com/"><img src="/images/web-design/10/1124-43.jpg" alt="vanilla vanity" width="570"></a></p>
+<h2>Foxtie</h2>
+<p><a href="http://www.foxtie.com/"><img src="/images/web-design/10/1124-44.jpg" alt="Foxtie" width="570"></a></p>
+<h2>Branded07</h2>
+<p><a href="http://www.branded07.com/"><img src="/images/web-design/10/1124-45.jpg" alt="Branded07" width="570"></a></p>
+
+<h2>Du Bout Deus Yeux</h2>
+<p><a href="http://www.du-bout-des-yeux.com/"><img src="/images/web-design/10/1124-46.jpg" alt="Du Bout Deus Yeux" width="570"></a></p>
+<h2>Global Business IT</h2>
+<p><a href="http://www.gbit.cz/"><img src="/images/web-design/10/1124-47.jpg" alt="Global Business IT" width="570"></a></p>
+<h2>Michale Graves</h2>
+<p><a href="http://www.michalegraves.net/"><img src="/images/web-design/10/1124-48.jpg" alt="Michale Graves" width="570"></a></p>
+<h2>Nimbupani Designs</h2>
+<p><a href="http://nimbupani.com/"><img src="/images/web-design/10/1124-49.jpg" alt="Nimbupani Designs" width="570"></a></p>
+<h2>justBcoz</h2>
+<p><a href="http://www.justbcoz.co.za/headspace/"><img src="/images/web-design/10/1124-50.jpg" alt="justBcoz" width="570"></a></p>
+
+
+<h2>Rubbik</h2>
+<p><a href="http://www.rubbik.com/"><img src="/images/web-design/10/1124-51.jpg" alt="Rubbik" width="570"></a></p>
+<h2>Singularitydesign</h2>
+<p><a href="http://blog.singularitydesign.com/"><img src="/images/web-design/10/1124-52.jpg" alt="Singularitydesign" width="570"></a></p>
+<h2>vSplash</h2>
+<p><a href="http://www.vsplash.com/"><img src="/images/web-design/10/1124-53.jpg" alt="vSplash" width="570"></a></p>
+<h2>PV.M Garage</h2>
+<p><a href="http://www.pvmgarage.com/"><img src="/images/web-design/10/1124-54.jpg" alt="PV.M Garage" width="570"></a></p>
+<h2>E-Business Planning</h2>
+<p><a href="http://www.zillu.co.uk/"><img src="/images/web-design/10/1124-55.jpg" alt="E-Business Planning" width="570"></a></p>
+
+<h2>holeycoww</h2>
+<p><a href="http://www.holeycoww.co.uk/"><img src="/images/web-design/10/1124-56.jpg" alt="holeycoww" width="570"></a></p>
+<h2>Komrade </h2>
+<p><a href="http://komra.de/"><img src="/images/web-design/10/1124-57.jpg" alt="Komrade" width="570"></a></p>
+<h2>Plantiis Carnivorous Plants</h2>
+<p><a href="http://plantiis.com/"><img src="/images/web-design/10/1124-58.jpg" alt="Plantiis Carnivorous Plants" width="570"></a></p>
+<h2>Yodaa</h2>
+<p><a href="http://yodaa.com/"><img src="/images/web-design/10/1124-59.jpg" alt="Yodaa" width="570"></a></p>
+<h2>Blog Amuki</h2>
+<p><a href="http://www.amuki.blogspot.com/"><img src="/images/web-design/10/1124-60.jpg" alt="Blog Amuki" width="570"></a></p>
+</div>]]>
+    </content>
+</entry>
+
+<entry>
+    <title>緑と黒色を使った Webデザインのサイト 25</title>
+    <link rel="alternate" type="text/html" href="http://www.css-lecture.com/log/web-design/green-black-web-design.html">
+    <id>tag:www.css-lecture.com,2010:/css-lecture//2.310</id>
+
+    <published>2010-11-18T01:30:00Z</published>
+    <updated>2011-04-03T10:56:11Z</updated>
+
+    <summary> 久しぶりにデザイン系のまとめです...今回は緑と黒を使ったサイトデザインです。 黒ではないサイトもいくつかありますが...参考になりそうなのがあればして下さい！...</summary>
+    <author>
+        <name>MIYA</name>
+        
+    </author>
+    
+        <category term="Webデザイン" scheme="http://www.sixapart.com/ns/types#category">
+    
+    <category term="black" label="black" scheme="http://www.sixapart.com/ns/types#tag">
+    <category term="green" label="green" scheme="http://www.sixapart.com/ns/types#tag">
+    <category term="webdesign" label="webdesign" scheme="http://www.sixapart.com/ns/types#tag">
+    
+    <content type="html" xml:lang="ja" xml:base="http://www.css-lecture.com/">
+        <![CDATA[<p><img src="http://www.css-lecture.com/images/web-design/10/1118.jpg" alt="緑と黒色を使った Webデザインのサイト 25" width="570"></p>
+<p>久しぶりにデザイン系のまとめです...今回は緑と黒を使ったサイトデザインです。</p>
+<p>黒ではないサイトもいくつかありますが...参考になりそうなのがあればして下さい！</p>]]>
+        <![CDATA[<div class="introduction">
+<h2>Rififi</h2>
+<p><a href="http://www.rififi.cz/"><img src="/images/web-design/10/1112-18.jpg" alt="Rififi" width="570"></a></p>
+<h2>dConstruction</h2>
+<p><a href="http://2010.dconstruct.org/"><img src="/images/web-design/10/1112-17.jpg" alt="dConstruction" width="570"></a></p>
+<h2>Organic Supermarket</h2>
+<p><a href="http://www.organicsupermarket.ie/"><img src="/images/web-design/10/1112-07.jpg" alt="Organic Supermarket" width="570"></a></p>
+<h2>Versions</h2>
+<p><a href="http://"><img src="/images/web-design/10/1112-15.jpg" alt="Versions" width="570"></a></p>
+<h2>Antemeridiemdesign</h2>
+<p><a href="http://www.antemeridiemdesign.com/"><img src="/images/web-design/10/1112-16.jpg" alt="Antemeridiemdesign" width="570"></a></p>
+
+
+<h2>Weblogbetter</h2>
+<p><a href="http://weblogbetter.com/"><img src="/images/web-design/10/1112-01.jpg" alt="Weblogbetter" width="570"></a></p>
+<h2>Zootool</h2>
+<p><a href="http://zootool.com/"><img src="/images/web-design/10/1112-19.jpg" alt="Zootool" width="570"></a></p>
+
+
+<h2>Vyew</h2>
+<p><a href="http://vyew.com/site/index2"><img src="/images/web-design/10/1112-02.jpg" alt="Vyew" width="570"></a></p>
+<h2>Cubescripts</h2>
+<p><a href="http://www.cubescripts.com/"><img src="/images/web-design/10/1112-03.jpg" alt="Cubescripts" width="570"></a></p>
+<h2>Dublin Espanol</h2>
+<p><a href="http://dublinenespanol.com/"><img src="/images/web-design/10/1112-04.jpg" alt="Dublin Espanol" width="570"></a></p>
+<h2>Locle</h2>
+<p><a href="http://www.locle.com/"><img src="/images/web-design/10/1112-05.jpg" alt="Locle" width="570"></a></p>
+
+<h2>Muzu</h2>
+<p><a href="http://www.muzu.tv/jp"><img src="/images/web-design/10/1112-06.jpg" alt="Muzu" width="570"></a></p>
+<h2>Eeci2009</h2>
+<p><a href="http://eeci2009.com/"><img src="/images/web-design/10/1112-08.jpg" alt="Eeci2009" width="570"></a></p>
+<h2>Appboy</h2>
+<p><a href="http://appboy.com/"><img src="/images/web-design/10/1112-09.jpg" alt="Appboy" width="570"></a></p>
+
+<h2>Glass House</h2>
+<p><a href="http://www.glasshouse.co.za/"><img src="/images/web-design/10/1112-11.jpg" alt="Glass House" width="570"></a></p>
+<h2>Plant with a Purpose</h2>
+<p><a href="http://www.plantwithpurpose.org/"><img src="/images/web-design/10/1112-12.jpg" alt="Plant with a Purpose" width="570"></a></p>
+<h2>Drop Bags</h2>
+<p><a href="http://www.dropbags.com/"><img src="/images/web-design/10/1112-13.jpg" alt="Drop Bags" width="570"></a></p>
+<h2>Trevor Saint</h2>
+<p><a href="http://www.trevorsaint.com/"><img src="/images/web-design/10/1112-14.jpg" alt="Trevor Saint" width="570"></a></p>
+
+<h2>Osvaldas</h2>
+<p><a href="http://www.osvaldas.info/"><img src="/images/web-design/10/1112-20.jpg" alt="Osvaldas" width="570"></a></p>
+
+<h2>Bam Creative</h2>
+<p><a href="http://www.bam.com.au/"><img src="/images/web-design/10/1112-21.jpg" alt="Bam Creative" width="570"></a></p>
+<h2>Lendl Allen V Trazo</h2>
+<p><a href="http://www.lendlallenvtrazo.com/"><img src="/images/web-design/10/1112-23.jpg" alt="Lendl Allen V Trazo" width="570"></a></p>
+<h2>Terrasse Concept</h2>
+<p><a href="http://www.terrasse-concept.com/"><img src="/images/web-design/10/1112-24.jpg" alt="Terrasse Concept" width="570"></a></p>
+
+<h2>Leaf Span Interactive</h2>
+<p><a href="http://"><img src="/images/web-design/10/1112-10.jpg" alt="Leaf Span Interactive" width="570"></a></p>
+<h2>Dubai</h2>
+<p><a href="http://www.bluebeetle.me/"><img src="/images/web-design/10/1112-22.jpg" alt="Dubai" width="570"></a></p>
+<h2>Freelance Switch</h2>
+<p><a href="http://freelanceswitch.com/"><img src="/images/web-design/10/1112-25.jpg" alt="Freelance Switch" width="570"></a></p>
+</div>]]>
+    </content>
+</entry>
+
+<entry>
+    <title>知っておいた方が便利なエクセルの知識</title>
+    <link rel="alternate" type="text/html" href="http://www.css-lecture.com/log/web/convenient-excel-knowledge.html">
+    <id>tag:www.css-lecture.com,2010:/css-lecture//2.312</id>
+
+    <published>2010-11-10T01:05:21Z</published>
+    <updated>2011-04-03T10:56:11Z</updated>
+
+    <summary> 自分はこの業界に入ったきっかけがコーダーだけにあってエクセルを殆ど使う事もなく、使い方も殆ど分かっていませんでした... 仕事のジャンルにもよるかと思うですが、自分が今までやってきた中で最低限これくらいは知っておいた方が良いじゃないかと言...</summary>
+    <author>
+        <name>MIYA</name>
+        
+    </author>
+    
+        <category term="Web関連情報" scheme="http://www.sixapart.com/ns/types#category">
+    
+    <category term="excel" label="excel" scheme="http://www.sixapart.com/ns/types#tag">
+    <category term="web" label="web" scheme="http://www.sixapart.com/ns/types#tag">
+    
+    <content type="html" xml:lang="ja" xml:base="http://www.css-lecture.com/">
+        <![CDATA[<p><img src="http://www.css-lecture.com/images/web/10/1110.jpg" alt="知っておいた方が便利なエクセルの知識" width="570"></p>
+<p>自分はこの業界に入ったきっかけがコーダーだけにあってエクセルを殆ど使う事もなく、使い方も殆ど分かっていませんでした...<br>
+仕事のジャンルにもよるかと思うですが、自分が今までやってきた中で最低限これくらいは知っておいた方が良いじゃないかと言う方法をまとめてみます。</p>
+<p>※2003 を使ってるのでバージョンにより多少違う点はあるかもしれません</p>]]>
+        <![CDATA[<h2>数字を連番で入れる</h2>
+<p><img src="/images/web/10/1110-01.jpg" alt="" width="570"></p>
+<ol>
+<li>「<strong>1-A</strong>」に「<strong> 1 </strong>」と入力。</li>
+<li>印のついてる箇所を下にドラッグ。</li>
+<li>「<strong>オートフィル オプション</strong>」をクリック。</li>
+<li>「<strong>連続データ</strong>」を選択後、完了。</li>
+</ol>
+
+<h2>1,000 以上の連番を入れたい時</h2>
+<p><img src="/images/web/10/1110-03.jpg" alt="" width="570"></p>
+<ol>
+<li>「<strong>1-A</strong>」に「<strong> 1 </strong>」と入力。</li>
+<li>「<strong>編集</strong>」⇒「<strong>フィル</strong>」⇒「<strong>連続データの作成</strong>」</li>
+<li>「<strong>列・行</strong>」を選択。「<strong>停止値</strong>」に該当の数値を入力し「<strong> OK </strong>」で完了。</li>
+</ol>
+
+<h2>足し算・引き算・掛け算・割り算</h2>
+<table>
+  <tbody>
+    <tr>
+      <th>演算</th>
+      <th>Excelの記号</th>
+    </tr>
+    <tr>
+      <td>足し算</td>
+      <td>　+</td>
+    </tr>
+    <tr>
+      <td>引き算</td>
+      <td>　-</td>
+    </tr>
+    <tr>
+      <td>掛け算</td>
+      <td>　*</td>
+    </tr>
+    <tr>
+      <td>割り算</td>
+      <td>　/</td>
+    </tr>
+  </tbody>
+</table>
+<h3>足し算</h3>
+<p><img src="/images/web/10/1110-04.jpg" alt="" width="570"></p>
+<ol>
+<li>「<strong>オート SUM</strong>」クリック</li>
+<li>該当する箇所を「Ctrl」を押しながら選択（上記画像では A1 C1）</li>
+<li>「<strong>Enter</strong>」をクリック後完了。</li>
+</ol>
+<h3>引き算</h3>
+<p><img src="/images/web/10/1110-05.jpg" alt="" width="570"></p>
+<ol>
+<li>「<strong>オート SUM</strong>」クリック</li>
+<li>該当する箇所を「<strong>Ctrl</strong>」を押しながら選択（上記画像では A2 C2）</li>
+<li>A2 C2 の間に「<strong> - </strong>」を入力後「Enter」をクリック後完了。</li>
+</ol>
+
+<h3>掛け算</h3>
+<p><img src="/images/web/10/1110-06.jpg" alt="" width="570"></p>
+<ol>
+<li>「<strong>オート SUM</strong>」クリック</li>
+<li>該当する箇所を「<strong>Ctrl</strong>」を押しながら選択（上記画像では A3 C3）</li>
+<li>A3 C3 の間に「<strong> * </strong>」を入力後「<strong>Enter</strong>」をクリック後完了。</li>
+</ol>
+
+<h3>割り算</h3>
+<p><img src="/images/web/10/1110-07.jpg" alt="" width="570"></p>
+<ol>
+<li>「<strong>オート SUM</strong>」クリック</li>
+<li>該当する箇所を「<strong>Ctrl</strong>」を押しながら選択（上記画像では A4 C4）</li>
+<li>A4 C4 の間に「<strong> / </strong>」を入力後「Enter」をクリック後完了。</li>
+</ol>
+
+<h2>複合で使ってみる</h2>
+<p><img src="/images/web/10/1110-08.jpg" alt="" width="570"></p>
+<p>これまで説明した要素を個別で使いえばこいうのも出来ます。<br>
+「<strong> =SUM(A1*(D1+F1)/I1)」 </strong></p>
+
+
+<h2>料金表を税込み価格に変換</h2>
+<p><img src="/images/web/10/1110-09.jpg" alt="" width="570"></p>
+<ol>
+<li>税別で表記されいてる料金箇所をコピー</li>
+<li>何処でもいいのでペーストして下さい。</li>
+<li>何処でもいいので消費税分の「<strong> 1.05 </strong>」を記載して下さい</li>
+</ol>
+<p><img src="/images/web/10/1110-10.jpg" alt="" width="570"></p>
+<ol>
+<li>税込みにしたい箇所をクリック後「<strong>オート SUM</strong>」クリック。税別になる（B2）消費税分の（G1）を<strong> * </strong>下さい</li>
+<li>これで該当箇所は税込み部分になるのですが、このままコピペをしても全て税込み価格に変更する事は出来ません。<br>
+消費税分の（G1）を常にここを掛けたいので「<strong> G1 </strong>」⇒「<strong> $G$1 </strong>」と<strong> G を $ </strong>で挟んで下さい</li>
+<li>その後、「<strong> E2 </strong>」を下にドラッグするだけで、全てを税込み価格に変更する事が出来ます。</li>
+</ol>
+<p>料金表が多ければ多い程楽ですし、逆に全てを税抜き価格でやりたい場合は「<strong> 0.95 </strong>」をかけたら良いですしね。<br>
+後は出来上がったものを「Dreamweaver」のデザインビューにペイストするだけで html も直ぐに出来ちゃったりもしますし、何かと作業効率があがる所はあるかと思います。</p>
+
+<h2>その他</h2>
+<h3>セルを固定する</h3>
+<p><img src="/images/web/10/1110-11.jpg" alt="" width="570"></p>
+<p><img src="/images/web/10/1110-12.jpg" alt="" width="570"></p>
+<p>「<strong>ウィンドウ</strong>」⇒「<strong>ウィンドウ幅の固定</strong>」で完了。</p>
+<p><img src="/images/web/10/1110-13.jpg" alt="" width="570"></p>
+
+<h3>ドロップダウンで選択する</h3>
+<p><img src="/images/web/10/1110-14.jpg" alt="" width="570"></p>
+<p>「<strong>データ</strong>」⇒「<strong>入力規則</strong>」⇒「<strong>リスト</strong>」を選択。</p>
+<p><img src="/images/web/10/1110-15.jpg" alt="" width="570"></p>
+<p>「<strong>元の値</strong>」に選択項目なるワードを「<strong> , </strong>」で区切って入力し「OK」をクリック後完了です。</p>
+
+
+<h2>最後に</h2>
+<p>自分はこの業界の入り口がコーダーだけあってそれ以外の知識がほとんどない状態でした...<br>
+おそらく逆の方の方が多いとは思いますけど、コーダーなどが入り口だとこういう基本的な事すら知るのが随分後になってしまっていたんですよね...</p>
+<p>今回紹介した分をちょっと応用するだけでもある程度の資料なら全然まとめられちゃいますし、まだ知らない方はここら辺りは使えるようになって損はないと思いますよ～</p>
+
+<h3>2010年11月10日追記</h3>
+<p class="kome">※こちらは悪魔で一例です。その他のやり方はもちろんありますし、消費税の部分などこちらは「1000円とか1500円」など端数がないもの前提です。<br>
+1円単位で記載するような詳細な数値の場合は、繰上げなどの関係で多少の誤差は出ます。</p>]]>
+    </content>
+</entry>
+
+<entry>
+    <title>効果的な Web プロモーションする為の方法のまとめ</title>
+    <link rel="alternate" type="text/html" href="http://www.css-lecture.com/log/web/web-promotions.html">
+    <id>tag:www.css-lecture.com,2010:/css-lecture//2.306</id>
+
+    <published>2010-10-21T06:47:52Z</published>
+    <updated>2011-04-03T10:56:11Z</updated>
+
+    <summary> ただサイト（ブログ）などを作っただけだと、もちろんですが誰も見てくれません。。。 もちろん登録系のサイトだとしたら会員が増えるはずがありませんし、EC サイトなら購入してくれる人はそういないでしょう。 見てくれる人、購入してくれる人や会員...</summary>
+    <author>
+        <name>MIYA</name>
+        
+    </author>
+    
+        <category term="Web関連情報" scheme="http://www.sixapart.com/ns/types#category">
+    
+    <category term="promotions" label="promotions" scheme="http://www.sixapart.com/ns/types#tag">
+    <category term="web" label="web" scheme="http://www.sixapart.com/ns/types#tag">
+    
+    <content type="html" xml:lang="ja" xml:base="http://www.css-lecture.com/">
+        <![CDATA[<p><img src="http://www.css-lecture.com/images/web/10/1021.jpg" alt="Web プロモーション方法のまとめ" width="570"></p>
+<p>ただサイト（ブログ）などを作っただけだと、もちろんですが誰も見てくれません。。。<br>
+もちろん登録系のサイトだとしたら会員が増えるはずがありませんし、EC サイトなら購入してくれる人はそういないでしょう。</p>
+<p>見てくれる人、購入してくれる人や会員を増やす為には、Web プロモーションをする事が必須になります。</p>
+<p>その為のやれる事は大体決まってます。。。その方法などを今回はまとめていきたいと思います～</p>]]>
+        <![CDATA[<h2>無料で出来るプロモーション方法　SEO</h2>
+<p><img src="/images/web/10/1021-01.jpg" alt="SEO" width="570"></p>
+<p>無料で出来る一番効果的な手法はみんさんご存知<span> SEO </span>ですね。</p>
+<p>検索エンジンに上位に表示されれば当然見てくれる人ももちろん増えます。<br>
+こんな事当然分かってるよ...って思うかもしれませんが、<strong> SEO の効果が出てきるのは早くても半年（新規ドメインの際）はかかると思います。</strong>むしろ最低 1年はみた方が良い気はします。</p>
+<p>例え、 SEO 適したサイト構成や、ロングテールをなるべく拾える構成で作ったとしても、初回から目に見える効果は出ません。</p>
+<p>ですが、数年後も見据えての事ですし、初回に対策をしておく事は必須になります。実際検索エンジンからの集客は、自分の経験上アクセスが安定します、アクティブなユーザーも多い事は間違いないですからね。</p>
+
+<h2>無料で出来るプロモーション方法　twitter</h2>
+<p><img src="/images/web/10/1021-02.jpg" alt="twitter" width="570"></p>
+<p>今主流の<a href="http://twitter.com/" class="external"> twitter </a>プロモーションだと思うですが、これは初回から初めておいた方が良い気がします。<br>
+コミュニケーションをとりやすい、情報を発信出来るってメリットがあるので、徐々にフォローワーを増やしていくと良いかと。</p>
+<p>商用利用のサイトであれば、<span>自分の似たジャンルのサイトの<a href="http://twitter.com/" class="external"> twitter </a>。</span>それをフォローしてる人は顧客になる可能性が高いと思われる人たちなので、まずはその人達をフォローしていったりしても良いかと思います。</p>
+<p>後はブログで言えば、<a href="http://b.hatena.ne.jp/" class="external">はてなブックマーク</a>などのソーシャルメディアに取り上げられそうな記事を書くとかもありますけど、簡単な事じゃないですしねｗ</p>
+
+
+<h2>基本的なプロモーション方法（有料）アフィリエイト</h2>
+<p><img src="/images/web/10/1021-03.jpg" alt="アフィリエイト" width="570"></p>
+<p>一番オーソドックスな手法ですが、アフィリエイトは成果報酬型なので費用対効果では一番良い方法だと思います。大手で言いますと下記会社さんになりますね。</p>
+<ul>
+<li><a href="http://www.a8.net/" class="external">A8.net（エーハチネット）</a>/<a href="http://moba8.net/" class="external">Moba8.net（モバハチネット）</a></li>
+<li><a href="http://www.accesstrade.net/" class="external">AccessTrade（アクセストレード）</a></li>
+<li><a href="http://www.trafficgate.net/" class="external">TrafficGate（トラフィックゲート）</a></li>
+<li><a href="https://www.valuecommerce.ne.jp/index.cfm" class="external">ValueCommerce（バリューコマース）</a></li>
+</ul>
+<p class="description">共にPCの場合は<strong>初期費用 5万円程と月額固定費 4万程</strong>かかってきます。</p>
+<p>※バリューコマースさんの月額は少し違気がします...<br>
+上記会社であれば、<strong>モバイルのみの使用であれば、初期費用、月額固定費共に交渉次第では0 </strong>に出来るかと思うので、モバイルのみで実施する際は費用対効果としてはけっこう良い気はします。</p>
+
+
+<h2>基本的なプロモーション方法（有料）リスティング</h2>
+<p><img src="/images/web/10/1021-04.jpg" alt="リスティング" width="570"></p>
+<ul>
+<li><a href="https://adwords.google.co.jp/" class="external">Google AdWords</a></li>
+<li><a href="http://listing.yahoo.co.jp/" class="external">Yahoo!リスティング広告</a></li>
+</ul>
+<p class="description"><strong>初期費用 なし　月額固定費 なし</strong></p>
+<p>モバイルなら今後は <a href="http://www.d2c.co.jp/" class="external">D2C</a> さんも必須になってきますね。</p>
+<p>自社で運用する事も可能ですし、追加や料金UP、または一時的に非表示だと操作が凄く楽になります。<br>
+代理店さんを経由の場合、消化コストの<strong> 1.2倍</strong>くらいの費用がかかります。場合によっては月額などもかかってくるかと。</p>
+
+<h2>その他プロモーション方法（有料）純広告</h2>
+<p><img src="/images/web/10/1021-05.jpg" alt="純広告" width="570"></p>
+<h2>主要媒体</h2>
+<dl>
+<dt><a href="http://www.yahoo.co.jp/" class="external">Yahoo!Japan</a>、<a href="http://yahoo-mbga.jp/" class="external">モバゲータウン</a>、<a href="http://www.ameba.jp/" class="external">Ameba</a>、<a href="http://mixi.jp/" class="external">mixi</a> など</dt>
+<dd>具体的な料金については各媒体、掲載される箇所によって違うのですが、<strong>1日100万円かかるものや 1週間40万～400万円</strong>かかるものと様々です。<br>
+どれをとっても価格としては非常に高い為、出稿するにはそれなりのリスクも頭に入れておく事は必要かと思います。</dd>
+</dl>
+<h2>その他媒体</h2>
+<dl>
+<dt>いろいろ</dt>
+<dd>主要媒体程、知名度があるわけではないですが、主要媒体より低コスト、またターゲットユーザー（年代、性別、キャリアなど）を絞った媒体が多くあります。<br>
+ですので、一番のサイトの趣旨になった媒体を見つける事で、主要媒体も費用対が見込める可能性も多いにあります。<br>
+具体的な料金については<strong> 1週間40万 2週間40万</strong>くらいが多いと思います。</dd>
+</dl>
+
+<h2>その他プロモーション方法（有料）ブログプロモーション</h2>
+<p>具体的なブログをあげる事はココでは出来ないのですが、知名度のある方にブログで紹介記事を書いて貰う手法です。<br>
+最近使われてる企業さんも増えてると自分自身も感じてはいます。</p>
+<p class="description">こちらの<strong>料金も安くても 50万円～</strong>はかかると<br>有名度によって<strong> 100万円～</strong>も多いにあります。</p>
+
+<h2>その他プロモーション方法（有料）メール広告</h2>
+<p>いわえるメルマガですね、他社の媒体を通して、自サイトの広告のせたメール配信をしてくれたりします。<br>
+正直、見込みとなるよな獲得がどれほど出るかは知りません...料金についても、<strong>媒体、配信数などによってピンキリで無料で出来るものから数百万</strong>かかるものもあります。</p>
+
+<h2>紙媒体プロモーション方法（有料）新聞・雑誌・交通広告</h2>
+<p>Web のプロモーションではありませんが、紙媒体でのプロモーションもあります。<br>
+新聞、交通広告は、出す新聞や路線とかにより料金は大きく変わるのですが、目安として<strong> 80万円～</strong>くらいって感じですかね...。</p>
+
+<h2>メディア系のプロモーション方法（有料）TV・CM</h2>
+<p>一番費用も高く、効果も見込めるのはやはり TV・CM のメディアに出す事だと思います。<br>
+ここ最近では<a href="http://pc.lnln.jp/PC/index.html" class="external">ルナルナさんが CM </a>を使い成功した事例になるかと。</p>
+
+
+<h2>まとめ</h2>
+<p>細かい話をすると上記内容が以外にも様々なメディア、媒体があるわけなんですが、今回紹介した項目がメインにはなるかと思います。</p>
+<p>自分的な認識では、サイトオープン後 SEO の効果が出るまで手堅くやるのがアフィリエイト、リスティングだなぁ～って感じですね。<br>
+こちらは低予算でもやる事は出来ますし。</p>]]>
+    </content>
+</entry>
+
+<entry>
+    <title>Windows Vista / 7 で localhost の書き換え方法</title>
+    <link rel="alternate" type="text/html" href="http://www.css-lecture.com/log/web/windows-vista-7.html">
+    <id>tag:www.css-lecture.com,2010:/css-lecture//2.300</id>
+
+    <published>2010-10-08T08:00:45Z</published>
+    <updated>2011-04-03T10:56:10Z</updated>
+
+    <summary> とりあえず久しぶりすぎるエントリー... 長々とさぼってしまった...ここ最近制作系の業務をしていなかった事もあり正直レベルは止まってる。いや下手になってる可能性が大きいですけど、取り残されないように頑張りたいと思います。 久しぶりのエン...</summary>
+    <author>
+        <name>MIYA</name>
+        
+    </author>
+    
+        <category term="Web関連情報" scheme="http://www.sixapart.com/ns/types#category">
+    
+    <category term="localhost" label="localhost" scheme="http://www.sixapart.com/ns/types#tag">
+    <category term="vista" label="Vista" scheme="http://www.sixapart.com/ns/types#tag">
+    <category term="windows7" label="Windows7" scheme="http://www.sixapart.com/ns/types#tag">
+    
+    <content type="html" xml:lang="ja" xml:base="http://www.css-lecture.com/">
+        <![CDATA[<p><img src="http://www.css-lecture.com/images/web/10/1008.jpg" alt="Windows Vista / 7 で localhost の書き換え方法" width="570"></p>
+<p>とりあえず久しぶりすぎるエントリー...</p>
+<p>長々とさぼってしまった...ここ最近制作系の業務をしていなかった事もあり正直レベルは止まってる。いや下手になってる可能性が大きいですけど、取り残されないように頑張りたいと思います。</p>
+<p>久しぶりのエントリーって事もありメモ程度の記事ですが、ドメインを移行させる案件の時、ローカルホストを書き換えて作業する場合もあるかと思います。<br>
+その際 XP では直接 hosts ファイルを開き設定をし保存をすれば問題はないのですが、Windows Vista や Windows7 では管理者権限で開かないと上書きが出来ないようになってます。</p><p>Vista / 7 の変更方法を紹介しますー</p>]]>
+        <![CDATA[<h2>回避策</h2>
+<h3>hostsのファイル場所</h3>
+<p class="description">C:\Windows\System32\drivers\etc\hosts</p>
+
+<ol>
+<li>[スタート] ボタン元に戻す画像を拡大するをクリックし、[すべてのプログラム]、[アクセサリ] を順にクリックします。[メモ帳] を右クリックし、[管理者として実行] をクリックします。<br>
+<img src="/images/web/10/1008-1.jpg" alt="変更1" width="530"></li>
+<li>Hosts ファイルまたは Lmhosts ファイルを開き、コピーをし①で開けたメモにペイスト。<br>
+必要な変更を行ってから、[編集] メニューの [上書き保存] をクリックします。<br>
+<img src="/images/web/10/1008-2.jpg" alt="変更2" width="530"></li>
+</ol>
+
+<h2>参考サイト</h2>
+<ul>
+<li><a href="http://support.microsoft.com/kb/923947/" class="external">Windows Vista で Hosts ファイルや Lmhosts ファイルを変更できない </a></li>
+</ul>]]>
+    </content>
+</entry>
+
+<entry>
+    <title>CSS3 変形処理を行う transform プロパティ</title>
+    <link rel="alternate" type="text/html" href="http://www.css-lecture.com/log/css3/css3-transform.html">
+    <id>tag:www.css-lecture.com,2010:/css-lecture//2.304</id>
+
+    <published>2010-03-31T01:28:00Z</published>
+    <updated>2011-04-03T10:56:11Z</updated>
+
+    <summary> transform は文字や画像を拡大・縮小、移動、回転などを指定出来るプロパティです。 単独でも使いがっては色々あるのですが、前回の記事「CSS3 アニメーション（Transitions）の使用方法」と併用して使ったらさらに面白い動きも...</summary>
+    <author>
+        <name>MIYA</name>
+        
+    </author>
+    
+        <category term="CSS3" scheme="http://www.sixapart.com/ns/types#category">
+    
+    <category term="css" label="css" scheme="http://www.sixapart.com/ns/types#tag">
+    <category term="css3" label="css3" scheme="http://www.sixapart.com/ns/types#tag">
+    <category term="transform" label="transform" scheme="http://www.sixapart.com/ns/types#tag">
+    
+    <content type="html" xml:lang="ja" xml:base="http://www.css-lecture.com/">
+        <![CDATA[<p><img src="http://www.css-lecture.com/images/css/10/0331.jpg" alt="CSS3 変形処理を行う transform プロパティ" width="570"></p>
+<p>transform は文字や画像を拡大・縮小、移動、回転などを指定出来るプロパティです。</p>
+
+<p>単独でも使いがっては色々あるのですが、前回の記事「<a href="http://www.css-lecture.com/log/css3/css3-transition.html">CSS3 アニメーション（Transitions）の使用方法</a>」と併用して使ったらさらに面白い動きも出来ちゃったりします。</p>
+<p>という事で今回は transform の基礎や使い方やなどを紹介したいと思います。</p>
+
+<p class="demo"><a href="http://www.css-lecture.com/template/2010/0331.zip"><img src="http://www.css-lecture.com/common/images/download.jpg" alt="Download" class="btn" width="300"></a></p>]]>
+        <![CDATA[<h2>Transform の基本</h2>
+<dl>
+<dt>対応ブラウザ（2010 3/31 現在）</dt>
+<dd>Safari , Google Chrome , Firefox</dd>
+</dl>
+<h3>transform</h3>
+<p>生成されたボックスを変形、移動、回転などを指定出来ます。指定できる値は以下の通りです。</p>
+<table>
+<tbody>
+<tr>
+<th>rotate(deg)</th><td>回転（deg で指定。10deg や -10deg など）</td>
+</tr>
+<tr>
+<th>scale(xy[x,y])</th><td>拡大・縮小（数値を指定。1 や 0.5 など）</td>
+</tr>
+<tr>
+<th>skew(deg)</th><td>X軸，Y軸へのゆがみ（degで指定。10deg や -10deg など）</td>
+</tr>
+<tr>
+<th>translate(xy[x,y])</th><td>移動（px で指定。10px など）</td>
+</tr>
+</table>
+
+<p><img src="/images/css/10/0331-01.gif" alt="transform"></p>
+
+<h3>transform-origin</h3>
+<p>transform の基準点を指定します。（初期値は 50% 50% と要素の中心です。）</p>
+
+<p><img src="/images/css/10/0331-02.gif" alt="transform-origin"></p>
+
+
+<h2>回転　rotate(deg)の使い方</h2>
+<p>指定された要素を回転させる事が出来ます。（deg で指定。10deg や -10deg など）</p>
+<h3>transform-origin を指定しない</h3>
+<pre class="css" name="code">
+.demo1	{
+	-webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+}
+.demo2	{
+	-webkit-transform: rotate(150deg);
+    -moz-transform: rotate(150deg);
+}
+.demo3	{
+	-webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+}
+</pre>
+<p class="description"><a href="/template/2010/0331/demo1.html" target="_blank">rotate(deg) transform-origin を指定しない</a></p>
+
+<h3>transform-origin を要素の左下に指定</h3>
+<p>※上記ソースに下記ソース追加</p>
+<pre class="css" name="code">
+div	{
+	-moz-transform-origin: 0 100%;
+	-webkit-transform-origin: 0 100%;
+}
+</pre>
+<p class="description"><a href="/template/2010/0331/demo2.html" target="_blank">rotate(deg) transform-origin を要素の左下に指定</a></p>
+
+
+<h2>拡大・縮小 scale(xy[x,y])の使い方</h2>
+<p>指定された要素を拡大・縮小させる事が出来ます。（数値を指定。2 や 0.5 など）</p>
+<pre class="css" name="code">
+.demo1	{
+	-webkit-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+}
+.demo2	{
+	-webkit-transform: scale(2.0);
+	-moz-transform: scale(2.0);
+}
+</pre>
+<p class="description"><a href="/template/2010/0331/demo3.html" target="_blank">拡大・縮小 scale(xy[x,y])のデモページ</a></p>
+
+
+<h2>X軸，Y軸へのゆがみ skew(deg)の使い方</h2>
+<p>指定された要素をX軸，Y軸へのゆがまさせる事が出来ます。（degで指定。10deg や -10deg など）</p>
+<pre class="css" name="code">
+.demo1	{
+	-webkit-transform: skew(45deg);
+	-moz-transform: skew(45deg);
+}
+.demo2	{
+	-webkit-transform: skew(150deg);
+	-moz-transform: skew(150deg);
+}
+.demo3	{
+	-webkit-transform: skew(-10deg);
+	-moz-transform: skew(-10deg);
+}
+.demo4	{
+	-webkit-transform: skew(0,-10deg);
+	-moz-transform: skew(0,-10deg);
+}
+</pre>
+<p class="description"><a href="/template/2010/0331/demo4.html" target="_blank">X軸，Y軸へのゆがみ skew(deg)のデモページ</a></p>
+
+
+<h2>移動 translate(xy[x,y])の使い方</h2>
+<p>指定された要素を移動させる事が出来ます。（px で指定。10px など）</p>
+<pre class="css" name="code">
+.demo1	{
+	-webkit-transform: translate(300px);
+	-moz-transform: translate(300px);
+}
+.demo2	{
+	-webkit-transform: translate(-50px,100px);
+	-moz-transform: translate(-50px,100px);
+}
+</pre>
+<p class="description"><a href="/template/2010/0331/demo5.html" target="_blank">移動 translate(xy[x,y])のデモページ</a></p>
+
+
+<p class="demo"><a href="/template/2010/0331.zip"><img src="/common/images/download.jpg" alt="Download" class="btn" width="300"></a></p>]]>
+    </content>
+</entry>
+
+<entry>
+    <title>CSS3 アニメーション（Transitions）の使用方法</title>
+    <link rel="alternate" type="text/html" href="http://www.css-lecture.com/log/css3/css3-transition.html">
+    <id>tag:www.css-lecture.com,2010:/css-lecture//2.303</id>
+
+    <published>2010-03-28T15:00:00Z</published>
+    <updated>2011-04-03T10:56:11Z</updated>
+
+    <summary> CSS3 になる事で今までと画期的に変わる部分の一つが、このアニメーション機能です。 自分もまだ勉強中ですが、使い方によってはけっこう面白い動きとかも出来ちゃうので、使いこなせればけっこう楽しめると思いますよ。 なので今回は基礎的な事を書...</summary>
+    <author>
+        <name>MIYA</name>
+        
+    </author>
+    
+        <category term="CSS3" scheme="http://www.sixapart.com/ns/types#category">
+    
+    <category term="css" label="css" scheme="http://www.sixapart.com/ns/types#tag">
+    <category term="css3" label="css3" scheme="http://www.sixapart.com/ns/types#tag">
+    <category term="transition" label="transition" scheme="http://www.sixapart.com/ns/types#tag">
+    
+    <content type="html" xml:lang="ja" xml:base="http://www.css-lecture.com/">
+        <![CDATA[<p><img src="http://www.css-lecture.com/images/css/10/0329.jpg" alt="CSS3 アニメーション（Transitions）の使用方法" width="570"></p>
+<p>CSS3 になる事で今までと画期的に変わる部分の一つが、このアニメーション機能です。</p>
+<p>自分もまだ勉強中ですが、使い方によってはけっこう面白い動きとかも出来ちゃうので、使いこなせればけっこう楽しめると思いますよ。<br>
+なので今回は基礎的な事を書いていきたいと思います。</p>
+
+<p class="demo"><a href="http://www.css-lecture.com/template/2010/0329/"><img src="http://www.css-lecture.com/common/images/demo.jpg" alt="Domo Page" class="btn" width="300"></a></p>]]>
+        <![CDATA[<h2>Transitions 基礎</h2>
+<dl>
+<dt>対応ブラウザ（2010 3/29 現在）</dt>
+<dd>Safari , Google Chrome</dd>
+</dl>
+
+<p><img src="/images/css/10/0329-01.gif" alt="Transitions"></p>
+
+<h3>-webkit-transition-property</h3>
+<p>transition を適用するプロパティ（background-color など）を設定します。</p>
+
+<h3>-webkit-transition-duration</h3>
+<p>transition の変化をどれくらいで表現するかを設定します。単位は s です。</p>
+
+<h3>-webkit-transition-timing-function</h3>
+<p>transition の変化の具合を設定します。指定できる値は以下の通りです。</p>
+<ul>
+<li>default</li>
+<li>linear（一定のスピード）</li>
+<li>ease-in</li>
+<li>ease-out</li>
+<li>ease-in-out</li>
+<li>cubic-bezier() 4つの数字をカンマ区切りで指定</li>
+</ul>
+<p class="description"><a href="/template/2010/0329/#demo1">transition-timing-function の違い</a></p>
+
+<h3>指定方法・表示例</h3>
+<pre class="css" name="code">
+#demo2	{
+	background-color: #39C;
+	-webkit-transition-property: background-color;
+	-webkit-transition-duration: 1s;
+	-webkit-transition-timing-function: linear;
+}
+#demo2:hover	{
+	background-color: #990;
+}
+</pre>
+
+<p>上記要素はまとめ指定する事も出来ます。</p>
+
+<pre class="css" name="code">
+#demo2	{
+	background-color: #39C;
+	-webkit-transition: background-color 1s linear;
+}
+#demo2:hover	{
+	background-color: #990;
+}
+</pre>
+
+<p class="description"><a href="/template/2010/0329/#demo2">背景色を変更するのデモページ</a></p>
+
+<p>またカンマ（,）を使用する事により複数指定する事も出来ます。</p>
+<pre class="css" name="code">
+#demo3	{
+	background-color: #39C;
+	-webkit-transition: background-color 1s linear, color 1s linear, border-color 1s linear;
+}
+#demo3:hover	{
+	background-color: #990;
+	color: #FFF;
+	border-color: #C30;
+}
+</pre>
+<p class="description"><a href="/template/2010/0329/#demo3">複数指定指定のデモページ</a></p>
+
+<p class="demo"><a href="/template/2010/0329.zip"><img src="/common/images/download.jpg" alt="Download" class="btn" width="300"></a></p>
+<p class="demo"><a href="/template/2010/0329/"><img src="/common/images/demo.jpg" alt="Domo Page" class="btn" width="300"></a></p>]]>
+    </content>
+</entry>
+
+<entry>
+    <title>さくらインターネットサーバーで MT を使う際に</title>
+    <link rel="alternate" type="text/html" href="http://www.css-lecture.com/log/web/sakura-movabletype.html">
+    <id>tag:www.css-lecture.com,2010:/css-lecture//2.299</id>
+
+    <published>2010-03-15T07:56:47Z</published>
+    <updated>2011-04-03T10:56:10Z</updated>
+
+    <summary> 最近仕事でさくらインターネットサーバーを使い MT を使っていたのですが、その際にいくつか問題があったのでついでにまとめておきたいと思います。 メモ的なエントリーなので、さくらで MT を使う際に困った時にでも見て下さい。...</summary>
+    <author>
+        <name>MIYA</name>
+        
+    </author>
+    
+        <category term="Web関連情報" scheme="http://www.sixapart.com/ns/types#category">
+    
+    <category term="include" label="include" scheme="http://www.sixapart.com/ns/types#tag">
+    <category term="movabletype" label="movabletype" scheme="http://www.sixapart.com/ns/types#tag">
+    <category term="php" label="php" scheme="http://www.sixapart.com/ns/types#tag">
+    
+    <content type="html" xml:lang="ja" xml:base="http://www.css-lecture.com/">
+        <![CDATA[<p><img src="http://www.css-lecture.com/images/web/10/0303.gif" alt="さくらインターネットサーバーで MT を使う際に" width="570"></p>
+<p>最近仕事でさくらインターネットサーバーを使い MT を使っていたのですが、その際にいくつか問題があったのでついでにまとめておきたいと思います。<br>
+メモ的なエントリーなので、さくらで MT を使う際に困った時にでも見て下さい。</p>]]>
+        <![CDATA[<h2>MT インストール</h2>
+<p>インストールでは得これっといった事はしませんでしが、インストール方法が <a href="http://www.movabletype.jp/" class="external">MovableType.jp</a> で紹介されています。</p>
+<h3>MT4 インストール</h3>
+<p><a href="http://www.movabletype.jp/documentation/mtinstall_mt_sakura.html" class="external">さくらインターネットサーバーへのインストール | Movable Type 4 ドキュメント</a></p>
+<h3>MT5 インストール</h3>
+<p><a href="http://www.movabletype.jp/documentation/mt5/installation/hosting/sakura.html" class="external">さくらインターネットサーバーへのインストール | Movable Type 5 ドキュメント</a></p>
+
+<h2>MT で書き出された PHP のパーミッションを変更する</h2>
+<p>書き出されるファイルの拡張子を「.php」にし、書き出されたファイルを確認すると<strong>500エラーで表示されない</strong>。</p>
+<p>原因は書き出された PHP のパーミッションが「666」だからです。<br>
+パーミッションを「600」や「755」に変更すると表示されるんですが、毎度手動で変更していたはバカらしいので、出力する際にパーミッションを変更するよう mt-config.cgi の最後に下記コードを記述。</p>
+
+<pre>
+HTMLUmask 0022
+DirUmask 0022
+
+HTMLPerms 0777
+</pre>
+
+<p>これで、PHPの書き出しのパーミッションが「755」で書き出されるようになります。<br>
+<span>※MT5 での検証はしてないです。</span></p>
+
+<h2>PHP5 の include を使う際</h2>
+<p>これは MT とは直接関係ないのですが、PHP5 だとデフォルトの設定？では include に絶対パスが使えないようになっていると思われます。</p>
+<p>外部ファイルなどを参照したい時って絶対パスが使えないと凄く困ってしますのですが、さくらインターネットサーバーで解決策は下記の通りです。</p>
+
+<h2>コントロールパネル</h2>
+<p>1. PHP言語に関する設定　→　2. PHP設定の編集</p>
+<p><img src="/images/web/10/0303-01.jpg" alt="1. PHP言語に関する設定　→　2. PHP設定の編集" width="570"></p>
+<p>3. 下記コード入れてる　→　4. 保存</p>
+<pre>
+allow_url_fopen = On
+allow_url_include = On
+</pre>
+<p><img src="/images/web/10/0303-02.jpg" alt="3. 下記コード入れてる　→　4. 保存" width="570"></p>
+
+<h2>参考サイト</h2>
+<ul>
+<li><a href="http://www.blog-affiliate.org/site_management/20070821012415.html" class="external">特定のphp5でのincludeができない場合の解決法</a></li>
+<li><a href="http://terarin.squares.net/2008/07/php5include.html" class="external">php5にしたらincludeが使えない？</a></li>
+<li><a href="http://mook.jpn.org/archives/2008/07/php_include.html" class="external">さくらのphpでinclude</a></li>
+</ul>]]>
+    </content>
+</entry>
+
+<entry>
+    <title>CSS3 グラデーション（gradient）の指定方法</title>
+    <link rel="alternate" type="text/html" href="http://www.css-lecture.com/log/css3/css3-gradient.html">
+    <id>tag:www.css-lecture.com,2010:/css-lecture//2.302</id>
+
+    <published>2010-03-09T01:15:35Z</published>
+    <updated>2011-04-03T10:56:10Z</updated>
+
+    <summary> CSS3 でグラデーションの指定が出来る -moz-linear-gradient -webkit-gradient の使用方法などを紹介、解説したいと思います。 ...</summary>
+    <author>
+        <name>MIYA</name>
+        
+    </author>
+    
+        <category term="CSS3" scheme="http://www.sixapart.com/ns/types#category">
+    
+    <category term="mozlineargradient" label="-moz-linear-gradient" scheme="http://www.sixapart.com/ns/types#tag">
+    <category term="webkitgradient" label="-webkit-gradient" scheme="http://www.sixapart.com/ns/types#tag">
+    <category term="css" label="css" scheme="http://www.sixapart.com/ns/types#tag">
+    <category term="css3" label="css3" scheme="http://www.sixapart.com/ns/types#tag">
+    <category term="gradient" label="gradient" scheme="http://www.sixapart.com/ns/types#tag">
+    
+    <content type="html" xml:lang="ja" xml:base="http://www.css-lecture.com/">
+        <![CDATA[<p><img src="http://www.css-lecture.com/images/css/10/0309.jpg" alt="CSS3 グラデーション（gradient）の指定方法" width="570"></p>
+<p>CSS3 でグラデーションの指定が出来る -moz-linear-gradient -webkit-gradient の使用方法などを紹介、解説したいと思います。</p>
+
+<p class="demo"><a href="http://www.css-lecture.com/template/2010/0309/"><img src="http://www.css-lecture.com/common/images/demo.jpg" alt="Domo Page" class="btn" width="300"></a></p>]]>
+        <![CDATA[<h2>gradient</h2>
+<p>background に指定することで、ボックスの背景色を線形にグラデーションに指定する値です。<br>
+（※ブラウザによって記述方法が変わりますので注意が必要です。）</p>
+<dl>
+<dt>対応ブラウザ（2010 3/9 現在）</dt>
+<dd>Safari , Google Chrome , Firefox</dd>
+</dl>
+
+<h3>指定方法・表示例</h3>
+<p><img src="/images/css/10/0309-01.gif" alt="gradient 指定方法"></p>
+<pre class="css" name="code">
+.gradient01	{
+	background: -moz-linear-gradient(top, #990, #066);　/* Firefox用 */
+	background: -webkit-gradient(linear, left top, left bottom, from(#990), to(#066));　/* Safari,Google Chrome用 */
+}
+</pre>
+<p><img src="/images/css/10/0309-02.jpg" alt="gradient 表示例"></p>
+
+<h2>グラデーションの途中に色を追加</h2>
+<p>開始点と終了点の途中にに色が指定します。<br>
+追加位置は割合（%）または数値（0～1.0）で指定します。</p>
+<h3>指定方法・表示例</h3>
+<p><img src="/images/css/10/0309-03.gif" alt="グラデーションの途中に色を追加 指定方法"></p>
+<pre class="css" name="code">
+.gradient04	{
+	background: -moz-linear-gradient(left top, #990,
+			#c36 30%,
+			#f60 50%,
+			#000 70%,
+			#066);　/* Firefox用 */
+	background: -webkit-gradient(linear, left top, right bottom, from(#990),
+			color-stop(0.3, #c36),
+			color-stop(0.5, #f60),
+			color-stop(0.7, #000),
+			to(#066));　/* Safari,Google Chrome用 */
+}
+</pre>
+<p><img src="/images/css/10/0309-04.jpg" alt="グラデーションの途中に色を追加 表示例"></p>
+
+
+<h2>グラデーションを透過する</h2>
+<p>rgb を使ってアルファ値（透明度）も設定できます。<br>
+アルファ値は 0 ～ 1.0 で指定（0 が透明、1.0 が不透明）</p>
+<h3>指定方法・表示例</h3>
+<p><img src="/images/css/10/0309-05.gif" alt="グラデーションを透過する 指定方法"></p>
+<pre class="css" name="code">
+.gradient05	{ background: url(images/01.gif); }
+.gradient05 p	{
+	background: -moz-linear-gradient(top,
+			rgba(60,100,50,0.5),
+			#066);　/* Firefox用 */
+	background: -webkit-gradient(linear, left top, left bottom,
+			from(rgba(60,100,50,0.5)),
+			to(#066));　/* Safari,Google Chrome用 */
+	padding: 20px;
+}
+</pre>
+<p><img src="/images/css/10/0309-06.jpg" alt="グラデーションを透過する 表示例"></p>
+
+<p class="demo"><a href="http://www.css-lecture.com/template/2010/0308.zip"><img src="http://www.css-lecture.com/common/images/download.jpg" alt="Download" class="btn" width="300"></a></p>
+<p class="demo"><a href="/template/2010/0309/"><img src="/common/images/demo.jpg" alt="Domo Page" class="btn" width="300"></a></p>]]>
+    </content>
+</entry>
+
+<entry>
+    <title>CSS3 background 関係のプロパティ・使い方</title>
+    <link rel="alternate" type="text/html" href="http://www.css-lecture.com/log/css3/css3-background.html">
+    <id>tag:www.css-lecture.com,2010:/css-lecture//2.296</id>
+
+    <published>2010-03-07T15:30:00Z</published>
+    <updated>2011-04-03T10:56:10Z</updated>
+
+    <summary> 最近は CSS3 ネタばかりですが、今回は CSS3 で使える background 関係のプロパティを紹介、解説です。 ...</summary>
+    <author>
+        <name>MIYA</name>
+        
+    </author>
+    
+        <category term="CSS3" scheme="http://www.sixapart.com/ns/types#category">
+    
+    <category term="background" label="background" scheme="http://www.sixapart.com/ns/types#tag">
+    <category term="backgroundclip" label="background-clip" scheme="http://www.sixapart.com/ns/types#tag">
+    <category term="backgroundorigin" label="background-origin" scheme="http://www.sixapart.com/ns/types#tag">
+    <category term="backgroundsize" label="background-size" scheme="http://www.sixapart.com/ns/types#tag">
+    <category term="css3" label="css3" scheme="http://www.sixapart.com/ns/types#tag">
+    
+    <content type="html" xml:lang="ja" xml:base="http://www.css-lecture.com/">
+        <![CDATA[<p><img src="http://www.css-lecture.com/images/css/10/0308.jpg" alt="CSS3 background 関係のプロパティ・使い方" width="570"></p>
+<p>最近は CSS3 ネタばかりですが、今回は CSS3 で使える background 関係のプロパティを紹介、解説です。</p>
+
+<p class="demo"><a href="http://www.css-lecture.com/template/2010/0308.zip"><img src="http://www.css-lecture.com/common/images/download.jpg" alt="Download" class="btn" width="300"></a></p>]]>
+        <![CDATA[<h2>background-size</h2>
+<p>背景画像のサイズを指定します。横幅 縦幅の順で記述します。</p>
+<dl>
+<dt>対応ブラウザ（2010 3/8 現在）</dt>
+<dd>Safari , Google Chrome , Firefox , Opera</dd>
+</dl>
+
+<h3>指定方法・表示例</h3>
+<pre class="css" name="code">
+.demo1 {
+	background: url(images/bg.jpg) no-repeat;
+	-webkit-background-size: 500px 50px;　/* Safari,Google Chrome用 */
+	-moz-background-size: 500px 50px;　/* Firefox用 */
+	-o-background-size: 400px 80px;　/* Opera用 */
+}
+.demo2 {
+	background: url(images/bg.jpg) no-repeat;
+	-webkit-background-size: 50% 50%;　/* Safari,Google Chrome用 */
+	-moz-background-size: 50% 50%;　/* Firefox用 */
+	-o-background-size: 50% 50%;　/* Opera用 */
+}
+</pre>
+<p><img src="/images/css/10/0308-01.gif" alt="background-size"></p>
+<p class="description"><a href="/template/2010/0308/demo1.html" target="_blank">background-size のデモページ</a></p>
+
+
+<h2>background-origin</h2>
+<p>上記の background-size で指定した場合の、算出方法を指定します。</p>
+<ul>
+<li>padding （パッディング領域まで含めたボックスサイズで算出）</li>
+<li>border （ボーダーまで含めたボックスサイズで算出）</li>
+<li>content （コンテンツ領域のみのボックスサイズで算出</li>
+</ul>
+<dl>
+<dt>対応ブラウザ（2010 3/8 現在）</dt>
+<dd>Safari , Google Chrome , Firefox</dd>
+</dl>
+
+<h3>指定方法・表示例</h3>
+<pre class="css" name="code">
+.demo1 {
+	background: url(images/bg.jpg) no-repeat;
+	-webkit-background-size: 400px 80px;
+	-moz-background-size: 400px 80px;
+	-webkit-background-origin: padding;　/* Safari,Google Chrome用 */
+	-moz-background-origin: padding;　/* Firefox用 */
+}
+.demo2 {
+	background: url(images/bg.jpg) no-repeat;
+	-webkit-background-size: 400px 80px;
+	-moz-background-size: 400px 80px;
+	-webkit-background-origin: border;　/* Safari,Google Chrome用 */
+	-moz-background-origin: border;　/* Firefox用 */
+}
+.demo3 {
+	background: url(images/bg.jpg) no-repeat;
+	-webkit-background-size: 400px 80px;
+	-moz-background-size: 400px 80px;
+	-webkit-background-origin: content;　/* Safari,Google Chrome用 */
+	-moz-background-origin: content;　/* Firefox用 */
+}
+</pre>
+<p><img src="/images/css/10/0308-02.jpg" alt="background-origin"></p>
+<p class="description"><a href="/template/2010/0308/demo2.html" target="_blank">background-origin のデモページ</a></p>
+
+
+<h2>background-clip</h2>
+<p>背景画像を描画する際、border 領域の下から描画するか、padding 領域から描画するかを指定します。</p>
+<ul>
+<li>padding （パッディング領域まで含めたボックスサイズで背景画像を描画）</li>
+<li>border （ボーダーまで含めたボックスサイズで背景画像を描画）</li>
+</ul>
+<dl>
+<dt>対応ブラウザ（2010 3/8 現在）</dt>
+<dd>Safari , Google Chrome , Firefox</dd>
+</dl>
+
+<h3>指定方法・表示例</h3>
+<pre class="css" name="code">
+.demo1-1 {
+	background: #999 url(images/bg2.jpg) no-repeat;
+	-webkit-background-size: 400px 80px;
+	-moz-background-size: 400px 80px;
+	-o-background-size: 400px 80px;
+	-webkit-background-clip: padding;　/* Safari,Google Chrome用 */
+	-moz-background-clip: padding;　/* Firefox用 */
+}
+.demo2-1 {
+	background: #999 url(images/bg2.jpg) no-repeat;
+	-webkit-background-size: 400px 80px;
+	-moz-background-size: 400px 80px;
+	-o-background-size: 400px 80px;
+	-webkit-background-clip: border;　/* Safari,Google Chrome用 */
+	-moz-background-clip: border;　/* Firefox用 */
+}
+</pre>
+<p><img src="/images/css/10/0308-03.jpg" alt="background-clip"></p>
+<p class="description"><a href="/template/2010/0308/demo3.html" target="_blank">background-clip のデモページ</a></p>
+
+
+<h2>backgorund-image 複数指定</h2>
+<p>従来までは一枚しか画像を指定する事は出来なかったのですが、カンマ区切りで複数指定する事が出来ます。</p>
+<dl>
+<dt>対応ブラウザ（2010 3/5 現在）</dt>
+<dd>Safari , Google Chrome</dd>
+</dl>
+
+<h3>指定方法・表示例</h3>
+<pre class="css" name="code">
+body {
+	background-image: url(images/01.gif), url(images/02.gif), url(images/03.gif), url(images/04.gif);
+	background-position: left top, left right, left bottom, right bottom;
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+}
+</pre>
+<p><img src="/images/css/10/0308-04.gif" alt="backgorund-image 複数指定"></p>
+<p class="description"><a href="/template/2010/0308/demo4.html" target="_blank">backgorund-image 複数指定のデモページ</a></p>
+
+
+<h2>background-inline-policy</h2>
+<p>インライン要素の背景画像のり返し方を指定します。</p>
+<ul>
+<li>bounding-box （インライン要素全体に対して背景画像を繰り返し表示する）</li>
+<li>each-box （行ごとに背景画像を繰り返して表示する）</li>
+<li>continuous （ひとつ前の行の繰り返しを引き継いで背景画像を表示する）</li>
+</ul>
+
+<dl>
+<dt>対応ブラウザ（2010 3/8 現在）</dt>
+<dd>Firefox</dd>
+</dl>
+
+<h3>指定方法・表示例</h3>
+<pre class="css" name="code">
+span	{ background: url(images/bg3.jpg); font-size: 116.6%; font-weight: bold; }
+.bounding-box	{
+	-moz-background-inline-policy: bounding-box;
+}
+.each-box	{
+	-moz-background-inline-policy: each-box;
+}
+.continuous	{
+	-moz-background-inline-policy: continuous;
+}
+</pre>
+<p class="description"><a href="/template/2010/0308/demo5.html" target="_blank">background-inline-policy のデモページ</a></p>
+
+<p class="demo"><a href="http://www.css-lecture.com/template/2010/0308.zip"><img src="http://www.css-lecture.com/common/images/download.jpg" alt="Download" class="btn" width="300"></a></p>]]>
+    </content>
+</entry>
+
+</feed>

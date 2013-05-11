@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+			<title>Android 入門 | テックファーム</title>
+			<link>http://www.techfirm.co.jp/lab/android/feed.rss.html?r=rss</link>
+			<description></description>
+			<language>en</language>
+			<copyright>テックファーム 2006</copyright>
+			<ttl>120</ttl>
+			<item>
+				<title>NTTドコモ アプリアワード</title>
+				<link>http://www.techfirm.co.jp/lab/android/492.html?r=rss</link>
+				<description><![CDATA[ http://www.app-award-kyushu.jp/ ]]></description>
+				<pubDate>Wed, 02 Nov 2011 19:30:15 +0900</pubDate>
+				<guid isPermaLink="false">http://www.techfirm.co.jp/lab/android/492.html</guid>
+				<dc:creator>佐藤　茜</dc:creator>
+				
+			</item>
+		
+			<item>
+				<title>Android Techfirm Lab</title>
+				<link>http://www.techfirm.co.jp/lab/android/290.html?r=rss</link>
+				<description><![CDATA[ http://labs.techfirm.co.jp/android/ ]]></description>
+				<pubDate>Fri, 20 Nov 2009 13:11:07 +0900</pubDate>
+				<guid isPermaLink="false">http://www.techfirm.co.jp/lab/android/290.html</guid>
+				<dc:creator>佐藤　茜</dc:creator>
+				
+			</item>
+		
+			<item>
+				<title>ウィジェットの作り方</title>
+				<link>http://www.techfirm.co.jp/lab/android/widget.html?r=rss</link>
+				<description><![CDATA[ <div class="frame2nb">
+<div class="fmWrapper">
+<h1>ウィジェットの作り方</h1>
+<div class="column">
+<p>
+AndroidSDK 1.5より導入されたAppWidget frameworkを利用し、<br />
+Home Screen上にAppWidgetを作成するための基本的な方法を説明します。<br />
+(開発にはAndroidSDK 1.6を使用し</p></div></div></div> ]]></description>
+				<pubDate>Mon, 19 Oct 2009 13:15:00 +0900</pubDate>
+				<guid isPermaLink="false">http://www.techfirm.co.jp/lab/android/widget.html</guid>
+				<dc:creator>mita</dc:creator>
+				
+			</item>
+		
+			<item>
+				<title>画面の作り方</title>
+				<link>http://www.techfirm.co.jp/lab/android/view.html?r=rss</link>
+				<description><![CDATA[ <div class="frame2nb">
+<div class="fmWrapper">
+<h1>画面の作り方</h1>
+<div class="column">
+<p>
+Activityのユーザーインターフェースの作り方を説明します。特にGUIデザイナ(XML)を使った画面レイアウトとソースコード上の画面レイアウト方法の2パターンの解説は入�</p></div></div></div> ]]></description>
+				<pubDate>Fri, 28 Aug 2009 11:56:41 +0900</pubDate>
+				<guid isPermaLink="false">http://www.techfirm.co.jp/lab/android/view.html</guid>
+				<dc:creator>cho</dc:creator>
+				
+			</item>
+		
+			<item>
+				<title>Android Developers</title>
+				<link>http://www.techfirm.co.jp/lab/android/230.html?r=rss</link>
+				<description><![CDATA[ http://developer.android.com/ ]]></description>
+				<pubDate>Fri, 26 Jun 2009 12:29:29 +0900</pubDate>
+				<guid isPermaLink="false">http://www.techfirm.co.jp/lab/android/230.html</guid>
+				<dc:creator>松田幸一</dc:creator>
+				
+			</item>
+		
+			<item>
+				<title>日本Androidの会</title>
+				<link>http://www.techfirm.co.jp/lab/android/228.html?r=rss</link>
+				<description><![CDATA[ http://www.android-group.jp/ ]]></description>
+				<pubDate>Fri, 26 Jun 2009 11:08:02 +0900</pubDate>
+				<guid isPermaLink="false">http://www.techfirm.co.jp/lab/android/228.html</guid>
+				<dc:creator>松田幸一</dc:creator>
+				
+			</item>
+		
+			<item>
+				<title>Android概要</title>
+				<link>http://www.techfirm.co.jp/lab/android/outline.html?r=rss</link>
+				<description><![CDATA[ <div class="frame2nb">
+<div class="fmWrapper">
+<h1>Android概要</h1>
+<div class="column">
+<p>
+■公式サイト<br />
+<a href="http://www.android.com/" target="_new">http://www.android.com/</a>(英語)<br />
+<br />
+■Developer Announcements（開発者向けサイト）<br />
+<a href="http://developer.android.com/" t</p></div></div></div> ]]></description>
+				<pubDate>Mon, 15 Jun 2009 19:42:32 +0900</pubDate>
+				<guid isPermaLink="false">http://www.techfirm.co.jp/lab/android/outline.html</guid>
+				<dc:creator>佐藤　茜</dc:creator>
+				
+			</item>
+		
+			<item>
+				<title>Android開発者様用技術情報</title>
+				<link>http://www.techfirm.co.jp/lab/android/224.html?r=rss</link>
+				<description><![CDATA[ http://www.nttdocomo.co.jp/service/developer/smart_phone/index.html ]]></description>
+				<pubDate>Mon, 15 Jun 2009 12:24:40 +0900</pubDate>
+				<guid isPermaLink="false">http://www.techfirm.co.jp/lab/android/224.html</guid>
+				<dc:creator>佐藤　茜</dc:creator>
+				
+			</item>
+		
+			<item>
+				<title>星空を見る</title>
+				<link>http://www.techfirm.co.jp/lab/android/starrysky.html?r=rss</link>
+				<description><![CDATA[ <div class="frame2nb">
+<div class="fmWrapper">
+<h1>羅針盤アプリを起動するAndroidアプリを作成する</h1>
+<div class="column">
+<p>
+Googleマップを使用し、HT-03Aにプリインストールされている「羅針盤」アプリ内の星空機能使用するAndroidアプリを作成します。<br />
+<b</p></div></div></div> ]]></description>
+				<pubDate>Thu, 11 Jun 2009 18:27:15 +0900</pubDate>
+				<guid isPermaLink="false">http://www.techfirm.co.jp/lab/android/starrysky.html</guid>
+				<dc:creator>松田幸一</dc:creator>
+				
+			</item>
+		
+			<item>
+				<title>画像表示</title>
+				<link>http://www.techfirm.co.jp/lab/android/image.html?r=rss</link>
+				<description><![CDATA[ <div class="frame2nb">
+<div class="fmWrapper">
+<h1>画像表示するAndroidアプリを作成する</h1>
+<div class="column">
+<p>
+画像を表示し、画面操作で画像を動かすAndroidアプリを作成します<br />
+<br />
+■AndroidSDKリファレンス（サイト）<br />
+
+<a href="http://developer.android.</p></div></div></div> ]]></description>
+				<pubDate>Thu, 11 Jun 2009 18:27:02 +0900</pubDate>
+				<guid isPermaLink="false">http://www.techfirm.co.jp/lab/android/image.html</guid>
+				<dc:creator>松田幸一</dc:creator>
+				
+			</item>
+			</channel>
+</rss>

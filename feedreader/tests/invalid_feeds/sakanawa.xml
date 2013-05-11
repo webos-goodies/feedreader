@@ -1,0 +1,1873 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://purl.org/rss/1.0/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:cc="http://web.resource.org/cc/"
+    xmlns:admin="http://webns.net/mvcb/"
+    xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+    xml:lang="ja">
+
+    <channel rdf:about="http://blog.sakanawa.com/?mode=rss">
+    <title>魚輪事務業務日記　SAKANAWA-GYM RECODE</title>
+    <link>http://blog.sakanawa.com/</link>
+    <description>テクニカルライター魚輪タロウの、これまでのお仕事のおしらせや、書いた書籍のつけたしなど。</description>
+    <dc:language>ja</dc:language>
+    <admin:generatorAgent rdf:resource="http://jugem.jp/?v=1.0"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/" />    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1152979" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1151213" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1144097" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1143967" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1142658" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1139814" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1139318" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1139316" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1139314" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1138893" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1138727" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1137959" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1127074" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1125852" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1124594" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1124062" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1124047" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1121504" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1120106" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1114150" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1113320" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1112180" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1106278" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1102670" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1101798" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1092346" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1083810" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1083424" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1082640" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1073564" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1062063" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1056886" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1054963" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1048521" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1045605" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1033133" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1032165" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1029097" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1024670" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1022816" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1022257" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1018803" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1017695" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1017689" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1017486" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1017451" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1016808" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1016166" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1014208" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=1006180" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=990751" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=986237" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=986234" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=978344" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=969677" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=968690" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=961039" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=959382" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=955263" />
+        <rdf:li rdf:resource="http://blog.sakanawa.com/?eid=954139" />
+      </rdf:Seq>
+    </items>
+    </channel>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1152979">
+    <link>http://blog.sakanawa.com/?eid=1152979</link>
+    <title>PSP6.0のテーマカラー追加とか。</title>
+    <description>これ一応、メジャーアップデートだよな？ｗｗｗSCE、テーマカラー追加などPSP新ファーム「6.0」 -AV Watch株式会社ソニー・コンピュータエンタテインメント(SCE)は10日、プレイステーション・ポータブル(PSP)用の最新システムソフトウェア Ver.6.0を公開した。　6.0では、...</description>
+<content:encoded><![CDATA[
+これ一応、メジャーアップデートだよな？ｗｗｗ<cite><a href="http://av.watch.impress.co.jp/docs/news/20090910_314653.html" target="_blank">SCE、テーマカラー追加などPSP新ファーム「6.0」 -AV Watch</a></cite><blockquote>株式会社ソニー・コンピュータエンタテインメント(SCE)は10日、プレイステーション・ポータブル(PSP)用の最新システムソフトウェア Ver.6.0を公開した。<br /><br />　6.0では、XMB(クロスメディアバー)のゲーム欄のオプションメニューに、「フォルダ分類」を追加。メモリースティックに保存されたコンテンツの表示方法を「期限別」か、「すべて」から選べるようになった。<br /><br />　また、ブラウザのセキュリティーの脆弱性に起因する問題にも対応している。<br /><br />　さらに、PSP-2000/3000シリーズでは、「テーマ設定」で選べるカラーに新色が追加される。</blockquote><br />
+なんという地味なメジャーアップデート。<br />
+<br />
+つうかあれだ、先だってのPS3アップデートで発症した、<br />
+ブラウザを終了しますか仕様の撤回を早く対応してくれ！！ｗｗｗ
+]]></content:encoded>
+    <dc:subject>PSP Fan BookShelf</dc:subject>
+    <dc:date>2009-09-12T09:56:40+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+<taxo:topics>
+<rdf:Bag>
+<rdf:li rdf:resource="http://jugem.jp/contents/theme.php?theme=14" />
+</rdf:Bag>
+</taxo:topics>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1151213">
+    <link>http://blog.sakanawa.com/?eid=1151213</link>
+    <title> 【本棚】地震対策とかやっぱ気にすべきか。</title>
+    <description>
+左手の白いやつが
+新参。
+13800円でした。
+組み立てるのが、
+意外と時間かかるなどした。
+
+地震対策については、
+崩れて
+怪我や
+2次被害を恐れるよりも、
+
+再度組み直して、
+詰め込むのが
+面倒臭そうなのだ。
+
+</description>
+<content:encoded><![CDATA[
+<img src="http://smoothfish.img.jugem.jp/20100116_803102.jpg" class="pict" alt="" width="450" height="520" />
+<p>左手の白いやつが<br />
+新参。<br />
+13800円でした。<br />
+組み立てるのが、<br />
+意外と時間かかるなどした。<br />
+<br />
+地震対策については、<br />
+崩れて<br />
+怪我や<br />
+2次被害を恐れるよりも、<br />
+<br />
+再度組み直して、<br />
+詰め込むのが<br />
+面倒臭そうなのだ。<br />
+</p>
+
+]]></content:encoded>
+    <dc:subject></dc:subject>
+    <dc:date>2009-09-07T09:43:10+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1144097">
+    <link>http://blog.sakanawa.com/?eid=1144097</link>
+    <title>やはりキタ。 薄型PLAYSTATION 3　価格29,980円　9月3日発売</title>
+    <description>流出画像どおりのデザインでホッとしましたｗ
+
+SCE、29,980円の薄型「新PLAYSTATION 3」を9月3日発売 -AV WatchSCE、29,980円の薄型「新PLAYSTATION 3」を9月3日発売−初代の2/3に薄型化。HDMI CEC対応で、HDDは120GB9月初旬発売標準価格：29,980円　ソニー・コンピュー...</description>
+<content:encoded><![CDATA[
+<a href="http://smoothfish.img.jugem.jp/20100116_803101.jpg" target="_blank"><img src="http://smoothfish.img.jugem.jp/20100116_803101_t.jpg" width="300" height="237" alt="PS3スリムっす！" class="pict" /></a>流出画像どおりのデザインでホッとしましたｗ<br />
+<br />
+<cite><a href="http://av.watch.impress.co.jp/docs/news/20090819_309300.html" target="_blank">SCE、29,980円の薄型「新PLAYSTATION 3」を9月3日発売 -AV Watch</a></cite><blockquote>SCE、29,980円の薄型「新PLAYSTATION 3」を9月3日発売−初代の2/3に薄型化。HDMI CEC対応で、HDDは120GB9月初旬発売標準価格：29,980円　ソニー・コンピュータエンタテインメント(SCE)は、筺体のスリム化などを図り、低価格化した新型「PLAYSTATION 3」(CECH-2000シリーズ)を9月1日から順次、世界各国で発売する。HDD容量は120GB。日本では9月3日より発売。価格は29,980円。	新型PS3「CECH-2000A」	高さ65mmに薄型化した　米国と欧州では9月1日から発売され、価格は米国が299ドル、欧州が299ユーロ。既発売モデルも、8月18日から米国で80GBモデルを299ドルに、160GBを399ドルに値下げ。欧州でも80GBモデルを299ユーロに値下げする。　主要半導体の改良や、電源系、冷却システムの一新により、大幅な薄型化と軽量化を図ったPLAYSTATION 3(PS3)新モデル。薄型化とともに、新たにHDMI連携機能の「BRAVIA Sync」を搭載するなどの機能強化も行なわれている。　電源は本体内蔵で、消費電力は約250W。外形寸法は29029065mm(幅奥行き高さ)、重量は3.2kg。初代PS3(32527498mm/5kg)と比べると、厚みと重量が2/3に削減されたほか、ファンノイズも低減。デザインも従来のイメージを引き継ぎながら、カジュアルな印象のものに変更したという。	PS3(CECHL00/左)と新PS3(CECH-2000/右)の比較スロットローディングのBDドライブやUSBを装備　PS3ゲームのほか、Blu-ray Discの再生、DVDやCDの再生も可能な点は従来のPS3と同様。SACDには対応していない。ソフトウェアは最新のVer.3.00となり、XMB(クロスメディアバー)上に、最近プレイしたゲームやPLAYSTATION Storeの最新情報などを表示する「What's New」機能に対応するなどの機能強化が図られている。　HDMI出力も装備しており、Deep Colorやx.v.colorにも対応。さらに、新たにHDMI CEC機能のBRAVIA Syncのサポートにより、対応の薄型テレビのリモコンから、PS3のXMB操作や電源ON/OFFなどが可能となった。リニアPCM 7.1chやドルビーTrueHD、DTS-HDなどの音声にも対応している。　光デジタル音声出力や、AVマルチ出力も装備。Gigabit Ethernetも装備するほか、IEEE 802.11b/g無線LANやBluetoothにも対応する。コントローラはDUALSHOCK 3。</blockquote><br />
+<br />
+文句の付け所がないな。<br />
+ただ、現行PS3でハードディスクを大容量に交換しているユーザーは、<br />
+そのまま普通に乗せ変えても認識しないかもしれませんねえ。<br />
+320GBなら320GB分のバックアップをどこかにとって、<br />
+新本体で再フォーマットかなあ、多分。<br />
+<br />
+できたらAVリモコンももう少しスマートな奴を新発売していただきたいとこですけどねー。<br />
+そろそろぼくも買い直しの季節かなあ、という気はしている
+]]></content:encoded>
+    <dc:subject>ニュース</dc:subject>
+    <dc:date>2009-08-19T07:20:48+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+<taxo:topics>
+<rdf:Bag>
+<rdf:li rdf:resource="http://jugem.jp/contents/theme.php?theme=14" />
+</rdf:Bag>
+</taxo:topics>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1143967">
+    <link>http://blog.sakanawa.com/?eid=1143967</link>
+    <title> DMMからこんなのがとどきました</title>
+    <description>
+疲れてそれどころじゃねーしwwwwww
+
+</description>
+<content:encoded><![CDATA[
+<img src="http://smoothfish.img.jugem.jp/20100116_803100.jpg" class="pict" alt="" width="450" height="520" />
+<p>疲れてそれどころじゃねーしwwwwww<br />
+</p>
+
+]]></content:encoded>
+    <dc:subject></dc:subject>
+    <dc:date>2009-08-18T22:20:42+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1142658">
+    <link>http://blog.sakanawa.com/?eid=1142658</link>
+    <title>8月15日に麦茶を飲む。</title>
+    <description>
+8月15日に麦茶を飲む。
+いただきます。
+
+</description>
+<content:encoded><![CDATA[
+<img src="http://smoothfish.img.jugem.jp/20100116_803099.jpg" class="pict" alt="" width="450" height="520" />
+<p>8月15日に麦茶を飲む。<br />
+いただきます。<br />
+</p>
+
+]]></content:encoded>
+    <dc:subject></dc:subject>
+    <dc:date>2009-08-15T12:45:28+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1139814">
+    <link>http://blog.sakanawa.com/?eid=1139814</link>
+    <title>Yahoo画像検索</title>
+    <description>http://image-search.yahoo.co.jp/iphone/#_home
+</description>
+<content:encoded><![CDATA[
+http://image-search.yahoo.co.jp/iphone/#_home<br />
+
+]]></content:encoded>
+    <dc:subject></dc:subject>
+    <dc:date>2009-08-08T15:07:13+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1139318">
+    <link>http://blog.sakanawa.com/?eid=1139318</link>
+    <title>引越し進捗 ?</title>
+    <description>
+ま、実際は
+こんなリアルテトリスな現実に囲まれて、
+安眠できないまま
+翌日から会社だったんだけどね！
+
+じゃ、股んき！( *｀ω´) 
+
+</description>
+<content:encoded><![CDATA[
+<img src="http://smoothfish.img.jugem.jp/20100116_803098.jpg" class="pict" alt="" width="450" height="520" />
+<p>ま、実際は<br />
+こんなリアルテトリスな現実に囲まれて、<br />
+安眠できないまま<br />
+翌日から会社だったんだけどね！<br />
+<br />
+じゃ、股んき！( *｀ω´) <br />
+</p>
+
+]]></content:encoded>
+    <dc:subject></dc:subject>
+    <dc:date>2009-08-07T12:25:55+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1139316">
+    <link>http://blog.sakanawa.com/?eid=1139316</link>
+    <title>引越し進捗 ?</title>
+    <description>
+そこそこ広いバルコニーもありま。
+
+</description>
+<content:encoded><![CDATA[
+<img src="http://smoothfish.img.jugem.jp/20100116_803097.jpg" class="pict" alt="" width="450" height="520" />
+<p>そこそこ広いバルコニーもありま。<br />
+</p>
+
+]]></content:encoded>
+    <dc:subject></dc:subject>
+    <dc:date>2009-08-07T12:21:00+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1139314">
+    <link>http://blog.sakanawa.com/?eid=1139314</link>
+    <title>引越し進捗 ?</title>
+    <description>
+中々良い部屋だと、
+気にいっている。
+ここが新しい魚輪の事務所なんだな。
+
+そして間もなく、
+汗だくになっ詰め込んだ2.5トンがここに
+押し寄せようとしていたのだった。
+
+</description>
+<content:encoded><![CDATA[
+<img src="http://smoothfish.img.jugem.jp/20100116_803096.jpg" class="pict" alt="" width="450" height="520" />
+<p>中々良い部屋だと、<br />
+気にいっている。<br />
+ここが新しい魚輪の事務所なんだな。<br />
+<br />
+そして間もなく、<br />
+汗だくになっ詰め込んだ2.5トンがここに<br />
+押し寄せようとしていたのだった。<br />
+</p>
+
+]]></content:encoded>
+    <dc:subject></dc:subject>
+    <dc:date>2009-08-07T12:18:04+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1138893">
+    <link>http://blog.sakanawa.com/?eid=1138893</link>
+    <title>引越し進捗 ?</title>
+    <description>
+朝10時から作業開始して、
+とりあえず積み込み終わったのが、午後2時半、途中休憩なし。
+残念ながら、一人暮らし分の家財道具であれば、余裕の積載量を誇る2.5トントラックでも、魚輪のあれげな私物をすべて積み切ることができなかった。
+
+あほか。
+
+
+</description>
+<content:encoded><![CDATA[
+<img src="http://smoothfish.img.jugem.jp/20100116_803094.jpg" class="pict" alt="" width="450" height="520" />
+<p>朝10時から作業開始して、<br />
+とりあえず積み込み終わったのが、午後2時半、途中休憩なし。<br />
+残念ながら、一人暮らし分の家財道具であれば、余裕の積載量を誇る2.5トントラックでも、魚輪のあれげな私物をすべて積み切ることができなかった。<br />
+<br />
+あほか。<br />
+<br />
+</p>
+
+]]></content:encoded>
+    <dc:subject></dc:subject>
+    <dc:date>2009-08-06T11:47:38+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1138727">
+    <link>http://blog.sakanawa.com/?eid=1138727</link>
+    <title>引越し進捗 ?</title>
+    <description>
+連日、会社が終わってから
+自室の、本やDVDやCDやゲームソフトやBlueレイソフトや数千枚に及ぶ光ディスクやら、
+エロ本やらエロビデオやらエロDVDやら、エロVideoCDやら、数千枚に及ぶエロPEGが、
+どう頑張っても整頓できないくのは目にみえていたのだが、
+とりあえず先...</description>
+<content:encoded><![CDATA[
+<img src="http://smoothfish.img.jugem.jp/20100116_803093.jpg" class="pict" alt="" width="450" height="520" />
+<p>連日、会社が終わってから<br />
+自室の、本やDVDやCDやゲームソフトやBlueレイソフトや数千枚に及ぶ光ディスクやら、<br />
+エロ本やらエロビデオやらエロDVDやら、エロVideoCDやら、数千枚に及ぶエロPEGが、<br />
+どう頑張っても整頓できないくのは目にみえていたのだが、<br />
+とりあえず先週の土日はがんがって、段ボールを10箱ぐらい作ったら死んだ。<br />
+</p>
+
+]]></content:encoded>
+    <dc:subject></dc:subject>
+    <dc:date>2009-08-05T22:32:04+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1137959">
+    <link>http://blog.sakanawa.com/?eid=1137959</link>
+    <title>ロリポップでかした。</title>
+    <description>
+この鯖もロリさんなんですけど、なんだか下記のようなサービス向上が図られたようですな。
+
+ま、いんじゃね。
+リアルの方の
+引越し準備でそれどこじゃないし。
+
+
+
+ロリポップ！のユーザーならどなたでも簡単に設置できる『ロリポブログ』が
+新しくなりました。
+
+** これ...</description>
+<content:encoded><![CDATA[
+<img src="http://smoothfish.img.jugem.jp/20100116_803092.jpg" class="pict" alt="" width="450" height="520" />
+<p>この鯖もロリさんなんですけど、なんだか下記のようなサービス向上が図られたようですな。<br />
+<br />
+ま、いんじゃね。<br />
+リアルの方の<br />
+引越し準備でそれどこじゃないし。<br />
+<br />
+<br />
+<br />
+ロリポップ！のユーザーならどなたでも簡単に設置できる『ロリポブログ』が<br />
+新しくなりました。<br />
+<br />
+** これまでと違う点は…… ************************************************<br />
+<br />
+ ★ 選べるテンプレートが 4,500種類以上に<br />
+<br />
+ ★ 画像もいっぱいアップできる！　容量１ＧＢに<br />
+<br />
+ ★ ケータイでもパソコンとほぼ同じ機能を利用できるように　等<br />
+<br />
+ **************************************************************************<br />
+<br />
+設置方法はこれまでと同じです。<br />
+『ユーザー専用ページ』＞『ロリポブログ』にて行っていただけます。<br />
+</p>
+
+]]></content:encoded>
+    <dc:subject></dc:subject>
+    <dc:date>2009-08-03T22:20:39+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1127074">
+    <link>http://blog.sakanawa.com/?eid=1127074</link>
+    <title>これまでのあらすじ　2</title>
+    <description>的なIT書籍の執筆は「京ぽんの本」なるPHS書籍で、これがボコボコ売れた。おかげで、自分が企画を練る前に、担当編集者がネタを持ってくる、それをぼくが本として売れるかどうか検討するという、従来の三流ライター時代とは全く編集者との関係も逆転し、仕事のやり方まで...</description>
+<content:encoded><![CDATA[
+<img src="http://smoothfish.img.jugem.jp/20100116_803090.jpg" width="450" height="520" alt="" class="pict" />的なIT書籍の執筆は「京ぽんの本」なるPHS書籍で、これがボコボコ売れた。おかげで、自分が企画を練る前に、担当編集者がネタを持ってくる、それをぼくが本として売れるかどうか検討するという、従来の三流ライター時代とは全く編集者との関係も逆転し、仕事のやり方まで変わっていく。その間、平均2ヶ月で一冊書き上げ、3ヶ月遊びほうけて、また2ヶ月で本を書き、また3ヶ月遊ぶ、といった実に罰当たりな1年の使い方を覚えるようになった。これが丁度、30歳を過ぎたあたりだ。<p><a href="http://blog.sakanawa.com/?eid=1127074">続きを読む &gt;&gt;</a></p>
+]]></content:encoded>
+    <dc:subject>これまでのあらすじ</dc:subject>
+    <dc:date>2009-07-08T01:11:30+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+<taxo:topics>
+<rdf:Bag>
+<rdf:li rdf:resource="http://jugem.jp/contents/theme.php?theme=1" />
+</rdf:Bag>
+</taxo:topics>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1125852">
+    <link>http://blog.sakanawa.com/?eid=1125852</link>
+    <title>ところで移転計画とか。</title>
+    <description>
+homeのフレンドから、引越しに関して風水的観点からのアドバイスをいただく。
+えーと、事務員は八白土星なのであるからして、なるへそ。
+
+間取り図と八卦盤を合成してプリントアウト。
+現地に持参して、あとはiPhoneの電子コンパスが役に立ってくれましたわい。
+
+</description>
+<content:encoded><![CDATA[
+<img src="http://smoothfish.img.jugem.jp/20100116_803089.jpg" class="pict" alt="" width="450" height="520" /><br />
+<p>homeのフレンドから、引越しに関して風水的観点からのアドバイスをいただく。<br />
+えーと、事務員は八白土星なのであるからして、なるへそ。<br />
+<br />
+間取り図と八卦盤を合成してプリントアウト。<br />
+現地に持参して、あとはiPhoneの電子コンパスが役に立ってくれましたわい。<br />
+</p><br />
+
+]]></content:encoded>
+    <dc:subject>事務報告</dc:subject>
+    <dc:date>2009-07-05T02:38:49+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1124594">
+    <link>http://blog.sakanawa.com/?eid=1124594</link>
+    <title>これまでのあらすじ</title>
+    <description>
+考えてみれば、ぼくの創作の動機はいつも、現実からの逃避であった。
+それは言い換えれば、70年代後半から80年代へと移行する際に、メディアの端々に顔を見せ始めた軽薄なわざとらしさであるとか、80年代のバブルに浮かれる自分の周りの大人たちであるとか、90年代から...</description>
+<content:encoded><![CDATA[
+<img src="http://smoothfish.img.jugem.jp/20100116_803088.jpg" width="416" height="480" alt="" class="pict" /><br />
+考えてみれば、ぼくの創作の動機はいつも、現実からの逃避であった。<br />
+それは言い換えれば、70年代後半から80年代へと移行する際に、メディアの端々に顔を見せ始めた軽薄なわざとらしさであるとか、80年代のバブルに浮かれる自分の周りの大人たちであるとか、90年代から 20世紀末への下り坂で泣き言しか発しなくなった壮年層たちや、21世紀を迎えたというのに、何も変わりはせず自分の体臭や息が臭くなり始めたと同時に、頭の悪い連中の泣き言を聞かされ続けることしかないといった日常から、いかに本名の自分にやら目的不明の課題を与え、それをこなすためにはそれを覚悟している名前を自分に架すべきだと自らを説得し、根拠のない焦燥感を腋に抱えて自分の肉体を多忙にするか、あるいは、回答の質を問わない課題を自らに与えて蒙昧な枝葉に至る思考を絶えず自分の頭に蔓延させておくかという、なにやら防波堤作りような、ほとんど出鱈目な「創作」という時間であったわけだ。<p><a href="http://blog.sakanawa.com/?eid=1124594">続きを読む &gt;&gt;</a></p>
+]]></content:encoded>
+    <dc:subject>これまでのあらすじ</dc:subject>
+    <dc:date>2009-07-01T22:54:17+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+<taxo:topics>
+<rdf:Bag>
+<rdf:li rdf:resource="http://jugem.jp/contents/theme.php?theme=1" />
+</rdf:Bag>
+</taxo:topics>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1124062">
+    <link>http://blog.sakanawa.com/?eid=1124062</link>
+    <title>ありがとロッテリア</title>
+    <description>
+電源に救われた！
+
+</description>
+<content:encoded><![CDATA[
+<img src="http://smoothfish.img.jugem.jp/20100116_803087.jpg" class="pict" alt="" width="450" height="520" />
+<p>電源に救われた！<br />
+</p>
+
+]]></content:encoded>
+    <dc:subject></dc:subject>
+    <dc:date>2009-06-30T18:34:47+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1124047">
+    <link>http://blog.sakanawa.com/?eid=1124047</link>
+    <title>悩む</title>
+    <description>正直、今後のblogの使い分けに悩むわ。
+</description>
+<content:encoded><![CDATA[
+正直、今後のblogの使い分けに悩むわ。<br />
+
+]]></content:encoded>
+    <dc:subject></dc:subject>
+    <dc:date>2009-06-30T17:32:58+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1121504">
+    <link>http://blog.sakanawa.com/?eid=1121504</link>
+    <title>度つきはどこに持ち込めば良いのだろうか？</title>
+    <description>誠 Biz.ID：仕事耕具：OTASがVGA録画の「ビデオカメラサングラス」、両手フリーで撮影もOTASは6月22日、サングラスにビデオカメラを内蔵した「ビデオカメラサングラス8GB」を発売した。直販サイト「OTASダイレクト」で販売し、価格は1万3800円。
+思いの外安いのね。ハメ...</description>
+<content:encoded><![CDATA[
+<cite><a href="http://bizmakoto.jp/bizid/articles/0906/22/news078.html" target="_blank">誠 Biz.ID：仕事耕具：OTASがVGA録画の「ビデオカメラサングラス」、両手フリーで撮影も</a></cite><blockquote>OTASは6月22日、サングラスにビデオカメラを内蔵した「ビデオカメラサングラス8GB」を発売した。直販サイト「OTASダイレクト」で販売し、価格は1万3800円。</blockquote><br />
+思いの外安いのね。ハメ撮り以外何に使えるのかさっぱり不明ですが。<br />
+眼鏡好きなんでね。<br />
+買うなこれは多分。
+]]></content:encoded>
+    <dc:subject>ニュース</dc:subject>
+    <dc:date>2009-06-23T21:59:16+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+<taxo:topics>
+<rdf:Bag>
+<rdf:li rdf:resource="http://jugem.jp/contents/theme.php?theme=15" />
+</rdf:Bag>
+</taxo:topics>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1120106">
+    <link>http://blog.sakanawa.com/?eid=1120106</link>
+    <title>BLOG IT! from イー・モバイル、受信最大21Mbpsデータ通信サービス対応端末「D31HW」を発売へ - 毎日ｊｐ(毎日新聞)</title>
+    <description>イー・モバイル、受信最大21Mbpsデータ通信サービス対応端末「D31HW」を発売へ - 毎日ｊｐ(毎日新聞)同社の実験サンプルによれば、横浜ポルタ地下で15.2Mbps、東京駅の地下で測定時平均値14.8Mbps、新宿東口アルタ前で12.7Mbps、秋葉原ヨドバシAkiba前で11Mbpsだったとい...</description>
+<content:encoded><![CDATA[
+<cite><a href="http://mainichi.jp/life/electronics/cnet/archive/2009/06/19/20395285.html?inb=ff" target="_blank">イー・モバイル、受信最大21Mbpsデータ通信サービス対応端末「D31HW」を発売へ - 毎日ｊｐ(毎日新聞)</a></cite><blockquote>同社の実験サンプルによれば、横浜ポルタ地下で15.2Mbps、東京駅の地下で測定時平均値14.8Mbps、新宿東口アルタ前で12.7Mbps、秋葉原ヨドバシAkiba前で11Mbpsだったという。<br /><br />　また、発表会場でもデモを行った。発表会場では数人の記者がイー・モバイルを使用しており、帯域をフルに使える状態ではなかったが、最大受信速度は19.134Mbpsを記録。平均で18.571Mbpsだった。また、記者発表会前に測定した時は、最大受信速度20Mbpsを超えていたという。</blockquote><br />
+<br />
+や、やるじゃねーかｗｗｗ<br />
+でもいつまで経ってもサクサク動くスマートフォンが登場しないから、<br />
+ぼくiPhone3GSの32GB予約しちゃったもーん。<br />
+ふーんだ。
+]]></content:encoded>
+    <dc:subject>ニュース</dc:subject>
+    <dc:date>2009-06-20T10:32:49+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+<taxo:topics>
+<rdf:Bag>
+<rdf:li rdf:resource="http://jugem.jp/contents/theme.php?theme=12" />
+</rdf:Bag>
+</taxo:topics>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1114150">
+    <link>http://blog.sakanawa.com/?eid=1114150</link>
+    <title>homeの無料リワードが復元されない件について、さらに投稿してみた。</title>
+    <description>PlayStation homeの公式BBSに、自己レスしておいた。
+以下、引用メンバーの人は何か書き込んでくださると嬉しいです。
+メンバーじゃないと中には入れないと思いますです。内容は以下続きをクリックしてくだされ。
+
+みんな悲痛な叫びをあげたり、消失したアイテムのメ...</description>
+<content:encoded><![CDATA[
+PlayStation homeの公式BBSに、自己レスしておいた。<br />
+以下、引用メンバーの人は何か書き込んでくださると嬉しいです。<br />
+メンバーじゃないと中には入れないと思いますです。内容は以下続きをクリックしてくだされ。<br />
+<br />
+みんな悲痛な叫びをあげたり、消失したアイテムのメモ代わりに活用したりと、それなりに意義のあるスレッドになったようなのでほっとしてる。<br />
+<br />
+にしても、積極的な抗議が表面化しないとは。<br />
+ユーザーは大人だよね。小学生もまじってるというのに…。<p><a href="http://blog.sakanawa.com/?eid=1114150">続きを読む &gt;&gt;</a></p>
+]]></content:encoded>
+    <dc:subject>事務報告</dc:subject>
+    <dc:date>2009-06-06T03:28:35+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+<taxo:topics>
+<rdf:Bag>
+<rdf:li rdf:resource="http://jugem.jp/contents/theme.php?theme=14" />
+</rdf:Bag>
+</taxo:topics>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1113320">
+    <link>http://blog.sakanawa.com/?eid=1113320</link>
+    <title>homeメンバー公式BBSに、アイテム消失スレ立てた件</title>
+    <description>一ユーザーとしての抗議と言うよりは、実態把握につとめておくべきと思い、
+どのカテゴリに投稿すればいいのかと迷ったのですが、ま、教えてが妥当かなと。
+僕自身も知りたいし、ユーザーはSCEにちゃんと訊ねるべきだし。
+
+そもそも、これが初めてではないこと自体が、事...</description>
+<content:encoded><![CDATA[
+一ユーザーとしての抗議と言うよりは、実態把握につとめておくべきと思い、<br />
+どのカテゴリに投稿すればいいのかと迷ったのですが、ま、教えてが妥当かなと。<br />
+僕自身も知りたいし、ユーザーはSCEにちゃんと訊ねるべきだし。<br />
+<br />
+そもそも、これが初めてではないこと自体が、事の深刻さを物語っているような気はするのだけれど。<br />
+あとはスレッドに書いた通りなんだけど、これってPSNメンバーじゃないと読めないかもなので、<br />
+こちらにも転載しておきますかね。<br />
+早速レスをいただけています。書き込んでくれた方、ありがと！<br />
+で、自己レスをもう一つ転載しておきます。以下<br />
+<br />
+<br />
+これより転載＞<br />
+＞2009.06.03 20:34<br />
+<br />
+2009年5月末〜コスチューム他アイテム消失総合　レス：9<br />
+<br />
+アイレム新シャツ配布以降の、有料および限定コスチューム消失にかんしての、ユーザー側の声を残す場所として、スレッド新設します。<br />
+状況説明、把握の程度、原因、復旧のめど、責任の所在（これは明らかか）など、SCE側に早急の申し開きを要求すると共に、今後、同様のトラブルを如何に防ぐべきか、そのための検証と打開策の策定が進めばと思います。<br />
+ひとまず、具体的な被害を書き込むなどしてみてください。例）SONYのバイオジーンズとファミ通Tシャツがなくなりました。例）男性用のシャツが、５２着から、２７着に減っています。など。<br />
+<br />
+<br />
+以下は悲観的なレスに対する、サカナワのレスになりますと同時に、今回の僕の立場のせつめいでもあります。<br />
+<br />
+ ＞2009.06.03 22:10<br />
+　いやはや、無くなった物は、復旧していただく所存です。<br />
+<br />
+そもそも、商品販促の無料アイテムは、広告宣伝目的ですので、従ってアイテムの消失は、ベンダー間におけるhomeの機能規約に抵触する恐れがあります。<br />
+<br />
+すでに各コンテンツホルダからは、抗議なり問い合わせが行っていると思います。また、いかなるアイテムが表向き無料であろうと、私たちがすでに購入している様々なPSソフトの代金は、むろん宣伝広告費の回収も見込んだ上で価格設定されております。<br />
+その観点で、誤解を恐れずに極論として言えば、ユーザーはhomeの料金をすでに前払いしているとも言えるわけです。<br />
+<br />
+もちろん、アバターのおしゃれができなくて悲しい、といったユーザーの気持ちをフォローするのは、homeにおける、データ復元リファレンスの確立という、システムテストの目的とも一致しています。積極的に状況は開示していただきたい。<br />
+<br />
+初期の自社キャラクターをあしらった各種コスチューム消失トラブル（これも迷走中ですが）から、何も教訓を得ていないとは言わせません。データテーブルの仕様も変更になっていることは明らかです。引き続き、SCE側の態度の表明を待ちましょう。<br />
+<br />
+投稿者：GoFish<br />
+＞転載ここまで<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+あのなあ、無限回廊Tシャツゲットするとか、35歳のオッサンには結構辛いんだぞ？ｗ<br />
+それに、アイテムのゲット自体が思い出になってるのもある！<br />
+って、数百万のhomeユーザーが思ってるって事だからな。<br />
+<br />
+ええ？どうなのよ。そのへん。
+]]></content:encoded>
+    <dc:subject>PSP Fan BookShelf</dc:subject>
+    <dc:date>2009-06-04T10:09:03+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+<taxo:topics>
+<rdf:Bag>
+<rdf:li rdf:resource="http://jugem.jp/contents/theme.php?theme=14" />
+</rdf:Bag>
+</taxo:topics>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1112180">
+    <link>http://blog.sakanawa.com/?eid=1112180</link>
+    <title> プレステ携帯AINOに何を思う。</title>
+    <description>
+つか、ソニエリは本当にプレステ携帯って呼称すんのか？これ。
+
+というAINOは即ち、外出先からiPHONEで自宅のPS3叩けたり画面エミュできねーかなー的な妄想を、
+純正ブランドで実現してみましたノリの全部入携帯といったポジションになるのかしら。
+
+ポイントは、Wi-Fiの...</description>
+<content:encoded><![CDATA[
+<img src="http://smoothfish.img.jugem.jp/20100116_803086.jpg" class="pict" alt="" width="304" height="420" />
+<p>つか、ソニエリは本当にプレステ携帯って呼称すんのか？これ。<br />
+<br />
+というAINOは即ち、外出先からiPHONEで自宅のPS3叩けたり画面エミュできねーかなー的な妄想を、<br />
+純正ブランドで実現してみましたノリの全部入携帯といったポジションになるのかしら。<br />
+<br />
+ポイントは、Wi-Fiのみならず、3G通信でリモートプレイが可能か否か。      <br />
+無論、PSPとの決定的格差を打ち出すのであれば、その実装は不可欠となる。<br />
+敷いては該当キャリア(おそらくauなんでしょうな)のパケット通信契約に貢献するキラーガジェットになるやもしれぬです。知らねえけど(笑)<br />
+<br />
+地デジとおサイフケータイ機能が搭載されれば神機にまた一歩近付くわけだけど、なんか無さげ〜。<br />
+<br />
+でもやっぱ、なんだ。<br />
+自分のケータイでhomeにアクセス出来たらやっぱ楽しいだろな。<br />
+クレイドルに立て掛けた端末の画面にスクエアがひろがってんの。<br />
+<br />
+不安点があるとすればあれだ。アナログスティックの再現方法だ。<br />
+</p>
+
+]]></content:encoded>
+    <dc:subject></dc:subject>
+    <dc:date>2009-06-01T18:25:40+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1106278">
+    <link>http://blog.sakanawa.com/?eid=1106278</link>
+    <title>物書きとして今言えること。</title>
+    <description>文筆家の魚輪さんとして今言えることはただ一つ。
+
+「ぼくのことなら、まあちょっとまて。」だよ！
+</description>
+<content:encoded><![CDATA[
+文筆家の魚輪さんとして今言えることはただ一つ。<br />
+<br />
+「ぼくのことなら、まあちょっとまて。」だよ！<br />
+
+]]></content:encoded>
+    <dc:subject></dc:subject>
+    <dc:date>2009-05-19T00:28:33+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1102670">
+    <link>http://blog.sakanawa.com/?eid=1102670</link>
+    <title> 作家が設計書を書くのなら(2)</title>
+    <description>まだ、アプリに必要なデザインや、アプリというより業務デサインの現場で必要になるスキルについて考えもしなかった頃(丁度1年前ですね)、
+デザイナーは製品のモックアップに対して、いかにグラフィカルにアプローチするべきか、その一点だけにスコープを絞って仕事してま...</description>
+<content:encoded><![CDATA[
+まだ、アプリに必要なデザインや、アプリというより業務デサインの現場で必要になるスキルについて考えもしなかった頃(丁度1年前ですね)、<br />
+デザイナーは製品のモックアップに対して、いかにグラフィカルにアプローチするべきか、その一点だけにスコープを絞って仕事してました。<br />
+つか、それしかやり方分かんなかったし。<br />
+今もその癖はなかなか抜けないわけだけど、やっぱそれだけじゃダメみたいｗ<br />
+<br />
+やな話だけど、チームでやってると、サボりかまそうとする奴が必ず出てくるし、ひょっとしたらリーダーからの指示が間違っている場合もありうる。<br />
+<br />
+そんなヤバごと対策として、デザイナーは、スケジュールの本流、またはメンバー全員にのタスクに関わるパートも、最低一つは兼務すべきだ。<br />
+<br />
+今回のプロジェクトでは、全画面の遷移の把握に必要な、画面遷移図の作成も兼務することにした。<br />
+<br />
+作家で言えば台割り作りだね。<br />
+それができる作家とできない作家がいるけと。<br />
+ぼくは前者なので、同じノリで進めてみている。<br />
+
+]]></content:encoded>
+    <dc:subject></dc:subject>
+    <dc:date>2009-05-11T10:05:59+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1101798">
+    <link>http://blog.sakanawa.com/?eid=1101798</link>
+    <title> 16GBのメモステDUO買ってみましたっ！！</title>
+    <description>
+PSP2が発表になるかもしれないこの矢先に！
+
+予想スペック内蔵メモリ16GBのPSP2にこいつを挿入して32GB！？
+
+あああああああああ！
+
+
+
+
+つか6月、楽しい6月になるといいな…。
+本当に魅力的なハードなら、一過性のブームとかとは関係なく、何かの形で取り上げたいですね、...</description>
+<content:encoded><![CDATA[
+<img src="http://smoothfish.img.jugem.jp/20100116_803085.jpg" class="pict" alt="" width="320" height="240" />
+<p>PSP2が発表になるかもしれないこの矢先に！<br />
+<br />
+予想スペック内蔵メモリ16GBのPSP2にこいつを挿入して32GB！？<br />
+<br />
+あああああああああ！<br />
+<br />
+<br />
+<br />
+<br />
+つか6月、楽しい6月になるといいな…。<br />
+本当に魅力的なハードなら、一過性のブームとかとは関係なく、何かの形で取り上げたいですね、PSP2は。<br />
+もっとガジェットって、本や手帳みたいに私的な領域にまで踏み込んでくるようになれば良いのに。<br />
+<br />
+次、あるとしたら、もっとエゴイスティックな取り上げ方したい。それが一番楽しくて、素晴らしいことでもあると証明してみせたいよね。<br />
+</p>
+
+]]></content:encoded>
+    <dc:subject></dc:subject>
+    <dc:date>2009-05-09T12:22:23+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1092346">
+    <link>http://blog.sakanawa.com/?eid=1092346</link>
+    <title>PSPのFW5.50がリリース。home連動ﾏﾀﾞｧ?(・∀・ )っ/凵⌒☆ﾁﾝﾁﾝ</title>
+    <description>PSP、トレンドマイクロのセキュリティサービスが利用可能にソニー・コンピュータエンタテインメントジャパン（SCEJ）は21日、「プレイステーション・ポータブル（PSP）」の最新ファームウェア「5.50」を無償公開する。 　「5.50」では、PSPのWebブラウザ機能で、トレンド...</description>
+<content:encoded><![CDATA[
+<cite><a href="http://bb.watch.impress.co.jp/cda/news/25619.html" target="_blank">PSP、トレンドマイクロのセキュリティサービスが利用可能に</a></cite><blockquote>ソニー・コンピュータエンタテインメントジャパン（SCEJ）は21日、「プレイステーション・ポータブル（PSP）」の最新ファームウェア「5.50」を無償公開する。 　「5.50」では、PSPのWebブラウザ機能で、トレンドマイクロのセキュリティサービスを搭載。URLフィルタリング技術を利用して有害サイトへのアクセスをブロックする「トレンドマイクロ キッズセーフティ for PSP」と、Webサイトの安全性をドメイン名から評価して悪質サイトへの接続をブロックする「トレンドマイクロ ウェブセキュリティ for PSP」を搭載し、7月末までは試験期間として無償で利用できる。なお、有償サービス時の料金体系や移行方法は、トレンドマイクロから追って告知される予定だ。	セキュリティサービスの説明画面	有害サイトのブロック画面新たにインフォメーションボードも追加　新ファームウェアではまた、プレイステーションに関する新着情報を表示できる「インフォメーションボード」を追加。ゲーム関連では、ゲームアイコンのオプションメニューからインターネット検索できる機能を実装した。また、フォト/ミュージック/ビデオで表示可能なフォルダ階層を増やした。 　ゲームコンテンツなどをダウンロードできる「PlayStation Store」では、オンラインサービス「PlayStation Network」のアカウントを未取得の状態でも「PlayStation Store」にアクセスが可能になった。また、複数コンテンツを購入した際に、すべてをダウンロードできる機能を追加した。 　このほか、「PlayStation Store」のサインイン画面で、次回以降に自動的にサインインできる機能を追加。加えて、ゲームのダウンロード時に必要なメモリースティック Duoの空き容量を少なくした。</blockquote><br />
+<br />
+<br />
+まあそれはいいんだが。<br />
+<br />
+あれだ。<br />
+<br />
+バッテリー不足状態であぷでとキャンセルされるのはまだ理解できるが、<br />
+ACつなげても拒否とかそろそろ改善してくれねえかな。<br />
+<br />
+ちなみに先日、ガンダムバトルクロニクル買いましたｗ<br />
+中古で780円でした。<br />
+<br />
+これ楽しいです＾＾
+]]></content:encoded>
+    <dc:subject>PSP Fan BookShelf</dc:subject>
+    <dc:date>2009-04-21T13:10:40+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+<taxo:topics>
+<rdf:Bag>
+<rdf:li rdf:resource="http://jugem.jp/contents/theme.php?theme=14" />
+</rdf:Bag>
+</taxo:topics>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1083810">
+    <link>http://blog.sakanawa.com/?eid=1083810</link>
+    <title> 作家が設計書を書くのなら(1)</title>
+    <description>文系のくせに散々マニュアル本や記事を書いてたぼくの、今更系疑問きたこれ。
+その設計書に、人の姿は見えるか。
+
+ま、ぼくだもんな…(笑)
+</description>
+<content:encoded><![CDATA[
+文系のくせに散々マニュアル本や記事を書いてたぼくの、今更系疑問きたこれ。<br />
+その設計書に、人の姿は見えるか。<br />
+<br />
+ま、ぼくだもんな…(笑)<br />
+
+]]></content:encoded>
+    <dc:subject></dc:subject>
+    <dc:date>2009-04-02T15:27:12+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1083424">
+    <link>http://blog.sakanawa.com/?eid=1083424</link>
+    <title>新刊のお知らせ。</title>
+    <description>
+
+本当にお待たせしました。もうすぐアマゾンでも予約が始まると思いますので、
+そしたら追って報告しますね＾＾。</description>
+<content:encoded><![CDATA[
+<img src="http://smoothfish.img.jugem.jp/20100116_803084.png" width="360" height="702" alt="4月の新刊" class="pict" /><br />
+<br />
+本当にお待たせしました。もうすぐアマゾンでも予約が始まると思いますので、<br />
+そしたら追って報告しますね＾＾。
+]]></content:encoded>
+    <dc:subject>事務報告</dc:subject>
+    <dc:date>2009-04-01T20:29:05+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+<taxo:topics>
+<rdf:Bag>
+<rdf:li rdf:resource="http://jugem.jp/contents/theme.php?theme=3" />
+</rdf:Bag>
+</taxo:topics>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1082640">
+    <link>http://blog.sakanawa.com/?eid=1082640</link>
+    <title>BLOG IT! from timamuの部屋  ＰＳＰ変換君ＦＥ 開発日記(3/20)〜PSP変換君FEv1.15公開</title>
+    <description>timamuの部屋  ＰＳＰ変換君ＦＥ 開発日記(3/20)〜PSP変換君FEv1.15公開報告遅くなりましたが・・・先週木曜ぐらいからVectorでダウンロードできるようになってます。Vectorさん、最近は早いですね・・・必要な方はどうぞ。
+
+はい。ではさっそく…ｗｗｗ</description>
+<content:encoded><![CDATA[
+<cite><a href="http://timamu.blog83.fc2.com/blog-entry-166.html" target="_blank">timamuの部屋  ＰＳＰ変換君ＦＥ 開発日記(3/20)〜PSP変換君FEv1.15公開</a></cite><blockquote>報告遅くなりましたが・・・<br />先週木曜ぐらいからVectorでダウンロードできるようになってます。<br />Vectorさん、最近は早いですね・・・<br />必要な方はどうぞ。</blockquote><br />
+<br />
+はい。ではさっそく…ｗｗｗ
+]]></content:encoded>
+    <dc:subject>PSP Fan BookShelf</dc:subject>
+    <dc:date>2009-03-31T07:42:21+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+<taxo:topics>
+<rdf:Bag>
+<rdf:li rdf:resource="http://jugem.jp/contents/theme.php?theme=14" />
+</rdf:Bag>
+</taxo:topics>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1073564">
+    <link>http://blog.sakanawa.com/?eid=1073564</link>
+    <title>えっと、sakanawa.comのトップ画像というかメニューを変えたよ。</title>
+    <description>
+sakanawa.com
+
+PlayStationのhomeは僕の三十代後半の人生を確実に変えている。
+その感謝の思いも込めて、自分そっくりのアバターでトップ画面を作り直してみたりした。
+
+最近の魚輪事務員の仕事は、某大手商事会社のソリューション部門に雇われて、デザインしたり...</description>
+<content:encoded><![CDATA[
+<a href="http://smoothfish.img.jugem.jp/20100116_803083.jpg" target="_blank"><img src="http://smoothfish.img.jugem.jp/20100116_803083_t.jpg" width="300" height="168" alt="sakanawaathome" class="pict" /></a><br />
+<cite><a href="http://sakanawa.com/" target="_blank">sakanawa.com</a></cite><br />
+<br />
+<a href="http://playstationhome.jp/" target="_blank">PlayStationのhome</a>は僕の三十代後半の人生を確実に変えている。<br />
+その感謝の思いも込めて、自分そっくりのアバターでトップ画面を作り直してみたりした。<br />
+<br />
+最近の魚輪事務員の仕事は、某大手商事会社のソリューション部門に雇われて、デザインしたり、Flash作ったりして高給を取る仕事です。ですが、それらが全部社外秘だったりするので、全く持ってブログに反映できないｗ<p><a href="http://blog.sakanawa.com/?eid=1073564">続きを読む &gt;&gt;</a></p>
+]]></content:encoded>
+    <dc:subject>事務報告</dc:subject>
+    <dc:date>2009-03-12T00:53:58+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+<taxo:topics>
+<rdf:Bag>
+<rdf:li rdf:resource="http://jugem.jp/contents/theme.php?theme=11" />
+</rdf:Bag>
+</taxo:topics>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1062063">
+    <link>http://blog.sakanawa.com/?eid=1062063</link>
+    <title> Googleモバイル検索の、表示が変わってほいで。</title>
+    <description>
+ぼくは前より使いやすくなったと思う！
+
+それに、もうPCだケータイだって千びく時代じゃねーよな。
+
+次は何だろう。
+
+検索結果から関連結果にシームレスに飛べる旅？
+
+速度→総意と細分の反映
+と進化してきたネットだけど…、
+
+次に欲しいのは、何だろう。
+ロマン？
+
+</description>
+<content:encoded><![CDATA[
+<img src="http://smoothfish.img.jugem.jp/20100116_803082.jpg" class="pict" alt="" width="240" height="320" />
+<p>ぼくは前より使いやすくなったと思う！<br />
+<br />
+それに、もうPCだケータイだって千びく時代じゃねーよな。<br />
+<br />
+次は何だろう。<br />
+<br />
+検索結果から関連結果にシームレスに飛べる旅？<br />
+<br />
+速度→総意と細分の反映<br />
+と進化してきたネットだけど…、<br />
+<br />
+次に欲しいのは、何だろう。<br />
+ロマン？<br />
+</p>
+
+]]></content:encoded>
+    <dc:subject></dc:subject>
+    <dc:date>2009-02-17T16:02:27+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1056886">
+    <link>http://blog.sakanawa.com/?eid=1056886</link>
+    <title>Googleイメージ検索で、モア確実に指定サイズの画像が探せるようになっていたようです。</title>
+    <description>
+Googleのイメージ検索については、いままでもケータイの壁紙探しとか、PSPの壁紙探しネタとかで自分の本でもしてきたんですが、
+より確実な方法がライフハッカーに挙がってましたですな。
+
+これは便利！壁紙探しを効率よく、最速でおこなう方法　 : ライフハッカー［...</description>
+<content:encoded><![CDATA[
+<a href="http://smoothfish.img.jugem.jp/20100116_803081.jpg" target="_blank"><img src="http://smoothfish.img.jugem.jp/20100116_803081_t.jpg" width="360" height="216" alt="ぞんびー" class="pict" /></a><br />
+<a href="http://images.google.co.jp/imghp?hl=ja&tab=wi" target="_blank">Googleのイメージ検索</a>については、いままでもケータイの壁紙探しとか、PSPの壁紙探しネタとかで自分の本でもしてきたんですが、<br />
+より確実な方法がライフハッカーに挙がってましたですな。<br />
+<br />
+<cite><a href="http://www.lifehacker.jp/2009/01/post_529.html" target="_blank">これは便利！壁紙探しを効率よく、最速でおこなう方法　 : ライフハッカー［日本版］, 仕事も生活も上手くこなすライフハック情報満載のブログ・メディア</a></cite><blockquote>その具体的な方法は「Design Live」のブログに。Googleイメージ検索で    imagesize：幅X高さ（ピクセルで入力）検索対象の名前と入れるだけです。Googleの日本版でやってみたところ、検索対象の名前は英語でも日本語でもできました。    例えば[imagesize:640x480 muffin] といれると、640X480ピクセルの大きさのmuffins（マフィン）の画像が出てきます。</blockquote><br />
+<br />
+なるほど、「<strong>imagesize:</strong>」が魔法の呪文でしたか。<br />
+<br />
+どれどれ、ためしに「<a href="http://images.google.com/images?hl=en&ei=wqiNSd3dHIfQ6gPouJGmCg&sa=X&oi=spell&resnum=0&ct=result&cd=1&q=imagesize%3A480x270+ZOMBIE&spell=1" target="_blank">imagesize:480x270 ZOMBIE</a>」とかで検索。。。<br />
+<br />
+なるほど！<br />
+見事にPSP壁紙ジャストフィットのゾンビ画像がゴロゴロ出てきました。あーきもちわるいｗ
+]]></content:encoded>
+    <dc:subject>PSP Fan BookShelf</dc:subject>
+    <dc:date>2009-02-08T00:36:45+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+<taxo:topics>
+<rdf:Bag>
+<rdf:li rdf:resource="http://jugem.jp/contents/theme.php?theme=12" />
+</rdf:Bag>
+</taxo:topics>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1054963">
+    <link>http://blog.sakanawa.com/?eid=1054963</link>
+    <title> AdobeMAXのおみあげもろた(∩´∀｀)∩ワーイ</title>
+    <description>
+もみあげちゃうで、おみやげや。
+AdobeさんのCS4体験版やでー。
+30日間使い放題て。
+
+いや
+
+
+
+ありがたいけど。
+
+
+てか。あの。
+
+
+定番ファミリーが全部セットなわけじゃないですかあ。
+それぞれ全部に新機能やら何これ見たことねーパラメータースライド...</description>
+<content:encoded><![CDATA[
+<img src="http://smoothfish.img.jugem.jp/20100116_803080.jpg" class="pict" alt="" width="360" height="240" /><br />
+<p>もみあげちゃうで、おみやげや。<br />
+AdobeさんのCS4体験版やでー。<br />
+30日間使い放題て。<br />
+<br />
+いや<br />
+<br />
+<br />
+<br />
+ありがたいけど。<br />
+<br />
+<br />
+てか。あの。<br />
+<br />
+<br />
+定番ファミリーが全部セットなわけじゃないですかあ。<br />
+それぞれ全部に新機能やら何これ見たことねーパラメータースライドついてんだけど。あーはいはい、今度から別けて保存しなくて良くなったのね、了解把握。…的な、久しぶりに親戚の子供の教科書見せてもらったら、こりゃ合理的でもあるが、うーむ結果オーライなのか？的な、そんな恒例行事化したプロセスを踏むことは必至なわけじゃないですか。<br />
+<br />
+ので。<br />
+<br />
+<br />
+<br />
+<br />
+せめて無償使用期間は60日間にしてくださらんか！<br />
+30日間とかじゃ全然あれ、機能増えすぎだよバカｗ<br />
+<br />
+<br />
+…多分、週末までインスコしない方向だっ！<br />
+<br />
+<br />
+勿体無いしからだし。<br />
+<br />
+<br />
+<br />
+<br />
+ちなみに32ビット版のみのリリースで決定なのかねえ。<br />
+<br />
+<br />
+XPでもちゃんと動く。<br />
+のが、普通過ぎてリトル不満かな(笑)。<br />
+</p><br />
+
+]]></content:encoded>
+    <dc:subject>事務報告</dc:subject>
+    <dc:date>2009-02-03T22:09:50+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1048521">
+    <link>http://blog.sakanawa.com/?eid=1048521</link>
+    <title>BLOG IT! from 『のびのびBOY』の配信開始日が約1ヵ月延期に - ファミ通.com</title>
+    <description>『のびのびBOY』の配信開始日が約1ヵ月延期に - ファミ通.com
+
+ううう＞＜
+待ってます！</description>
+<content:encoded><![CDATA[
+<cite><a href="http://www.famitsu.com/game/news/1221448_1124.html" target="_blank">『のびのびBOY』の配信開始日が約1ヵ月延期に - ファミ通.com</a></cite><br />
+<br />
+ううう＞＜<br />
+待ってます！
+]]></content:encoded>
+    <dc:subject>ニュース</dc:subject>
+    <dc:date>2009-01-22T14:58:07+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1045605">
+    <link>http://blog.sakanawa.com/?eid=1045605</link>
+    <title>年始の業務連絡＾＾</title>
+    <description>魚輪タロウのPSNアカウントは
+
+　GoFish
+
+です。
+
+フレンド登録大歓迎。
+
+それでは今年は、PS3＠homeでお会いしましょう。
+
+
+（ブログもラジオもやめないよ！ｗｗｗ）
+</description>
+<content:encoded><![CDATA[
+魚輪タロウのPSNアカウントは<br />
+<br />
+　GoFish<br />
+<br />
+です。<br />
+<br />
+フレンド登録大歓迎。<br />
+<br />
+それでは今年は、PS3＠homeでお会いしましょう。<br />
+<br />
+<br />
+（ブログもラジオもやめないよ！ｗｗｗ）<br />
+
+]]></content:encoded>
+    <dc:subject></dc:subject>
+    <dc:date>2009-01-16T21:09:04+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1033133">
+    <link>http://blog.sakanawa.com/?eid=1033133</link>
+    <title> 最近、homeにパヤオが出没しているわけだが</title>
+    <description>
+すみません。
+ぼくが中の人です。
+
+次は押井さん作りたいなー。
+
+</description>
+<content:encoded><![CDATA[
+<img src="http://smoothfish.img.jugem.jp/20100116_803079.jpg" class="pict" alt="" width="240" height="320" />
+<p>すみません。<br />
+ぼくが中の人です。<br />
+<br />
+次は押井さん作りたいなー。<br />
+</p>
+
+]]></content:encoded>
+    <dc:subject></dc:subject>
+    <dc:date>2008-12-24T02:42:56+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1032165">
+    <link>http://blog.sakanawa.com/?eid=1032165</link>
+    <title>買いますけど…微妙。「うる星やつら2 ビューティフル・ドリーマー」がBlu-ray化</title>
+    <description>
+うる星やつら2 ビューティフル・ドリーマー (Blu-ray)
+
+「うる星やつら2 ビューティフル・ドリーマー」がBlu-ray化2009年3月20日発売標準価格：6,090円品番：TBR-19048D　東宝株式会社は、劇場版アニメ「うる星やつら2 ビューティフル・ドリーマー」をBlu-ray Disc化...</description>
+<content:encoded><![CDATA[
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/B001O2XT60/sakanawazan-22/" target="_blank"><img border="0" src="http://ecx.images-amazon.com/images/I/515FzD4EOTL._SL160_.jpg" alt="うる星やつら2 ビューティフル・ドリーマー (Blu-ray)" /></a><br />
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/B001O2XT60/sakanawazan-22/" target="_blank"><strong>うる星やつら2 ビューティフル・ドリーマー (Blu-ray)</strong></a><br />
+<br />
+<cite><a href="http://av.watch.impress.co.jp/docs/20081219/toho.htm" target="_blank">「うる星やつら2 ビューティフル・ドリーマー」がBlu-ray化</a></cite><blockquote>2009年3月20日発売標準価格：6,090円品番：TBR-19048D　東宝株式会社は、劇場版アニメ「うる星やつら2 ビューティフル・ドリーマー」をBlu-ray Disc化、2009年3月20日に発売する。価格は6,090円。発売元、販売元ともに東宝。　片面2層の本編ディスクのみ1枚組みで、映像はハイビジョン・テレシネを行ない、1080pをMPEG-4 AVCで収録している。アスペクト比は撮影時の4:3ではなく、2002年9月21日発売のDVD版(6,030円)と同様の劇場公開版のビスタサイズ。　音声の内容もDVD版と同じで、「オリジナル版」と「修復版」の2種類に加え、5.1chの「リミックス版」、押井守(監督)、千葉繁(メガネ役)、西村純二(演出)らが作品について語るオーディオコメンタリーを収めている。ただし、本編音声の収録フォーマットについては、DVD版のドルビーデジタルから、リニアPCMやドルビーTureHDに強化されている。主な仕様 	音声 	品番 	価格片面2層本編98分ビスタMPEG-4 AVC1080p 	(1)日本語 修復版　(リニアPCM モノラル)(2)日本語 オリジナル　(リニアPCM モノラル)(3)日本語 5.1chリミックス　(ドルビーTureHD)(4)オーディオコメンタリー　(ドルビーデジタル)	TBR-19048D 	6,090円</blockquote>
+]]></content:encoded>
+    <dc:subject>ニュース</dc:subject>
+    <dc:date>2008-12-22T10:29:36+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+<taxo:topics>
+<rdf:Bag>
+<rdf:li rdf:resource="http://jugem.jp/contents/theme.php?theme=8" />
+</rdf:Bag>
+</taxo:topics>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1029097">
+    <link>http://blog.sakanawa.com/?eid=1029097</link>
+    <title> 「ウェブデザイン見本帳」買ったよ。</title>
+    <description>
+ひょっとしたら今年最後のネタ本じゃないかと。
+きれいな装丁と印刷もさることながら、取り上げられてる実例もグーなサイト実例が多くてパクリがいがあるだけでなく、デザインの保存的見地からも意義があるんじゃないかしら。
+とがった奴はいつでも見れるんで、それよ...</description>
+<content:encoded><![CDATA[
+<img src="http://smoothfish.img.jugem.jp/20100116_803078.jpg" class="pict" alt="" width="360" height="400" /><br />
+<p>ひょっとしたら今年最後のネタ本じゃないかと。<br />
+きれいな装丁と印刷もさることながら、取り上げられてる実例もグーなサイト実例が多くてパクリがいがあるだけでなく、デザインの保存的見地からも意義があるんじゃないかしら。<br />
+とがった奴はいつでも見れるんで、それよか昨今の中道ナチュラル・ユニセ側を順序だてて一冊にまとめたのがこの仕事。<br />
+そうだな、楽にパラパラ眺めるだけー、という読み方ももちろんアリでしょう。<br />
+</p><br />
+<iframe src="http://rcm-jp.amazon.co.jp/e/cm?t=sakanawazan-22&o=9&p=8&l=as1&asins=4844360167&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0000FF&bc1=000000&bg1=FFFFFF&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe><br />
+
+]]></content:encoded>
+    <dc:subject>コラム</dc:subject>
+    <dc:date>2008-12-16T12:22:27+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1024670">
+    <link>http://blog.sakanawa.com/?eid=1024670</link>
+    <title>で、まあ（知らないと思うけど）Life-Xなんだが。</title>
+    <description>Life-X
+
+ちょっと使ってみたんだが…。
+ぜんっぜんぐだぐだだな！ぐだぐだ過ぎて死にたくなったな！
+どこの開発だか知らんが、こーゆーのをプレステがらみのコンテンツっぽく噛んで来るの止めてくれ！マジで！
+PS3やPSPが汚されるｗｗｗいや、マジでマジで！
+
+誰か...</description>
+<content:encoded><![CDATA[
+<a href="http://smoothfish.img.jugem.jp/20100116_803077.jpg" target="_blank"><img src="http://smoothfish.img.jugem.jp/20100116_803077_t.jpg" width="300" height="238" alt="" class="pict" /></a><cite><a href="http://life-x.jp/lifex/" target="_blank">Life-X</a></cite><br />
+<br />
+ちょっと使ってみたんだが…。<br />
+ぜんっぜんぐだぐだだな！ぐだぐだ過ぎて死にたくなったな！<br />
+どこの開発だか知らんが、こーゆーのをプレステがらみのコンテンツっぽく噛んで来るの止めてくれ！マジで！<br />
+PS3やPSPが汚されるｗｗｗいや、マジでマジで！<br />
+<br />
+誰かテコ入れしてやってくれ、この通りだ。
+]]></content:encoded>
+    <dc:subject>事務報告</dc:subject>
+    <dc:date>2008-12-07T20:53:10+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+<taxo:topics>
+<rdf:Bag>
+<rdf:li rdf:resource="http://jugem.jp/contents/theme.php?theme=12" />
+</rdf:Bag>
+</taxo:topics>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1022816">
+    <link>http://blog.sakanawa.com/?eid=1022816</link>
+    <title>サマーハウス</title>
+    <description>
+だってさｗ
+
+</description>
+<content:encoded><![CDATA[
+<img src="http://smoothfish.img.jugem.jp/20100116_803076.jpg" class="pict" alt="" width="360" height="256" /><br />
+<p>だってさｗ<br />
+</p><br />
+
+]]></content:encoded>
+    <dc:subject>催し・イヴェント</dc:subject>
+    <dc:date>2008-12-05T00:35:21+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+<taxo:topics>
+<rdf:Bag>
+<rdf:li rdf:resource="http://jugem.jp/contents/theme.php?theme=8" />
+</rdf:Bag>
+</taxo:topics>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1022257">
+    <link>http://blog.sakanawa.com/?eid=1022257</link>
+    <title>瀬尾さん、あんた最高だよ！！！</title>
+    <description>
+押井学会の今回の表紙はこんなにゴージャスで参る。</description>
+<content:encoded><![CDATA[
+<a href="http://smoothfish.img.jugem.jp/20100116_803075.jpg" target="_blank"><img src="http://smoothfish.img.jugem.jp/20100116_803075_t.jpg" width="300" height="177" alt="" class="pict" /></a><br />
+押井学会の今回の表紙はこんなにゴージャスで参る。<p><a href="http://blog.sakanawa.com/?eid=1022257">続きを読む &gt;&gt;</a></p>
+]]></content:encoded>
+    <dc:subject>事務報告</dc:subject>
+    <dc:date>2008-12-04T00:48:28+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+<taxo:topics>
+<rdf:Bag>
+<rdf:li rdf:resource="http://jugem.jp/contents/theme.php?theme=11" />
+</rdf:Bag>
+</taxo:topics>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1018803">
+    <link>http://blog.sakanawa.com/?eid=1018803</link>
+    <title>【Blu-ray】 輸入版で日本語字幕/音声があるソフトは？　というトピ</title>
+    <description>Amazon.co.jp:この商品について語る:輸入版で日本語字幕/音声があるソフトは？最近米国版BDソフトを購入する方も多いと思います。日本語字幕や音声付のソフトを紹介するトピックを作りましたので、御協力お願いいたします。【誤解を防ぐため現物をお持ちの方で視聴確認さ...</description>
+<content:encoded><![CDATA[
+<cite><a href="http://www.amazon.co.jp/gp/forum/cd/discussion.html/ref=cm_cd_ecf_tft_tp?ie=UTF8&cdForum=Fx1VIPT1QJBQ9W4&cdThread=Tx2WOK993SS0C0Y" target="_blank">Amazon.co.jp:この商品について語る:輸入版で日本語字幕/音声があるソフトは？</a></cite><blockquote>最近米国版BDソフトを購入する方も多いと思います。日本語字幕や音声付のソフトを紹介するトピックを作りましたので、御協力お願いいたします。<br />【誤解を防ぐため現物をお持ちの方で視聴確認された作品のみの投稿とさせて頂きます】<br />【Please do not put the uncertain info such as from shops, even on the discs' cover,<br />please only put info of your discs by actually watching and listening to them. Thanks】<br /></blockquote><br />
+えっと、Amazon.co.jpの中にはブルーレイフォーラムという、おそらくはBD初心者という新しい顧客層にもその商品価値に親しんでもらうことを目的とした会議室が解説されて久しいのですが、結局、夏ぐらいにできたこのトピが、今もってなお、もっとも有益かなと。<br />
+こまめにチェックしておきたいトピックですね。
+]]></content:encoded>
+    <dc:subject>ニュース</dc:subject>
+    <dc:date>2008-11-28T01:58:46+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+<taxo:topics>
+<rdf:Bag>
+<rdf:li rdf:resource="http://jugem.jp/contents/theme.php?theme=8" />
+</rdf:Bag>
+</taxo:topics>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1017695">
+    <link>http://blog.sakanawa.com/?eid=1017695</link>
+    <title>SHE9700、やっぱというか案の定というか、なかんづく(　・∀・)ｲｲ!!</title>
+    <description>
+PHILIPS イヤフォン SHE9700
+Philips
+そもそも、ヘッドホンは消耗品であるという前提。
+すなわち、今日における加速度的なハードとソフトのリリースに、実は完全に最適化されたヘッドホンを確保することは原理的に不可能だ。
+ヘッドホンが、限られた時間にリリース...</description>
+<content:encoded><![CDATA[
+<a href="http://www.amazon.co.jp/Philips-SHE9700-PHILIPS-%E3%82%A4%E3%83%A4%E3%83%95%E3%82%A9%E3%83%B3/dp/B0012UEXUU%3FSubscriptionId%3D0SQQ58C8ZJED59QF1HG2%26tag%3Dsakanawazan-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB0012UEXUU" target="_blank"><img border="0" src="http://ecx.images-amazon.com/images/I/31HHgcER4pL._SL160_.jpg" alt="PHILIPS イヤフォン SHE9700" /></a><br />
+<a href="http://www.amazon.co.jp/Philips-SHE9700-PHILIPS-%E3%82%A4%E3%83%A4%E3%83%95%E3%82%A9%E3%83%B3/dp/B0012UEXUU%3FSubscriptionId%3D0SQQ58C8ZJED59QF1HG2%26tag%3Dsakanawazan-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB0012UEXUU" target="_blank"><strong>PHILIPS イヤフォン SHE9700</strong></a><br />
+Philips<br />
+そもそも、ヘッドホンは消耗品であるという前提。<br />
+すなわち、今日における加速度的なハードとソフトのリリースに、実は完全に最適化されたヘッドホンを確保することは原理的に不可能だ。<br />
+ヘッドホンが、限られた時間にリリースされたハードとソフトの組み合わせに対して、その時代にあった最も最適な音を再現してくれるデバイスであると割り切るとするなら、ハイエンドなパーツ以外、すなわち普及価格帯デバイスの選択は、むしろ推奨されるべきであって、各種サウンドの再生環境がデジタル化されることが、品質の画一化にいたると思いきや、むしろ多様化へと進化した今こそ、ヘッドホンは柔軟に使い分けることがむしろ当たり前となったのもうなづける。<br />
+我々は、納得できる一本を捜し求めると同時に、さまざまなヘッドホンの音色を聴き比べる楽しみをすでに知っている。<br />
+これは、モニタデバイスが、PCの液晶モニタ、持ち歩くiPodや携帯デバイス、リビングでの大画面液晶それぞれで同じソース動画を干渉するに至った現代のライフスタイルと完全に符合するわけだ。<br />
+<br />
+SHE9700は、本体色がブラックで、取り回し、つまみやすい本体から奏でられる音色の最大の特徴は、「どこまでも不快ではない」ことに尽きる。<br />
+なおかつ広域から低域までの音をムラなく再現し、再生時間を経過により、ウェハースをエイジングさせて音色を成長させることの楽しみを内包したヘッドホンが3000円台で購入できるこの機会を、ぜひ活用してもらいたい。<br />
+ハイエンドなヘッドホンの、セカンドホンとしての活躍も期待できる。SHE9700は、しっかりと音の特徴を捉えるだけの個性を持っている点が何より素晴らしい。<br />
+メディアにあわせて多種のヘッドホンを使い分ける楽しさも提供してくれるほどのスペックは兼ね備えている製品だ。
+]]></content:encoded>
+    <dc:subject>PSP Fan BookShelf</dc:subject>
+    <dc:date>2008-11-26T00:48:21+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+<taxo:topics>
+<rdf:Bag>
+<rdf:li rdf:resource="http://jugem.jp/contents/theme.php?theme=8" />
+</rdf:Bag>
+</taxo:topics>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1017689">
+    <link>http://blog.sakanawa.com/?eid=1017689</link>
+    <title>BLOG IT! from ソニー、PSP関連の特許訴訟で敗訴--1850万ドルの支払命令を受ける - GameSpot Japan</title>
+    <description>ソニー、PSP関連の特許訴訟で敗訴--1850万ドルの支払命令を受ける - GameSpot Japanソニーがまた敗訴した。テキサス州の陪審員団は米国時間11月18日、「PlayStation Portable」（PSP）とその他いくつかの同社製品が、Agere Systemsの持つメモリチップに音楽ファイルのヘッ...</description>
+<content:encoded><![CDATA[
+<cite><a href="http://japan.gamespot.com/news/story/0,3800076565,20384042,00.htm" target="_blank">ソニー、PSP関連の特許訴訟で敗訴--1850万ドルの支払命令を受ける - GameSpot Japan</a></cite><blockquote>ソニーがまた敗訴した。テキサス州の陪審員団は米国時間11月18日、「PlayStation Portable」（PSP）とその他いくつかの同社製品が、Agere Systemsの持つメモリチップに音楽ファイルのヘッダ情報を保存する方法に関する特許を侵害しているという判断を下した。Tyler Morning Telegraphで報じられたところによれば、陪審員団はソニーは故意にこの特許を侵害したと判断し、Agere Systemsに対し1850万ドルの特許使用料請求権を与えた。<br /><br />　この訴訟が2006年3月に届け出られた際には、申し立てには他の7つの特許に対する侵害も含まれていたが、現在までの間に申し立ての数は減らされていった。また、訴訟が申請された後でAgere Systemsは存在しなくなり、半導体とソフトウェア技術を専門とする企業であるLSI Corporationと2007年に合併した。<br /><br />　ソニーが特許侵害の裁判で敗訴するのはこれが初めてではない。2005年には、ソニーはPlayStationとPlayStation 2（PS2）の「DualShock」コントローラが持つ振動機能に関して、Immersion Corporationにが保有する特許を侵害したとして、裁判官から9000万ドルの支払命令を受けている。ソニーは、PLAYSTATION 3（PS3）に同梱されていたオリジナルの「Sixaxis」コントローラから振動機能を取り除いたが、その後Immersion Corporationとの関係を修復し、DualShock 3に対するライセンスの提供を受けた。 </blockquote><br />
+もし国内でゲームがらみの刑事事件がおきたら、いつか陪審員じゃないや、なんだっけ？裁判員？として出廷してみたいもんです。ゲーム脳論者と、訴状の外側で戦ったりしなくちゃいけないのかもしれない。<br />
+大変だなあ。あ、その手の怒れる12人はネタとしてありだな。うん。
+]]></content:encoded>
+    <dc:subject>ニュース</dc:subject>
+    <dc:date>2008-11-26T00:40:17+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+<taxo:topics>
+<rdf:Bag>
+<rdf:li rdf:resource="http://jugem.jp/contents/theme.php?theme=14" />
+</rdf:Bag>
+</taxo:topics>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1017486">
+    <link>http://blog.sakanawa.com/?eid=1017486</link>
+    <title> ２ちゃんやアマゾンで話題のSHE9700買ってみたよ</title>
+    <description>
+なんか会社帰りにｗ
+噂の音質はどんななんだろう。
+さっそく試してみますですよ？
+
+</description>
+<content:encoded><![CDATA[
+<img src="http://smoothfish.img.jugem.jp/20100116_803074.jpg" class="pict" alt="" width="360" height="480" /><br />
+<p>なんか会社帰りにｗ<br />
+噂の音質はどんななんだろう。<br />
+さっそく試してみますですよ？<br />
+</p><br />
+
+]]></content:encoded>
+    <dc:subject>PSP Fan BookShelf</dc:subject>
+    <dc:date>2008-11-25T19:16:24+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+<taxo:topics>
+<rdf:Bag>
+<rdf:li rdf:resource="http://jugem.jp/contents/theme.php?theme=10" />
+</rdf:Bag>
+</taxo:topics>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1017451">
+    <link>http://blog.sakanawa.com/?eid=1017451</link>
+    <title>X01とかってさあ</title>
+    <description>
+あども、魚輪です＾＾
+
+やっぱブログ投稿とかすんのには果てしなく向いてねえと思う。
+なんかブログ投稿に投稿したツールとかも、
+国内ISP向けにはあんまりないんじゃねーかなー。
+まあ、最近投稿減ってたけど、そろそろ取り返す方向で行こうと思う。
+
+つか、Gmailのビデ...</description>
+<content:encoded><![CDATA[
+<img src="http://smoothfish.img.jugem.jp/20100116_803073.jpg" class="pict" alt="" width="360" height="280" /><br />
+<p>あども、魚輪です＾＾<br />
+<br />
+やっぱブログ投稿とかすんのには果てしなく向いてねえと思う。<br />
+なんかブログ投稿に投稿したツールとかも、<br />
+国内ISP向けにはあんまりないんじゃねーかなー。<br />
+まあ、最近投稿減ってたけど、そろそろ取り返す方向で行こうと思う。<br />
+<br />
+つか、Gmailのビデオチャットもやってないや。<br />
+そもそもスカイプでいいしなあ。<br />
+homeのボイチャは試してるけどさ。<br />
+</p><br />
+
+]]></content:encoded>
+    <dc:subject>事務報告</dc:subject>
+    <dc:date>2008-11-25T18:30:25+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+<taxo:topics>
+<rdf:Bag>
+<rdf:li rdf:resource="http://jugem.jp/contents/theme.php?theme=1" />
+</rdf:Bag>
+</taxo:topics>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1016808">
+    <link>http://blog.sakanawa.com/?eid=1016808</link>
+    <title>なんか変な祭りｗｗｗｗｗ</title>
+    <description>エー、homeですがｗ
+一緒になって踊ったり坐って合体したりしました。
+
+ボイチャするためにヘッドセット重電中。
+でもあれだな、USBキーボードも普通にほしいなあ。
+</description>
+<content:encoded><![CDATA[
+エー、homeですがｗ<br />
+一緒になって踊ったり坐って合体したりしました。<br />
+<br />
+ボイチャするためにヘッドセット重電中。<br />
+でもあれだな、USBキーボードも普通にほしいなあ。<br />
+
+]]></content:encoded>
+    <dc:subject>PSP Fan BookShelf</dc:subject>
+    <dc:date>2008-11-24T14:52:07+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+<taxo:topics>
+<rdf:Bag>
+<rdf:li rdf:resource="http://jugem.jp/contents/theme.php?theme=8" />
+</rdf:Bag>
+</taxo:topics>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1016166">
+    <link>http://blog.sakanawa.com/?eid=1016166</link>
+    <title>PS3のhomeをインスコ中</title>
+    <description>
+ヽ(´ー｀)ノ
+4GB程度必要なようです。</description>
+<content:encoded><![CDATA[
+<a href="http://smoothfish.img.jugem.jp/20100116_803072.jpg" target="_blank"><img src="http://smoothfish.img.jugem.jp/20100116_803072_t.jpg" width="320" height="240" alt="home_ins" class="pict" /></a><br />
+ヽ(´ー｀)ノ<br />
+4GB程度必要なようです。
+]]></content:encoded>
+    <dc:subject>事務報告</dc:subject>
+    <dc:date>2008-11-23T11:46:01+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+<taxo:topics>
+<rdf:Bag>
+<rdf:li rdf:resource="http://jugem.jp/contents/theme.php?theme=14" />
+</rdf:Bag>
+</taxo:topics>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1014208">
+    <link>http://blog.sakanawa.com/?eid=1014208</link>
+    <title>BLOG IT! from 島耕作の初芝電産から初のケータイ! 「島耕作ケータイ」が限定販売 | 携帯 | マイコミジャーナル</title>
+    <description>
+島耕作の初芝電産から初のケータイ! 「島耕作ケータイ」が限定販売 | 携帯 | マイコミジャーナルベースとなるのは「W62P」(パナソニック モバイルコミュニケーションズ製)で、初芝五洋ホールディングス傘下の初芝電器産業の「HATSUSHIBA」ロゴが刻印され、「初芝電器産...</description>
+<content:encoded><![CDATA[
+<a href="http://smoothfish.img.jugem.jp/20100116_803071.jpg" target="_blank"><img src="http://smoothfish.img.jugem.jp/20100116_803071_t.jpg" width="300" height="400" alt="島工作携帯" class="pict" /></a><br />
+<cite><a href="http://journal.mycom.co.jp/news/2008/11/19/029/index.html" target="_blank">島耕作の初芝電産から初のケータイ! 「島耕作ケータイ」が限定販売 | 携帯 | マイコミジャーナル</a></cite><blockquote>ベースとなるのは「W62P」(パナソニック モバイルコミュニケーションズ製)で、初芝五洋ホールディングス傘下の初芝電器産業の「HATSUSHIBA」ロゴが刻印され、「初芝電器産業製」というリアリティを追求したということで、「初芝電産」の携帯電話参入第1弾製品という位置づけだ。</blockquote><br />
+<br />
+ロゴもうちょっと頑張れよｗ<br />
+でもこの端末を欲しがるって、シャア専用ケータイ欲しがるよりも可愛げがあって良いと思う。<br />
+んー、そんくらいｗ
+]]></content:encoded>
+    <dc:subject>ニュース</dc:subject>
+    <dc:date>2008-11-19T23:01:09+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=1006180">
+    <link>http://blog.sakanawa.com/?eid=1006180</link>
+    <title>H11LCとかみたいなのは好きです。</title>
+    <description>
+イー・モバイルが冬商戦のデータ端末＆音声端末発表、今回はスマートフォン系製品は登場せず本機はLongcheer Technology製で、基本的にはPCと接続して使うデータ端末だが、音声端末としても使用可能となっている。ただし、Web閲覧やメール送受信の機能はない。また、ミ...</description>
+<content:encoded><![CDATA[
+<img src="http://smoothfish.img.jugem.jp/20100116_803070.jpg" width="240" height="160" alt="" class="pict" /><br />
+<cite><a href="http://ascii.jp/elem/000/000/186/186498/" target="_blank">イー・モバイルが冬商戦のデータ端末＆音声端末発表、今回はスマートフォン系製品は登場せず</a></cite><blockquote>本機はLongcheer Technology製で、基本的にはPCと接続して使うデータ端末だが、音声端末としても使用可能となっている。ただし、Web閲覧やメール送受信の機能はない。また、ミュージックプレイヤーとしても使用可能。 モデムとして普段使いしてもらい、いざというときに電話として使える端末、という位置付けだ</blockquote><br />
+すきですねー、こういうの。<br />
+写真では大きさがわからないんだけど、すんげえ小さいと嬉しいかな。これで080や090の番号がもてる、っていうのが良いね。<br />
+ウィルコムもこういうの出さなきゃ。
+]]></content:encoded>
+    <dc:subject>ニュース</dc:subject>
+    <dc:date>2008-11-06T22:07:44+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=990751">
+    <link>http://blog.sakanawa.com/?eid=990751</link>
+    <title>PSP FW5.00も良い感じのようですね＾＾</title>
+    <description>Who said it was fake? Watch PSP FW 5.0 in action - PlayStation Portable News - PSP UpdatesPSP-Gen notes that these vids were taken prior to discovering what exactly were the new features in FW 5.0
+
+
+あともう、自社リークみたいなｗ
+
+新型番も欲しいの...</description>
+<content:encoded><![CDATA[
+<cite><a href="http://pspupdates.qj.net/Who-said-it-was-fake-Watch-PSP-FW-5-0-in-action/pg/49/aid/124563" target="_blank">Who said it was fake? Watch PSP FW 5.0 in action - PlayStation Portable News - PSP Updates</a></cite><blockquote><br />PSP-Gen notes that these vids were taken prior to discovering what exactly were the new features in FW 5.0</blockquote><br />
+<object width="320" height="240"><param name="movie" value="http://www.youtube.com/v/GMxjXjuTJ2g&color1=0xb1b1b1&color2=0xcfcfcf&hl=en&fs=1"></param><param name="allowFullScreen" value="true"></param><embed src="http://www.youtube.com/v/GMxjXjuTJ2g&color1=0xb1b1b1&color2=0xcfcfcf&hl=en&fs=1" type="application/x-shockwave-flash" allowfullscreen="true" width="320" height="240"></embed></object><br />
+<br />
+<a href="http://www.jp.playstation.com/store/psp/index.html" target="_blank">あともう、自社リークみたいなｗ</a><br />
+<br />
+新型番も欲しいのだが、<a href="http://www.jp.playstation.com/ps3/home/" target="_blank">home</a>との連携見てからでも遅くないかなー。
+]]></content:encoded>
+    <dc:subject>PSP Fan BookShelf</dc:subject>
+    <dc:date>2008-10-12T14:46:50+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+<taxo:topics>
+<rdf:Bag>
+<rdf:li rdf:resource="http://jugem.jp/contents/theme.php?theme=14" />
+</rdf:Bag>
+</taxo:topics>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=986237">
+    <link>http://blog.sakanawa.com/?eid=986237</link>
+    <title>ふう＾＾;</title>
+    <description>
+何とか復活しやした。
+ROM見当たんなくて結構あせった＾＾
+
+</description>
+<content:encoded><![CDATA[
+<img src="http://smoothfish.img.jugem.jp/20100116_803068.jpg" class="pict" alt="" width="240" height="320" />
+<p>何とか復活しやした。<br />
+ROM見当たんなくて結構あせった＾＾<br />
+</p>
+
+]]></content:encoded>
+    <dc:subject>事務報告</dc:subject>
+    <dc:date>2008-10-05T04:21:01+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=986234">
+    <link>http://blog.sakanawa.com/?eid=986234</link>
+    <title>やべえ＾＾</title>
+    <description>
+よりによって、プレステ３のハードディスク交換中に、なんか出ちゃいました。
+神はなぜにここまで私に試練を与えなさるのか…
+
+あーはっはっはｈっはっははあはっはあっはあはあはははあはははあ！！！！
+
+</description>
+<content:encoded><![CDATA[
+<img src="http://smoothfish.img.jugem.jp/20100116_803067.jpg" class="pict" alt="" width="320" height="240" />
+<p>よりによって、プレステ３のハードディスク交換中に、なんか出ちゃいました。<br />
+神はなぜにここまで私に試練を与えなさるのか…<br />
+<br />
+あーはっはっはｈっはっははあはっはあっはあはあはははあはははあ！！！！<br />
+</p>
+
+]]></content:encoded>
+    <dc:subject>事務報告</dc:subject>
+    <dc:date>2008-10-05T03:51:00+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=978344">
+    <link>http://blog.sakanawa.com/?eid=978344</link>
+    <title>勝った！</title>
+    <description>バイオリン : EX リバーシステージ ： バイオリン　（クロクロ◆公式）
+
+いえ〜い！</description>
+<content:encoded><![CDATA[
+<cite><a href="http://crocro.com/ex_rev/?act=vw_stg&stg_no=108" target="_blank">バイオリン : EX リバーシ</a></cite><blockquote>ステージ ： バイオリン　（クロクロ◆公式）</blockquote><br />
+<a href="http://smoothfish.img.jugem.jp/20100116_803066.jpg" target="_blank"><img src="http://smoothfish.img.jugem.jp/20100116_803066_t.jpg" width="300" height="226" alt="クロクロ公式バイオリン" class="pict" /></a><br />
+いえ〜い！
+]]></content:encoded>
+    <dc:subject>事務報告</dc:subject>
+    <dc:date>2008-09-21T22:12:42+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+<taxo:topics>
+<rdf:Bag>
+<rdf:li rdf:resource="http://jugem.jp/contents/theme.php?theme=14" />
+</rdf:Bag>
+</taxo:topics>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=969677">
+    <link>http://blog.sakanawa.com/?eid=969677</link>
+    <title>これからプログラマとかになってみたいとか、自分でなんかツール的なものを作ってみたいけど、絵も描き続けたいとか思っている君たちへ。</title>
+    <description>その姿勢であっていると思うのだ。
+実は、僕もようやく最近になって、ソフトやシステム作りの現場などにお邪魔させていただいていて、絵や文章を書く（無論、紙だけじゃなく、PCのツールなどを使っても書くよね）のと同じように、プログラムできないだろうかと、そんな自...</description>
+<content:encoded><![CDATA[
+その姿勢であっていると思うのだ。<br />
+実は、僕もようやく最近になって、ソフトやシステム作りの現場などにお邪魔させていただいていて、絵や文章を書く（無論、紙だけじゃなく、PCのツールなどを使っても書くよね）のと同じように、プログラムできないだろうかと、そんな自分勝手な調子の良すぎる意欲が出初めているんだな。<br />
+そこで紹介したい本が3冊。今、事務員は読者として、IT書籍に触れているのです。<br />
+<br />
+<a href="http://www.amazon.co.jp/Adobe-AIR%E3%83%97%E3%83%AD%E3%83%95%E3%82%A7%E3%83%83%E3%82%B7%E3%83%A7%E3%83%8A%E3%83%AB%E3%82%AC%E3%82%A4%E3%83%89-Windows-Macintosh%E5%AF%BE%E5%BF%9C-%E3%82%AF%E3%82%B8%E3%83%A9%E9%A3%9B%E8%A1%8C%E6%9C%BA/dp/4839928517%3FSubscriptionId%3D0SQQ58C8ZJED59QF1HG2%26tag%3Dsakanawazan-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4839928517" target="_blank"><img border="0" src="http://ecx.images-amazon.com/images/I/31esEqz8OgL._SL160_.jpg" alt="Adobe AIRプロフェッショナルガイド Windows & Macintosh対応" /></a><br />
+<a href="http://www.amazon.co.jp/Adobe-AIR%E3%83%97%E3%83%AD%E3%83%95%E3%82%A7%E3%83%83%E3%82%B7%E3%83%A7%E3%83%8A%E3%83%AB%E3%82%AC%E3%82%A4%E3%83%89-Windows-Macintosh%E5%AF%BE%E5%BF%9C-%E3%82%AF%E3%82%B8%E3%83%A9%E9%A3%9B%E8%A1%8C%E6%9C%BA/dp/4839928517%3FSubscriptionId%3D0SQQ58C8ZJED59QF1HG2%26tag%3Dsakanawazan-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4839928517" target="_blank"><strong>Adobe AIRプロフェッショナルガイド Windows & Macintosh対応</strong></a><br />
+クジラ飛行机<br />
+<br />
+<a href="http://www.amazon.co.jp/Flex3%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E5%85%A5%E9%96%80-%E5%AE%AE%E7%94%B0-%E4%BA%AE/dp/4798020435%3FSubscriptionId%3D0SQQ58C8ZJED59QF1HG2%26tag%3Dsakanawazan-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4798020435" target="_blank"><img border="0" src="http://ecx.images-amazon.com/images/I/41VGYCMDbzL._SL160_.jpg" alt="Flex3プログラミング入門" /></a><br />
+<a href="http://www.amazon.co.jp/Flex3%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E5%85%A5%E9%96%80-%E5%AE%AE%E7%94%B0-%E4%BA%AE/dp/4798020435%3FSubscriptionId%3D0SQQ58C8ZJED59QF1HG2%26tag%3Dsakanawazan-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4798020435" target="_blank"><strong>Flex3プログラミング入門</strong></a><br />
+宮田 亮<br />
+<br />
+<a href="http://www.amazon.co.jp/%E5%88%9D%E3%82%81%E3%81%A6%E3%81%AEActionScript-3-0-Flash%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%E3%82%A2%E3%83%83%E3%83%97%E3%82%AC%E3%82%A4%E3%83%89-Rich-Shupe/dp/4873113717%3FSubscriptionId%3D0SQQ58C8ZJED59QF1HG2%26tag%3Dsakanawazan-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4873113717" target="_blank"><img border="0" src="http://ecx.images-amazon.com/images/I/51qWvHMNcOL._SL160_.jpg" alt="初めてのActionScript 3.0 Flashユーザーのためのステップアップガイド" /></a><br />
+<a href="http://www.amazon.co.jp/%E5%88%9D%E3%82%81%E3%81%A6%E3%81%AEActionScript-3-0-Flash%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E3%82%B9%E3%83%86%E3%83%83%E3%83%97%E3%82%A2%E3%83%83%E3%83%97%E3%82%AC%E3%82%A4%E3%83%89-Rich-Shupe/dp/4873113717%3FSubscriptionId%3D0SQQ58C8ZJED59QF1HG2%26tag%3Dsakanawazan-22%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D4873113717" target="_blank"><strong>初めてのActionScript 3.0 Flashユーザーのためのステップアップガイド</strong></a><br />
+永井 勝則<br />
+<br />
+物書きやるときは人の本の悪口しか言わない、この僕が薦めるんだよ？<p><a href="http://blog.sakanawa.com/?eid=969677">続きを読む &gt;&gt;</a></p>
+]]></content:encoded>
+    <dc:subject>コラム</dc:subject>
+    <dc:date>2008-09-07T23:50:31+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+<taxo:topics>
+<rdf:Bag>
+<rdf:li rdf:resource="http://jugem.jp/contents/theme.php?theme=1" />
+</rdf:Bag>
+</taxo:topics>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=968690">
+    <link>http://blog.sakanawa.com/?eid=968690</link>
+    <title>Skype for Windows4.0ベータ版がダウンロードできるね。</title>
+    <description>
+Skype for Windowsベータ版をダウンロードこの画期的なイベントを体感しよう。Windows用Skype 4.0ベータ版登場。
+
+つうか、画面が画期的なでかさをダウンロードしてしまったんだがｗ　とても…大きい…です。
+小さくなんないの？これ。</description>
+<content:encoded><![CDATA[
+<a href="http://smoothfish.img.jugem.jp/20100116_803065.jpg" target="_blank"><img src="http://smoothfish.img.jugem.jp/20100116_803065_t.jpg" width="300" height="189" alt="" class="pict" /></a><br />
+<cite><a href="http://www.skype.com/intl/ja/download/skype/windows/beta/" target="_blank">Skype for Windowsベータ版をダウンロード</a></cite><blockquote>この画期的なイベントを体感しよう。<br />Windows用Skype 4.0ベータ版登場。</blockquote><br />
+<br />
+つうか、画面が画期的なでかさをダウンロードしてしまったんだがｗ　とても…大きい…です。<br />
+小さくなんないの？これ。
+]]></content:encoded>
+    <dc:subject>ダウンロード</dc:subject>
+    <dc:date>2008-09-06T11:49:11+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+<taxo:topics>
+<rdf:Bag>
+<rdf:li rdf:resource="http://jugem.jp/contents/theme.php?theme=12" />
+</rdf:Bag>
+</taxo:topics>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=961039">
+    <link>http://blog.sakanawa.com/?eid=961039</link>
+    <title>PSP-3000　私的まとめメモ</title>
+    <description>・はじめに流出写真ありき
+PSPChine.netのフォーラムに投稿されたPSP-3000画面
+
+
+2008年07月23日 13時15分00秒
+ソニー、PSPの新型「PSP-3000」を発売か - gigazine
+
+
+・ドイツコンベンションにて正式発表
+2008年8月21日 ... [速報]ドイツGCにてPSP-3000などが発...</description>
+<content:encoded><![CDATA[
+・<a href="http://japanese.engadget.com/2008/07/22/psp-psp-3000-ps/" target="_blank">はじめに流出写真ありき</a><br />
+PSPChine.netのフォーラムに投稿されたPSP-3000画面<br />
+<br />
+<br />
+2008年07月23日 13時15分00秒<br />
+<a href="http://gigazine.net/index.php?/news/comments/20080723_psp_3000/" target="_blank">ソニー、PSPの新型「PSP-3000」を発売か - gigazine</a><br />
+<br />
+<br />
+・ドイツコンベンションにて正式発表<br />
+2008年8月21日 ... [速報]ドイツGCにてPSP-3000などが発表されました. ドイツ、ライプチヒで開催中のイベント「GamesConvention」のSCEEカンファレンス速報<br />
+<br />
+・<a href="http://japanese.engadget.com/2008/08/21/psp-3000-10/" target="_blank">PSP-3000国内発表、液晶は色域・応答速度2倍、コントラスト比5倍 - Engadget Japanese</a><br />
+<br />
+<br />
+・というわけで、写真は本物でしたｗこれに一番驚いたｗｗｗｗｗｗｗ<p><a href="http://blog.sakanawa.com/?eid=961039">続きを読む &gt;&gt;</a></p>
+]]></content:encoded>
+    <dc:subject>PSP Fan BookShelf</dc:subject>
+    <dc:date>2008-08-25T18:11:48+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+<taxo:topics>
+<rdf:Bag>
+<rdf:li rdf:resource="http://jugem.jp/contents/theme.php?theme=14" />
+</rdf:Bag>
+</taxo:topics>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=959382">
+    <link>http://blog.sakanawa.com/?eid=959382</link>
+    <title>PlayStation®Homeクローズドベータテスト…落ちた！！！ｗｗｗｗｗｗｗｗｗ</title>
+    <description>PlayStation®Home本日8月21日（木）より、PlayStation®Home以下略
+
+OTLうう。
+まだだ！まだ終わっていないぃぃぃ！！！！！
+次期拡大募集に望みを持って生きていきます。
+仕方ないから落選組はPSPの開発リーダー川西さんのインタビューを読んで、もう一度初心に帰ろう。</description>
+<content:encoded><![CDATA[
+<a href="http://www.jp.playstation.com/ps3/home/">PlayStation®Home</a><blockquote>本日8月21日（木）より、PlayStation®Home以下略</blockquote><br />
+<br />
+OTLうう。<br />
+まだだ！まだ終わっていないぃぃぃ！！！！！<br />
+次期拡大募集に望みを持って生きていきます。<br />
+仕方ないから落選組は<a href="http://itpro.nikkeibp.co.jp/a/it/alacarte/interview0901/kn_1.shtml" target="_blank">PSPの開発リーダー川西さんのインタビュー</a>を読んで、もう一度初心に帰ろう。<p><a href="http://blog.sakanawa.com/?eid=959382">続きを読む &gt;&gt;</a></p>
+]]></content:encoded>
+    <dc:subject>事務報告</dc:subject>
+    <dc:date>2008-08-23T08:39:13+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+<taxo:topics>
+<rdf:Bag>
+<rdf:li rdf:resource="http://jugem.jp/contents/theme.php?theme=14" />
+</rdf:Bag>
+</taxo:topics>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=955263">
+    <link>http://blog.sakanawa.com/?eid=955263</link>
+    <title> 夏のコミックマーケットに行ってきました。</title>
+    <description>
+残暑お見舞い申し上げます。
+魚輪事務員です。
+夏コミ行ってきました！
+というかまだ有明にいます(笑)。
+
+15時から会場入りしたので、西館の半分位しか見れませんでしたが、楽しかったです。
+
+■本日の収穫。
+▼ランダムバター
+・乙女トリガー
+・ゆううつ水よう...</description>
+<content:encoded><![CDATA[
+<a href="http://smoothfish.img.jugem.jp/20100116_803064.jpg" target="_blank"><img src="http://smoothfish.img.jugem.jp/20100116_803064.jpg" class="pict" alt="" width="320" height="240" /><br />
+<p>残暑お見舞い申し上げます。<br />
+魚輪事務員です。<br />
+夏コミ行ってきました！<br />
+というかまだ有明にいます(笑)。<br />
+<br />
+15時から会場入りしたので、西館の半分位しか見れませんでしたが、楽しかったです。<br />
+<br />
+■本日の収穫。<br />
+▼ランダムバター<br />
+・乙女トリガー<br />
+・ゆううつ水よう日-速水筒<br />
+・イノウエ 速水筒「乙女路線」<br />
+<br />
+▼ジャージ革命<br />
+・無印筆品 ムジマニア<br />
+<br />
+▼げんれい工房<br />
+・梵字与美（ぼんじょび）封印テープ<br />
+・挫折禁止マグカップ（600円！）<br />
+<br />
+▼WWF<br />
+・狼と21世紀の表象（自分が表紙描いたやつだけど。中身はこれから読みます）<br />
+<br />
+■会えた皆様<br />
+・イノウエさん<br />
+・速水筒さん<br />
+・へーげる奥田さん<br />
+・松本アキラさん<br />
+・野中モモ（今日はあっさり行こうぜオーラ放出）<br />
+あと、<br />
+・平成オタク談義「ベータ遺産」の回に登場したAVライターの人(笑)<br />
+<br />
+と、こんな感じでした。<br />
+<br />
+帰ったらカレーでも食べます。<br />
+</p><br />
+
+]]></content:encoded>
+    <dc:subject>催し・イヴェント</dc:subject>
+    <dc:date>2008-08-17T17:40:49+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+  </item>
+
+  <item rdf:about="http://blog.sakanawa.com/?eid=954139">
+    <link>http://blog.sakanawa.com/?eid=954139</link>
+    <title>Welcome!! Smooth FishNote</title>
+    <description>Smooth FishNoteが先ほど到着しました。
+
+ミドリ社製トラベラーズノートに、神戸のナガサワ文具センターという御店で名入れしてもらいました。
+
+名入れというか、ノートの題名を入れてもらったわけです。表紙の「Smooth FishNote」がそれです。
+これはきっと、魚っぽ...</description>
+<content:encoded><![CDATA[
+<a href="http://smoothfish.img.jugem.jp/20100116_803063.jpg" target="_blank"><img src="http://smoothfish.img.jugem.jp/20100116_803063_t.jpg" width="300" height="246" alt="fishnote" class="pict" /></a>Smooth FishNoteが先ほど到着しました。<br />
+<br />
+ミドリ社製トラベラーズノートに、神戸のナガサワ文具センターという御店で名入れしてもらいました。<br />
+<br />
+名入れというか、ノートの題名を入れてもらったわけです。表紙の「Smooth FishNote」がそれです。<br />
+これはきっと、魚っぽいノートに違いないだよ！ と、事務員はまんまと見抜きまして、通販しちゃいました。<br />
+<br />
+魚を三枚に卸すように、牛皮と紙をバタバタ裁きながらその匂いに酔い、革表紙を纏めるゴム紐をビョーンと鳴らしてパチッとノートを綴じます。<br />
+<br />
+まったり開いて、まったり書いて、まったり読み直すノートを探していた事務員は今、まったりと挟む紙材を巡り、Smooth FishNoteのカスタマイズに余念がありません。<br />
+
+]]></content:encoded>
+    <dc:subject>事務報告</dc:subject>
+    <dc:date>2008-08-16T00:00:20+09:00</dc:date>
+    <dc:creator>tarosakanawa</dc:creator>
+    <dc:publisher>JUGEM</dc:publisher>
+    <dc:rights>tarosakanawa</dc:rights>
+<taxo:topics>
+<rdf:Bag>
+<rdf:li rdf:resource="http://jugem.jp/contents/theme.php?theme=1" />
+</rdf:Bag>
+</taxo:topics>
+  </item>
+
+</rdf:RDF>

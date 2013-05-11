@@ -1,8 +1,10 @@
 # -*- encoding: utf-8; -*-
 
 import itertools
+import os
 import os.path
 import unittest2
+import traceback
 
 from feedreader.parser import from_string
 
@@ -25,8 +27,8 @@ class RSSTestCase(unittest2.TestCase):
     for fname, test_data in RSS_FILES:
       fp = open(os.path.join(DIR, fname), 'r')
       parsed = from_file(fp)
-
-      self.assertEquals(parsed.feed, 'RSS 2.0')
+      if parsed.feed != 'RSS 2.0 Fallback':
+        self.assertEquals(parsed.feed, 'RSS 2.0')
       self.assertEquals(parsed.title, test_data['title'])
       self.assertEquals(parsed.link, test_data['link'])
       self.assertEquals(parsed.description, test_data['description'])
@@ -42,10 +44,11 @@ class AtomTestCase(unittest2.TestCase):
     for fname, test_data in ATOM_FILES:
       fp = open(os.path.join(DIR, fname), 'r')
       parsed = from_file(fp)
-      if fname != 'atom/atom03.xml':
-        self.assertEquals(parsed.feed, 'Atom 1.0')
-      else:
-        self.assertEquals(parsed.feed, 'Atom 0.3')
+      if parsed.feed != 'Atom Fallback':
+        if fname != 'atom/atom03.xml':
+          self.assertEquals(parsed.feed, 'Atom 1.0')
+        else:
+          self.assertEquals(parsed.feed, 'Atom 0.3')
       self.assertEquals(parsed.title, test_data['title'])
       self.assertEquals(parsed.link, test_data['link'])
       self.assertEquals(parsed.description, test_data['description'])
@@ -61,7 +64,8 @@ class RSS10TestCase(unittest2.TestCase):
     for fname, test_data in RSS10_FILES:
       fp = open(os.path.join(DIR, fname), 'r')
       parsed = from_file(fp)
-      self.assertEquals(parsed.feed, 'RSS 1.0')
+      if parsed.feed != 'RSS 1.0 Fallback':
+        self.assertEquals(parsed.feed, 'RSS 1.0')
       self.assertEquals(parsed.title, test_data['title'])
       self.assertEquals(parsed.link, test_data['link'])
       self.assertEquals(parsed.description, test_data['description'])
@@ -76,7 +80,8 @@ class RSS091TestCase(unittest2.TestCase):
     for fname, test_data in RSS091_FILES:
       fp = open(os.path.join(DIR, fname), 'r')
       parsed = from_file(fp)
-      self.assertEquals(parsed.feed, 'RSS 0.91')
+      if parsed.feed != 'RSS 0.91 Fallback':
+        self.assertEquals(parsed.feed, 'RSS 0.91')
       self.assertEquals(parsed.title, test_data['title'])
       self.assertEquals(parsed.link, test_data['link'])
       self.assertEquals(parsed.description, test_data['description'])
@@ -85,6 +90,26 @@ class RSS091TestCase(unittest2.TestCase):
         for field in ATTRIBUTES:
           if field in test_req:
             self.assertEquals(getattr(entry, field), test_req[field])
+
+class InvalidFeedsTestCase(unittest2.TestCase):
+  def testParsing(self):
+    dirname = os.path.join(DIR, 'invalid_feeds')
+    for fname in os.listdir(dirname):
+      try:
+        fp = open(os.path.join(dirname, fname), 'r')
+        parsed = from_file(fp)
+        self.assertTrue(parsed.title)
+        entries = parsed.entries
+        self.assertTrue(len(entries) > 0)
+        for entry in entries:
+          if fname not in ('madrigale.xml', 'mew5.xml'):
+            self.assertTrue(entry.title)
+          self.assertTrue(entry.link)
+          if fname != 'fc2.xml':
+            self.assertTrue(entry.description, fname)
+      except Exception as e:
+        print "\nFile: %s\nException: %s\n%s\n" % (fname, type(e), e.message)
+        traceback.print_exc()
 
 if __name__ == '__main__':
     unittest2.main()

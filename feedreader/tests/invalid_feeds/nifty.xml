@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="Shift_JIS"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:admin="http://webns.net/mvcb/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns="http://purl.org/rss/1.0/"
+>
+
+<channel rdf:about="http://business.nifty.com/articles/index.rdf">
+<title>@niftyビジネス</title>
+<link>http://business.nifty.com/</link>
+<description>ビジネスパーソン向けポータル＆SNS「@niftyビジネス」がお届けする最新コンテンツ一覧（15分おきに更新中）</description>
+<dc:language>ja</dc:language>
+<dc:publisher>@niftyビジネス</dc:publisher>
+<dc:date>2013-05-10T18:00:31+09:00</dc:date>
+<dc:rights>Copyright (c) 2013 NIFTY. All Rights Reserved.</dc:rights>
+
+<items>
+<rdf:Seq>
+<rdf:li rdf:resource="http://bizmash.jp/articles/44420.html?rss" />
+<rdf:li rdf:resource="http://bizmash.jp/articles/44419.html?rss" />
+<rdf:li rdf:resource="http://bizmash.jp/articles/44281.html?rss" />
+<rdf:li rdf:resource="http://bizmash.jp/articles/44353.html?rss" />
+<rdf:li rdf:resource="http://bizmash.jp/articles/44352.html?rss" />
+<rdf:li rdf:resource="http://bizmash.jp/articles/44198.html?rss" />
+<rdf:li rdf:resource="http://bizmash.jp/articles/44279.html?rss" />
+<rdf:li rdf:resource="http://bizmash.jp/articles/44278.html?rss" />
+<rdf:li rdf:resource="http://bizmash.jp/articles/44238.html?rss" />
+<rdf:li rdf:resource="http://bizmash.jp/articles/44127.html?rss" />
+<rdf:li rdf:resource="http://bizmash.jp/articles/44197.html?rss" />
+<rdf:li rdf:resource="http://bizmash.jp/articles/44196.html?rss" />
+<rdf:li rdf:resource="http://bizmash.jp/articles/44073.html?rss" />
+<rdf:li rdf:resource="http://bizmash.jp/articles/43827.html?rss" />
+<rdf:li rdf:resource="http://bizmash.jp/articles/44126.html?rss" />
+<rdf:li rdf:resource="http://bizmash.jp/articles/44125.html?rss" />
+<rdf:li rdf:resource="http://bizmash.jp/articles/44023.html?rss" />
+<rdf:li rdf:resource="http://bizmash.jp/articles/44075.html?rss" />
+<rdf:li rdf:resource="http://bizmash.jp/articles/44072.html?rss" />
+<rdf:li rdf:resource="http://bizmash.jp/articles/43957.html?rss" />
+</rdf:Seq>
+</items>
+</channel>
+
+<item rdf:about="http://bizmash.jp/articles/44420.html?rss">
+<title>YouTube、有料動画配信を開始、日本からも月額200円などで視聴可能</title>
+<link>http://bizmash.jp/articles/44420.html?rss</link>
+<description><![CDATA[<p><img src="http://bizmash.jp/wp-content/uploads/2013/05/topic-20130510_3-115x115.png" width="100" align="left" style="margin: 0 12px 6px 0; border: 1px solid #ccc;" alt="YouTube、有料動画配信を開始、日本からも月額200円などで視聴可能">米Googleの動画共有サイト「YouTube」が、新たに有料の動画配信を開始した。映画や音楽などを多数公開するチャンネルを、個別にサブスクリプション（定額課金制）で契約、利用する。パソコンの他スマートフォン、タブレット、ゲーム機に対応し…
+</p>]]></description>
+<dc:subject>デジタルライフ・ニュース</dc:subject>
+<dc:date>2013-05-10T18:00:31+09:00</dc:date>
+</item>
+
+<item rdf:about="http://bizmash.jp/articles/44419.html?rss">
+<title>iPad向け手書きノートアプリ「Penultimate」、日時・場所から自動でタイトルを決めて保存できる新機能</title>
+<link>http://bizmash.jp/articles/44419.html?rss</link>
+<description><![CDATA[<p><img src="http://bizmash.jp/wp-content/uploads/2013/05/topic-20130510_2-115x115.png" width="100" align="left" style="margin: 0 12px 6px 0; border: 1px solid #ccc;" alt="iPad向け手書きノートアプリ「Penultimate」、日時・場所から自動でタイトルを決めて保存できる新機能">オンラインメモアプリケーション「Evernote」傘下のiPad向け手書きノートアプリ「Penultimate（ペナルティメイト）」が刷新し、新たに日時や場所に応じて自動でノートブックの題名を入力、保存できるようになった。またEverno…
+</p>]]></description>
+<dc:subject>モバイル・ニュース</dc:subject>
+<dc:date>2013-05-10T16:20:00+09:00</dc:date>
+</item>
+
+<item rdf:about="http://bizmash.jp/articles/44281.html?rss">
+<title>[データ] スマホにするとネットで高額商品を買いがちな傾向…1回平均6866円→9320円に</title>
+<link>http://bizmash.jp/articles/44281.html?rss</link>
+<description><![CDATA[<p><img src="http://bizmash.jp/wp-content/uploads/2013/05/topic-20130510_1_2-115x115.png" width="100" align="left" style="margin: 0 12px 6px 0; border: 1px solid #ccc;" alt="[データ] スマホにするとネットで高額商品を買いがちな傾向…1回平均6866円→9320円に">従来型携帯電話からスマートフォンへの移行により、インターネット通販での高額な商品購入が増え、1回の平均購入金額は1.4倍近くに増えている。こんな調査結果をアサツー ディ・ケイがまとめた。この査は2012年12月にインターネット上でスマート…
+</p>]]></description>
+<dc:subject>データを読む</dc:subject>
+<dc:date>2013-05-10T07:00:43+09:00</dc:date>
+</item>
+
+<item rdf:about="http://bizmash.jp/articles/44353.html?rss">
+<title>Amazon.co.jp、プロポーズから二次会まで必要な品をそろえた「ウエディング準備ストア」</title>
+<link>http://bizmash.jp/articles/44353.html?rss</link>
+<description><![CDATA[<p><img src="http://bizmash.jp/wp-content/uploads/2013/05/topic-20130509_5-115x115.png" width="100" align="left" style="margin: 0 12px 6px 0; border: 1px solid #ccc;" alt="Amazon.co.jp、プロポーズから二次会まで必要な品をそろえた「ウエディング準備ストア」">Amazon.co.jpは、結婚式関連用品を集めた「ウエディング準備ストア」を公開した。プロポーズから二次会まで必要となる品々を手広くそろえている。新郎、新婦だけでなくその両親や参加者、幹事の利用を見込んでいる。結婚式前後の流れに沿って必…
+</p>]]></description>
+<dc:subject>デジタルライフ・ニュース</dc:subject>
+<dc:date>2013-05-09T18:00:14+09:00</dc:date>
+</item>
+
+<item rdf:about="http://bizmash.jp/articles/44352.html?rss">
+<title>Adobe、iPhone向け描画アプリ「Ideas」を無料化</title>
+<link>http://bizmash.jp/articles/44352.html?rss</link>
+<description><![CDATA[<p><img src="http://bizmash.jp/wp-content/uploads/2013/05/topic-20130509_3-115x115.png" width="100" align="left" style="margin: 0 12px 6px 0; border: 1px solid #ccc;" alt="Adobe、iPhone向け描画アプリ「Ideas」を無料化">米Adobe Systemsは、スマートフォン、タブレット向け描画アプリケーション「Ideas」を刷新し、無料化した。これまでは10ドルだった。アプリ本体のみで基本機能を利用でき、有料のアドオンで拡張機能が使える。対応環境はiOS 5.1…
+</p>]]></description>
+<dc:subject>モバイル・ニュース</dc:subject>
+<dc:date>2013-05-09T16:50:55+09:00</dc:date>
+</item>
+
+<item rdf:about="http://bizmash.jp/articles/44198.html?rss">
+<title>[データ] 「母の日」49％の人が贈り物を予定、予算は3000&#x2015;5000円が最多</title>
+<link>http://bizmash.jp/articles/44198.html?rss</link>
+<description><![CDATA[<p><img src="http://bizmash.jp/wp-content/uploads/2013/05/topic-20130509_1_2-115x115.png" width="100" align="left" style="margin: 0 12px 6px 0; border: 1px solid #ccc;" alt="[データ] 「母の日」49％の人が贈り物を予定、予算は3000&#x2015;5000円が最多">約半数が母の日に贈り物をする予定（データ出典:ドゥ・ハウス）2013年5月第2日曜日（12日）の「母の日」には約半数の人が贈り物を予定しており、その予算は「3001&#x2015;5000円」が最多。こんな調査結果をドゥ・ハウスがまとめた…
+</p>]]></description>
+<dc:subject>データを読む</dc:subject>
+<dc:date>2013-05-09T07:00:34+09:00</dc:date>
+</item>
+
+<item rdf:about="http://bizmash.jp/articles/44279.html?rss">
+<title>クラウド家計簿「Zaim」にWeb版、スマホでレシート撮影、PCで確認・分析が可能に</title>
+<link>http://bizmash.jp/articles/44279.html?rss</link>
+<description><![CDATA[<p><img src="http://bizmash.jp/wp-content/uploads/2013/05/topic-20130508_5-115x115.png" width="100" align="left" style="margin: 0 12px 6px 0; border: 1px solid #ccc;" alt="クラウド家計簿「Zaim」にWeb版、スマホでレシート撮影、PCで確認・分析が可能に">無料のオンライン家計簿サービス「Zaim（ザイム）」はタブレットやパソコンからの利用に最適化したWebサイト版を公開した。サイト単独でも利用できる他、従来のスマートフォン向けアプリケーションと連携して支出入の管理を行える。Zaimは専用ア…
+</p>]]></description>
+<dc:subject>デジタルライフ・ニュース</dc:subject>
+<dc:date>2013-05-08T18:10:32+09:00</dc:date>
+</item>
+
+<item rdf:about="http://bizmash.jp/articles/44278.html?rss">
+<title>Skypeより使える？ 無料通話の「Viber」がPC版公開、スマホと連携</title>
+<link>http://bizmash.jp/articles/44278.html?rss</link>
+<description><![CDATA[<p><img src="http://bizmash.jp/wp-content/uploads/2013/05/topic-20130508_2-115x115.png" width="100" align="left" style="margin: 0 12px 6px 0; border: 1px solid #ccc;" alt="Skypeより使える？ 無料通話の「Viber」がPC版公開、スマホと連携">スマートフォン向け無料通話・グループチャットサービス「Viber（バイバー）」は、パソコン版アプリケーションを公開した。同社の公式サイトからダウンロードできる。音声品質の高さが特徴となっており、同分野で最大手の「Skype」より使いやすい…
+</p>]]></description>
+<dc:subject>モバイル・ニュース</dc:subject>
+<dc:date>2013-05-08T17:00:37+09:00</dc:date>
+</item>
+
+<item rdf:about="http://bizmash.jp/articles/44238.html?rss">
+<title>「同人王」から始まる「電脳マヴォ」の第2章（前編）</title>
+<link>http://bizmash.jp/articles/44238.html?rss</link>
+<description><![CDATA[<p><img src="http://bizmash.jp/wp-content/uploads/2013/05/ae645fe628e61a0bac90334cfb4f930c-115x115.jpeg" width="100" align="left" style="margin: 0 12px 6px 0; border: 1px solid #ccc;" alt="「同人王」から始まる「電脳マヴォ」の第2章（前編）">▼電脳マヴォ2012年に開設されたWebコミック誌「電脳マヴォ」。編集家・京都精華大学マンガ学部教授の竹熊健太郎さんが立ちあげたサイトで、これまで竹熊さんは自ら「個人的な実験・研究のためのサイト」と語っていました。しかし2013年5月、竹…
+</p>]]></description>
+<dc:subject>マンガから見る電子書籍</dc:subject>
+<dc:date>2013-05-08T12:15:34+09:00</dc:date>
+</item>
+
+<item rdf:about="http://bizmash.jp/articles/44127.html?rss">
+<title>[データ] LINE、1.5億ユーザーに、WhatsApp、WeChatは3億、カカオは0.85億</title>
+<link>http://bizmash.jp/articles/44127.html?rss</link>
+<description><![CDATA[<p><img src="http://bizmash.jp/wp-content/uploads/2013/05/topic-20130508_1_3-115x115.png" width="100" align="left" style="margin: 0 12px 6px 0; border: 1px solid #ccc;" alt="[データ] LINE、1.5億ユーザーに、WhatsApp、WeChatは3億、カカオは0.85億">無料通話・グループチャットサービス「LINE」の利用者数は2013年4月30日時点で1億5000万人を超えた。同種のサービスではすでに米国発の「WhatsApp」、中国発の「WeChat」が3億人を超え、韓国発の「カカオトーク」も8500…
+</p>]]></description>
+<dc:subject>データを読む</dc:subject>
+<dc:date>2013-05-08T07:00:15+09:00</dc:date>
+</item>
+
+<item rdf:about="http://bizmash.jp/articles/44197.html?rss">
+<title>使えば使うほど賢く…なる？ ニュースアプリ「Gunosy」が話題に</title>
+<link>http://bizmash.jp/articles/44197.html?rss</link>
+<description><![CDATA[<p><img src="http://bizmash.jp/wp-content/uploads/2013/05/topic-20130507_4-115x115.png" width="100" align="left" style="margin: 0 12px 6px 0; border: 1px solid #ccc;" alt="使えば使うほど賢く…なる？ ニュースアプリ「Gunosy」が話題に">スマートフォン向けニュースアプリケーション「Gunosy（グノシー）」の存在感が高まっている。利用者の興味に合った記事を選んで表示する機能が人気を博す一方、その技術をめぐってさまざまな話題を呼んでいる。対応OSはiOS 5.0以降またはA…
+</p>]]></description>
+<dc:subject>デジタルライフ・ニュース</dc:subject>
+<dc:date>2013-05-07T18:00:56+09:00</dc:date>
+</item>
+
+<item rdf:about="http://bizmash.jp/articles/44196.html?rss">
+<title>アドビ、パッケージ版「Creative Suite」開発終了、月額制クラウド版「Creative Cloud」に一本化</title>
+<link>http://bizmash.jp/articles/44196.html?rss</link>
+<description><![CDATA[<p><img src="http://bizmash.jp/wp-content/uploads/2013/05/topic-20130507_2-115x115.png" width="100" align="left" style="margin: 0 12px 6px 0; border: 1px solid #ccc;" alt="アドビ、パッケージ版「Creative Suite」開発終了、月額制クラウド版「Creative Cloud」に一本化">米Adobe Systemsはグラフィックデザインアプリケーションのパッケージ「Creative Suite（CS）」について新製品開発を終了すると発表した。今後は月額課金制のクラウド版である「Creative Cloud（CC）」に集中…
+</p>]]></description>
+<dc:subject>モバイル・ニュース</dc:subject>
+<dc:date>2013-05-07T15:45:18+09:00</dc:date>
+</item>
+
+<item rdf:about="http://bizmash.jp/articles/44073.html?rss">
+<title>[データ] 「世界に誇れる日本企業」はどこ？ 製造業への支持根強く、リスクモンスター調査</title>
+<link>http://bizmash.jp/articles/44073.html?rss</link>
+<description><![CDATA[<p><img src="http://bizmash.jp/wp-content/uploads/2013/05/topic-20130507_1_2-115x115.png" width="100" align="left" style="margin: 0 12px 6px 0; border: 1px solid #ccc;" alt="[データ] 「世界に誇れる日本企業」はどこ？ 製造業への支持根強く、リスクモンスター調査">国内で最も多くの人が「世界に誇れる日本企業」だと感じている会社はトヨタ自動車となり、以下も自動車、電機、化学など製造業が多くの支持を集め、根強い「ものづくり」への信頼感があらためて浮き彫りになった。こんな調査結果を与信管理サービスのリスク…
+</p>]]></description>
+<dc:subject>データを読む</dc:subject>
+<dc:date>2013-05-07T07:00:07+09:00</dc:date>
+</item>
+
+<item rdf:about="http://bizmash.jp/articles/43827.html?rss">
+<title>「オフィスグリコ」と「ぐりこ・や」に学ぶ縮小市場での生き残り方</title>
+<link>http://bizmash.jp/articles/43827.html?rss</link>
+<description><![CDATA[<p><img src="http://bizmash.jp/wp-content/uploads/2013/04/gl-kanamori130503i-115x115.jpg" width="100" align="left" style="margin: 0 12px 6px 0; border: 1px solid #ccc;" alt="「オフィスグリコ」と「ぐりこ・や」に学ぶ縮小市場での生き残り方">2002年の東京進出以来、昨年で10周年を迎え、多くの企業の事務所でお馴染みとなっている「オフィスグリコ」。サービスエリア、ターミナル駅を中心に人気となっている土産店「ぐりこ・や」。一見別々の展開に見える両者は、1997年に発足した「顧客…
+</p>]]></description>
+<dc:subject>グロービス名物講師のマーケティング最新事情</dc:subject>
+<dc:date>2013-05-03T07:50:42+09:00</dc:date>
+</item>
+
+<item rdf:about="http://bizmash.jp/articles/44126.html?rss">
+<title>Twitterスマホアプリ刷新、地域ごとのトレンドをチェック可能に、6秒動画の「Vine」も改良</title>
+<link>http://bizmash.jp/articles/44126.html?rss</link>
+<description><![CDATA[<p><img src="http://bizmash.jp/wp-content/uploads/2013/05/topic-20130502_5-115x115.png" width="100" align="left" style="margin: 0 12px 6px 0; border: 1px solid #ccc;" alt="Twitterスマホアプリ刷新、地域ごとのトレンドをチェック可能に、6秒動画の「Vine」も改良">ミニブログ「Twitter」のスマートフォン版公式クライアントアプリケーションが新しくなり、地域ごとに今何が話題になっているかを「トレンド」として一覧できるようになった。米Appleのアプリ配信サービス「App Store」または米Goo…
+</p>]]></description>
+<dc:subject>デジタルライフ・ニュース</dc:subject>
+<dc:date>2013-05-02T18:00:49+09:00</dc:date>
+</item>
+
+<item rdf:about="http://bizmash.jp/articles/44125.html?rss">
+<title>Kindle、iPhoneアプリを強化、音声による操作案内＆書籍の読み上げに対応</title>
+<link>http://bizmash.jp/articles/44125.html?rss</link>
+<description><![CDATA[<p><img src="http://bizmash.jp/wp-content/uploads/2013/05/topic-20130502_3-115x115.png" width="100" align="left" style="margin: 0 12px 6px 0; border: 1px solid #ccc;" alt="Kindle、iPhoneアプリを強化、音声による操作案内＆書籍の読み上げに対応">米Amazon.comのiOS版「Kindle」アプリケーションが新しくなり、音声による操作案内や、電子書籍の音声読み上げに対応した。対応OSはiOS 5.0以降。米Appleのアプリ配信サービス「App Store」から無料でダウンロー…
+</p>]]></description>
+<dc:subject>モバイル・ニュース</dc:subject>
+<dc:date>2013-05-02T17:10:37+09:00</dc:date>
+</item>
+
+<item rdf:about="http://bizmash.jp/articles/44023.html?rss">
+<title>[データ] 「ながら見」Twitterユーザーの7割、Facebookユーザーの5割がテレビ視聴中もサービス利用</title>
+<link>http://bizmash.jp/articles/44023.html?rss</link>
+<description><![CDATA[<p><img src="http://bizmash.jp/wp-content/uploads/2013/05/topic-20130502_1_2-115x115.png" width="100" align="left" style="margin: 0 12px 6px 0; border: 1px solid #ccc;" alt="[データ] 「ながら見」Twitterユーザーの7割、Facebookユーザーの5割がテレビ視聴中もサービス利用">Twitter利用者ではテレビ視聴中もタイムラインなどの画面を開く「ながら見」が約7割に達しており、Facebook利用者もこうした割合が半数を超える。こんな調査結果をネットエイジアとシタシオンジャパンがまとめた。この調査は2013年2月…
+</p>]]></description>
+<dc:subject>データを読む</dc:subject>
+<dc:date>2013-05-02T07:00:31+09:00</dc:date>
+</item>
+
+<item rdf:about="http://bizmash.jp/articles/44075.html?rss">
+<title>Google Glassの使い方動画が公開、メガネの側面をタップ＆スワイプして操作</title>
+<link>http://bizmash.jp/articles/44075.html?rss</link>
+<description><![CDATA[<p><img src="http://bizmash.jp/wp-content/uploads/2013/05/topic-20130501_3-115x115.png" width="100" align="left" style="margin: 0 12px 6px 0; border: 1px solid #ccc;" alt="Google Glassの使い方動画が公開、メガネの側面をタップ＆スワイプして操作">側面の細長いタッチパッドに触れて操作する米Googleは、メガネ型端末「Google Glass」の使い方を解説する動画を公開した。メガネの側面にあるタッチパッドをタップやスワイプして、視界に重なる画面を操作することが可能だ。一方でTwi…
+</p>]]></description>
+<dc:subject>デジタルライフ・ニュース</dc:subject>
+<dc:date>2013-05-01T18:20:22+09:00</dc:date>
+</item>
+
+<item rdf:about="http://bizmash.jp/articles/44072.html?rss">
+<title>Webメール「Outlook.com」がSkypeを統合、メール相手と即通話が可能に</title>
+<link>http://bizmash.jp/articles/44072.html?rss</link>
+<description><![CDATA[<p><img src="http://bizmash.jp/wp-content/uploads/2013/05/topic-20130501_2-115x115.png" width="100" align="left" style="margin: 0 12px 6px 0; border: 1px solid #ccc;" alt="Webメール「Outlook.com」がSkypeを統合、メール相手と即通話が可能に">米Microsoft（MS）のWebメール「Outlook.com」のパソコン版Webサイトから無料通話・グループチャットサービス「Skype」を直接利用できる新機能が登場した。メール相手とすぐにビデオ通話を始められる。すでに英国で開始し…
+</p>]]></description>
+<dc:subject>モバイル・ニュース</dc:subject>
+<dc:date>2013-05-01T15:00:31+09:00</dc:date>
+</item>
+
+<item rdf:about="http://bizmash.jp/articles/43957.html?rss">
+<title>[データ] タブレットは7インチクラスが過半数に、2013年の国内出荷台数</title>
+<link>http://bizmash.jp/articles/43957.html?rss</link>
+<description><![CDATA[<p><img src="http://bizmash.jp/wp-content/uploads/2013/04/topic-20130501_1-115x115.png" width="100" align="left" style="margin: 0 12px 6px 0; border: 1px solid #ccc;" alt="[データ] タブレットは7インチクラスが過半数に、2013年の国内出荷台数">2013年度の国内タブレット出荷台数は、7型サイズを中心とした6&#x2015;8型サイズが過半数を占め、前年まで主力だった9&#x2015;10型モデルは少数派に転落する。こんな予測をICT総研がまとめた。2012年度の国内タブレット端…
+</p>]]></description>
+<dc:subject>データを読む</dc:subject>
+<dc:date>2013-05-01T07:00:09+09:00</dc:date>
+</item>
+
+</rdf:RDF>

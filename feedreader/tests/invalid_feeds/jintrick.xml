@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>agenda</title>
+    <link rel="alternate" type="text/html" href="http://jintrick.net/agenda/" />
+    <link rel="self" type="application/atom+xml" href="http://jintrick.net/agenda/atom.xml" />
+    <id>tag:jintrick.net,2007-11-17:/agenda//1</id>
+    <updated>2012-01-13T03:46:54Z</updated>
+    <subtitle>Jintrickの公開メモ帳</subtitle>
+    <generator uri="http://www.sixapart.com/movabletype/">Movable Type Publishing Platform 4.01</generator>
+
+<entry>
+    <title>長文をマルチカラム化して読む汎用的な方法</title>
+    <link rel="alternate" type="text/html" href="http://jintrick.net/agenda/2012/01/post-445.html" />
+    <id>tag:jintrick.net,2012:/agenda//1.1341</id>
+
+    <published>2012-01-13T03:41:52Z</published>
+    <updated>2012-01-13T03:46:54Z</updated>
+
+    <summary>長文をマルチカラム化したいとき、今まではユーザースタイルシートやスクリプトを使っ...</summary>
+    <author>
+        <name>Jintrick</name>
+        <uri>http://www.jintrick.net/</uri>
+    </author>
+    
+        <category term="CSS" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="Chrome" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="Firefox" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="ブラウジング" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="リキッドマルチカラム" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://jintrick.net/agenda/">
+        <![CDATA[<p>長文をマルチカラム化したいとき、今まではユーザースタイルシートやスクリプトを使ってサイト単位でやってきたのだが、なんで気づかなかったのだろうか。（毎回ひと手間かかるが）誰にでもできるもっと簡単な方法があった。
+<ol><li>
+<pre>&lt;body contenteditable="true"
+    style="-webkit-column-width: 25em; -moz-column-width:25em;"
+    ondblclick="this.contentEditable = false">&lt;/body></pre>
+このようなテキストファイルをmulticol_blank.htmlなどとして保存し、ブックマークする。
+<li>マルチカラム化したい文書に遭遇したら、<kbd>Ctrl + N</kbd>などでこのmulticol_blank.htmlを開き、そこに文章の一部または全部をドロップする。
+</ol>
+<p>これだけだ。スクロールが発生しないように長さを調節することも、慣れればたやすい。開始点をクリックし、<kbd>Shift</kbd>を押しながら終了点をクリックするなどして選択したのち、multicol_black.htmlにドロップする。
+
+<div id="LINKS">
+<h3>初出</h3>
+<a href="http://jintrick.net/stream/2011/winter.html#B29NS1RN91Y-2012-01-13-Fri">JintrickのマイクロWeb日記, 2011-2012 冬（1月13日）</a>
+</div>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>Multicol Google Search 更新 / Google Chrome用にちょっと手直し</title>
+    <link rel="alternate" type="text/html" href="http://jintrick.net/agenda/2011/09/multicol-google-search-google.html" />
+    <id>tag:jintrick.net,2011:/agenda//1.1340</id>
+
+    <published>2011-09-14T14:43:46Z</published>
+    <updated>2011-09-15T20:31:05Z</updated>
+
+    <summary>Firefoxを捨てよChromeに乗り換えよう。というわけでGreasemon...</summary>
+    <author>
+        <name>Jintrick</name>
+        <uri>http://www.jintrick.net/</uri>
+    </author>
+    
+        <category term="Chrome" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="Google" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="リキッドマルチカラム" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    <category term="googleリキッドマルチカラムchrome" label="Google リキッドマルチカラム Chrome" scheme="http://www.sixapart.com/ns/types#tag" />
+    
+    <content type="html" xml:lang="ja" xml:base="http://jintrick.net/agenda/">
+        <![CDATA[<p>Firefoxを捨てよChromeに乗り換えよう。というわけでGreasemonkeyスクリプト Multicol Google SearchもChrome用に更新。といってもCSS部分のセレクタをちょっと変えただけで、コードは古くさい。今後は面倒くさいのでFirefox用には書かない。
+
+<p>全然意図していないけど最後のあたりちょっと韻を踏んでるな。キチガイとか言われそう。
+
+<ul><li><a href="http://jintrick.net/script/2011/0914/multicol_google_search.user.js">Multicol Google Search (Greasemonkey Script for Google Chrome)</a></ul>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>Multicol Google Search更新 / 新しくなったGoogleのSERPについて</title>
+    <link rel="alternate" type="text/html" href="http://jintrick.net/agenda/2010/05/multicol-google-search-googles.html" />
+    <id>tag:jintrick.net,2010:/agenda//1.1339</id>
+
+    <published>2010-05-09T04:31:52Z</published>
+    <updated>2010-05-10T04:30:40Z</updated>
+
+    <summary>GoogleのSERPが新しくなったということで、早速Multicol Goog...</summary>
+    <author>
+        <name>Jintrick</name>
+        <uri>http://www.jintrick.net/</uri>
+    </author>
+    
+        <category term="Google" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="リキッドマルチカラム" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://jintrick.net/agenda/">
+        <![CDATA[<p>GoogleのSERPが新しくなったということで、早速Multicol Google Searchを修正した。2年近く触っていなかったから正直焦ったが、DOM Inspectorで見た限り、GoogleのHTML的な構造は殆ど変っておらず、サイドバー導入に伴い配置がちょっと変わっただけだったので、まあ助かったというか。
+<ul>
+	<li><a href="http://jintrick.net/script/2010/0510/multicol_google_search.user.js">Multicol Google Search 2010-05-10 (GMScript本体)</a>
+	<li><a href="http://jintrick.net/script/2010/0510/multicol_google_search.png">スクリーンショット</a>
+</ul>
+<p>Firefox3.5から-moz-opacityプロパティが廃止されていたようなので、CSS3のopacityに変更した。
+<p>Googleの新しいフィーチャーは全て却下というか、取り入れていない。検索オプションなんかも自分は滅多に変更しないんだし、必要ならGoogleのロゴをクリックして「検索オプション」というアンカーをクリックすれば済むことかなと思った。
+<hr>
+<p>さて、新しくなったGoogleの検索結果画面だが、左側にサイドバーが設けられたようだ。上段が同じ検索クエリに関する書籍、画像、地図等の検索結果へのリンクで、下段が検索結果の絞り込みに関するリンクとなっており、検索結果に密接に関連するリンクではあるので、無駄ではないと思う。
+<p>問題は相変わらず固定幅のために、必要な横幅がサイドバー分だけ広がった点にある。Googleの検索結果をブラウザのサイドバーに入れ、結果アイテムをメインフレームに表示するようなブラウザ側の応用に対してますます使いにくくなった。
+]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>はてなブックマークFirefox拡張の感想とか</title>
+    <link rel="alternate" type="text/html" href="http://jintrick.net/agenda/2009/04/firefox-2.html" />
+    <id>tag:jintrick.net,2009:/agenda//1.1338</id>
+
+    <published>2009-04-15T02:06:42Z</published>
+    <updated>2009-04-15T06:27:54Z</updated>
+
+    <summary>はてなブックマークFirefox拡張をインストールしてみた。 まず「ユーザー」と...</summary>
+    <author>
+        <name>Jintrick</name>
+        <uri>http://www.jintrick.net/</uri>
+    </author>
+    
+        <category term="Firefox" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="ブックマーク" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="ユーザビリティ" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://jintrick.net/agenda/">
+        <![CDATA[<p>はてなブックマークFirefox拡張をインストールしてみた。
+<p>まず「ユーザー」と「はてなブックマーク」との架け橋（UI）はツールバーとステータスバーがこれを担っている。デフォルトの設定ではポインティングデバイス依存で、代替手段が提供されないが、ツール→はてなブックマークから色々設定を変更できる。ここまでは別にいい。しかしキーボードショートカットを変更する手段が<strong>またポインティングデバイス依存</strong>なんだよ。こんなUI見たことも聞いたこともないよ。入力欄を「クリック」すると（「アクティブ」じゃあない）、「キーボードを押して、ショートカットを設定します」というモーダルダイアログ系がポップアップされる。これには「キャンセル」ボタンがついていて、押すとこのポップアップ表示が消える。問題は<strong><strong>ショートカットの入力を受け付けるのは、このダイアログがポップアップされているときだけ</strong></strong>だという事実。俺はこんなUIをみたことがない。ポップアップして警告しなければならないのは、設定ダイアログの最後に小さく表示されている「ショートカットの反映に、ブラウザの再起動が必要な場合があります」という文句、それだろう。
+</p><p>はてなブックマークサイドバーは、一部期待された動作をしない。現在表示されているウェブページのタブをドラッグドロップしても何も起こらん。だったら、<strong>フォルダのアイコンを用いるべきではない</strong>。これは、何かを格納できることを示唆するときに用いるべきものだ。タグはツリー構造のデータでないから、これにフォルダのメタファを使うべきかどうかも、俺には疑問。ユーザビリティ的にも多分間違いだろう。期待されている動作と異なるからな。Microsoftがフォトギャラリーでやっている方法の方が概念をうまく表現できている。
+<p>ティム・ガン風に言うと、「洗練されてない」。
+<div id="LINKS">
+<h3>関連リンク</h3>
+<ul><li>インストール: <a href="http://b.hatena.ne.jp/guide/firefox_addon">はてなブックマークFirefox拡張で新しいインターネットを体験しよう</a>
+<li>初出: <a href="http://stream.jintrick.net/test/eve.html" title="jintrickのマイクロWeb日記、前夜">前夜, 2009, April, 15</a>
+</ul>
+
+</div>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>「はてなブックマーク Firefox 拡張」はユーザビリティテストをすべき</title>
+    <link rel="alternate" type="text/html" href="http://jintrick.net/agenda/2009/04/-firefox.html" />
+    <id>tag:jintrick.net,2009:/agenda//1.1337</id>
+
+    <published>2009-04-02T18:56:30Z</published>
+    <updated>2009-04-02T18:57:11Z</updated>
+
+    <summary>取り急ぎ要点だけ述べる。 はてなブックマーク Firefox 拡張のベータテスト...</summary>
+    <author>
+        <name>Jintrick</name>
+        <uri>http://www.jintrick.net/</uri>
+    </author>
+    
+        <category term="Firefox" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="ブックマーク" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="ユーザビリティ" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://jintrick.net/agenda/">
+        <![CDATA[<p>取り急ぎ要点だけ述べる。
+
+<ul>
+<li><a href="http://hatena.g.hatena.ne.jp/hatenabookmark/20090402/firefox_beta">はてなブックマーク Firefox 拡張のベータテストを開始します - はてなブックマーク日記 - 機能変更、お知らせなど</a>
+</ul>
+
+<p>「はてなブックマーク Firefox 拡張」を開発する上で、「はてブユーザー」の意見を聞くべきではない。理由：
+
+<ul>
+<li>はてなブックマークをすでに利用している人間が、より便利に利用できるようにはなるかもしれないが、新しいユーザーを獲得するための直接的な方法ではない
+<li>ユーザーの「意見」にはバイアスがかかる。ましてやコアな「はてブユーザー」は一般的なユーザーとはまったく違った使い方や習慣、癖をもっている可能性がある。
+</ul>
+
+<p>「バグ報告」だけを聞くべき。
+
+<p>ではどうすればよいか。さっさと公開したい記事なのでとりあえず一言で済ましておく。「ユーザビリティの専門家にご相談ください」。]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>「ナビゲーションとは何か、そしてそれは『分離』すべきなのか」に寄せられたコメントについて</title>
+    <link rel="alternate" type="text/html" href="http://jintrick.net/agenda/2009/02/post-444.html" />
+    <id>tag:jintrick.net,2009:/agenda//1.1336</id>
+
+    <published>2009-02-01T13:19:23Z</published>
+    <updated>2009-02-01T13:40:09Z</updated>
+
+    <summary>追記の前に、ブックマークコメントに関して少し。 はてなブックマーク - vant...</summary>
+    <author>
+        <name>Jintrick</name>
+        <uri>http://www.jintrick.net/</uri>
+    </author>
+    
+        <category term="ウェブデザイン" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="ユーザビリティ" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="意見交換, 批判等" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="（ハイパー）リンク" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://jintrick.net/agenda/">
+        <![CDATA[<p>追記の前に、ブックマークコメントに関して少し。
+
+<p><cite><a href="http://b.hatena.ne.jp/vantguarde/20090131#bookmark-11902065">はてなブックマーク - vantguarde - 2009年1月31日</a></cite>より。
+
+<blockquote cite="http://b.hatena.ne.jp/vantguarde/20090131#bookmark-11902065"><p><q cite="http://jintrick.net/agenda/2009/01/post-442.html">何故なら、論理的なリンクはハイパーテキストノードにとってコンテンツと同義といっても過言ではないからだ。</q> コンテキストから対象リソースへの関係を明記すること/明記したもの、ってことかしら。 </blockquote>
+<p>ユーザーという人間に対してreasonableなリンクであるということであって、この文脈ではメタデータが付加されているかどうかが本質でなく、そもそもハイパーテキスト記述言語「HTML」が未熟なので、豊富な関係性をソフトウェアに伝えることはできない。
+
+<p><cite><a href="http://b.hatena.ne.jp/leva/20090131#bookmark-11902065">はてなブックマーク - Metalog（メタログ） - 2009年1月31日</a></cite>より。
+
+<blockquote cite="http://b.hatena.ne.jp/leva/20090131#bookmark-11902065"><p><q cite="http://jintrick.net/agenda/2009/01/post-442.html">WWW全体を俯瞰するような視点に基づいた総合的なナビゲーション</q> WWWブラウザがWWWに自律的にアクセスし、その文書のトピックがWWWでどうあるかリンク網を構成するようなイメージかな / たぶんあとで修正する</blockquote>
+
+<p>私のイメージとしては、<abbr title="World Wide Web">WWW</abbr>ブラウザがウェブサービスを応用することで現在閲覧しているリソースに関係しているリンクや情報を様々な形提供したり、またはブラウジングの傾向からユーザーの嗜好、次に何を求めるかを推測してリンクを提供する、など。前者については現在でも（応用例としてはあまり良いものではないが）、GoogleツールバーがPageRankを表示してそのウェブページの信頼性に関する情報を提供したりしている。後者については、文字列等を選択したときに、それが英単語であれば辞書の結果に素早くリンクする、など。とにかく書ききれないし、また本題ではないのでこれくらいに。
+
+
+<div id="LINKS"></div>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>ナビゲーションと広告は峻別すべき</title>
+    <link rel="alternate" type="text/html" href="http://jintrick.net/agenda/2009/02/post-443.html" />
+    <id>tag:jintrick.net,2009:/agenda//1.1335</id>
+
+    <published>2009-02-01T12:49:32Z</published>
+    <updated>2009-02-01T12:51:53Z</updated>
+
+    <summary>ナビゲーションとは何か、そしてそれは「分離」すべきなのか (agenda)が抽象...</summary>
+    <author>
+        <name>Jintrick</name>
+        <uri>http://www.jintrick.net/</uri>
+    </author>
+    
+        <category term="ウェブデザイン" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="ユーザビリティ" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="（ハイパー）リンク" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://jintrick.net/agenda/">
+        <![CDATA[<p><a href="http://jintrick.net/agenda/2009/01/post-442.html">ナビゲーションとは何か、そしてそれは「分離」すべきなのか (agenda)</a>が抽象的すぎるので補足。まずは最初の段落から。
+
+<blockquote cite="http://jintrick.net/agenda/2009/01/post-442.html" title="『ナビゲーションとは何か、そしてそれは「分離」すべきなのか（agenda）』"><p>しかしながら、製作者側はユーザーの目的を正確に知ることができない。知っているのはユーザーがそのハイパーテキストノードを閲覧しているという事実だけであり、そこから目的地を推測するしかない。この時推測される目的地は、正にそのハイパーテキストノードと深く関係しているはずだ。そして、そのようなリソースへのリンクを提供することは、ハイパーテキストシステムにおける各ノードの主要な役割である。真のナビゲーションに接近する方法として、製作者側が取れる、あるいは取るべき手段は、そのハイパーテキストノードを中心としたリンクを提供してやることだけである。私はこのようなリンクを<dfn>論理的なリンク</dfn>と呼んでおり、殊更にナビゲーションと呼んでコンテンツと区別しない。何故なら、論理的なリンクはハイパーテキストノードにとってコンテンツと同義といっても過言ではないからだ。</blockquote>
+
+<p>たとえばそのサイトのホームページを閲覧しているユーザーに対しては、そのサイトについてより知ろうとする動機を推測することができるため、グローバルナビゲーションをはじめとした豊富なナビゲーションを提供することができる。サイト内の文書へのリンクはすべて論理的なリンクである。逆にただの一記事であれば、その記事に類似した文書や記事の著者に関する情報、コンテクスト等へのリンクが論理的であり最も目立っていなければならないが、全然関係のない同サイト内の別セクションに導く「グローバルナビゲーション」は非論理的な邪推に過ぎず、広告に近い。
+
+<p>非論理的なリンクは全て、ナビゲーションではない。それはユーザーを彼らの目的に導くものはなく、新たな目的を持たせるよう誘導しようとするものだ。広告と大差ない。広告的なリンクを否定するつもりはないが、ナビゲーションとは峻別すべきだ。ナビゲーションのあるべき本当の姿を考察するとき、「広告」を一緒くたにしてはいけない。
+
+<div id="LINKS">
+<h2>参考文献</h2>
+<ul>
+<li><a href="http://members.jcom.home.ne.jp/pctips/column/Yudo.html">サイトは通り過ぎる場所であつて良い</a>
+<li><a href="http://www.usability.gr.jp/alertbox/20000109.html">Alertbox: ナビゲーションは役に立つのか？（2000年1月9日）</a>
+</ul>
+</div>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>ナビゲーションとは何か、そしてそれは「分離」すべきなのか</title>
+    <link rel="alternate" type="text/html" href="http://jintrick.net/agenda/2009/01/post-442.html" />
+    <id>tag:jintrick.net,2009:/agenda//1.1334</id>
+
+    <published>2009-01-30T16:01:49Z</published>
+    <updated>2009-01-31T04:35:16Z</updated>
+
+    <summary>WWWの文脈においてナビゲーションという言葉の意味を考えるとき、浮かんでくるのは...</summary>
+    <author>
+        <name>Jintrick</name>
+        <uri>http://www.jintrick.net/</uri>
+    </author>
+    
+        <category term="ウェブデザイン" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="ユーザビリティ" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="（ハイパー）リンク" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://jintrick.net/agenda/">
+        <![CDATA[<p><abbr title="World Wide Web">WWW</abbr>の文脈においてナビゲーションという言葉の意味を考えるとき、浮かんでくるのはやはり一人一人のユーザーの姿である。それぞれのユーザーの目的地（目標）に導いてやるためのインターフェイスというのがナビゲーションのエッセンスだ。<!-- small>ちなみにこの事実を重視し、そのハイパーテキストノードを中心としたリンクを提供してやることでより良いナビゲーションへの接近を図る方法を、<dfn>文書指向ウェブデザイン</dfn>と呼ぶ。</small -->
+
+<h2>文書製作者側が提供できるナビゲーション</h2>
+
+<p>しかしながら、製作者側はユーザーの目的を正確に知ることができない。知っているのはユーザーがそのハイパーテキストノードを閲覧しているという事実だけであり、そこから目的地を推測するしかない。この時推測される目的地は、正にそのハイパーテキストノードと深く関係しているはずだ。そして、そのようなリソースへのリンクを提供することは、ハイパーテキストシステムにおける各ノードの主要な役割である。真のナビゲーションに接近する方法として、製作者側が取れる、あるいは取るべき手段は、そのハイパーテキストノードを中心としたリンクを提供してやることだけである。私はこのようなリンクを<dfn>論理的なリンク</dfn>と呼んでおり、殊更にナビゲーションと呼んでコンテンツと区別しない。何故なら、論理的なリンクはハイパーテキストノードにとってコンテンツと同義といっても過言ではないからだ。
+
+<p><small>cf. 一方で、今、一般的な意味でウェブサイトの「ナビゲーション」と呼ばれているものは何か。それは文字通り「ウェブサイトのナビゲーション」であり、ユーザーのものではない。ユーザーの目的に導くよう設計されたものではなく、ウェブサイト内をうまく渡り歩いてもらうためのものだ。もちろんベン図を描けば論理的なリンクとかぶるところもあるだろうが、指向しているもの自体が違う。</small>
+
+
+<h2>WWWブラウザが提供できるナビゲーション</h2>
+
+<p>WWWブラウザには、現在ユーザーに提供しているハイパーテキストノードを中心としたナビゲーション（<dfn>論理的なリンク</dfn>）だけではなく、WWW全体を俯瞰するような視点に基づいた総合的なナビゲーションも要求されるし、その中間的なものもあって良い。あまりにも多岐にわたるので一々例示できないが、製作者側が提供すべきナビゲーションと峻別する意味で、認識しておきたい概念だ。
+
+<p>WWWブラウザが提供するナビゲーションは、あらゆるハイパーテキストノードに対して同質のものを提供できるという点で製作者側それぞれのものと異なる。これはどういうことか。WWWブラウザが提供可能な、あるナビゲーションについて考えると、<strong>あらゆる場面において、製作者が用意するという手法に対して優位である</strong>ことを意味している。
+
+
+
+<h2>文書製作者が提供すべきナビゲーション</h2>
+
+<p>ほとんど自明だが、文書製作者が提供すべきナビゲーションは、WWWブラウザが提供していないもの（本質的には、提供「できない」もの）ということになる。
+
+<p><small>多分追記する。</small>
+]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>「ウェブ日記」のスピード、軽快さ、柔軟性に惚れる</title>
+    <link rel="alternate" type="text/html" href="http://jintrick.net/agenda/2009/01/post-441.html" />
+    <id>tag:jintrick.net,2009:/agenda//1.1333</id>
+
+    <published>2009-01-13T17:05:41Z</published>
+    <updated>2009-01-13T17:14:43Z</updated>
+
+    <summary>deadspaceにモロに影響を受けて、気軽に書ける見出しのないウェブ日記っぽい...</summary>
+    <author>
+        <name>Jintrick</name>
+        <uri>http://www.jintrick.net/</uri>
+    </author>
+    
+        <category term="ウェブデザイン" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://jintrick.net/agenda/">
+        <![CDATA[<p><a href="http://mayokara.info/deadspace/">deadspace</a>にモロに影響を受けて、気軽に書ける見出しのないウェブ日記っぽいものをやってみようと思った。「書いて、公開する」というストレスを軽減すること、つまり<strong>スピード</strong>を最重視し、ほとんどデザインのことを何も考えず、システムレス、メンテナンスフリーで運営できるのにもかかわらず、何故か言及、参照、再利用ができないこともない、というコンテンツを目指す。後方互換性を完全に無視し、前方互換性はある程度考える。ウェブアクセシビリティは以上の特長を妨げない限りにおいて考慮する。完璧主義はごめんだ。以上が理念。具体的には以下のようにする。
+
+<h2>記事形式について</h2>
+
+<p>各記事はリストアイテムとして羅列する。文字数制限なし。時には長文を書くこともできるし、object要素を経由して可能な限りのフォーマットが使用可能。ブラウザの実装は無視して表現を優先する。後方互換性より前方互換性を優先する。
+
+<p>今回はXMLアプリケーションを使う必要が出てくる可能性が高いので、XHTML形式を採用する。当然XHTMLを手書きするなんて馬鹿なことをするわけにいかないので、XHTMLインスタンスを吐くソフトウェアを探さなきゃならないが、色々面倒くさいのでいつものように省略文法HTMLを書いてTidyに通す。
+
+<h2>配信（RSS）はどうする?</h2>
+
+<p>RSSに関しては、<a href="http://dorgo.s101.xrea.com/">静けさの空き地</a>で知った<a href="http://page2rss.com/">Page2RSS</a>を利用させていただく。だからRSSを吐くソフトウェアを自前で用意する必要なし。RSSというフォーマットは完全に腐っちゃってるし、バージョン等にこだわる必要なしとする。RSSリーダーで記事全文を追えればそれでいい。
+
+<h2>パーマリンクはどうする?（←今ここ）</h2>
+
+<p>分散、集合の程度は決定しなければならない。
+
+<p>各記事はリストアイテムだが、各アイテムに対して一つのURLを提供した方がいいのか、それとも月単位で提供してURI参照すら与えずにいくか、云々。前者+<abbr title="XMLHttpRequest">XHR</abbr>でコンテクストを提供すれば流れも含めて読めるかな。後者は楽で最高だが、XPointer使えとは流石にまだ言えないわな。自分自身もう忘れちゃったし。実装どうなってるのかも知らないし。
+
+<p>DOM3の良い実装があれば、システムもなにもPythonスクリプトを少し書けばOKなので、そこを確認してから決める。
+
+<p>というわけでもうちょっとだけ考える。昔ながらのあのウェブ日記の「スピード」と「軽さ」に、ついていきたいけど全然ついていけない。はてなブックマークとかtwitterとかじゃ表現しきれないんだよなー。
+
+<p>この「メモ」、公開すべきかちょっと微妙だ。もう少しまとまってからにした方が良いのではないか。とか何とか。うざー。]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>var要素をプログラムコードではない通常の文章に使う</title>
+    <link rel="alternate" type="text/html" href="http://jintrick.net/agenda/2009/01/var.html" />
+    <id>tag:jintrick.net,2009:/agenda//1.1332</id>
+
+    <published>2009-01-13T16:17:13Z</published>
+    <updated>2009-01-14T13:20:57Z</updated>
+
+    <summary> var要素をプログラムコードではない通常の文章に使った例文を以下に挙げる： き...</summary>
+    <author>
+        <name>Jintrick</name>
+        <uri>http://www.jintrick.net/</uri>
+    </author>
+    
+        <category term="HTML" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="珈琲ブレイク" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    <category term="var" label="<![CDATA[<var>]]>" scheme="http://www.sixapart.com/ns/types#tag" />
+    
+    <content type="html" xml:lang="ja" xml:base="http://jintrick.net/agenda/">
+        <![CDATA[
+<p>var要素をプログラムコードではない通常の文章に使った例文を以下に挙げる：
+
+<div title="例文">
+<p>きちんとした<var class="a-format-2009-01-13">PNG画像</var>で「作品」を公開したところ、<var class="b-format-2009-01-13">GIF画像</var>しか読めないソフトウェアで閲覧しようとして失敗した事実を突き付けられ、<big>「馬鹿には見えない作品なのですか？」</big>と、とぼけられたり、駄目ソフトウェアがクラッシュした事実を突きつけられ、<big>「観れないどころの騒ぎじゃないですね。もしかして、あなたのいう『作品』というのは『正しい<var class="a-format-2009-01-13">PNG画像</var>フォーマットで書かれたアプリケーションクラッシャー』のことを指しているのですか？　そう仮定するなら、なるほど、なんとも素敵な作品です。天才的なセンスを感じます。」</big>とか皮肉られたので、<var class="viewer-2009-01-13">画像ビューワ</var>の実装が悪い、とお決まりの反論しておいた。この<var class="viewer-2009-01-13">画像ビューワ</var>、何百、何千と種類があってしかも、その多くは<var class="a-format-2009-01-13">PNG画像</var>を表示できて無料なのに。自分は何か間違っているのでしょうか。云々。例文終わり。
+</div>
+
+<p>私はこのようなvar要素を「<dfn>散文的変数</dfn>」と呼んで愛用している。
+
+<p>というか、ウェブブラウザの正義って、<strong>どれだけ多くのウェブコンテンツやウェブサービスを利用できるか</strong>、その1点がほとんど全てだと思うのだけれど、レイアウトエンジンを選択できるブラウザって過去いくつか出てきているのに、どれもパッとしなかったな。レイアウトエンジンそのものが成熟していないからかな。
+
+<div id="LINKS">
+<h2>さんこうぶんけん</h2>
+<ul>
+<li><a href="http://piro.sakura.ne.jp/latest/blosxom/topics/2009-01-09_cssc.htm">Latest topics > コミュン、マークアップ、作品 - outsider reflex</a>
+<li><a href="http://d.hatena.ne.jp/scinfaxi/20090108/1231426357">続 CSS コミュン批判 - 黎明日記</a>
+<li><a href="http://d.hatena.ne.jp/jonathans/20090108#1231427461">2009-01-08 - 黄色いガードレールの上で</a>
+</ul>
+
+<h2>参考文献</h2>
+<ul><li><a href="http://www.w3.org/TR/1999/REC-html401-19991224/struct/text.html#edef-VAR">Paragraphs, Lines, and Phrases (HTML 4.01 Specification)</a>
+<li><a href="http://www.asahi-net.or.jp/~SD5A-UCD/rec-html401j/struct/text.html#edef-VAR">Paragraphs, Lines, and Phrases  (HTML 4.01 Specification) (ja)</a>
+<li><a href="http://d.hatena.ne.jp/mhrs/20090114/p1">var要素は「變數名」ではない - HM weblog</a>
+<li><a href="http://bakera.jp/ref/html/element/var">var要素 | ばけらの HTML リファレンス(未完成)</a></ul>
+
+<h2>更新履歴</h2>
+
+<ul><li>2009-01-14, <a href="http://mayokara.info/deadspace/#d20090113">deadspace</a>で、散文的変数をdfnで意味付けする選択肢を指摘されたので、そうしてみた。本文は変わっていない。というかメインのvar要素なんかよりソフトウェア的には余程意味ある意味付けだが。わらい。</ul>
+
+</div>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>ウェブブラウザなんかに気を遣わなくてもいい理由</title>
+    <link rel="alternate" type="text/html" href="http://jintrick.net/agenda/2009/01/post-440.html" />
+    <id>tag:jintrick.net,2009:/agenda//1.1331</id>
+
+    <published>2009-01-04T15:42:59Z</published>
+    <updated>2009-01-05T23:15:56Z</updated>
+
+    <summary>いつの間にか2009年になってしまった。 IE6に気を使わなくてもいい理由とか「...</summary>
+    <author>
+        <name>Jintrick</name>
+        <uri>http://www.jintrick.net/</uri>
+    </author>
+    
+        <category term="ウェブデザイン" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://jintrick.net/agenda/">
+        <![CDATA[<p>いつの間にか2009年になってしまった。
+
+<p><a href="http://anond.hatelabo.jp/20081217175821">IE6に気を使わなくてもいい理由</a>とか「そういう系」
+の話を聞くと、なんで非営利個人サイトが自分の嫌いなウェブブラウザなんかに一々気を遣わなきゃならないんだとか思う。もちろん気を遣うのには色々理由があるだろう。だが「気を遣わなくてもいい理由」というのもあっていいんじゃないか。そう思ってだらだらと悪文を書いてみた。本当に悪文だからまとまりはないよ。
+
+<h2>相手にしていられないほど膨大な種類の「ウェブブラウザ」</h2>
+
+<p>この文脈においてはウェブブラウザではなく、所謂レイアウトエンジンやHTMLパーサの種類を把握すべきだろう。たとえばSleipnirもfubも、同じMSHTML.dllを利用しているなら一つとしてカウントできる。
+
+<table><caption>ウェブページのレイアウトエンジン</caption>
+<thead>
+	<tr><th>レイアウトエンジン等の名称<th>主なバージョン（2009年1月現在）<th>応用しているプロダクト他
+<tbody>
+	<tr><td><a href="http://msdn.microsoft.com/en-us/library/aa741317.aspx" title="msdn内 MSHTML Reference">MSHTML（Trident）</a><td>4.0系, 5.0系, 5.5系, 6.0系, 7.0系, 8.0系（系統別に多数あり）<td>Internet Explorer（Windows版）、IEコンポーネントブラウザ各種
+	<tr><td>Tasman<td>未調査<td>Internet Explorer 5 for Mac
+	<tr><td>Gecko<td>1.9.1まで多数あり<td>Firefox他のMozilla系ブラウザ
+	<tr><td>KHTML<td>未調査<td>Konqueror、KHTMLはWebkit他のレイアウトエンジンのベースにもなっている
+	<tr><td><a href="http://directory.fsf.org/project/gtkhtml/">GtkHTML</a><td>3.0.10<td>Evolution他GTK+アプリケーション
+	<tr><td><a href="http://webkit.org/">WebKit</a><td><a href="http://nightly.webkit.org/" title="WebKit Nightly Builds">r12084～r39572まで多数あり</a><td>Safari, Epiphany, Google Chrome, Omni Web, Adobe Dreame Weaver CS4, Adobe Air他
+	<tr><td><a href="http://en.wikipedia.org/wiki/Presto_(layout_engine)" title="Presto (layout engine) - Wikipedia, the free encyclopedia">Presto（Opera）</a><td>2.2まで<td>Opera（7以降）, Nintendo DS Browser, Internet Channel（Wii）他
+	<tr><td>iCab<td>未調査<td>iCab 1-3
+	<tr><td><a href="http://www.princexml.com/">Prince XML</a><td>未調査<td>Prince XML（CSS対応レンダリングエンジンを搭載したPDF変換プログラム）
+	<tr><td><a href="http://www.boxely.com/">Boxely</a><td>未調査<td>AOL Explorer、他AOL系ブラウザ
+	<tr><td><a href="http://www.access-company.com/products/internet_appliances/netfrontinternet/internet_appliances.html">NetFront</a><td>未調査（多数の系統あり）<td>i-mode、 PSP、Dreamcast他
+	<tr><td><a href="http://www.netsurf-browser.org/">NetSurf</a><td>未調査<td>NetSurf
+	<tr><td><a href="http://www.levien.com/gzilla/">Gzilla</a><td>未調査<td>製品未調査（<q cite="http://www.levien.com/gzilla/">Gzilla is a web browser written in the Gtk+ framework</q>とのことなので個人開発は多数ありそう）<td>
+	<tr><td><a href="http://tkhtml.tcl.tk/index.html">Tkhtml</a><td>未調査<td>Hv3などのTkアプリケーション
+	<tr><td>HTMLayout<td>未調査<td>参照：<a href="http://en.wikipedia.org/wiki/HTMLayout">HTMLayout - Wikipedia, the free encyclopedia</a>
+	<tr><td><a href="http://links.sourceforge.net/">Links</a><td><a href="http://www.jikos.cz/~mikulas/links//download/" title="Links downloads">0.80～0.99まで多数あり</a><td><a href="http://links.sourceforge.net/">Links</a>の他、 応用した<a href="http://elinks.or.cz/">ELinks</a>、<a href="http://links.twibright.com/" title="Twibright Labs:  Links">Links(2)</a>、<a href="http://xray.sai.msu.ru/~karpov/links-hacked/">Links Hacked</a>がある
+	<tr><td><a href="http://lynx.isc.org/">Lynx</a><td>2.8.6まで<td>Lynx
+	<tr><td><a href="http://w3m.sourceforge.net/">w3m</a><td><a href="http://sourceforge.net/projects/w3m/" title="SourceForge.net: w3m">0.5.2まであり</a><td>w3m、w3m-mee
+</table>
+
+<p>この他にもいくつかあるが、無名なアプリケーションしかないものは除外した。Javascriptエンジンはまた別だったりする場合がある。また、スクリーンリーダーもここでは除外している。要するに、HTMLをパースする（そしてレンダリングする）ソフトウェアは、<strong>数えきれない</strong>。
+
+<p>こんなものに一々一々気を遣っていられない。実際に「気遣い」できるのは本当に極一部の、メジャーなブラウザだけだろう。そのメジャーなブラウザだって1年や2年で変化していくのだから、気を使う「必要」はないだろう。とりあえず<strong>HTML文書が壊れていないことを確認</strong>すれば、あとはソフトウェアが適当に処理してくれるのを信じるしかない。何かとバグがつきもののCSSだが、凝ったことをするのなら、自分が確実に確認できるレンダリングエンジンに対してのみ適用されるような配慮をすればいい。
+
+<h2>ウェブブラウザに気を遣わずに済む方法</h2>
+
+<p>極論すれば、CSSやJavascriptなんか<strong>使わなければ</strong>ブラウザに気を遣う必要は激減するわけだ。これは「すっぴん」で公開しろと主張するわけではなくて、先述したとおり、自分が確実に確認できる、あるいは確認するレンダリングエンジンに対してのみ、CSSやJavascriptが有効になるような配慮をすればいい。そういう配慮が不可能なレンダリングエンジンに対しては、「すっぴん」でいいんじゃないかと。
+
+<p>私の場合、UTF-8を扱えないソフトウェアを完全に蹴るという政治的判断はあるものの、それ以外の部分では上述したような方針を取ってできる限り互換性を追求したいと思っているので、いつかやると思う。
+
+<div id="LINKS">
+<h2>参考文献</h2>
+<ul>
+<li><a href="http://www.powerset.com/explore/semhtml/Comparison_of_layout_engines_(Cascading_Style_Sheets)">Comparison of layout engines (Cascading Style Sheets) - Powerset</a>
+<li><a href="http://www.powerset.com/explore/semhtml/Comparison_of_layout_engines_(Document_Object_Model)?query=gecko+webkit">Comparison of layout engines (Document Object Model) - Powerset</a>
+<li><a href="http://en.wikipedia.org/wiki/Comparison_of_layout_engines">Comparison of layout engines - Wikipedia, the free encyclopedia</a>
+<li><a href="http://en.wikipedia.org/wiki/List_of_layout_engines">List of layout engines - Wikipedia, the free encyclopedia</a>
+<li>他
+</ul>
+<h2>更新履歴</h2>
+<ul>
+<li>TrasmanをTasmanにtypo訂正（<a href="http://b.hatena.ne.jp/waverider/20090105#bookmark-11532691">waverider</a>様よりご指摘あり）
+</ul>
+</div>
+]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>p要素の終了タグを省略する際の注意点</title>
+    <link rel="alternate" type="text/html" href="http://jintrick.net/agenda/2008/12/p.html" />
+    <id>tag:jintrick.net,2008:/agenda//1.1330</id>
+
+    <published>2008-12-12T05:54:09Z</published>
+    <updated>2008-12-12T05:57:10Z</updated>
+
+    <summary><![CDATA[HTML4.01ではp要素の終了タグ「&lt;/p>」は省略することができるよう...]]></summary>
+    <author>
+        <name>Jintrick</name>
+        <uri>http://www.jintrick.net/</uri>
+    </author>
+    
+        <category term="HTML" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://jintrick.net/agenda/">
+        <![CDATA[<p>HTML4.01ではp要素の終了タグ「<code>&lt;/p></code>」は省略することができるようになっている。数ある省略可能なタグの中で、最も気を付けなければならないのがこの「<code>&lt;/p></code>」。
+
+<h2>DTDの再確認</h2>
+
+<p>まずスキーマを見てみる。p要素の内容モデルを確認するのに必要なのは次の箇所：
+
+<blockquote cite="http://www.w3.org/TR/REC-html40/sgml/dtd.html">
+<pre>&lt;!ELEMENT BODY O O (%block;|SCRIPT)+ +(INS|DEL) -- document body --></pre>
+<pre>&lt;!ELEMENT P - O (%inline;)*            -- paragraph --&gt;</pre>
+<pre>&lt;!ENTITY % inline "#PCDATA | %fontstyle; | %phrase; | %special; | %formctrl;"></pre>
+<pre>
+&lt;!ENTITY % fontstyle
+ "TT | I | B | BIG | SMALL">
+
+&lt;!ENTITY % phrase "EM | STRONG | DFN | CODE |
+                   SAMP | KBD | VAR | CITE | ABBR | ACRONYM" >
+
+&lt;!ENTITY % special
+   "A | IMG | OBJECT | BR | SCRIPT | MAP | Q | SUB | SUP | SPAN | BDO">
+
+&lt;!ENTITY % formctrl "INPUT | SELECT | TEXTAREA | LABEL | BUTTON">
+</pre>
+</blockquote>
+
+<p>つまり、終了タグを省略することができ、ins, del, %inline;以外を内容に持つことができないというわけだ。しかし<strong>実装は異なる</strong>。
+
+<p>この仕様を正しく実装するなら、次のような処理が必要だ:
+
+<ul>
+	<li>1. 当該p要素の開始タグが現れ、その終了タグが出現するまでの間に、p要素の内容として許されない要素が出現したとき、当該p要素を終了させなければならない
+	<li>2. 当該p要素の開始タグが現れ、その終了タグが出現するまでの間に、当該P要素の親要素の終了タグが出現したとき、当該p要素を終了させなければならない
+</ul>
+
+
+<h2>1. の処理を完全に行わないソフトウェア ――Gecko, MSHTML, Webkit, Opera</h2>
+
+<p>p要素の内容としてtable要素の出現が許される場合がある。場合があるというか、ほとんどの場合許されるといっていい。IEだろうがFirefoxだろうがOperaだろうがsafariだろうが、p要素の内容にtableが許される。これは恐らく、レガシーな記述に対応するために後方互換として意図的にやっているのだろう。
+
+<p>とかいいつつ、実はこの後方互換処理を行わせない方法もある。<strong>HTML4.01 Strictを宣言する</strong>。Gecko、Webkit、Operaで有効だが、MSHTMLに関してはこの限りではない。DOCTYPEスイッチで後方互換処理を無効にできないばかりか、table要素以外にも、form要素をp要素の内容に持てるようだ。
+
+
+<h2>2. の処理を完全に行わないソフトウェア ――MSHTML, Webkit, Opera</h2>
+
+<p>ちょっとまてと。もう一度「2.」を読み返してみる。平たく言えばこういうことだ。「親要素が終了したら、終了していない子要素も終了する」。これってエラー補正処理を考える上で当たり前の振る舞いじゃないか? だが、その当たり前の処理を難しくしているらしいのが「ins及びdel要素」だ。次の例を見てみよう：
+
+<pre>&lt;ins datetime="..">&lt;p>挿入された文章..&lt;/ins> &lt;p>古い文章..</pre>
+
+<p>MSHTML、Webkit、Operaは、p要素内において開始タグの出現なしに出現したins/del要素の終了タグ<strong>「<code>&lt;/ins></code>」を無視する</strong>。これは後方互換性とか何とかではなく、単なるバグであろう。恐らくp要素の内容として許される要素について、その開始タグの出現なしに終了タグが出現した場合、それをエラーとみなして無視しているのだと思われる。お粗末。
+
+<h2>感想とか</h2>
+
+<p>さて。これらは「p要素」の終了タグの話に過ぎないという点に注意。これだけ色々面倒があることを知っていたら、省略をフル活用したHTML4.01を採用することは、ひょっとしたらなかったかもしれない。だがこれまでに色々調べたり経験したりして「知って」しまったのだからもう後戻りするコストを払う意味はないし、個人的には利点の方がはるかに多い。あくまでも「個人的には」。
+
+<p>HTMLでタグを省略するのは、普通の人はやめておいた方がいいよ。「普通の人」が読んでいるとは思えないけれども。まーとにかく色々あるし、もともと公開書庫のコンテンツとしてHTML4.01の実践的な部分は書こうと思っていたので、これからも少しずつ省略についての考察等々は公開していく予定。
+
+<p>テストページも用意したけど、要らないよな。公開書庫に移す時には付録として公開すると思うけど。]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>フレームは非論理的、再掲</title>
+    <link rel="alternate" type="text/html" href="http://jintrick.net/agenda/2008/12/post-439.html" />
+    <id>tag:jintrick.net,2008:/agenda//1.1329</id>
+
+    <published>2008-12-01T03:34:34Z</published>
+    <updated>2008-12-10T07:32:17Z</updated>
+
+    <summary> このサイトの生い立ちは、とある掲示板で議論が起こり（というよりも一方的に筆者が...</summary>
+    <author>
+        <name>Jintrick</name>
+        <uri>http://www.jintrick.net/</uri>
+    </author>
+    
+        <category term="HTML" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="（ハイパー）リンク" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://jintrick.net/agenda/">
+        <![CDATA[<blockquote cite="http://frame.s26.xrea.com/doc/Thinking/01.shtml" title="『ナビの考え方』より引用">
+<p>このサイトの生い立ちは、とある掲示板で議論が起こり（というよりも一方的に筆者が起こしたものだが）派生したのが理由だが、その掲示板にとあるサイトからの引用が投稿されたので紹介（引用）並びに筆者のそれ対する意見を記しておく。
+
+<p><a href="http://members.jcom.home.ne.jp/jintrick/Personal/d200107f.html#d0107f27">Personnel - 2001/7/1～15 - agenda - Personnel</a>
+
+<blockquote cite="http://members.jcom.home.ne.jp/jintrick/Personal/d200107f.html#d0107f27">
+<p>私は、サイト構造を明確に示したナビゲーションの存在は、ウェブサイトの構築に是非とも必要なものだと思っている。各文書が、全体構造を示したファイルと直接結び付くことで、初めてウェブサイトたり得るのではないか。結果としてユーザビリティを高めることになるが、本質的な意味はそこにあるのではないかと思っている。
+<p>ところがフレームでは、サイト構造と各文書を論理的に結び付けることはできない。視覚的に結び付いていることができるのでさえ、玄関となるトップページを開いた時だけである。ゆえに私はフレームを用いてサイト構造を分離しようとは思わない。
+</blockquote>
+
+<p><q>サイト構造を明確に示したナビゲーション</q>のくだりは、前述の通り筆者も同じ意見だ。しかし、2段落目の<q>フレームでは、サイト構造と各文書を論理的に結び付けることはできない</q>というのはどういうことなのだろう。そもそも論理的とはどのような理なのかを考えてみたい。
+<dl>
+<dt>ろんり 【論理】〔logic〕</dt> 
+<dd>
+<ol>
+<li>思考の形式・法則。議論や思考を進める道筋・論法。</li>
+<li><strong>認識対象の間に存在する脈絡・構造。</strong></li>
+</ol>
+</dd>
+</dl>
+<p>言うまでもなく、サイト構造と各文書を繋ぐのはナビゲーション、つまりリンクである。論理的な結び付きというのは非常に難しい言葉である。その論理の定義がどのようなものなのかははっきりと記されていないが、つまり、<strong>"全体構造を示したファイルと直接結び付くこと"＝論理的結合</strong>、だと推測する。だとすれば、"フレームでは、サイト構造と各文書を論理的に結び付けることはできない"というのは疑問を残す言い回しだ。何故ならば、文書を結び付ける手段は先述したように『リンク』なのだから。フレームは無関係である。
+</blockquote>
+<p class="append"><cite><a href="http://frame.s26.xrea.com/doc/Thinking/01.shtml">ナビの考え方（frame.s26.xrea.com）</a></cite>より引用
+
+<p><strong>強調Jintrick</strong>。<strong>認識対象の間に存在する脈絡・構造。</strong>と書いてある通り。<q>文書を論理的に結びつける</q>というのは、<strong>何故、それらが結びついているのかという、</strong>その<strong>何故</strong>を明示するということ。言い換えると、結びつけた<strong>理由</strong>をそのハイパーテキストの構文で示すことだ。
+
+<p>Framesetのやり方で結びついただけでは、ソフトウェアはそのファイルが全体構造を示していることを理解できない。理由が示されていないからだ。<strong>リンクの方向</strong>や文書間の主従関係も示されていない。たとえば左側ペインが目次、右側ペインに本文という「フレームページ」を考えてみると、本文と目次は直接結びついておらず、framesetの文書型を宣言された空っぽのHTML文書が、目次文書と本文文書にそれぞれ匿名リンクしているだけだ。図1に示す:
+
+<table class="object" id="figure1"><caption>図1. フレームのリンク方向</caption>
+<tr><td><img src="http://purl.org/jintrick/binary/smartart/frameset_and_link.png" alt="frameset文書が「主」、目次と本文が「従」で、目次が本文とリンクしていない"></table>
+
+<p>主従がめちゃくちゃなんだよ。論理的に両者を結び付けると、本文が目次に「目次ですよ」とリンクするのが自然だ。図2に示す:
+
+<table class="object" id="figure2"><caption>図2. 論理的なリンク方向</caption>
+<tr><td><img src="http://purl.org/jintrick/binary/smartart/logical_link.png" alt="本文が「主」、目次が「従」で、本文が目次に「rel=&quot;contents&quot;」でリンクしている"></table>
+
+<p>これが私が、何年前だっけ？6年前？に考えていたと思われる抽象的な理念。実際にどんな問題/ご利益があるかなんて今やどうでもよくなっているけれども、一つ今思いつくのは、ブラウザはフレームで構成されたウェブページの主従関係を知り得ないため「アドレスバー」とやらにヘンテコなURLを表示してユーザーを困惑させているだろう。これがその<strong>非論理性が顕在化</strong>した例だ。
+
+<p>あと、フレームの「ボーダー」。文書と文書の境目。こんなものをHTMLで表現すべきではない。これはブラウザがやるべきだ。左に目次のペインを作り、右に本文のペインを作る。こんなのは典型的なハイパーテキストブラウザの仕事だろうよ。デスクトップアプリケーションの文脈で言うなら、HTMLはデータに相当する部分だろう。ソフトウェアとデータの関係を考えれば、フレームがあまりにも異常なのは明白ではないか。
+
+<p>rel="contents"をまともに利用できるブラウザがないため、この関係が極めて重要な時、仕方なくフレームを利用することはあり得るかな。
+
+</p><ins datetime="2008-12-09T20:05+09:00">
+<h2>追記</h2>
+
+<p>当為命題を意見の押し付けだという馬鹿に言及されたが、言論をパワーハラスメントか何かと勘違いしている。この手の飛躍は被害妄想から生まれると相場は決まっていて、下手に名指しすると妄想を膨らませて何をしだすか分からん。危ないので直接関わらない方がよさそうだ。どうやら「彼」は闇黒日記に着想を得て元気になり、その勢いで書いた文章らしいが、同じような疑問を抱く人もいるかもしれないから追記しておく。
+
+<p>noframes要素は、<q cite="http://www.asahi-net.or.jp/~SD5A-UCD/rec-html401j/present/frames.html#edef-NOFRAMES">フレームをサポートしないユーザエージェントやフレームを表示しない設定になっているユーザエージェントにおいてのみ表示されるべき内容</q>である。フレームをサポートし、表示する設定にしてあるユーザーエージェントがその内容を解釈しなければならないとはされておらず、frame要素による非論理的なリンクを補完する役目をnoframesに期待することはできない。noframesに期待できるのは、フレームが無効な環境での代替内容の提供。
+
+<p>framesetのHTML文書にrel="index"などのlink要素を記述した場合にリンクされるのは「framesetの文書」と「索引（index）文書」であり、frame要素でリンクされた文書と索引は直接リンクしていない。noframesの内容とlink要素とのリンク関係が発生するのは、上に述べたように、フレームをサポートしないユーザエージェントやフレームを表示しない設定になっているユーザエージェントにおいてのみ、である。
+
+</ins>
+]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>Hatena::agenda復活</title>
+    <link rel="alternate" type="text/html" href="http://jintrick.net/agenda/2008/11/hatenaagenda-1.html" />
+    <id>tag:jintrick.net,2008:/agenda//1.1328</id>
+
+    <published>2008-11-29T11:23:21Z</published>
+    <updated>2009-01-31T04:34:01Z</updated>
+
+    <summary>なんか、今まで自分のブックマークはLAN接続型HDDに保存してきたんだけど、はて...</summary>
+    <author>
+        <name>Jintrick</name>
+        <uri>http://www.jintrick.net/</uri>
+    </author>
+    
+        <category term="ブックマーク" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://jintrick.net/agenda/">
+        <![CDATA[<p>なんか、今まで自分のブックマークはLAN接続型HDDに保存してきたんだけど、はてなブックマークみたいなのを使って公開した方が良いのかなあと思って、Hatena::agendaという記事紹介ブログみたいなのを復活させてみた。以前ははてなダイアリー上でやっていたが、これは大間違いもいいところだった。なんで最初からb.hatena.ne.jpでやらなかったんだろう。当時はてなブックマークってなかったんだっけ？まあいいや。今までは本当にいたずらとか茶々入れみたいな馬鹿な目的ではてなブックマークを使っていたけれども、ちょっと心を入れ替える。真面目にタグとかもつける。これからだけど。
+
+<ul><li><a href="http://b.hatena.ne.jp/jintrick/">Hatena::agenda（b.hatena.ne.jp）</a></ul>
+
+<p>叩かれていると逆に使いたくなるんだよ。「本当にそうか？」って。あと、まともに使っていないから叩かれている意味がちっともわからなくて悔しい。
+
+]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>「自分とは違った視点」をはてなブックマークに求めること</title>
+    <link rel="alternate" type="text/html" href="http://jintrick.net/agenda/2008/11/post-438.html" />
+    <id>tag:jintrick.net,2008:/agenda//1.1327</id>
+
+    <published>2008-11-29T09:50:13Z</published>
+    <updated>2008-11-29T10:10:58Z</updated>
+
+    <summary> １．「お気に入り」に入れるのとRSSリーダーで読むのと何が違うの？ まず、ブッ...</summary>
+    <author>
+        <name>Jintrick</name>
+        <uri>http://www.jintrick.net/</uri>
+    </author>
+    
+        <category term="misc" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://jintrick.net/agenda/">
+        <![CDATA[<blockquote cite="http://ameblo.jp/moppara/entry-10170932736.html">
+<p>１．「お気に入り」に入れるのとRSSリーダーで読むのと何が違うの？
+<p>まず、ブックマークのコメントが読めること
+<p>他の人がその記事に対してどういう感想を抱いたのかが読め、<strong>自分とは違った視点</strong>が得られる
+
+<p>次に他の好みのブックマーカーを見つけることが出来る
+
+<p>上記の記事を書いた人はほぼ一人のブックマーカーしか追っていないみたいなのだが、「お気に入り」などのページから個々の記事のページ（ttp://b.hatena.ne.jp/entrｙ/～）に飛んでコメントを読むということし、そこでよく見かけるブックマーカーを「お気に入り」に入れておけば、自分の好みの記事を効率よく探すことが出来る
+</blockquote>
+<p class="append"><cite><a href="http://ameblo.jp/moppara/entry-10170932736.html">はてなブックマークが「ソーシャル」ブックマークたる由縁（ameblo.jp/moppara/）</a></cite>より引用
+
+<p><strong>強調Jintrick</strong>。<q>自分とは違った視点</q>等が得たかったら、私の場合Firefoxのアドレスバーにcompareと打ち込んでEnterを押す。すると<em>私の環境では</em>その記事にリンクしていたり関連していたりする<strong>World Wide Web上の</strong>記事のリストが別タブに次々表示される（<small>もちろん「http://b.hatena.ne.jp/entry/<var>その記事のURI</var>」も表示されるので、はてなブックマーカーのコメントにも目を通す</small>）。
+
+<p>それに<q>自分とは違った視点</q>をはてなブックマークのコメントのみに求めるのは危険だ。はてなブックマーカーのほとんどは、記事をまともに読んでいない。きちんと読んで批判したかったら:
+<ol>
+	<li>100文字制限のある
+	<li>他人のドメイン上に
+	<li>ブックマークレットなんかを使って
+	<li>さっさと公開したりはしない。
+</ol>
+<p>稀に一言ですべて言ってのける鬼才はいるかもしれない。しかし実際はてなブックマーカーの多くはそういう気概すら持っていない。そもそも「ブックマークコメント」だし。
+
+<p>私は、まず記事を<strong>自分の目で</strong>読んで、関連する情報は<strong>自分が欲しいと思ったときに自分で取りに行く</strong>。また、それらの関連情報は「はてなの世界」に限定されない。私の眼に映っているのはWorld Wide Webというハイパーテキストアプリケーションであって、「はてな」の世界ではない。つもり。だが依存度は比較的高い。エントリー別ページは関連記事へのリンクもあって素晴らしいし。
+
+<hr>
+
+<p>リンクした上記記事とは関係ないことを断わっておくが、一応「お気に入り」が楽しいというのは想像できるつもりだ。なんか「これはひどい」みたいなタグをつけて悪態をついたら、自分が「お気に入り」に入れた「仲間」が一緒になって「これはひどい」とかさ。ドラクエのパーティ（何）みたいで楽しそう。たとえが悪意に満ちているが、当たらずといえども遠からずだろう。あるいは切手集めみたいな感覚か。気に入ったはてなユーザーの、小さいアイコンがずらりと並ぶと収集欲が満たされそう。でなければ、「お気に入られ」ることによって自分の「存在を確認」とかな。
+
+<p>私は別に楽しいとかはいいや。
+
+
+]]>
+        
+    </content>
+</entry>
+
+</feed>

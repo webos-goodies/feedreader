@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" 
+			xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+			xmlns:cc="http://web.resource.org/cc/" xml:lang="ja">
+<channel rdf:about="http://ekken.blog1.fc2.com/?xml">
+<title>ekken</title>
+<link>http://ekken.blog1.fc2.com/</link>
+<description>「えっけん」こと越後屋健太のにっき</description>
+<dc:language>ja</dc:language>
+<items>
+<rdf:Seq>
+<rdf:li rdf:resource="http://ekken.blog1.fc2.com/blog-entry-1319.html" />
+<rdf:li rdf:resource="http://ekken.blog1.fc2.com/blog-entry-1318.html" />
+<rdf:li rdf:resource="http://ekken.blog1.fc2.com/blog-entry-1317.html" />
+<rdf:li rdf:resource="http://ekken.blog1.fc2.com/blog-entry-1316.html" />
+<rdf:li rdf:resource="http://ekken.blog1.fc2.com/blog-entry-1315.html" />
+<rdf:li rdf:resource="http://ekken.blog1.fc2.com/blog-entry-1314.html" />
+<rdf:li rdf:resource="http://ekken.blog1.fc2.com/blog-entry-1313.html" />
+<rdf:li rdf:resource="http://ekken.blog1.fc2.com/blog-entry-1312.html" />
+<rdf:li rdf:resource="http://ekken.blog1.fc2.com/blog-entry-1311.html" />
+<rdf:li rdf:resource="http://ekken.blog1.fc2.com/blog-entry-1310.html" />
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://ekken.blog1.fc2.com/blog-entry-1319.html">
+<link>http://ekken.blog1.fc2.com/blog-entry-1319.html</link>
+<title>タバスコ。</title>
+<description> 家庭にある、「個人の好みで料理にかけるもの」の定番といえば、塩・胡椒・醤油がその絶対的地位を揺るぎないものとしているのだけれども、その地位を虎視眈々と狙うのがソース・マヨネーズ・ケチャプ。一味唐辛子は、活躍の場が少なくないはずなのに、友達の七味唐辛子の存在が仇になって、今ひとつ出遅れ感がある。
+それでも、前に挙げた連中は、ひと通り各家庭に常備されていると思うのだけど、さて、問題なのはタバスコ。タバ
+ </description>
+<content:encoded>
+<![CDATA[ <p>家庭にある、「個人の好みで料理にかけるもの」の定番といえば、塩・胡椒・醤油がその絶対的地位を揺るぎないものとしているのだけれども、その地位を虎視眈々と狙うのがソース・マヨネーズ・ケチャプ。一味唐辛子は、活躍の場が少なくないはずなのに、友達の七味唐辛子の存在が仇になって、今ひとつ出遅れ感がある。</p>
+<p>それでも、前に挙げた連中は、ひと通り各家庭に常備されていると思うのだけど、さて、問題なのはタバスコ。タバスコは熱烈支持者を抱えつつも、どうしてもメジャーどころには成りきれない感があり、全国一般家庭抜き打ち調査をしたとしても、常備している家庭は40％にも満たないのであった。ホントに調査したわけじゃないから知らないけど。</p>
+<p>だってねぇ。タバスコ。利用方法がごく限られているんですよ。スパゲティかピザ系のものにかける以外の使い道が思い浮かばない。世の中のタバスコマニアな人たちは、もっと有効的に利用しているのだろうか。</p>
+
+<p>僕の家では、休日の昼食に、ヨメが手作りの薄焼きピザを出してくれることが多いから、タバスコの活躍機会は少なくはないと思うのだけども、それでもスーパーで二百何十円かで売っている小さいサイズのタバスコ一本を使い切るのに、一年以上はかかるわけです。今、家の冷蔵庫に保存されているヤツの前のものなんか、三年くらいかけても消費できず、五分の一程度を残したまま、風味を感じなくなっていたので捨てちゃいましたもん。</p>
+
+<p>僕はスーパーの「業務用コーナー」に置いてある、巨大な調味料を見るのが大好きで、アレを見ると物欲がムラムラしてくるのだけれども、レストランなんかにおいてある350ミリリットルくらい入った巨大なタバスコなんかを買っちゃうと、ジオン軍はこれで10年は戦える！！　状態になっちゃうんだろうなぁ。</p>
+<br /><br /><br />
+<p>……なんてことを書いていたら、俺の立場はどうしてくれるッ！　とラー油方面からの猛烈抗議があったので、このへんで。</p> ]]>
+</content:encoded>
+<dc:subject>Diary</dc:subject>
+<dc:date>2012-10-28T09:36:23+09:00</dc:date>
+<dc:creator>ekken</dc:creator>
+<dc:publisher>FC2-BLOG</dc:publisher>
+</item>
+<item rdf:about="http://ekken.blog1.fc2.com/blog-entry-1318.html">
+<link>http://ekken.blog1.fc2.com/blog-entry-1318.html</link>
+<title>不健康メモ</title>
+<description> 2012年10月現在の、僕の身体の気になるところのメモ。
+
+
+	右肩が痛い。単なる肩凝りなのかもしれないけれど、この数週間ずっと痛い。首を左に曲げるのが苦痛。
+	首が痛い。おそらく数年前に工事現場で頭を強打したのが原因と思われる。
+	慢性的に後頭部の頭痛がある。
+	日中、異常なまでに眠い。
+	顔が痒い。あごや鼻の下など、主に口の周辺部が、猛烈に痒くなることがある。
+	夜、暗いところだと左目が見えない。右目では
+ </description>
+<content:encoded>
+<![CDATA[ <p>2012年10月現在の、僕の身体の気になるところのメモ。</p>
+
+<ul>
+	<li>右肩が痛い。単なる肩凝りなのかもしれないけれど、この数週間ずっと痛い。首を左に曲げるのが苦痛。</li>
+	<li>首が痛い。おそらく数年前に工事現場で頭を強打したのが原因と思われる。</li>
+	<li>慢性的に後頭部の頭痛がある。</li>
+	<li>日中、異常なまでに眠い。</li>
+	<li>顔が痒い。あごや鼻の下など、主に口の周辺部が、猛烈に痒くなることがある。</li>
+	<li>夜、暗いところだと左目が見えない。右目では見えるかすかな明かりが、左目だと何も見えない。</li>
+	<li>疲れていると物が二重に見えることが多い。</li>
+	<li>床につくと左の鼻が詰まりやすい。数年前に副鼻腔のポリープを除去したのだけど、それが再生しているのか？</li>
+	<li>ここ数年、花粉症のほうはそれほど酷くはないけれど、工事現場など埃っぽいところに行くとくしゃみが止まらなくなる。</li>
+	<li>左奥歯、親知らずのところに物が挟まりやすく、歯磨きしても取れない。今のところ虫歯にはなっていないと思うけど、抜歯したほうが良いのだろうか。</li>
+	<li>右足の踵が痛い。特に運転をしているときなど、踵が何かに当っている状態だとものすごく痛い。痛風なんだろうか。</li>
+	<li>もう慣れてしまったけど、足の親指の巻き爪がひどい。もっとも、フリーペーパーに載っていた巻き爪矯正の広告に出ていた写真と比較すると、大したことないレベルのようだ。</li>
+	<li>食道と思われる部分がキリキリする。</li>
+	<li>肛門の周りが猛烈に痒くなることがある。以前医者にかかったときは「肛門周囲湿疹」とか言われた。</li>
+	<li>排便をすると、鮮血が排出されることがある。たぶん切れ痔。</li>
+	<li>ラーメンライスが食べられなくなった。無理やり食べると、後で吐く。単なる食い過ぎかもしれない。</li>
+	<li>牛乳を飲むと下痢。</li>
+	<li>午前中の排尿回数が多すぎる。5～6回はトイレにいく。</li>
+	<li>ヘモグロビンが足りなくて献血ができない。</li>
+	<li>乾燥の激しい季節になると親指の指先がパックリ割れる。</li>
+	<li>ストレスが溜まると（？）、口の中、唾液腺らしき部分が、ぷっくり腫れる。医者にかかったことがあるけど、特に問題はないらしい。</li>
+	<li>5月～8月ころ、紫外線が強い季節になると、腕及び首の後が水泡状になり、猛烈に痒い。日光湿疹らしい。</li>
+</ul>
+
+<p>あと、本日、自動車のタイヤを積込しようとして、タイヤと自動車のボディーの間に左手を挟んでしまい、ものすごく痛い。左手がドラえもんの手のようになっている。</p>
+
+ ]]>
+</content:encoded>
+<dc:subject>About</dc:subject>
+<dc:date>2012-10-24T22:36:48+09:00</dc:date>
+<dc:creator>ekken</dc:creator>
+<dc:publisher>FC2-BLOG</dc:publisher>
+</item>
+<item rdf:about="http://ekken.blog1.fc2.com/blog-entry-1317.html">
+<link>http://ekken.blog1.fc2.com/blog-entry-1317.html</link>
+<title>「◯◯で発言したことは◯◯で反応してください」について</title>
+<description> ネット上の“あるサービス”での発言に対し、どこで反応するのが良いのか、という話。
+LSTYさんのツイートに、はてなブックマークを利用してコメントをしたところ、次のような反応が。
+
+先日の有名人エゴサーチの話、ekkenさんも含めて単純で平面な解釈しかされてなくて残念です。あと、Twitter上で発言したことに対してはできればTwitterで反応して下さい、めんどくさいから。&amp;mdash; LSTYさん (@LSTYpt2) 10月 24, 2012
+
+
+Tw
+ </description>
+<content:encoded>
+<![CDATA[ <p>ネット上の“あるサービス”での発言に対し、どこで反応するのが良いのか、という話。</p>
+<p><span class="webmaster">LSTY</span>さんのツイートに、はてなブックマークを利用してコメントをしたところ、次のような反応が。</p>
+
+<blockquote class="twitter-tweet" lang="en"><p>先日の有名人エゴサーチの話、ekkenさんも含めて単純で平面な解釈しかされてなくて残念です。あと、Twitter上で発言したことに対してはできればTwitterで反応して下さい、めんどくさいから。</p>&mdash; LSTYさん (@LSTYpt2) <a href="https://twitter.com/LSTYpt2/status/260919057589620736" data-datetime="2012-10-24T01:42:05+00:00">10月 24, 2012</a></blockquote>
+<script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>Twitter上で発言された物に対し、Twitter上で反応をすると、お互いが定められた形式に則ってツイートを繰り返さないと、あとで読み返すのが面倒なんですよねぇ。第三者による検証もしにくい上に、その人が発言に参加してしまうと、すぐにワケがわからなくなっちゃう。Twitterって、一人の特定の相手のみとやり取りをするには便利なツールだと思うのだけども、より多くの人の意見を聞きたい場合、そしてそれを多くの人で共有したいと考えた場合は、ちょっと不便かなぁ、と思っているわけです。</p>
+<p>そして僕の場合は、ネット上の発言は可能な限りなるべくオープンであってほしい、と思うので、知人同士の世間話っぽい会話や、誰に向けたわけでもない独り言みたいな物でもない限りは、Twitterを利用しようとは思っていないわけです。</p>
+<p>なので、LSTYさんの発言に対して、LSTYさんの意見のみを聞きたい場合ならTwitterを利用するか、あるいはメールを送るわけですが、そうでない場合は後々（自分にとって）面倒になるので、Twitter上で反応しようとは思わないのです。</p>
+
+<p>……というわけで、冒頭の命題「“あるサービス”での発言に対し、どこで反応するのが良いのか」は、元発言がどこで行われたものなのかと、その反応により何を求めているのか、によって変わってくるんだろうなぁ。</p>
+
+<hr />
+<p>以下、考えられるシチュエーションのメモ書きとして。</p>
+
+	<ul>
+		<li>その相手のみとのやり取りを求める場合</li>
+		<ul>
+			<li>メールフォームからの投稿や、Twitterならリプライ</li>
+		</ul>
+		<li>その相手のみに、一方的に伝われば良い場合</li>
+		<ul>
+			<li>一部のブログに実装されている「内緒コメント」機能、コメント機能付きのウェブ拍手など</li>
+		</ul>
+		<li>一定の仲間内でのやり取りを希望する場合</li>
+		<ul>
+			<li>FacebookはGoogle+などのSNS</li>
+		</ul>
+	</ul>
+<hr />
+
+
+<p>かなり前から、よく見かける「ネット上の議論」に関する意見で、「○○では議論が出来ない」というのがあって、この‘○○’には「はてなブックマーク」とか「Twitter」なんかが代入されたりするわけなんだけれども、僕にはこの‘○○’を一つの場所に留めなければならない理由が分からないのです。パスワード等による閲覧制限をかけていない限りは、ネットは全て繋がっているわけで、議論の場をある一定の場に限定する必要性を感じないのですね。あまりに広大に広がってしまった場合は、その全てを把握するのは難しくなるけれども、その場合も「同じテーマについて、あっちではこんな意見があったよ」とURLを示せば良いわけで。</p>
+
+ ]]>
+</content:encoded>
+<dc:subject>Web</dc:subject>
+<dc:date>2012-10-24T21:40:07+09:00</dc:date>
+<dc:creator>ekken</dc:creator>
+<dc:publisher>FC2-BLOG</dc:publisher>
+</item>
+<item rdf:about="http://ekken.blog1.fc2.com/blog-entry-1316.html">
+<link>http://ekken.blog1.fc2.com/blog-entry-1316.html</link>
+<title>最近ブログのアクセス数が減ったとお嘆きの人を救うライフハック！</title>
+<description> この1～2年、Google アナリティクスなどのアクセス解析から得られるブログのページビューが減っちゃったなぁ、とお嘆きのアナタ！
+アクセス解析に必要なコードの設置がなされていない、スマートフォンなどのモバイル表示でのアクセスが多くなったと信じこめば、ちょっとだけ幸せになれるよ！
+ </description>
+<content:encoded>
+<![CDATA[ <p>この1～2年、<a href="http://www.google.com/analytics/">Google アナリティクス</a>などのアクセス解析から得られるブログのページビューが減っちゃったなぁ、とお嘆きのアナタ！</p>
+<p>アクセス解析に必要なコードの設置がなされていない、スマートフォンなどのモバイル表示でのアクセスが多くなったと信じこめば、ちょっとだけ幸せになれるよ！</p> ]]>
+</content:encoded>
+<dc:subject>Web</dc:subject>
+<dc:date>2012-10-02T22:28:13+09:00</dc:date>
+<dc:creator>ekken</dc:creator>
+<dc:publisher>FC2-BLOG</dc:publisher>
+</item>
+<item rdf:about="http://ekken.blog1.fc2.com/blog-entry-1315.html">
+<link>http://ekken.blog1.fc2.com/blog-entry-1315.html</link>
+<title>「××のことはスルーするのですね」</title>
+<description> はてなブックマークやTwitterなどで、そこそこ話題になったブログエントリについてのコメントで、しばしば見かけるのが「××についてはスルーするのですね」というもの。
+そのコメンテーターにとっては「○○について語るのに、××の事に触れないのはおかしい」ということらしいのだけれども。
+その指摘は一理ある、と思う反面「だったら、そのことを指摘するあなたが ‘××のこと’ も踏まえて意見を書いたら良いんじゃないの？」と言
+ </description>
+<content:encoded>
+<![CDATA[ <p>はてなブックマークやTwitterなどで、そこそこ話題になったブログエントリについてのコメントで、しばしば見かけるのが「××についてはスルーするのですね」というもの。</p>
+<p>そのコメンテーターにとっては「○○について語るのに、××の事に触れないのはおかしい」ということらしいのだけれども。</p>
+<p>その指摘は一理ある、と思う反面「だったら、そのことを指摘するあなたが ‘××のこと’ も踏まえて意見を書いたら良いんじゃないの？」と言いたくなる。</p>
+
+<p>自分もたまに「××についてはスルーするのですね」というようなコメントをもらうことがあるけれど、‘××’について触れないのは、だいたいにおいて次のようなケースが多い。</p>
+
+
+<ul>
+	<li>‘××’については気付いていたけど、それを取り上げると無駄に長い文章になり、論点がぼやける</li>
+	<li>自分の主張にとって‘××’は些細な事であり、問題視していない</li>
+	<li>そもそも‘××’について気付いていない</li>
+</ul>
+
+
+<p>2003年～04年頃は、ブログで自分の意見を書き連ねて、トラックバックなどにより意見交換する文化はわりと盛り上がっていたと思うけど、Twitterが普及してからは、意見というよりもヒトコトの賛同を示すコメントか、簡単なツッコミばかりが増えてきた。</p>
+<p>自分の主張について‘××’の事を持ち出してツッコミを入れるなよ、とは思わないものの、‘××’の事を考慮しないのはおかしいと考える人は、自ら‘××’の事を取り入れてブログエントリを仕上てみてはどうだろう、と思うことが多い。そうやって話題が広がっていくのがブログのオモシロさだったのだけど、ここ数年は、‘××’について触れて再言及しても、それを指摘した人からの反応が見られないことが多く、最近は「××についてはスルーするのですね」というコメントはスルーする事が多い。</p> ]]>
+</content:encoded>
+<dc:subject>Web</dc:subject>
+<dc:date>2012-09-26T21:55:15+09:00</dc:date>
+<dc:creator>ekken</dc:creator>
+<dc:publisher>FC2-BLOG</dc:publisher>
+</item>
+<item rdf:about="http://ekken.blog1.fc2.com/blog-entry-1314.html">
+<link>http://ekken.blog1.fc2.com/blog-entry-1314.html</link>
+<title>『カギ括弧の意味について』の補足</title>
+<description> 先日のカギ括弧の用法に関する話が、予想外に反響があったようなので、その補足みたいなものとして。
+
+
+
+
+
+	前回のエントリ
+	カギ括弧の意味について：ekken&amp;nbsp;&amp;nbsp;
+
+
+前回のエントリを読み直すのが面倒！　という人のために概要を書いておくと。
+
+
+	
+amamakoさんの「カギ括弧でくくられた言葉には特別な意味があることを前提に読んでほしい。現代文読解の基礎なんだから」というツイートに対して、僕が「自分
+ </description>
+<content:encoded>
+<![CDATA[ <p>先日のカギ括弧の用法に関する話が、予想外に反響があったようなので、その補足みたいなものとして。</p>
+
+
+
+
+<dl>
+	<dt>前回のエントリ</dt>
+	<dd><a href="http://ekken.blog1.fc2.com/blog-entry-1313.html">カギ括弧の意味について：ekken</a>&nbsp;<a href="http://b.hatena.ne.jp/entry/http://ekken.blog1.fc2.com/blog-entry-1313.html" title="B?"><img src="http://b.hatena.ne.jp/entry/image/http://ekken.blog1.fc2.com/blog-entry-1313.html" alt="B?"></a>&nbsp;</dd>
+</dl>
+
+<p>前回のエントリを読み直すのが面倒！　という人のために概要を書いておくと。</p>
+
+<div style="margin-left:3em;">
+	
+<p><span class="webmaster">amamako</span>さんの「カギ括弧でくくられた言葉には特別な意味があることを前提に読んでほしい。現代文読解の基礎なんだから」というツイートに対して、僕が「自分もそういう意味を持たせてカギ括弧を使うことはあるけれど、それは‘一般的な常識’とは言い難いのではないか」とはてなブックマークにてコメント。</p>
+<p>これに対して<span class="webmaster">amamako</span>さんより激しい抗議を受けたので、「‘カギ括弧に特別な意味を持たせる’という作文法を小中学校の国語教育で教わった記憶が無いので、読み書きが好きな人はともかく、そうした習慣の無い人には分からないのではないか？」</p></div>
+
+<p>……と説明したのが前回のエントリ。</p>
+
+
+<p><a href="http://b.hatena.ne.jp/entry/ekken.blog1.fc2.com/blog-entry-1313.html">お寄せ頂いたはてなブックマークのコメント</a>を見る限り、「カギ括弧で括られた語句に特別な意味がある、というのは常識とは言い難い」という僕の主張に同意している人はごく僅かで、かなり多くの人が「当然知っているべきこと」と考えている模様。</p>
+<p>僕が自分自身で「ある語句をカギ括弧で括って特別な意味を持たせる」という作文術を利用しながらも、それは読者の共通認識とは言い難いのではないかと考えたのは、数ヶ月前に話題になった、虚構新聞のネタの是非問題を取り上げたエントリを思い浮かべていたから。</p>
+
+<dl>
+	<dt>合わせて読んで</dt>
+	<dd><a href="http://ekken.blog1.fc2.com/blog-entry-1283.html">「ちゃんと読めば分かるだろ」と言う人が、その相手の文章はちゃんと読んでいない問題：ekken</a>&nbsp;<a href="http://b.hatena.ne.jp/entry/http://ekken.blog1.fc2.com/blog-entry-1283.html" title="B?"><img src="http://b.hatena.ne.jp/entry/image/http://ekken.blog1.fc2.com/blog-entry-1283.html" alt="B?"></a>&nbsp;
+</dd>
+</dl>
+
+
+<p>虚構新聞を批判すると、その批判理由が明記されているにもかかわらず、「騙されて悔しいんですね」と言い出す人が多く、ネットユーザーの中には、僕の想定外の読解能力の人が少なくない事を痛感。このことを考慮すると、カギ括弧で括られた‘ある語句’は、文脈によって「本来の意味とは若干ニュアンスが異なる、特別な意味を持つことがある」というのは、読書経験の豊富な人にしか理解されていない事かもしれないなぁ、と考えたわけです。</p>
+<p>ついでに書くと、前回の僕のエントリでは「僕自身がカギ括弧で括られた語句に特別な意味を持たせる事がある」と書いているのに、まるで僕がそれを知らないように受け取っている人が散見した事からも、ネットユーザーの中には個性的読解力の持ち主が少なくない、と思いました。</p>
+ ]]>
+</content:encoded>
+<dc:subject>Web</dc:subject>
+<dc:date>2012-09-25T20:13:32+09:00</dc:date>
+<dc:creator>ekken</dc:creator>
+<dc:publisher>FC2-BLOG</dc:publisher>
+</item>
+<item rdf:about="http://ekken.blog1.fc2.com/blog-entry-1313.html">
+<link>http://ekken.blog1.fc2.com/blog-entry-1313.html</link>
+<title>カギ括弧の意味について</title>
+<description> 「カギ括弧で括られた語句は、何か特別な意味がある」というのは世間一般の常識か、という話。
+
+
+『
+(愚痴)頼むからさー……鍵括弧付きで言葉を使ってる時は、その鍵括弧が特別な意味持っていることを前提において読んでくれないかなぁ……現代文読解の基礎じゃん……&amp;mdash; あままこ※現在のんびり中さん (@amamako)9月 19, 2012
+
+
+上記のツイートに対して、はてなブックマークにて、僕も「特別な意味」を持たせるためにカギ括弧
+ </description>
+<content:encoded>
+<![CDATA[ <p>「カギ括弧で括られた語句は、何か特別な意味がある」というのは世間一般の常識か、という話。</p>
+
+
+『<br />
+<blockquote class="twitter-tweet" lang="ja"><p>(愚痴)頼むからさー……鍵括弧付きで言葉を使ってる時は、その鍵括弧が特別な意味持っていることを前提において読んでくれないかなぁ……現代文読解の基礎じゃん……</p>&mdash; あままこ※現在のんびり中さん (@amamako)<a href="https://twitter.com/amamako/status/248325751156404225" data-datetime="2012-09-19T07:40:47+00:00">9月 19, 2012</a></blockquote>
+<script src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>上記のツイートに対して、<a href="http://b.hatena.ne.jp/entry/twitter.com/amamako/statuses/248325751156404225">はてなブックマーク</a>にて、<q cite="http://b.hatena.ne.jp/entry/twitter.com/amamako/statuses/248325751156404225#bookmark-user-ekken" title="はてなブックマーク - Twitter / amamako: (愚痴)頼むからさー……鍵括弧付きで言葉を使ってる時 ...">僕も「特別な意味」を持たせるためにカギ括弧を使うことはあるけれど、それはどっちかというと個人のローカルルールで、決して一般的な表現の常識とはなっていないと思う</q> とコメントしたところ、何が気に障ったのか、えらくご立腹のご様子。</p>
+<p>特別揶揄や罵倒が込められているわけでもない僕のコメントの、なにがイケなかったんだろう？</p>
+
+
+
+<blockquote cite="http://h.hatena.ne.jp/keyword/%E3%82%AB%E3%82%AE%E6%8B%AC%E5%BC%A7%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" title="カギ括弧について - はてなハイク">
+id:ekken氏が（おそらく僕を貶めるためにそのような嘘をついているのでしょうが）そのような嘘をつくことは、カギ括弧には特別な意味をもっていないことが殆どであると誤解させ、結果的に人々の評論文読解能力を低下させるものです。<br />
+即刻、ブックマークコメントを訂正し、嘘をついたことを謝罪してください。さもなくば、カギ括弧の利用が個人のローカルルールだという根拠を提示してください。
+</blockquote>
+
+<p>何故僕が、よく知りもしない、利害関係のない他人を貶めようとしているのか分からないのだけども。</p>
+<p><span class="webmaster">amamako</span>さんが考えている「カギ括弧には特別な意味がある」というのは、実際に僕も作文の中でよく利用しているのだけども、カギ括弧を付けた語句という理由だけで、コレを「現代文読解の基礎なんだからが理解しろ」というのはやはり同意できないんですよね。</p>
+
+<p>「カギ括弧によって、特別な意味があること理解して読まなければ、評論文を読むのは極めて難しくなる」という<span class="webmaster">amamako</span>さんの主張は理解の範囲内なんだけれども、さて。</p>
+<p>教育内容がどの世代も常に一定というわけではないだろうけれども、小中学校の国語教育の中で、カギ括弧についてどのように教わっただろう？</p>
+<p>僕は昭和40年代の生まれなんだけれども、「文章中にカギ括弧が出てきたら、それは特別な意味がある」なんていう教育を受けた記憶が無いのです。カギ括弧は引用や会話文、書名や曲名などを記す際に使う記号、というのが義務教育におけるカギ括弧の意味だったはず。</p>
+<p>念のため確認してみたら、<a href="http://www.bunka.go.jp/index.html">文化庁のWebサイト</a>の中に、「参考資料」として「<a href="http://www.bunka.go.jp/kokugo_nihongo/joho/kijun/sanko/pdf/kugiri.pdf">くぎり符号の使ひ方</a>」（リンク先はPDFです）というのがあって、そこには<q>カギは、対話・引用語・題目、その他、特に他の文と分けたいと思ふ語句に用ひる</q>と書かれていました。この資料に上書きされる「カギ括弧には特別な意味を持たせる事がある」という情報は、文化庁のWebサイトからは見つけられなかったので、今でも義務教育の範囲内では変更無いものと思っています。</p>
+<p>……ということで、「カギ括弧の特別な意味」は、義務教育で習ったものではなく、読書や作文などの経験から身についた知識だと思うのです。つまり、読書や作文の習慣の無い人には「常識」とは言い難いのではないかと。</p>
+
+
+<p>文章の読み書きが好きな人、得意な人の中では「カギ括弧で括られた語句には特別な意味がある」というのは、よく分かるのだけれども、ブログやTwitterを閲覧している人みんなが、そういう基準を持っているわけではないと思います。</p>
+<p>文脈によって判断できる場合もあるとは言え、短い文章の中で何の説明もなしに「カギ括弧をつけただけ」で「特別な意味があることを理解してくれ」ってのは、ムシが良すぎるのではないでしょうか。</p>
+<p>気付いてくれた人、分かる人にだけ通じれば良い、というのならばともかく。語句に何か特別な意味を持たせたい、そしてそれを読み手に的確に伝えたい、ということであれば、その「特別な意味」を説明すべきであって、説明なしに「カギ括弧をつけたのだから特別な意味があるんだよ、そういう前提で読んでくれよ」というのは書き手の傲慢でしかないと思います。</p>
+』<br />
+
+
+<hr />
+<dl>
+	<dt>関連していそうなエントリ</dt>
+	<dd><a href="http://ekken.blog1.fc2.com/blog-entry-58.html">誤解から始まるコミュニケーション：ekken</a>&nbsp;<a href="http://b.hatena.ne.jp/entry/http://ekken.blog1.fc2.com/blog-entry-58.html" title="B?"><img src="http://b.hatena.ne.jp/entry/image/http://ekken.blog1.fc2.com/blog-entry-58.html" alt="B?"></a>&nbsp;</dd>
+	<dd><a href="http://ekken.blog1.fc2.com/blog-entry-935.html">誤読をされないために：ekken</a>&nbsp;<a href="http://b.hatena.ne.jp/entry/http://ekken.blog1.fc2.com/blog-entry-935.html" title="B?"><img src="http://b.hatena.ne.jp/entry/image/http://ekken.blog1.fc2.com/blog-entry-935.html" alt="B?"></a>&nbsp;</dd>
+</dl>
+
+<dl>
+	<dt>逆リンク</dt>
+	<dd><a href="http://d.hatena.ne.jp/fut573/20120922/1348269225">カギカッコの意味とか「常識」とかについての疑問 - 情報の海の漂流者</a>&nbsp;<a href="http://b.hatena.ne.jp/entry/http://d.hatena.ne.jp/fut573/20120922/1348269225" title="B?"><img src="http://b.hatena.ne.jp/entry/image/http://d.hatena.ne.jp/fut573/20120922/1348269225" alt="B?"></a>&nbsp;</dd>
+	<dd><a href="http://d.hatena.ne.jp/jo_30/20120922">言葉の「意味」 - こころはどこにゆくのか？</a>&nbsp;<a href="http://b.hatena.ne.jp/entry/http://d.hatena.ne.jp/jo_30/20120922" title="B?"><img src="http://b.hatena.ne.jp/entry/image/http://d.hatena.ne.jp/jo_30/20120922" alt="B?"></a>&nbsp;</dd>
+	<dd><a href="http://d.hatena.ne.jp/kwsktr/20120922/1348279357">カッコの意味と使い方 - kwsktrのおべんきょログ</a>&nbsp;<a href="http://b.hatena.ne.jp/entry/http://d.hatena.ne.jp/kwsktr/20120922/1348279357" title="B?"><img src="http://b.hatena.ne.jp/entry/image/http://d.hatena.ne.jp/kwsktr/20120922/1348279357" alt="B?"></a>&nbsp;</dd>
+	<dd><a href="http://d.hatena.ne.jp/NOV1975/20120922/p1">装飾と誤読 - novtan別館</a>&nbsp;<a href="http://b.hatena.ne.jp/entry/http://d.hatena.ne.jp/NOV1975/20120922/p1" title="B?"><img src="http://b.hatena.ne.jp/entry/image/http://d.hatena.ne.jp/NOV1975/20120922/p1" alt="B?"></a>&nbsp;</dd>
+</dl>
+ ]]>
+</content:encoded>
+<dc:subject>Web</dc:subject>
+<dc:date>2012-09-21T22:11:05+09:00</dc:date>
+<dc:creator>ekken</dc:creator>
+<dc:publisher>FC2-BLOG</dc:publisher>
+</item>
+<item rdf:about="http://ekken.blog1.fc2.com/blog-entry-1312.html">
+<link>http://ekken.blog1.fc2.com/blog-entry-1312.html</link>
+<title>楽天市場に謎の高額商品</title>
+<description> 久しぶりに楽天市場なんぞをぼーっと眺めていて見つけたのだけども。
+
+
+
+【三三サイズ 454×605mm】【同梱不可】【メーカー直送のため全国どこでも、何枚でも送料900円】激安 簡単 アルミフレームパネル フレーム 額縁 ブラック ホワイト ゴールド シルバー シンプル 写真たて フォトフレーム 壁掛け ポスターフレーム 写真 風景 芸術作品 額価格：79,357,035円（税込、送料別）
+
+価格設定が謎。
+ </description>
+<content:encoded>
+<![CDATA[ <p>久しぶりに楽天市場なんぞをぼーっと眺めていて見つけたのだけども。</p>
+
+
+
+<table border="0" cellpadding="0" cellspacing="0"><tr><td valign="top"><div style="border:1px solid;margin:0px;padding:6px 0px;width:420px;text-align:center;float:left"><a href="http://hb.afl.rakuten.co.jp/hgc/10030487.aaef2d2a.10030488.d2b1d5d1/?pc=http%3a%2f%2fitem.rakuten.co.jp%2fpricewars%2fkt12-04-0013%2f%3fscid%3daf_ich_link_tbl&amp;m=http%3a%2f%2fm.rakuten.co.jp%2fpricewars%2fn%2fkt12-04-0013"><img src="http://hbb.afl.rakuten.co.jp/hgb/?pc=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fpricewars%2fcabinet%2fkt12040013_sum01.jpg%3f_ex%3d400x400&amp;m=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fpricewars%2fcabinet%2fkt12040013_sum01.jpg%3f_ex%3d80x80" alt="【三三サイズ 454×605mm】【同梱不可】【メーカー直送のため全国どこでも、何枚でも送料900円】激安 簡単 アルミフレームパネル フレーム 額縁 ブラック ホワイト ゴールド シルバー シンプル 写真たて フォトフレーム 壁掛け ポスターフレーム 写真 風景 芸術作品 額" border="0" style="margin:0px;padding:0px"></a><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px"><a href="http://hb.afl.rakuten.co.jp/hgc/10030487.aaef2d2a.10030488.d2b1d5d1/?pc=http%3a%2f%2fitem.rakuten.co.jp%2fpricewars%2fkt12-04-0013%2f%3fscid%3daf_ich_link_tbl&amp;m=http%3a%2f%2fm.rakuten.co.jp%2fpricewars%2fn%2fkt12-04-0013">【三三サイズ 454×605mm】【同梱不可】【メーカー直送のため全国どこでも、何枚でも送料900円】激安 簡単 アルミフレームパネル フレーム 額縁 ブラック ホワイト ゴールド シルバー シンプル 写真たて フォトフレーム 壁掛け ポスターフレーム 写真 風景 芸術作品 額</a><br><span style="">価格：79,357,035円（税込、送料別）</span><br></p></div></td></tr></table>
+
+<p>価格設定が謎。</p>
+
+<img src="http://blog-imgs-52.fc2.com/e/k/k/ekken/rakuten20120906.png"  alt="楽天市場：アルミフレーム　79,357,035円" width="594">  ]]>
+</content:encoded>
+<dc:subject>Diary</dc:subject>
+<dc:date>2012-09-06T21:43:30+09:00</dc:date>
+<dc:creator>ekken</dc:creator>
+<dc:publisher>FC2-BLOG</dc:publisher>
+</item>
+<item rdf:about="http://ekken.blog1.fc2.com/blog-entry-1311.html">
+<link>http://ekken.blog1.fc2.com/blog-entry-1311.html</link>
+<title>アッシマーなウルトラマン</title>
+<description> 例によってAmazonをほげーっと眺めていたら、なにやら不恰好なゼットンを発見。
+
+
+
+
+「ウルトラエッグ ゼットン」ですって？
+
+
+　　　
+
+
+
+
+すごい！　変形して卵型になるらしい！
+
+
+
+ウルトラマンや他の怪獣もたくさんあった。
+うーむ、物欲を刺激する！
+ </description>
+<content:encoded>
+<![CDATA[ <p>例によってAmazonをほげーっと眺めていたら、なにやら不恰好なゼットンを発見。</p>
+
+
+<p><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B007F3IXWM/simaumadx-22/"><img src="http://ec2.images-amazon.com/images/I/41xMFHN91mL._SL160_.jpg" alt="B007F3IXWM" border="0" /></a></p>
+
+<p>「ウルトラエッグ ゼットン」ですって？</p>
+
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/B007F3IXWM/simaumadx-22/"><img src="http://ec2.images-amazon.com/images/I/418bCm4JPwL._SL160_.jpg" alt="B007F3IXWM" border="0" /></a>
+　　　
+
+<a href="http://www.amazon.co.jp/exec/obidos/ASIN/B007F3IXWM/simaumadx-22/"><img src="http://ec2.images-amazon.com/images/I/417L4heWIqL._SL160_.jpg" alt="B007F3IXWM" border="0" /></a>
+
+
+<p>すごい！　変形して卵型になるらしい！</p>
+
+
+
+<p>ウルトラマンや他の怪獣もたくさんあった。</p>
+<p>うーむ、物欲を刺激する！</p>
+<p><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B007UK274U/simaumadx-22/"><img src="http://ec2.images-amazon.com/images/I/41QJt4RYLsL._SL160_.jpg" alt="B007UK274U" border="0" /></a></p>
+
+
+<p><a href="http://www.amazon.co.jp/exec/obidos/ASIN/B007UK274U/simaumadx-22/"><img src="http://ec2.images-amazon.com/images/I/41gE9QIviGL._SL500_.jpg" alt="B007UK274U" border="0" /></a></p>
+ ]]>
+</content:encoded>
+<dc:subject>Hobby</dc:subject>
+<dc:date>2012-08-23T22:48:11+09:00</dc:date>
+<dc:creator>ekken</dc:creator>
+<dc:publisher>FC2-BLOG</dc:publisher>
+</item>
+<item rdf:about="http://ekken.blog1.fc2.com/blog-entry-1310.html">
+<link>http://ekken.blog1.fc2.com/blog-entry-1310.html</link>
+<title>フォロワーによるスパム報告→アカウント停止はTwitterの不備だよね</title>
+<description> まだまだ続いているエゴサーチ問題の話。
+
+これまで、意図的にTwitterユーザーである春名風花さん（以下、はるかぜちゃんと表記します）の名前を出してこなかったのだけども、それは僕のエゴサーチ観が彼女の言動によって形成されたものではなく、以前から考えていた事だったからなのです。
+で、今回初めてはるかぜちゃんの名前を出すわけなんだけれども。
+はるかぜちゃんが「エゴサーチして見つけた自分への言及を、非公式RT
+ </description>
+<content:encoded>
+<![CDATA[ <p>まだまだ続いているエゴサーチ問題の話。</p>
+
+<p>これまで、意図的にTwitterユーザーである<a href="https://twitter.com/harukazechan">春名風花</a>さん（以下、<span class="webmaster">はるかぜちゃん</span>と表記します）の名前を出してこなかったのだけども、それは僕のエゴサーチ観が彼女の言動によって形成されたものではなく、以前から考えていた事だったからなのです。</p>
+<p>で、今回初めて<span class="webmaster">はるかぜちゃん</span>の名前を出すわけなんだけれども。</p>
+<p><span class="webmaster">はるかぜちゃん</span>が「エゴサーチして見つけた自分への言及を、非公式RTによって自分のフォロワーにも知らせる」という行為については（僕が個人的に「非公式RT」という使用法自体が好きではないものの）、特に問題があるとは感じていません。この理由については前回までに何度も書いているので、ここでは割愛します。これまでの関連記事については、文末にリンクで表示しています。</p>
+<p>ただ、多くの人によって指摘されている、「RTによって多くの人が知ったことで、エゴサーチされた側のアカウントが数多くのスパム報告を受け、アカウント凍結されてしまう」というのは、問題視されても仕方がないか、と思います。</p>
+<p>ただし、その場合においても、はるかぜちゃんの言動に問題があるとは思えません。</p>
+
+<p>理由は、下記に転載した「<a href="http://togetter.com/li/357551">はるかぜちゃん(@harukazechan)の「晒しリプ」という「集団リンチ」・「言論封殺」に批判集中！ - Togetter</a>」に寄せられている<span class="webmaster">happeaceed</span>さん・<span class="webmaster">kana-kana_ceo</span>さんのブックマークコメントを参照（元エントリであるTogetterは現在表示されない）。</p>
+<blockquote cite="http://b.hatena.ne.jp/entry/togetter.com/li/357551#bookmark-user-happeaceed" title="happeaceedさんのはてなブックマークコメント">
+どう考えても問題となっているスパム報告・ブロック行為は他のユーザーの問題なのに、RT・QTした@<a target="_blank" href="http://twitter.com/harukazechan">harukazechan</a>さんにRTやめろQTやめろ言ってるのはお門違いだと思うが。
+</blockquote>
+<blockquote cite="http://b.hatena.ne.jp/entry/togetter.com/li/357551#bookmark-user-kana-kana_ceo" title="kana-kana_ceoさんのはてなブックマークコメント">
+<span class="comment">「10万人を超える彼女のフォロワーが一斉にスパム報告・ブロックを行うためTeitter社からアカウント凍結されるユーザーが続出」     &#x261E; 真実なら、フォロワーの質が問われますね。</span>
+</blockquote>
+
+<p>中には「<span class="webmaster">はるかぜちゃん</span>がフォロワーに、そうするように仕向けている、数の暴力だ」という人も見かけるのだけれども、僕が見逃していなければ、<span class="webmaster">はるかぜちゃん</span>本人によるフォロワーへのスパム報告依頼はされていない。「自分は手を汚さずに、フォロワーに頼ってスパム報告」は、可能性としてゼロではないかもしれないが、それは妄想の域を出ていないと思う。妄想による根拠を元に、公の場で他人を糾弾するのはイクナイよ。</p>
+
+<p>「批判的言及を行ったために、<span class="webmaster">はるかぜちゃん</span>ファンによってスパム報告をされ、アカウント凍結になるのが問題」なんだけど、<span class="webmaster">happeaceed</span>さん・<span class="webmaster">kana-kana_ceo</span>さんが言うように「フォロワーの問題」であると同時に、Twitterの仕組みの問題だと思うのですよ。数多くの人にブロックされた≒「嫌われ者の烙印をされた」人はTwitterを使用できないとなれば、嫌がらせ目的で使用停止に追い込むことも可能なわけで、大量のスパム報告/ブロックを食らったら、自動的にアカウント凍結する（らしい）Twitterの仕組みでは、凍結された側の弁明機会が設けられていないように思えます。</p>
+<p>他のサービスと比べて、ユーザー数が多いから個別の対応が難しいのかもしれないけれど、Twitterサイドにはもうちょっとがんばってほしいところ。</p>
+
+<hr />
+
+<p>余談だけど、このへん、はてなの違反報告システムは素晴らしい。他ユーザーに対する言及において、削除要請等がなされた場合、被違反報告者に対して、はてなスタッフから個別メールが寄せられます。報告された違反内容などが知らされ、対応を求められますが、その違反内容について疑問があれば返信する機会が与えられ、報告者と直接やり取りすることなく協議させてくれました。違反報告された事もした事もあるけれど、いずれの場合もはてなスタッフの対応はかなり丁寧だったよ。ナイス、はてな！</p>
+
+<dl>
+	<dt>2012エゴサーチ夏の陣、ロングラン</dt>
+	<dd><a href="http://ekken.blog1.fc2.com/blog-entry-1299.html">NGワード「エゴサーチキモイ」：ekken</a>&nbsp;<a href="http://b.hatena.ne.jp/entry/http://ekken.blog1.fc2.com/blog-entry-1299.html" title="B?"><img src="http://b.hatena.ne.jp/entry/image/http://ekken.blog1.fc2.com/blog-entry-1299.html" alt="B?"></a>&nbsp;</dd>
+	<dd><a href="http://ekken.blog1.fc2.com/blog-entry-1300.html">公開された言論に対する反論は、公開された場で行なって欲しいけど：ekken</a>&nbsp;<a href="http://b.hatena.ne.jp/entry/http://ekken.blog1.fc2.com/blog-entry-1300.html" title="B?"><img src="http://b.hatena.ne.jp/entry/image/http://ekken.blog1.fc2.com/blog-entry-1300.html" alt="B?"></a>&nbsp;</dd>
+	<dd><a href="http://ekken.blog1.fc2.com/blog-entry-1302.html">続・NGワード「エゴサーチキモイ」：ekken</a>&nbsp;<a href="http://b.hatena.ne.jp/entry/http://ekken.blog1.fc2.com/blog-entry-1302.html" title="B?"><img src="http://b.hatena.ne.jp/entry/image/http://ekken.blog1.fc2.com/blog-entry-1302.html" alt="B?"></a>&nbsp;</dd>
+	<dd><a href="http://ekken.blog1.fc2.com/blog-entry-1305.html">「晒し行為」がイケナイと思うのなら、エゴサーチされた側もイケナイことしているんだよ：ekken</a>&nbsp;<a href="http://b.hatena.ne.jp/entry/http://ekken.blog1.fc2.com/blog-entry-1305.html" title="B?"><img src="http://b.hatena.ne.jp/entry/image/http://ekken.blog1.fc2.com/blog-entry-1305.html" alt="B?"></a>&nbsp;</dd>
+	<dd><a href="http://ekken.blog1.fc2.com/blog-entry-1306.html">言及対象外の、有名人でもない一般ユーザーが群がってくるのは何故か？：ekken</a>&nbsp;<a href="http://b.hatena.ne.jp/entry/http://ekken.blog1.fc2.com/blog-entry-1306.html" title="B?"><img src="http://b.hatena.ne.jp/entry/image/http://ekken.blog1.fc2.com/blog-entry-1306.html" alt="B?"></a>&nbsp;</dd>
+	<dd><a href="http://ekken.blog1.fc2.com/blog-entry-1308.html">「言論統制」しているのはどっちなのか？：ekken</a>&nbsp;<a href="http://b.hatena.ne.jp/entry/http://ekken.blog1.fc2.com/blog-entry-1308.html" title="B?"><img src="http://b.hatena.ne.jp/entry/image/http://ekken.blog1.fc2.com/blog-entry-1308.html" alt="B?"></a>&nbsp;</dd>
+	<dd><a href="http://ekken.blog1.fc2.com/blog-entry-1309.html">エゴサーチに関する話の続き：ekken</a>&nbsp;<a href="http://b.hatena.ne.jp/entry/http://ekken.blog1.fc2.com/blog-entry-1309.html" title="B?"><img src="http://b.hatena.ne.jp/entry/image/http://ekken.blog1.fc2.com/blog-entry-1309.html" alt="B?"></a>&nbsp;</dd>
+</dl>
+ ]]>
+</content:encoded>
+<dc:subject>Web</dc:subject>
+<dc:date>2012-08-22T21:45:31+09:00</dc:date>
+<dc:creator>ekken</dc:creator>
+<dc:publisher>FC2-BLOG</dc:publisher>
+</item>
+</rdf:RDF>

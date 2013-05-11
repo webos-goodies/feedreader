@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns="http://purl.org/rss/1.0/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/">
+
+	<channel rdf:about="http://hidenkanodeshi.v-kei.net/RSS/100/">
+		<title>非電化工房　弟子入り日記</title>
+		<link>http://hidenkanodeshi.v-kei.net/</link>
+		<description>非電化工房での弟子生活日記。</description>
+		<dc:language>ja</dc:language>
+		<items>
+		<rdf:Seq>
+			<rdf:li rdf:resource="http://hidenkanodeshi.v-kei.net/%E6%9C%AA%E9%81%B8%E6%8A%9E/gw%E4%BC%91%E3%81%BF" />
+			<rdf:li rdf:resource="http://hidenkanodeshi.v-kei.net/%E6%9C%AA%E9%81%B8%E6%8A%9E/20130421" />
+			<rdf:li rdf:resource="http://hidenkanodeshi.v-kei.net/%E6%9C%AA%E9%81%B8%E6%8A%9E/%E6%96%B0%E5%BC%9F%E5%AD%90%E3%80%80%E3%80%80%E3%81%82%E3%80%80%E3%81%8B%E3%81%BF%E3%82%93%E3%81%90%E3%80%80%E3%81%99%E3%83%BC%E3%82%93%EF%BC%88%E5%AC%89%EF%BC%89" />
+			<rdf:li rdf:resource="http://hidenkanodeshi.v-kei.net/%E6%9C%AA%E9%81%B8%E6%8A%9E/%EF%BC%91%E6%B3%8A%EF%BC%92%E6%97%A5%E3%81%AE%E3%82%A2%E3%83%BC%E3%82%B9%E3%83%90%E3%83%83%E3%82%B0ws" />
+			<rdf:li rdf:resource="http://hidenkanodeshi.v-kei.net/%E6%9C%AA%E9%81%B8%E6%8A%9E/%E3%83%93%E3%83%90%E3%80%80%E5%9C%9F%E5%A1%97" />
+			<rdf:li rdf:resource="http://hidenkanodeshi.v-kei.net/%E9%9D%9E%E9%9B%BB%E5%8C%96%E3%82%AB%E3%83%95%E3%82%A7%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88/%E7%A5%9D%E5%9C%9F%E5%A1%97%EF%BC%88%E5%86%8D%EF%BC%89" />
+			<rdf:li rdf:resource="http://hidenkanodeshi.v-kei.net/%E6%9C%AA%E9%81%B8%E6%8A%9E/%E5%BE%85%E3%81%A1%E3%81%AB%E5%BE%85%E3%81%A3%E3%81%9F%E6%98%A5%E3%81%8C%E6%9D%A5%E3%82%8B" />
+			<rdf:li rdf:resource="http://hidenkanodeshi.v-kei.net/%E5%9C%B0%E6%96%B9%E3%81%A7%E4%BB%95%E4%BA%8B%E3%82%92%E5%89%B5%E3%82%8B%E5%A1%BE/%E5%9C%B0%E6%96%B9%E3%81%A7%E4%BB%95%E4%BA%8B%E3%82%92%E5%89%B5%E3%82%8B%E5%A1%BE%EF%BC%98%E6%9C%9F%E3%80%80%E7%AC%AC%E4%BA%8C%E5%9B%9E" />
+			<rdf:li rdf:resource="http://hidenkanodeshi.v-kei.net/%E6%9C%AA%E9%81%B8%E6%8A%9E/%E5%9B%A3%E4%BD%93%E8%A6%8B%E5%AD%A6%E3%81%AB%E6%8C%91%E6%88%A6%EF%BC%81%EF%BC%81%EF%BC%86%E9%80%9F%E5%A0%B1%EF%BC%9F" />
+			<rdf:li rdf:resource="http://hidenkanodeshi.v-kei.net/%E6%9C%AA%E9%81%B8%E6%8A%9E/%EF%BC%91%E9%80%B1%E9%96%93%E3%81%8A%E8%A9%A6%E3%81%97%E5%BC%9F%E5%AD%90" />
+		</rdf:Seq>
+		</items>
+	</channel>
+
+	<item rdf:about="http://hidenkanodeshi.v-kei.net/%E6%9C%AA%E9%81%B8%E6%8A%9E/gw%E4%BC%91%E3%81%BF">
+		<link>http://hidenkanodeshi.v-kei.net/%E6%9C%AA%E9%81%B8%E6%8A%9E/gw%E4%BC%91%E3%81%BF</link>
+		<title>GW休み</title>
+		<description>新弟子のいっちーです！
+
+非電化工房へ来て２週間が経ちました。
+
+毎日が濃く充実した楽しい日々です。
+
+だいたいどんなスケジュールかと言うと
+
+７時半　
+｜　　　朝食
+８時半　
+｜　　　作業
+12時半　
+｜　　　昼食
+13時半
+｜　　　作業
+16時　
+｜　　　おやつ...</description>
+		<content:encoded><![CDATA[新弟子のいっちーです！<br />
+<br />
+非電化工房へ来て２週間が経ちました。<br />
+<br />
+毎日が濃く充実した楽しい日々です。<br />
+<br />
+だいたいどんなスケジュールかと言うと<br />
+<br />
+７時半　<br />
+｜　　　朝食<br />
+８時半　<br />
+｜　　　作業<br />
+12時半　<br />
+｜　　　昼食<br />
+13時半<br />
+｜　　　作業<br />
+16時　<br />
+｜　　　おやつ<br />
+16時半<br />
+｜　　　作業<br />
+19時　<br />
+｜　　　夕食<br />
+20時<br />
+｜　　　自由<br />
+<br />
+こんな感じです。<br />
+<br />
+これまでに<br />
+・漆喰塗り<br />
+・蜂の巣箱作り<br />
+・畑の整備、じゃがいも植え付け<br />
+・建築の基本の流れの座学<br />
+・地方で仕事を創る塾に参加(月３万円ビジネス）<br />
+<br />
+ということをやってきました。<br />
+<br />
+一日一日が学ぶことが多すぎて吸収が追いつかないぐらい感じです。<br />
+<br />
+なにより先生のすごさを改めて実感。<br />
+やっぱり超一流の人です。<br />
+一生かかっても先生には勝てる気がしません(笑)<br />
+<br />
+先生は厳しいことやもっと修行しなさいなど言ってこないで、いつも優しくニコニコしてます。たまにダジャレも言います(笑)<br />
+<br />
+だからゆるい感じかというとそういう訳ではなく、自分でもっと学びたい、修行したいという気持ちに日に日になってます。<br />
+<br />
+そして具体的にここでは弟子達は自立力を鍛えます。<br />
+<br />
+先生曰く、自立力とは<br />
+1⃣自給力<br />
+2⃣自活力<br />
+3⃣仲間力<br />
+<br />
+とのことだそうです。<br />
+<br />
+1⃣自給力<br />
+１、食べ物の自給では自立ではない<br />
+自立とはよく食べ物の自給のことと思われがちですが、それだけでは自立しているとは言えない。大昔ならば支出のほとんどが食費だったのですが、現在は食は支出の２０％だからです。<br />
+<br />
+２、素敵でなければならない<br />
+みずほらしくては誰も自給したがらないからです。<br />
+<br />
+３、愉しくなければならない<br />
+これも２と同じ<br />
+<br />
+４、安くなければならない<br />
+市場価格の２０％以下を目指す。<br />
+そうでなければそれは自給ではなく趣味。<br />
+<br />
+そして自給するためには自由な時間が必要です。<br />
+<br />
+2⃣自活力<br />
+良いことで愉しく稼ぐ。<br />
+簡単に言えるけど難しいところでもあるかもしれません。<br />
+月３万円ビジネスと繋がってくるところだと思います。<br />
+ここの力がうまく機能することで、1⃣で必要な自由な時間も生まれると思います。<br />
+<br />
+3⃣仲間力<br />
+１、仲間を積極的に増やす力<br />
+２、仲間とコミュニケート<br />
+３、仲間とコラボレート<br />
+<br />
+競争社会ではストレスを発散したりするための友達が必須ですが、共生社会では仲間が必須です。<br />
+ここでは友達とは共に愉しむ人で、仲間とは共に生きる人のことを指します。<br />
+仲間やコミュニティの力はやはり思っている以上にすごい力でこれからの時代のキーワードだと思います。<br />
+<br />
+こんな素晴らしい話も頻繁に聞いて学んでます。<br />
+<br />
+やっぱり来て良かったなと思ってます。<br />
+まだ２週間しか経ってないですが(笑)<br />
+<br />
+こういう素晴らしい環境で学ばしてもらってることに感謝！]]></content:encoded>
+		<dc:subject>未選択</dc:subject>
+		<dc:date>2013-05-03T10:04:35+09:00</dc:date>
+		<dc:creator>非電化工房WWOOFer</dc:creator>
+		<dc:publisher>NINJA BLOG</dc:publisher>
+		<dc:rights>非電化工房WWOOFer</dc:rights>
+	</item>
+	<item rdf:about="http://hidenkanodeshi.v-kei.net/%E6%9C%AA%E9%81%B8%E6%8A%9E/20130421">
+		<link>http://hidenkanodeshi.v-kei.net/%E6%9C%AA%E9%81%B8%E6%8A%9E/20130421</link>
+		<title>新弟子３人あらわる！</title>
+		<description>どうも！
+入居早々、ディジュリドゥにちょっと取り憑かれた新弟子の吉澤裕紀です(^^)
+
+
+
+非電化工房では、よっしーとかよしおとかひろくんとかひろきとか呼ばれてます。公式にはよっしーでいきます。
+一年間、どうぞよろしくお願いします。
+
+
+先日から、ぼくを含め３名の新弟子が弟子入りし...</description>
+		<content:encoded><![CDATA[どうも！<br />
+入居早々、ディジュリドゥにちょっと取り憑かれた新弟子の吉澤裕紀です(^^)<br />
+<br />
+<a href="http://file.hidenkanodeshi.v-kei.net/1-IMG_4875.JPG" target="_blank"><img src="http://file.hidenkanodeshi.v-kei.net/Img/1366519996/" alt="" /></a><br />
+<br />
+非電化工房では、よっしーとかよしおとかひろくんとかひろきとか呼ばれてます。公式にはよっしーでいきます。<br />
+一年間、どうぞよろしくお願いします。<br />
+<br />
+<br />
+先日から、ぼくを含め３名の新弟子が弟子入りしました。<br />
+<br />
+<a href="http://file.hidenkanodeshi.v-kei.net/IMG_4850.JPG" target="_blank"><img src="http://file.hidenkanodeshi.v-kei.net/Img/1366518646/" alt="" /></a><br />
+<br />
+左から、やっちゃん、いっちー、私よっしー。<br />
+<br />
+３人とも大学生。<br />
+元気と勢いと行動力でがんばっていきたいと思います！<br />
+<br />
+と、さっそく昨日はいっちー発案、ピザ釜使ってピザPARTY♪<br />
+<br />
+<a href="http://file.hidenkanodeshi.v-kei.net/IMG_4863.JPG" target="_blank"><img src="http://file.hidenkanodeshi.v-kei.net/Img/1366519301/" alt="" /></a><br />
+<br />
+おとなな兄弟子さん2人が卒業しないうちにいっぱい吸収しつつ、おもしろいことたくさんやっていきたいですねっ。<br />
+<br />
+<br />
+□　■　□　■<br />
+<br />
+<br />
+さて作業の方は、相変わらず非電化カフェの漆喰ぬりぬりぬり。<br />
+<br />
+<a href="http://file.hidenkanodeshi.v-kei.net/1-IMG_4870.JPG" target="_blank"><img src="http://file.hidenkanodeshi.v-kei.net/Img/1366519318/" alt="" /></a><br />
+<br />
+ワークショップで下塗りをしていただいたところを、凹凸は削り、禿げているところは塗り直し、ラス網が浮いているところはもう一度留め直しと、修正作業をしています。<br />
+職人さんの漆喰塗りの薄さ綺麗さと比べると、ほんとに左官仕事って奥が深いんだなあと実感...<br />
+<br />
+次はいよいよ内壁に仕上げの漆喰で色を付けていきます。<br />
+<br />
+<a href="http://file.hidenkanodeshi.v-kei.net/1-IMG_4866.JPG" target="_blank"><img src="http://file.hidenkanodeshi.v-kei.net/Img/1366519310/" alt="" /></a><br />
+<br />
+どんな色にしようかなあ～と悩む先生。<br />
+こんなにいろんな色つくれるんですね。自分でもなにかに漆喰塗りたくなってくる。<br />
+<br />
+完成をおたのしみに～<br />
+<br />
+<br />
+今週は、非電化カフェつづき、新しい合宿所の清掃、野菜の植え付け、そして地方で仕事を創る塾の最終回と盛りだくさん！<br />
+30日からゴールデンウィークに入るので、それまで突っ走るぞー<br />
+<br />
+（よっし）]]></content:encoded>
+		<dc:subject>未選択</dc:subject>
+		<dc:date>2013-04-21T12:36:54+09:00</dc:date>
+		<dc:creator>非電化工房WWOOFer</dc:creator>
+		<dc:publisher>NINJA BLOG</dc:publisher>
+		<dc:rights>非電化工房WWOOFer</dc:rights>
+	</item>
+	<item rdf:about="http://hidenkanodeshi.v-kei.net/%E6%9C%AA%E9%81%B8%E6%8A%9E/%E6%96%B0%E5%BC%9F%E5%AD%90%E3%80%80%E3%80%80%E3%81%82%E3%80%80%E3%81%8B%E3%81%BF%E3%82%93%E3%81%90%E3%80%80%E3%81%99%E3%83%BC%E3%82%93%EF%BC%88%E5%AC%89%EF%BC%89">
+		<link>http://hidenkanodeshi.v-kei.net/%E6%9C%AA%E9%81%B8%E6%8A%9E/%E6%96%B0%E5%BC%9F%E5%AD%90%E3%80%80%E3%80%80%E3%81%82%E3%80%80%E3%81%8B%E3%81%BF%E3%82%93%E3%81%90%E3%80%80%E3%81%99%E3%83%BC%E3%82%93%EF%BC%88%E5%AC%89%EF%BC%89</link>
+		<title>新弟子　　あ　かみんぐ　すーん（嬉）</title>
+		<description>こんにちは！！もうすぐ新弟子が来るので急いで合宿所の掃除を始めた弟子中山です。晴れた日の掃除は気持ちいですね。７日、日本ミツバチの巣箱づくりWS開催しました。これは地方で仕事を創る塾の７期生のプロジェクトで日本ミツバチで３万円ビジネスを考えるためまずは工房で飼ってみようという試みです。塾生のH江さん...</description>
+		<content:encoded><![CDATA[こんにちは！！もうすぐ新弟子が来るので急いで合宿所の掃除を始めた弟子中山です。晴れた日の掃除は気持ちいですね。<br /><br /><br />７日、日本ミツバチの巣箱づくりWS開催しました。<br />これは地方で仕事を創る塾の７期生のプロジェクトで日本ミツバチで３万円ビジネスを考えるためまずは工房で飼ってみようという試みです。<br />塾生のH江さん（通称ぷーさん）が巣箱の作り方を勉強して<br />皆さんにレクチャー。みんなで楽しく作っていました。<br /><a href="http://file.hidenkanodeshi.v-kei.net/5482e212.jpeg" target="_blank"><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1366018994/"></a><br /><br />そして巣箱完成！！きれいに出来上がりました。<br />皆さんありがとうございました。<br />これからにおいをとる為雨ざらしにし５月初めの分蜂前に巣箱を設置する予定です。蜜蝋作り、ハチミツ、ミツバチカフェ…うーんいろいろ妄想してしまいますね。ミツバチ来るといいなぁ。<a href="http://file.hidenkanodeshi.v-kei.net/563630_445422748873816_1632352030_n.jpg" target="_blank"><br /><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1366019146/"></a><a href="http://file.hidenkanodeshi.v-kei.net/541743_445422685540489_1402612777_n.jpg" target="_blank"><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1366019093/"></a><br /><br />同じ日、非電化パン屋さんのミーティングもしました。こちらは中山が当人ｋ林さんのコンセプトや雰囲気からパン屋さんのイメージ画（ジブリ風？）を描いてきました。少し変更はありそうですがこの路線で進みそうです。<br />窯のタイプや建物の素材なども大体決まって、次回ミーティングまでに先生が設計をしてくださいます。<br />こちらもいい感じに進んでいます。<br /><br /><a href="http://file.hidenkanodeshi.v-kei.net/99552124.jpeg" target="_blank"><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1366019017/"></a><br /><br /><br />１３日非電化カフェの漆喰塗ＷＳを行いました。<br />１２月からの土塗についに終止符を打ちました（涙）<br />今回は晴天の中なんと総勢３５人もの参加者がいらっしゃいました。<br /><a href="http://file.hidenkanodeshi.v-kei.net/11939_447613998654691_1807042608_n.jpg" target="_blank"><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1366019066/"></a><br />今回は調合漆喰を使わず石灰とのり、スサ、水を混ぜるところからスタート<br />しました。<br />みんな最初はちびちびとしていたコテさばきも馴れてくるとだんだん気持ち良さそう動かしていました。漆喰塗に集中していて黙々と塗っている方もいました。<br />どんどん白くなっていくのが面白いですね。<a href="http://file.hidenkanodeshi.v-kei.net/559016_509618439094180_1927249124_n.jpg" target="_blank"><br /><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1366019131/"></a><a href="http://file.hidenkanodeshi.v-kei.net/552619_509618805760810_849511401_n.jpg" target="_blank"><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1366019111/"></a><br /><br />夕暮れには外側、内側ともにほぼ塗り終わることができました。<br />一日で茶色い壁が真っ白になるのはすごい！！別の建物みたいです。<br />皆さんもやりきった感で満足げ。たのしかったなぁ。<br /><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1366019165/"><br /><br /><br /><br />準備に手伝いに来てくださった方々、当日参加してくださった方々<br />どうもありがとうございました。<br /><br /><br />明後日から新弟子も来てカフェの作業もスピードアップしそうです。<br /><br />ではでは<br /><a href="http://file.hidenkanodeshi.v-kei.net/733903_447614435321314_41508883_n.jpg" target="_blank"><br /><br /><br /></a>]]></content:encoded>
+		<dc:subject>未選択</dc:subject>
+		<dc:date>2013-04-15T19:43:35+09:00</dc:date>
+		<dc:creator>非電化工房WWOOFer</dc:creator>
+		<dc:publisher>NINJA BLOG</dc:publisher>
+		<dc:rights>非電化工房WWOOFer</dc:rights>
+	</item>
+	<item rdf:about="http://hidenkanodeshi.v-kei.net/%E6%9C%AA%E9%81%B8%E6%8A%9E/%EF%BC%91%E6%B3%8A%EF%BC%92%E6%97%A5%E3%81%AE%E3%82%A2%E3%83%BC%E3%82%B9%E3%83%90%E3%83%83%E3%82%B0ws">
+		<link>http://hidenkanodeshi.v-kei.net/%E6%9C%AA%E9%81%B8%E6%8A%9E/%EF%BC%91%E6%B3%8A%EF%BC%92%E6%97%A5%E3%81%AE%E3%82%A2%E3%83%BC%E3%82%B9%E3%83%90%E3%83%83%E3%82%B0ws</link>
+		<title>１泊２日のアースバッグWS</title>
+		<description>こんにちは！最近暖かくたってきたので休みの日はテンゲル跡地でごろんごろんと日向ぼっこに勤し&amp;amp;nbsp;でいる弟子中山です。３月３０日３１日、２日間でアースバッグWSを開催しました。アースバッグ工法、皆さんご存知でしょうか？アースバッグ工法とは土嚢袋に土を詰めてブロックにしそれを積み上げて壁にするお家...</description>
+		<content:encoded><![CDATA[こんにちは！最近暖かくたってきたので休みの日はテンゲル跡地でごろんごろんと日向ぼっこに勤し&nbsp;でいる弟子中山です。<br /><br />３月３０日３１日、２日間でアースバッグWSを開催しました。<br />アースバッグ工法、皆さんご存知でしょうか？<br />アースバッグ工法とは土嚢袋に土を詰めてブロックにしそれを積み上げて壁にするお家の作り方です。主に土を使うのであんまりお金がかからないという工法のようです。<br />今回はともちゃんが卒業するまでにぜひこれをやってみたいということで開催にこぎつけました。<br /><br />ということで、先々週から２週間、WS準備に大忙し！！<br />まずは何もない斜面をシャベルカーで削って整地作業。<br />これが思ったより深くて難航。途中ともちゃんがシャベルカーごと落ちそうになるという緊急事態もありましたが何とか無事に生還。<br />土が落ちないように土止めをしたり、みんなが通れるような道や階段を作りました。<br /><a href="http://file.hidenkanodeshi.v-kei.net/45481_438347509581340_418793208_n.jpg" target="_blank"><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1364866809/"></a><a href="http://file.hidenkanodeshi.v-kei.net/562075_438347632914661_484013411_n.jpg" target="_blank"><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1364866987/"></a><a href="http://file.hidenkanodeshi.v-kei.net/403069_440937335989024_1033388854_n.jpg" target="_blank"><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1364866948/"></a><br />WS３日前、作業が思ったよりも進まずこのままでは間に合わない・・・・<br /><br /><br />っとここで遠方から強力な助っと、７期塾生のSカ所さん、O山さん、８期のM村さん、アジア学院のS野宮さん４人がお手伝いにきてくれました！！<br />おかげさまでなんとかWSに間に合わせることができました。本当に助かりました。ありがとうございました。<br />下は土嚢袋に土を詰める道具作り。<br /><a href="http://file.hidenkanodeshi.v-kei.net/7392_440937492655675_585888290_n.jpg" target="_blank"><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1364866735/"></a><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1364867297/"><br /><br /><br />そして当日、なんとオブザーバーも合わせると約５０人の人。すごい迫力。<br /><br /><br />まずは、基礎づくり、袋に砂とセメントを入れたものを並べてかたく押しつきます。そして水をかけて基礎完成。この作業が始め馴れなくてお昼になってしまいました。<br /><a href="http://file.hidenkanodeshi.v-kei.net/544556_442722655810492_2034773666_n.jpg" target="_blank"><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1364866966/"></a><a href="http://file.hidenkanodeshi.v-kei.net/579649_442722729143818_1621746593_n.jpg" target="_blank"><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1364867034/"></a><a href="http://file.hidenkanodeshi.v-kei.net/7300_440937415989016_1333551168_n.jpg" target="_blank"><br /><br /></a>そのあと午後からははみんなで作った土のブロックを一列づつ積んで、一列できたら押し固める。そうしてどんどん積んでいきます。<br />途中ドア枠もつけて、１日目終了。最初に比べたらどんどん早くなってみんなできそうな気がしてきました。<a href="http://file.hidenkanodeshi.v-kei.net/45304_442723259143765_660944181_n.jpg" target="_blank"><br /><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1364866752/"></a><br /><br />２日目小雨が降る中始まりました。<br />今度は窓枠もつけてさらに積んでいきます。壁の周りは漆喰仕上げになるので漆喰がつくようにラス網を回りにしいていきます。<br /><br />途中土嚢が倒れるハプニングなど試行錯誤もたくさんありました。が<br />何とか１８０センチくらいまで積むことができました。<br />次回また完成を目指してWSする予定です。<br />皆さんありがとうございました。<br /><a href="http://file.hidenkanodeshi.v-kei.net/3426_442726949143396_648317042_n.jpg" target="_blank"><br /><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1364866714/"></a><a href="http://file.hidenkanodeshi.v-kei.net/563666_442727665809991_965355088_n.jpg" target="_blank"><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1364867013/"></a><a href="http://file.hidenkanodeshi.v-kei.net/45346_442727722476652_119714633_n.jpg" target="_blank"><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1364866773/"></a><br /><br />イベントは大変だけどみんなで一つのものを作るって楽しいですね。<br />次回も楽しみです。<br /><br />ではでは<br /><br /><br /><br />あ、ともちゃん留年です。<br /><br /><br />]]></content:encoded>
+		<dc:subject>未選択</dc:subject>
+		<dc:date>2013-04-02T11:37:29+09:00</dc:date>
+		<dc:creator>非電化工房WWOOFer</dc:creator>
+		<dc:publisher>NINJA BLOG</dc:publisher>
+		<dc:rights>非電化工房WWOOFer</dc:rights>
+	</item>
+	<item rdf:about="http://hidenkanodeshi.v-kei.net/%E6%9C%AA%E9%81%B8%E6%8A%9E/%E3%83%93%E3%83%90%E3%80%80%E5%9C%9F%E5%A1%97">
+		<link>http://hidenkanodeshi.v-kei.net/%E6%9C%AA%E9%81%B8%E6%8A%9E/%E3%83%93%E3%83%90%E3%80%80%E5%9C%9F%E5%A1%97</link>
+		<title>ビバ　土塗</title>
+		<description> こんにちは、連日の土塗での迷走・・・・いや瞑想で自分との対話を深めて別の修行もはじめてしまった弟子中山です。先週はカフェ内の土塗のため、土をこねてこねて、塗って塗っての日々、さらにともちゃんの戦線離脱というアクシデントもあり波乱に満ちた１週間でした。（今はすでにともちゃん元気に前線に戻っております...</description>
+		<content:encoded><![CDATA[ こんにちは、連日の土塗での迷走・・・・いや瞑想で自分との対話を深めて別の修行もはじめてしまった弟子中山です。<br /><br /><br />先週はカフェ内の土塗のため、土をこねてこねて、塗って塗っての日々、さらにともちゃんの戦線離脱というアクシデントもあり波乱に満ちた１週間でした。（今はすでにともちゃん元気に前線に戻っております）<br /><br />内装には素敵な非電化製品飾れるように凹み棚（土をに塗って洞窟みたいでしょ）と出っ張り棚（っこれは後で漆喰を塗るのです）<br />を作っています。<br />何とか今週中に塗り終わりたいな。<br /><a href="http://file.hidenkanodeshi.v-kei.net/269206_437117463037678_1433993903_n.jpg" target="_blank"><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1363617008/"></a><a href="http://file.hidenkanodeshi.v-kei.net/582174_437117529704338_1263261954_n.jpg" target="_blank"><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1363618015/"></a><br /><br /><br />さて、第２回目の非電化パン屋さんのミーティング<br />今回もK林さんの作のパン（レーズンとオレンジピールのおいしいパンでした）をいただきながら<br />もう一回イメージのすり合わせ。<br />次回には構想案をイラストにして<br />そこからもっと具体的な案を出していくようです。<a href="http://file.hidenkanodeshi.v-kei.net/578108_437117753037649_1225105464_n.jpg" target="_blank"><br /><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1363618043/"></a><br />次回はどんなパンが食べられるのか・・・おっと<br />どんな進展があるのでしょうか。<br /><br /><br /><br /><br />ではでは。<br />]]></content:encoded>
+		<dc:subject>未選択</dc:subject>
+		<dc:date>2013-03-19T00:05:21+09:00</dc:date>
+		<dc:creator>非電化工房WWOOFer</dc:creator>
+		<dc:publisher>NINJA BLOG</dc:publisher>
+		<dc:rights>非電化工房WWOOFer</dc:rights>
+	</item>
+	<item rdf:about="http://hidenkanodeshi.v-kei.net/%E9%9D%9E%E9%9B%BB%E5%8C%96%E3%82%AB%E3%83%95%E3%82%A7%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88/%E7%A5%9D%E5%9C%9F%E5%A1%97%EF%BC%88%E5%86%8D%EF%BC%89">
+		<link>http://hidenkanodeshi.v-kei.net/%E9%9D%9E%E9%9B%BB%E5%8C%96%E3%82%AB%E3%83%95%E3%82%A7%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88/%E7%A5%9D%E5%9C%9F%E5%A1%97%EF%BC%88%E5%86%8D%EF%BC%89</link>
+		<title>祝土塗（再）</title>
+		<description>こんにちは。今週はお客さんがたくさん来たので子犬のように（パグ？）はしゃぎすぎてぐったり放心状態の弟子中山です。先週のお休みは地方で仕事を創る塾の７期生のプチ同窓会・・・・ではなく、非電化パン屋さん、ロケットストーブ薪ビジネス、日本ミツバチをついてのミーティングでした。&amp;amp;nbsp;８期生も何人かオブ...</description>
+		<content:encoded><![CDATA[こんにちは。今週はお客さんがたくさん来たので子犬のように（パグ？）<br />はしゃぎすぎてぐったり放心状態の弟子中山です。<br /><br /><br />先週のお休みは地方で仕事を創る塾の７期生のプチ同窓会・・・・ではなく、非電化パン屋さん、ロケットストーブ薪ビジネス、日本ミツバチをついてのミーティングでした。&nbsp;８期生も何人かオブザーバーとして参加してみんなでディスカッションしました。非電化パン屋さんをする予定のK林さんのおいしいパンを食べながらイメージ合わせや先生のフォローなどでそれぞれのプロジェクトが少しずつ動き始めました。近いうちにまた進展がありそうです。<br />こうご期待。<br /><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1363090944/"><br /><br /><br /><br />カフェ作業では中央棟に付ける棚板加工しました。<br />このホームセンターで買った白い板をバーナーであぶると・・・・<a href="http://file.hidenkanodeshi.v-kei.net/d0ecdb0c.jpeg" target="_blank"><br /></a><a href="http://file.hidenkanodeshi.v-kei.net/037.JPG" target="_blank"><br /><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1363090874/"></a><br /><br /><br /><br /><br />あれ！？不思議！！！貫録十分のカッコいい板になりました。<br />是非実物を見て下さい。なかなか良い出来です。<a href="http://file.hidenkanodeshi.v-kei.net/038.JPG" target="_blank"><br /><br /><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1363090902/"></a><br /><br /><br />それからカフェ棟のソファ用のベイルにモルタルを塗りました。本当は土を塗りたかったのですが椅子としてしっかり固めるためモルタルを塗りました。この上に漆喰を塗ります。先生の椅子の角度の指導もありいい感じのすわり心地です。皆さんも来たときはぜひ試してみてくださいね。<br /><a href="http://file.hidenkanodeshi.v-kei.net/75001_434731846609573_163170072_n.jpg" target="_blank"><br /><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1363091059/"></a><br /><br /><br />そして待ちに待った土塗WS!!!春らしい暖かい陽気の中参加者の皆さんにたくさんの土を塗ってもらいました。やっぱりたくさん人がいると早いですね。それに楽しい！！！<br />おかげさまで外側はほぼ塗りきることができました。<br />皆さんありがとうございました。<a href="http://file.hidenkanodeshi.v-kei.net/734637_434732666609491_1018868112_n.jpg" target="_blank"><br /><br /><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1363091008/"></a><a href="http://file.hidenkanodeshi.v-kei.net/540932_434733003276124_657937197_n.jpg" target="_blank"><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1363091031/"></a><br /><br /><br />ではでは。<a href="http://file.hidenkanodeshi.v-kei.net/d0ecdb0c.jpeg" target="_blank"><br /></a>]]></content:encoded>
+		<dc:subject>非電化カフェプロジェクト</dc:subject>
+		<dc:date>2013-03-12T21:51:30+09:00</dc:date>
+		<dc:creator>非電化工房WWOOFer</dc:creator>
+		<dc:publisher>NINJA BLOG</dc:publisher>
+		<dc:rights>非電化工房WWOOFer</dc:rights>
+	</item>
+	<item rdf:about="http://hidenkanodeshi.v-kei.net/%E6%9C%AA%E9%81%B8%E6%8A%9E/%E5%BE%85%E3%81%A1%E3%81%AB%E5%BE%85%E3%81%A3%E3%81%9F%E6%98%A5%E3%81%8C%E6%9D%A5%E3%82%8B">
+		<link>http://hidenkanodeshi.v-kei.net/%E6%9C%AA%E9%81%B8%E6%8A%9E/%E5%BE%85%E3%81%A1%E3%81%AB%E5%BE%85%E3%81%A3%E3%81%9F%E6%98%A5%E3%81%8C%E6%9D%A5%E3%82%8B</link>
+		<title>待ちに待った春が来る</title>
+		<description>こんにちは！最近、ぽかぽか陽気でいいなと思っていたら、舞い戻ってきた寒さにやられて布団滞在時間が急上昇の弟子中山です。ああ、さむい。先週は一日メンテナンス日を設けて砂利道の整備、と階段の整備をしました。壊れてる階段や段差のない斜めになってしまった階段を直しました。なかなか杭打ちが大変！！集中力が３分...</description>
+		<content:encoded><![CDATA[こんにちは！<br />最近、ぽかぽか陽気でいいなと思っていたら、舞い戻ってきた寒さにやられて布団滞在時間が急上昇の弟子中山です。ああ、さむい。<br /><br /><br />先週は一日メンテナンス日を設けて砂利道の整備、と階段の整備をしました。<br />壊れてる階段や段差のない斜めになってしまった階段を直しました。<br />なかなか杭打ちが大変！！集中力が３分間しかもたない友ちゃんと非力でメガネな中山でキンコンカンコン。みんなが通れるきれいな階段が完成！！<br />&nbsp;<img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1362310086/"><br /><br /><br />２月最終日には短期弟子で修業に来ていたコナちゃんが卒業！！最終日には先生も交えてみんなでにぎやかにクッキング。この日はダッチオーブンで作ったフライドチキンでした。おいしかった！！<br />楽しい時間を過ごしました。コナちゃんはこの後木工の勉強をするみたいです。コナちゃんありがとう。<a href="http://file.hidenkanodeshi.v-kei.net/016.JPG" target="_blank"><br /><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1362310114/"></a><a href="http://file.hidenkanodeshi.v-kei.net/017.JPG" target="_blank"><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1362310145/"></a><br /><br /><br />皆様大変お持たせしました。<br />カフェはついに次回のワークショップが決まりました。<br />３月１０日（日）に土塗りワークショップが開催されます。<br />１月のワークショップ中止から長かったなぁ。<br /><br /><br />ということで今はワークショップ準備中。<br />皆さんにすぐに土を塗ってもらえるようにコマイを完成させて（コマイも長かったなぁ）室内のオシャレ飾り棚作り。壁に穴をあけてへこませてそこを飾り棚にします。どんな棚になるのか何を飾るのか楽しみです。<br /><a href="http://file.hidenkanodeshi.v-kei.net/018.JPG" target="_blank"><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1362310191/"></a><a href="http://file.hidenkanodeshi.v-kei.net/019.JPG" target="_blank"><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1362310216/"></a><a href="http://file.hidenkanodeshi.v-kei.net/020.JPG" target="_blank"><br /><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1362310240/"></a><a href="http://file.hidenkanodeshi.v-kei.net/021.JPG" target="_blank"><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1362310266/"></a><br /><br />ではでは。<a href="http://file.hidenkanodeshi.v-kei.net/015.JPG" target="_blank"><br /><br /><br /><br /><br /><br /></a>]]></content:encoded>
+		<dc:subject>未選択</dc:subject>
+		<dc:date>2013-03-03T21:13:31+09:00</dc:date>
+		<dc:creator>非電化工房WWOOFer</dc:creator>
+		<dc:publisher>NINJA BLOG</dc:publisher>
+		<dc:rights>非電化工房WWOOFer</dc:rights>
+	</item>
+	<item rdf:about="http://hidenkanodeshi.v-kei.net/%E5%9C%B0%E6%96%B9%E3%81%A7%E4%BB%95%E4%BA%8B%E3%82%92%E5%89%B5%E3%82%8B%E5%A1%BE/%E5%9C%B0%E6%96%B9%E3%81%A7%E4%BB%95%E4%BA%8B%E3%82%92%E5%89%B5%E3%82%8B%E5%A1%BE%EF%BC%98%E6%9C%9F%E3%80%80%E7%AC%AC%E4%BA%8C%E5%9B%9E">
+		<link>http://hidenkanodeshi.v-kei.net/%E5%9C%B0%E6%96%B9%E3%81%A7%E4%BB%95%E4%BA%8B%E3%82%92%E5%89%B5%E3%82%8B%E5%A1%BE/%E5%9C%B0%E6%96%B9%E3%81%A7%E4%BB%95%E4%BA%8B%E3%82%92%E5%89%B5%E3%82%8B%E5%A1%BE%EF%BC%98%E6%9C%9F%E3%80%80%E7%AC%AC%E4%BA%8C%E5%9B%9E</link>
+		<title>地方で仕事を創る塾８期　第二回</title>
+		<description>&amp;amp;nbsp;こんにちは！！最近、ブログをみている方によく「ともちゃんのこと大好きなんですね」といわれる、ともちゃんファンクラブ会員ナンバー３番の弟子中山です。今月もやってきました地方で仕事を創る塾。短期弟子のこなちゃんも加えての楽しい勉強会になりました。なんとこの日は韓国から番組撮影の方も来ていてち...</description>
+		<content:encoded><![CDATA[&nbsp;こんにちは！！<br />最近、ブログをみている方によく「ともちゃんのこと大好きなんですね」といわれる、ともちゃんファンクラブ会員ナンバー３番の弟子中山です。<br /><br /><br />今月もやってきました地方で仕事を創る塾。<br />短期弟子のこなちゃんも加えての楽しい勉強会になりました。<br /><br />なんとこの日は韓国から番組撮影の方も来ていてちょっと緊張。<br />ちゃんと寝癖直しておけばよかった（涙）<br />勉強の前に工房内を見学。途中で見学会に２度来たことのある塾生のA元さんが説明をしてくれるというサプライズも（笑）<br /><a href="http://file.hidenkanodeshi.v-kei.net/166.JPG" target="_blank"><br /><a href="http://file.hidenkanodeshi.v-kei.net/163.JPG" target="_blank"><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1361863380/"></a></a><a href="http://file.hidenkanodeshi.v-kei.net/164.JPG" target="_blank"><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1361863426/"></a><br /><br />肝心の講義のほうは前回の宿題「半カフェ半X」の発表や<br />それぞれが考えた「３万円ビジネス」の発表。<br />それについてのディスカッションや先生のコメントなどがありました。<br />一人で考えると出てこないアイデアもみんなで考えると<br />結構出てくるもんです。<a href="http://file.hidenkanodeshi.v-kei.net/166.JPG" target="_blank"><br /><br /><br /><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1361863263/"></a><br /><br /><br />奥様＆弟子＆塾生のお手伝いで出来た愛情いっぱい朝食。<br />ホテルの朝食ビュッフェみたい！！<br />みんないっぱい食べて寒さと勉強乗り切ってね！<a href="http://file.hidenkanodeshi.v-kei.net/165.JPG" target="_blank"><br /><br /><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1361863300/"></a><br />そして今回ももちろんたくさんの宿題を抱えて帰っていきました（笑）<br /><br /><br /><br /><br />カフェのほうは着実に少しづつ進んでいます。ショップ棟の換気口台を<br />ともちゃんが作成。うむ、なかなかの出来。<br /><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1361863474/"><br /><br />短期弟子のこなちゃんの協力もあって中央棟のコマイもほぼ終了しました！！やったぁ！！<br /><a href="http://file.hidenkanodeshi.v-kei.net/162.JPG" target="_blank"><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1361863506/"></a><br /><br /><br />ではでは！！<br /><a href="http://file.hidenkanodeshi.v-kei.net/166.JPG" target="_blank"><br /><br /><br /><br /></a>]]></content:encoded>
+		<dc:subject>地方で仕事を創る塾</dc:subject>
+		<dc:date>2013-02-26T16:58:00+09:00</dc:date>
+		<dc:creator>非電化工房WWOOFer</dc:creator>
+		<dc:publisher>NINJA BLOG</dc:publisher>
+		<dc:rights>非電化工房WWOOFer</dc:rights>
+	</item>
+	<item rdf:about="http://hidenkanodeshi.v-kei.net/%E6%9C%AA%E9%81%B8%E6%8A%9E/%E5%9B%A3%E4%BD%93%E8%A6%8B%E5%AD%A6%E3%81%AB%E6%8C%91%E6%88%A6%EF%BC%81%EF%BC%81%EF%BC%86%E9%80%9F%E5%A0%B1%EF%BC%9F">
+		<link>http://hidenkanodeshi.v-kei.net/%E6%9C%AA%E9%81%B8%E6%8A%9E/%E5%9B%A3%E4%BD%93%E8%A6%8B%E5%AD%A6%E3%81%AB%E6%8C%91%E6%88%A6%EF%BC%81%EF%BC%81%EF%BC%86%E9%80%9F%E5%A0%B1%EF%BC%9F</link>
+		<title>団体見学に挑戦！！＆速報？</title>
+		<description>&amp;amp;nbsp;こんにちは！！先日、ともちゃんがシャベルカーで掘ってくれた穴にうっかりまんまと転げ落ちてお尻泥だらけの弟子＠中山です。先週はともちゃんが２２人の団体見学をすることに！！今までも小人数、案内はしたことがあったけどたくさんの人は初めて！念入りに説明する内容をチェックするともちゃん。緊張感が漂...</description>
+		<content:encoded><![CDATA[&nbsp;こんにちは！！先日、ともちゃんがシャベルカーで掘ってくれた穴に<br />うっかりまんまと転げ落ちてお尻泥だらけの弟子＠中山です。<br /><br /><br /><br />先週はともちゃんが２２人の団体見学をすることに！！<br />今までも小人数、案内はしたことがあったけどたくさんの人は初めて！<br />念入りに説明する内容をチェックするともちゃん。緊張感が漂います。<a href="http://file.hidenkanodeshi.v-kei.net/IMGP1916.JPG" target="_blank"><br /><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1361260443/"></a><a href="http://file.hidenkanodeshi.v-kei.net/IMGP1917.JPG" target="_blank"><br /></a>カフェを案内するともちゃん。やっぱり自分で作っているから説明もバッチリ。無事に１時間半コースを回り、見学を終了！！お疲れ様です！！<br /><a href="http://file.hidenkanodeshi.v-kei.net/IMGP1915.JPG" target="_blank"><br /><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1361260425/"></a><br /><a href="http://file.hidenkanodeshi.v-kei.net/IMGP1913.JPG" target="_blank"><br /></a><a href="http://file.hidenkanodeshi.v-kei.net/IMGP1917.JPG" target="_blank"><br /></a><br /><br /><br />所変わって最近チェーンソーが切れなくなってきたので<br />チェーンソーの目立て教室！！先生の指導の下<br />二人で目立ての練習！！ポジション、マーキング、角度、やすりの力の入れ方<br />そんなことを実際にやって頭と体におぼえる練習をしました。<br /><br />先生曰く「目で切るんじゃなくて、手で切るんです」<br /><br />うむむ、チェーンソー道もなかなか奥が深い。<br />ちゃんと切れるかな？？<a href="http://file.hidenkanodeshi.v-kei.net/IMGP1914.JPG" target="_blank"><br /><br /><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1361260408/"></a><a href="http://file.hidenkanodeshi.v-kei.net/IMGP1917.JPG" target="_blank"></a><br /><br /><br />速報！！ついにともちゃんが那須から沖縄に向かうための強力な旅のお供、軽トラを購入！これで卒業後も安心だね！！<a href="http://file.hidenkanodeshi.v-kei.net/IMGP1912.JPG" target="_blank"><br /><br /><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1361260375/"></a><br /><br /><br /><br />カフェ作業はカフェ棟のソファ台の設置が終わり今度はショップ棟の商品台を作っています。木材とわらを使って形を作り<br />この上にモルタルを塗って土塗の準備をします。<a href="http://file.hidenkanodeshi.v-kei.net/IMGP1917.JPG" target="_blank"><br /><br /><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1361260459/"></a><br /><br />ではでは。<br />]]></content:encoded>
+		<dc:subject>未選択</dc:subject>
+		<dc:date>2013-02-19T17:40:26+09:00</dc:date>
+		<dc:creator>非電化工房WWOOFer</dc:creator>
+		<dc:publisher>NINJA BLOG</dc:publisher>
+		<dc:rights>非電化工房WWOOFer</dc:rights>
+	</item>
+	<item rdf:about="http://hidenkanodeshi.v-kei.net/%E6%9C%AA%E9%81%B8%E6%8A%9E/%EF%BC%91%E9%80%B1%E9%96%93%E3%81%8A%E8%A9%A6%E3%81%97%E5%BC%9F%E5%AD%90">
+		<link>http://hidenkanodeshi.v-kei.net/%E6%9C%AA%E9%81%B8%E6%8A%9E/%EF%BC%91%E9%80%B1%E9%96%93%E3%81%8A%E8%A9%A6%E3%81%97%E5%BC%9F%E5%AD%90</link>
+		<title>１週間お試し弟子</title>
+		<description>こんにちは！！最近、寝癖がひどくて非電化ロックンローラーになってきた中山です。ギターはできません。今週はなんと来期の弟子候補のヨシオさん（あだ名です）が一週間の体験入所しにきました！！まだ学生だけど各地でいろんな活動をしたりしているアクティブで知的なメガネ男子です。初日の夜はよしおさんの歓迎会と節分...</description>
+		<content:encoded><![CDATA[こんにちは！！<br />最近、寝癖がひどくて非電化ロックンローラーになってきた中山です。ギターはできません。<br /><br />今週はなんと来期の弟子候補のヨシオさん（あだ名です）が一週間の体験入所しにきました！！<br />まだ学生だけど各地でいろんな活動をしたりしているアクティブで知的なメガネ男子です。<br /><br /><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1360387619/"><br /><br /><br />初日の夜はよしおさんの歓迎会と節分を兼ねてみんなで恵方巻きつくり！！<br />&nbsp;<a href="http://file.hidenkanodeshi.v-kei.net/9d750e24.jpeg" target="_blank"><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1360387438/"></a><br /><br /><br /><br />ともちゃん作・・・・ちょっとはみ出てます（笑）<a href="http://file.hidenkanodeshi.v-kei.net/971026b9.jpeg" target="_blank"><br /><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1360387468/"></a><br />先生、奥様、ヨシオ作　おいしそうでしょ（切っちゃったけど）<br /><a href="http://file.hidenkanodeshi.v-kei.net/008.JPG" target="_blank"><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1360387491/"></a><br /><br /><br /><br />それから一時弟子終了の前の日にはピザパーティー。奥様が生地を作って入れてみんなで具を載せて薪ストーブやオーブンで焼きました。<a href="http://file.hidenkanodeshi.v-kei.net/acf71e5b.jpeg" target="_blank"><br /><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1360387334/"></a><br />おいらも食べたいワン！！くいしん坊のパグがひそかにピザを狙っていました（笑）<a href="http://file.hidenkanodeshi.v-kei.net/22709c6e.jpeg" target="_blank"><br /><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1360387377/"></a><br /><br />もちろん食べるだけじゃなくて<a href="http://file.hidenkanodeshi.v-kei.net/012.JPG" target="_blank"><br /></a><br />竹取、もみ殻ひろいに、雪かき、カフェの内装作業<br />二人ではなかなかできない作業もたくさんお手伝いしてもらいました。<a href="http://file.hidenkanodeshi.v-kei.net/010.JPG" target="_blank"><br /><br /><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1360387594/"></a><a href="http://file.hidenkanodeshi.v-kei.net/009.JPG" target="_blank"><img alt="" src="http://file.hidenkanodeshi.v-kei.net/Img/1360387552/"></a><br />やっぱりゲストが来ると楽しいなぁ！！<br />よしおさんありがとうございました。<br /><br />また４月に会えるといいね。<br /><br /><br /><br />ではでは。<br /><br />]]></content:encoded>
+		<dc:subject>未選択</dc:subject>
+		<dc:date>2013-02-09T15:09:18+09:00</dc:date>
+		<dc:creator>非電化工房WWOOFer</dc:creator>
+		<dc:publisher>NINJA BLOG</dc:publisher>
+		<dc:rights>非電化工房WWOOFer</dc:rights>
+	</item>
+</rdf:RDF>

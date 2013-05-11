@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>SD Japan &#124; (株)スタートアップ・デイティング</title>
+	<atom:link href="http://jp.startup-dating.com/feed" rel="self" type="application/rss+xml" />
+	<link>http://jp.startup-dating.com</link>
+	<description>日本やアジアの「Change the game!」なテクノロジーを伝えるブログ</description>
+	<lastBuildDate>Fri, 10 May 2013 09:49:28 +0000</lastBuildDate>
+	<language>ja</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.5</generator>
+		<item>
+		<title>街情報スタートアップのサンゼロミニッツが、割安な中古マンションを探せる検索サービスを開始</title>
+		<link>http://jp.startup-dating.com/2013/05/30min-property-value-comparison</link>
+		<comments>http://jp.startup-dating.com/2013/05/30min-property-value-comparison#comments</comments>
+		<pubDate>Fri, 10 May 2013 09:30:55 +0000</pubDate>
+		<dc:creator>Masaru IKEDA</dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[30min]]></category>
+		<category><![CDATA[Japan]]></category>
+
+		<guid isPermaLink="false">http://jp.startup-dating.com/?p=46367</guid>
+		<description><![CDATA[サンゼロミニッツと言えば、モバイルアプリの「30min.」や「30min.ラーメン」に代表されるように、食に関するスタートアップという印象が強い。グルメの分野では〝ハシリ〟とも言える同社のアプリだが、 [...]<div class='yarpp-related-rss yarpp-related-none'>
+
+No related posts.
+<img src='http://yarpp.org/pixels/d52182e20a38a84cd2a3d238465356c1'/>
+</div>
+]]></description>
+				<content:encoded><![CDATA[<p><img class="alignright" alt="" src="http://data.startup-dating.com/data/service/b79cc989a2630f5b135428d6c6292e4dfeb33ca6.jpg" width="200" height="90" />サンゼロミニッツと言えば、モバイルアプリの「<a href="http://30min.jp/" target="_blank">30min.</a>」や「<a href="https://itunes.apple.com/jp/app/30min.ramen-shibe-buki-ji-lu/id422767123?mt=8" target="_blank">30min.ラーメン</a>」に代表されるように、食に関するスタートアップという印象が強い。グルメの分野では〝ハシリ〟とも言える同社のアプリだが、数々のグルメアプリが日本の市場を飽和させつつある中で、サンゼロミニッツがそろそろピボットを決めるような話を耳にしていた。</p>
+<p>このゴールデンウィークの間、レジャーや旅行に満喫された読者も多いと思うが、そんな中、サンゼロミニッツのCTOを務める野々村範之氏は、ゴールデンウィークだけで新しいサービスを一つ創り出すという試みに果敢に挑戦し、それを成し遂げた。そうして生まれたサービスが「<a href="http://mansion.30min.jp/satei/" target="_blank">割安マンションチェックツール</a>」で、本日、サンゼロミニッツの正式なサービスの一つとしてリリースされた。（そのまんまの名前なので、わかりやすい）</p>
+<p><img class="aligncenter size-full wp-image-46368" alt="30min-mansion" src="http://jp.startup-dating.com/wp/wp-content/uploads/2013/05/30min-mansion.png" width="600" height="398" /></p>
+<p>このサービスは中古不動産の売買を活性化することを意図したサービスだ。不動産投資に精通した人や不動産業者であれば、物件情報を見るだけで、概ね、どんな物件が割安か（少ない投資で大きな利益を生み出すか）を見分けることができるだろう。しかし、素人にはそれを一目で判断するのは難しいし、多くの物件情報を一つずつ見極めていくことは非常に時間を要する作業である。</p>
+<p>「割安マンションチェックツール」では、複数のマンション情報サイトから物件情報を取得し、各物件について、駅からの距離、築年数をスコアリングすることによって査定込平米単価を割り出し、これを各地域の駅周辺の平均値と比較することで割安度を提示する。つまり、一目で割安なマンションを見つけられるというわけだ。</p>
+<p>サンゼロミニッツがこのサービスのマネタイズを考えているかどうかは確認していない。しかし、不動産のプロフェッショナルにとっても有用なサービスであることから、プレミアム・サービスを用意して課金をすることも現実的な選択肢だろう。景気の上向き感も出て来たので、不動産市場もこれから快方に転じる公算が高い。投資や購入の意図はなくても、不動産市場の動向を俯瞰でき、知識欲を満たしてくれる面白いアプリである。</p>
+<div class='yarpp-related-rss yarpp-related-none'>
+<p>No related posts.</p>
+<img src='http://yarpp.org/pixels/d52182e20a38a84cd2a3d238465356c1'/>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://jp.startup-dating.com/2013/05/30min-property-value-comparison/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>期限付きはソーシャルメディアへの投稿に限らないーーデータが自壊する機能を持った新しいHDDケース</title>
+		<link>http://jp.startup-dating.com/2013/05/self-destructive-hddcase</link>
+		<comments>http://jp.startup-dating.com/2013/05/self-destructive-hddcase#comments</comments>
+		<pubDate>Fri, 10 May 2013 07:00:31 +0000</pubDate>
+		<dc:creator>Yukari Mitsuhashi</dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[HDD]]></category>
+		<category><![CDATA[Japan]]></category>
+
+		<guid isPermaLink="false">http://jp.startup-dating.com/?p=46289</guid>
+		<description><![CDATA[英語版記事はコチラ。 Facebookへの投稿、ツイート、写真など、一般的な理解ではウェブもしくはデジタルなコンテンツは永遠に残るものだと考えられていた。しかし、最近、多くのサービスがコンテンツに期 [...]<div class='yarpp-related-rss'>
+<h3>Related posts:</h3><ol>
+<li><a href='http://jp.startup-dating.com/2013/05/famikon-camera' rel='bookmark' title='懐かしいファミコン画面のような写真がとれるカメラアプリ「ファミ魂カメラ」が登場'>懐かしいファミコン画面のような写真がとれるカメラアプリ「ファミ魂カメラ」が登場</a></li>
+</ol>
+<img src='http://yarpp.org/pixels/d52182e20a38a84cd2a3d238465356c1'/>
+</div>
+]]></description>
+				<content:encoded><![CDATA[<p><img src="http://jp.startup-dating.com/wp/wp-content/uploads/2013/05/Jigen-HDD-case-620x429.png" alt="Jigen-HDD-case-620x429" width="620" height="429" class="aligncenter size-full wp-image-46290" /></p>
+<p><a href="http://www.startup-dating.com/2013/05/self-destructive-hddcase" target="_blank">英語版記事はコチラ。</a></p>
+<p>Facebookへの投稿、ツイート、写真など、一般的な理解ではウェブもしくはデジタルなコンテンツは永遠に残るものだと考えられていた。しかし、最近、多くのサービスがコンテンツに期限を設けることをコンセプトに掲げているのを目撃する。</p>
+<p>たとえば、写真共有アプリの<a href="http://www.snapchat.com/" target="_blank">Snapchat</a>は10代の若者の間で人気となっている。現在、閲覧できる時間に制限のかかった1.5億枚の写真が一日にシェアされている。Twitterのアプリ<a href="http://www.efemr.com/" target="_blank">Efemr</a>のように、メッセージにハッシュタグを加えておくとことで、自滅するツイートをポストすることができるものもある。</p>
+<p>こうした自壊する機能はサービスに限られたものではない。<a href="http://www.century.co.jp/" target="_blank">Century</a>という日本の企業が、Jigen (CT-25-ERP)と呼ばれるハードディスクのドライブのケースをリリースした。期限を迎えた暗号化されたドライブにアクセス不可能で、暗号キーは自動的に削除を行い、ドライブの中身にアクセスできなくなる。</p>
+<p>データが保存される期間は、Centuryのウェブサイトで用意された機能を使って設定することができる、これはWindowsとMacの両方に対応している。データは、最長で9,999日保存可能。自壊機能に加えて、このデバイスは自動的にロックも可能となっている。暗号化されたドライブに、最長で999分間アクセスがなかったとき、その中身はロックされ、パスワードが要求されるようになる。</p>
+<p>HDD/SSDは3つの仕切りで区切られている、しかし、暗号化されているのは1つだけ。そういったケースは刑事のガジェット（下のノスタルジーを感じさせる映像を見てほしい）に最適で、3980円で購入できる。誤用の結果データが消失してしまった場合、この会社は責任を持たないと述べている。日本で、こういった自壊サービスやソリューションがソーシャルウェブ上で増えている。</p>
+<p>たとえば、あなたの上司があなたの怒り、もしくは不満のツイートを読む可能性を回避するためなどが考えられ<a href="http://jp.startup-dating.com/2013/05/arrow-angry-microblog-japan" target="_blank">、Arrowという最近紹介したサービス</a>のような興味深い解決策だ。「ぐちったー」という、ユーザに無名で不平不満を言うサービスもある。</p>
+<p>[Via Impress]</p>
+<div class='yarpp-related-rss'>
+<h3>Related posts:</h3><ol>
+<li><a href='http://jp.startup-dating.com/2013/05/famikon-camera' rel='bookmark' title='懐かしいファミコン画面のような写真がとれるカメラアプリ「ファミ魂カメラ」が登場'>懐かしいファミコン画面のような写真がとれるカメラアプリ「ファミ魂カメラ」が登場</a></li>
+</ol>
+<img src='http://yarpp.org/pixels/d52182e20a38a84cd2a3d238465356c1'/>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://jp.startup-dating.com/2013/05/self-destructive-hddcase/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>懐かしいファミコン画面のような写真がとれるカメラアプリ「ファミ魂カメラ」が登場</title>
+		<link>http://jp.startup-dating.com/2013/05/famikon-camera</link>
+		<comments>http://jp.startup-dating.com/2013/05/famikon-camera#comments</comments>
+		<pubDate>Fri, 10 May 2013 06:00:28 +0000</pubDate>
+		<dc:creator>Rick Martin</dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[camera]]></category>
+		<category><![CDATA[Japan]]></category>
+		<category><![CDATA[Photo]]></category>
+
+		<guid isPermaLink="false">http://jp.startup-dating.com/?p=46283</guid>
+		<description><![CDATA[英語版の記事はコチラ。 昔のゲームをプレイした人たち全員にとって、楽しむことができる新しい写真アプリが東京を拠点にしたMfroから登場した。同アプリはコンソールゲームをプレイした日々へと戻してくれる。 [...]<div class='yarpp-related-rss'>
+<h3>Related posts:</h3><ol>
+<li><a href='http://jp.startup-dating.com/2013/05/self-destructive-hddcase' rel='bookmark' title='期限付きはソーシャルメディアへの投稿に限らないーーデータが自壊する機能を持った新しいHDDケース'>期限付きはソーシャルメディアへの投稿に限らないーーデータが自壊する機能を持った新しいHDDケース</a></li>
+</ol>
+<img src='http://yarpp.org/pixels/d52182e20a38a84cd2a3d238465356c1'/>
+</div>
+]]></description>
+				<content:encoded><![CDATA[<p><img class="alignright size-full wp-image-46282" alt="famikon-camera" src="http://jp.startup-dating.com/wp/wp-content/uploads/2013/05/famikon-camera.png" width="243" height="203" /><a href="http://www.startup-dating.com/2013/05/famikon-camera" target="_blank">英語版の記事はコチラ。</a></p>
+<p>昔のゲームをプレイした人たち全員にとって、楽しむことができる新しい写真アプリが東京を拠点にした<a href="http://www.mfro.net/company/" target="_blank">Mfro</a>から登場した。同アプリはコンソールゲームをプレイした日々へと戻してくれる。アプリはファミ魂カメラと呼ばれており、日本で80年代に発売された任天堂の最初のゲーム機を暗示させるアプリだ。</p>
+<p>このカメラアプリの楽しい部分は、実際にゲームのように感じられることだ。マリオブラザーズのような画面で、飲み会、食事、外出、その他の4つの撮影シーンを選ぶことができる。（画面が繊維する際、ドット絵のキャラクターがマリオのように移動するような表現がある。）</p>
+<p>数多くの写真フレームを選ぶことができ、そのフレームを通して写真を撮影し、懐かしいクラシックなゲームに対応する形にできる。すでに撮影しており、アルバムに入っていた写真を用いると、ピクセル加工のフィルターを選ぶことができ、8ビットのスタイルとブレンドすることができる。たとえば、下の写真で街の風景を撮影した写真はマリオブラザーズのフレームを当てはめたものだ。</p>
+<p>もしこのファミ魂カメラに興味があれば、<a href="https://itunes.apple.com/us/app/id641091785?mt=8&amp;ign-mpt=uo%3D4" target="_blank">App Storeからゲット</a>することができる。この会社は、ほかにも<a href="https://itunes.apple.com/jp/app/hadoukencamera/id632709405?l=en&amp;mt=8" target="_blank">波動拳カメラ</a>をリリースしている。これは先週紹介した<a href="http://jp.startup-dating.com/2013/05/kame-camera-photo-app" target="_blank">Kame Camera</a>のようなアプリだ。</p>
+<p><img class="aligncenter size-full wp-image-46284" alt="photo-620x349" src="http://jp.startup-dating.com/wp/wp-content/uploads/2013/05/photo-620x349.jpg" width="620" height="349" /></p>
+<div class='yarpp-related-rss'>
+<h3>Related posts:</h3><ol>
+<li><a href='http://jp.startup-dating.com/2013/05/self-destructive-hddcase' rel='bookmark' title='期限付きはソーシャルメディアへの投稿に限らないーーデータが自壊する機能を持った新しいHDDケース'>期限付きはソーシャルメディアへの投稿に限らないーーデータが自壊する機能を持った新しいHDDケース</a></li>
+</ol>
+<img src='http://yarpp.org/pixels/d52182e20a38a84cd2a3d238465356c1'/>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://jp.startup-dating.com/2013/05/famikon-camera/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>多くとつながり過ぎるソーシャルネットワーク時代のオアシスとなるかーー匿名性のマイクロブログ「Arrow」</title>
+		<link>http://jp.startup-dating.com/2013/05/arrow-angry-microblog-japan</link>
+		<comments>http://jp.startup-dating.com/2013/05/arrow-angry-microblog-japan#comments</comments>
+		<pubDate>Fri, 10 May 2013 05:00:44 +0000</pubDate>
+		<dc:creator>Yukari Mitsuhashi</dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Japan]]></category>
+
+		<guid isPermaLink="false">http://jp.startup-dating.com/?p=46320</guid>
+		<description><![CDATA[英語版の記事はコチラ。 日本では多くの人々がFacebook上で仕事関係の知人ともつながり、フレンドになっている。それによって正直な気持ちを自由にFacebookに投稿することができず、苦しんでいる人 [...]<div class='yarpp-related-rss'>
+<h3>Related posts:</h3><ol>
+<li><a href='http://jp.startup-dating.com/2013/05/self-destructive-hddcase' rel='bookmark' title='期限付きはソーシャルメディアへの投稿に限らないーーデータが自壊する機能を持った新しいHDDケース'>期限付きはソーシャルメディアへの投稿に限らないーーデータが自壊する機能を持った新しいHDDケース</a></li>
+<li><a href='http://jp.startup-dating.com/2012/08/between-launches-in-japan' rel='bookmark' title='8日サロンに来訪予定：カップルのためのスマホアプリ「Between」がまもなく日本でローンチ'>8日サロンに来訪予定：カップルのためのスマホアプリ「Between」がまもなく日本でローンチ</a></li>
+<li><a href='http://jp.startup-dating.com/2013/01/zendesk-acquired-more-than-25000-clients-worldwide' rel='bookmark' title='カスタマーサービス向けウェブツールのZendesk、顧客数が世界で25,000社、日本で100社を突破'>カスタマーサービス向けウェブツールのZendesk、顧客数が世界で25,000社、日本で100社を突破</a></li>
+</ol>
+<img src='http://yarpp.org/pixels/d52182e20a38a84cd2a3d238465356c1'/>
+</div>
+]]></description>
+				<content:encoded><![CDATA[<p><img class="alignright size-full wp-image-46322" alt="arrow" src="http://jp.startup-dating.com/wp/wp-content/uploads/2013/05/arrow.png" width="231" height="209" /><a href="http://www.startup-dating.com/2013/04/arrow-angry-microblog-japan" target="_blank">英語版の記事はコチラ。</a></p>
+<p>日本では多くの人々がFacebook上で仕事関係の知人ともつながり、フレンドになっている。それによって正直な気持ちを自由にFacebookに投稿することができず、苦しんでいる人も多く存在する。<a href="http://www.arrow-arrow.com/" target="_blank">Arrow</a>は、こうした問題の解決に取り組む匿名性のミニブログで、2011年の5月にリリースした。</p>
+<p>Arrowは、7万人以上のユニークユーザを抱え、1100万の投稿が行われている。この数字が密かに誰かに愚痴を言いたいと思っている人々の数を表しているとしたら、かなりの数字だ。Arrowのユーザは、自身の秘めた考えと感情を200文字という限定された文字数の中、テキストを投稿することができる。この&#8221;Arrow&#8221;はサイト上のランダムで決められたユーザのもとに送られる。Arrowでは、友人機能などのつながりはない。ただ、誰かからのArrowに反応する、もしくは自分のArrowに対する反応をもらうだけのつながりだ。</p>
+<p>ユーザはArrowへ、あらゆる種類の投稿ができる。ディナーのときに起きた配偶者との何か深刻な問題などだ。Arrowの良いところは、必ずレスポンスを得ることができる点だ。もし、ユーザがarrowを受け取り、その反応がなかったときには、そのarrowは自動的に誰か応えてくれる他の人のところに回される。この機能は「たらい回し」と呼ばれている。</p>
+<p>Arrowの運営会社<a href="http://green-romp.com/" target="_blank">Green romp</a>のCOO、増田桂己氏は、Arrowのネットワークのユニークさについて詳しく述べた。</p>
+<blockquote><p>Arrowは、ユーザ登録をする匿名性でかつ、他人と一切つながらないという面が他と異なります。上司やクライアントに知られるというストレスから開放され、シンプルに本来の自分として振る舞うことができます。そして、何を投稿したとしても、彼らは誰からから返答を受け取ることができます。人々は私たちのサービスを使用していて疲労を感じることは絶対にないでしょう。</p></blockquote>
+<p><img class="aligncenter size-full wp-image-46321" alt="Arrow-app-ui" src="http://jp.startup-dating.com/wp/wp-content/uploads/2013/05/Arrow-app-ui.png" width="481" height="360" /></p>
+<p>日本では「本音と建前」という、本当の考えや感情と実際に対面して発言することとの乖離と訳されるものが存在する。日本人は礼儀正しくあることを、無遠慮もしくは不快であることよりも優先する。Arrowは、本音を誰にもつながることのない状態で言うためのもの。Green rompはArrowのようなサービスが、デジタル時代を生きる人々にとって、他のソーシャルネットワークと共存するものになることを望んでいる。</p>
+<p>このサービスは、賢いサービスであるだけでなく、会社自体も大変ユニークだ。興味深いことに、彼らは以前Arrowのユーザが登録する前に、ユーザに質問をしている。たとえば、「あなたはイイ人ですか？」「ジョークは言えますか？」「ドラッグは使ってますか？」などだ。</p>
+<p>ArrowはiOSでもAndroidでも利用できるようになっている。</p>
+<div class='yarpp-related-rss'>
+<h3>Related posts:</h3><ol>
+<li><a href='http://jp.startup-dating.com/2013/05/self-destructive-hddcase' rel='bookmark' title='期限付きはソーシャルメディアへの投稿に限らないーーデータが自壊する機能を持った新しいHDDケース'>期限付きはソーシャルメディアへの投稿に限らないーーデータが自壊する機能を持った新しいHDDケース</a></li>
+<li><a href='http://jp.startup-dating.com/2012/08/between-launches-in-japan' rel='bookmark' title='8日サロンに来訪予定：カップルのためのスマホアプリ「Between」がまもなく日本でローンチ'>8日サロンに来訪予定：カップルのためのスマホアプリ「Between」がまもなく日本でローンチ</a></li>
+<li><a href='http://jp.startup-dating.com/2013/01/zendesk-acquired-more-than-25000-clients-worldwide' rel='bookmark' title='カスタマーサービス向けウェブツールのZendesk、顧客数が世界で25,000社、日本で100社を突破'>カスタマーサービス向けウェブツールのZendesk、顧客数が世界で25,000社、日本で100社を突破</a></li>
+</ol>
+<img src='http://yarpp.org/pixels/d52182e20a38a84cd2a3d238465356c1'/>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://jp.startup-dating.com/2013/05/arrow-angry-microblog-japan/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Tokyo Otaku ModeとMTV81.com が日本のエンタメニュースを世界に発信するパートナーシップを締結</title>
+		<link>http://jp.startup-dating.com/2013/05/tokyo-otaku-mode-mtv81</link>
+		<comments>http://jp.startup-dating.com/2013/05/tokyo-otaku-mode-mtv81#comments</comments>
+		<pubDate>Fri, 10 May 2013 02:00:13 +0000</pubDate>
+		<dc:creator>Rick Martin</dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[Japan]]></category>
+		<category><![CDATA[MTV81]]></category>
+		<category><![CDATA[Tokyo Otaku Mode]]></category>
+
+		<guid isPermaLink="false">http://jp.startup-dating.com/?p=46299</guid>
+		<description><![CDATA[英語版記事はコチラ。 日本のスタートアップ、Tokyo Otaku ModeとMTV81.com (MTV Japan が国際向けに運営しているウェブサイト) が、昨日双方が互いのコンテンツの連携を発 [...]<div class='yarpp-related-rss'>
+<h3>Related posts:</h3><ol>
+<li><a href='http://jp.startup-dating.com/2013/04/tokyo-otaku-mode-celebrates-facebook-like-landmark-with-fun-commemorative-video' rel='bookmark' title='Tokyo Otaku ModeのFacebookページLike数が1100万を突破、記念にクリエイティブな映像を公開'>Tokyo Otaku ModeのFacebookページLike数が1100万を突破、記念にクリエイティブな映像を公開</a></li>
+<li><a href='http://jp.startup-dating.com/2010/09/review-our-2nd-edition-takes-place-in-cooperation-with-mobile-monday-tokyo-and-tokyo-2-0-2' rel='bookmark' title='Review: Our 2nd Edition Takes Place In Cooperation With Mobile Monday Tokyo and Tokyo 2.0'>Review: Our 2nd Edition Takes Place In Cooperation With Mobile Monday Tokyo and Tokyo 2.0</a></li>
+<li><a href='http://jp.startup-dating.com/2010/11/invitation-to-tokyos-biggest-tech-party-ever-2010' rel='bookmark' title='Invitation to Tokyo&#8217;s Biggest Tech Party Ever 2010'>Invitation to Tokyo&#8217;s Biggest Tech Party Ever 2010</a></li>
+</ol>
+<img src='http://yarpp.org/pixels/d52182e20a38a84cd2a3d238465356c1'/>
+</div>
+]]></description>
+				<content:encoded><![CDATA[<p><img src="http://jp.startup-dating.com/wp/wp-content/uploads/2013/05/sd-tokyo-otaku-mode-3-600-300x200.jpg" alt="sd-tokyo-otaku-mode-3-600-300x200" width="300" height="200" class="alignright size-full wp-image-46300" /><a href="http://www.startup-dating.com/2013/05/tokyo-otaku-mode-mtv81" target="_blank">英語版記事はコチラ。</a></p>
+<p>日本のスタートアップ、<a href="http://jp.startup-dating.com/tag/tokyo-otaku-mode" target="_blank">Tokyo Otaku Mode</a>と<a href="http://www.mtv81.com/" target="_blank">MTV81.com</a> (MTV Japan が国際向けに運営しているウェブサイト) が、昨日双方が互いのコンテンツの連携を発表した。</p>
+<p>Tokyo Otaku Modeは、これまでにも頻繁にこのサイトでも紹介している。Tokyo Otaku Modeは、日本のアニメ、漫画、コスプレなどサブカルチャーに関するコンテンツを掲載している。日本のオタクカルチャーと、日本の世界に向けたエンターテイメントカルチャーは重なる部分が大きく、このパートナーシップは、自然にフィットするように思われる。</p>
+<p>新しい音楽やエンターテイメントに関するコンテンツはMTV81から提供され、より多くの海外オーディエンスを持っているTokyo Otaku Modeを通じて発信される。以前述べたように、このスタートアップは、<a href="https://www.facebook.com/tokyootakumode" target="_blank">1100万人以上のFacebookのファン数</a>を抱えており、この提携がMTV81のような若いパブリッシャーにとって良いものであることは容易に想像できる。一方で、Tokyo Otaku Modeが扱うニュースの中からオタクのエンターテイメントニュースに関連したものを、MTV81がピックアップしてパブリッシュすることになる。</p>
+<p>今年の始め、<a href="http://www.startup-dating.com/2013/02/tokyo-otaku-mode-has-10-million-facebook-fans-but-now-what" target="_blank">Tokyo Otaku Mode</a>は抱えている巨大なオーディエンスをなんとかしてマネタイズにつなげることに挑戦すると話していた。結局、このスタートアップのマネタイズに向けた実験は、<a href="http://otakumode.com/shop" target="_blank">otakumode.com/shop</a> 上でのE<span class='wp_keywordlink'><a href="http://jp.startup-dating.com/tag/e-commerce" title="コマース">コマース</a></span>のようだ。これに関する詳細は公式にオープンされるまで、まだわからない。</p>
+<p>Tokyo Otaku Modeは日本のスタートアップの中でもグローバル・ビジョンを持っている会社のひとつ。うまくいってくれることを願う！</p>
+<p><a href="http://otakumode.com/shop?f=navi" target="_blank"><img src="http://jp.startup-dating.com/wp/wp-content/uploads/2013/05/tokyootakumode-shop.png" alt="tokyootakumode shop" width="620" height="380" class="aligncenter size-full wp-image-46301" /></a></p>
+<div class='yarpp-related-rss'>
+<h3>Related posts:</h3><ol>
+<li><a href='http://jp.startup-dating.com/2013/04/tokyo-otaku-mode-celebrates-facebook-like-landmark-with-fun-commemorative-video' rel='bookmark' title='Tokyo Otaku ModeのFacebookページLike数が1100万を突破、記念にクリエイティブな映像を公開'>Tokyo Otaku ModeのFacebookページLike数が1100万を突破、記念にクリエイティブな映像を公開</a></li>
+<li><a href='http://jp.startup-dating.com/2010/09/review-our-2nd-edition-takes-place-in-cooperation-with-mobile-monday-tokyo-and-tokyo-2-0-2' rel='bookmark' title='Review: Our 2nd Edition Takes Place In Cooperation With Mobile Monday Tokyo and Tokyo 2.0'>Review: Our 2nd Edition Takes Place In Cooperation With Mobile Monday Tokyo and Tokyo 2.0</a></li>
+<li><a href='http://jp.startup-dating.com/2010/11/invitation-to-tokyos-biggest-tech-party-ever-2010' rel='bookmark' title='Invitation to Tokyo&#8217;s Biggest Tech Party Ever 2010'>Invitation to Tokyo&#8217;s Biggest Tech Party Ever 2010</a></li>
+</ol>
+<img src='http://yarpp.org/pixels/d52182e20a38a84cd2a3d238465356c1'/>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://jp.startup-dating.com/2013/05/tokyo-otaku-mode-mtv81/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>ICT Spring 2013参加の日本スタートアップ10社が発表、ルクセンブルクでヨーロッパ市場へプロダクトをアピール</title>
+		<link>http://jp.startup-dating.com/2013/05/10-japanese-startups-to-attend-ict-spring-2013</link>
+		<comments>http://jp.startup-dating.com/2013/05/10-japanese-startups-to-attend-ict-spring-2013#comments</comments>
+		<pubDate>Fri, 10 May 2013 01:00:59 +0000</pubDate>
+		<dc:creator>Masaru IKEDA</dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[ICT Spring]]></category>
+		<category><![CDATA[Luxembourg]]></category>
+
+		<guid isPermaLink="false">http://jp.startup-dating.com/?p=46342</guid>
+		<description><![CDATA[6月19日〜20日の2日間、ヨーロッパのほぼ中心に位置するルクセンブルクでは、年に一度、テックやスタートアップのビッグイベント「ICT Spring 2013」が開催される。ルクセンブルクという地が、 [...]<div class='yarpp-related-rss'>
+<h3>Related posts:</h3><ol>
+<li><a href='http://jp.startup-dating.com/2011/05/ncc-2011-spring-how-the-net-behaves-when-the-earthquake-hit-japan' rel='bookmark' title='[翻訳News] NCC 2011 Spring：東北大震災、そのときインターネットはどう動いたか？'>[翻訳News] NCC 2011 Spring：東北大震災、そのときインターネットはどう動いたか？</a></li>
+<li><a href='http://jp.startup-dating.com/2013/04/inviting-japanese-startups-to-ict-spring' rel='bookmark' title='ヨーロッパを目指す起業家に朗報、ルクセンブルク政府がICT Springへの招待スタートアップを募集中'>ヨーロッパを目指す起業家に朗報、ルクセンブルク政府がICT Springへの招待スタートアップを募集中</a></li>
+<li><a href='http://jp.startup-dating.com/2013/04/clearbridge-biomedics-raises-usd7-2m-series-b-from-vertex-venture-others' rel='bookmark' title='医療関連スタートアップClearbridge BioMedicsがシリーズBラウンドで720万米ドルを獲得'>医療関連スタートアップClearbridge BioMedicsがシリーズBラウンドで720万米ドルを獲得</a></li>
+</ol>
+<img src='http://yarpp.org/pixels/d52182e20a38a84cd2a3d238465356c1'/>
+</div>
+]]></description>
+				<content:encoded><![CDATA[<p><img class="size-full wp-image-46343 aligncenter" alt="ictspring2012_onstage" src="http://jp.startup-dating.com/wp/wp-content/uploads/2013/05/ictspring2012_onstage.jpg" width="600" height="400" /></p>
+<p>6月19日〜20日の2日間、ヨーロッパのほぼ中心に位置するルクセンブルクでは、年に一度、テックやスタートアップのビッグイベント「<a href="http://www.ictspring.com/" target="_blank">ICT Spring 2013</a>」が開催される。ルクセンブルクという地が、テックや起業の分野でどのくらい認知されているかについては、以前<a href="http://jp.startup-dating.com/2012/10/iview-with-francois-biltgen">この記事</a>で詳細に触れているので、参考にしてほしい。</p>
+<p>さて、ICT Spring 2013 のスタートアップ・コンテストには世界から120社が参加するが、日本から参加するスタートアップ10社の顔ぶれが発表された。SD Japan のサイト上でも、おなじみのスタートアップが何社か含まれるので、この機会に紹介したい。</p>
+<ol>
+<li><a href="http://monaca.mobi/" target="_blank">Monaca</a>／アシアル株式会社（クロスプラットフォーム・モバイルアプリ開発）</li>
+<li><a href="http://www.add4pass.com/" target="_blank">株式会社AddQuality</a>（モバイル広告会社）</li>
+<li><a href="https://conyac.cc/" target="_blank">株式会社エニドア</a>（クラウドソーシング翻訳サービス）</li>
+<li><a href="http://gulti.jp" target="_blank">株式会社ガルチ</a>（ゲームソフトウェア開発・グラフィックデザイン・ゲームソフトウェアデザイン）</li>
+<li><a href="http://www.skeed.co.jp/" target="_blank">株式会社Skeed</a>（インターネットコンテンツ配信・共有技術）</li>
+<li><a href="http://snapdi.sh/" target="_blank">SnapDish</a> ／ヴァズ株式会社　（食品写真・レシピ共有アプリ）</li>
+<li><a href="http://www.supernova-project.com" target="_blank">株式会社supernova</a>　（ゲーム・モバイルアプリ開発）</li>
+<li><a href="http://www.nekojarashi.com" target="_blank">株式会社ねこじゃらし</a>　（クラウドサービスビジネス）</li>
+<li><span style="font-size: 13px; line-height: 19px;">BHI株式会社　（スマートフォンアプリ開発）</span></li>
+<li><a href="http://www.ntt-at.co.jp/" target="_blank">NTTアドバンステクノロジ株式会社</a>（通信関連技術・機器）</li>
+</ol>
+<p>※ NTTアドバンステクノロジ はスタートアップではないが、ラボ発の新技術を製品化しており、昨年出展した内容の1年後の経過を披露する「One Year After」というカテゴリに出展するとのこと。</p>
+<p>ICT Spring は、ヨーロッパのIT／起業先進国を標榜するルクセンブルクが、政府主導の鳴り物入りで4年前からスタート。ヨーロッパでは、Le Web や The Next Web と肩を並べる有名テックイベントに成長し、昨年は60カ国から3,500名に上る起業家、投資家、メディアらが参加したとのことだ。</p>
+<p>今年のイベントには、Twitter の共同創業者、EAの創業者、SugerSync のCEO、PayPal のヨーロッパ中東担当CEO等に加え、日本からはALEX社長で前グーグル株式会社社長の辻野晃一郎氏のスピーチが予定されている。日頃からアジアやアメリカでよく姿を見る日本スタートアップが、遥かヨーロッパの地でどのような評価を得られるか、今から楽しみだ。</p>
+<p><center><iframe src="http://www.youtube.com/embed/SdVinGmfIAs?rel=0" height="340" width="600" allowfullscreen="" frameborder="0"></iframe></center></p>
+<div class='yarpp-related-rss'>
+<h3>Related posts:</h3><ol>
+<li><a href='http://jp.startup-dating.com/2011/05/ncc-2011-spring-how-the-net-behaves-when-the-earthquake-hit-japan' rel='bookmark' title='[翻訳News] NCC 2011 Spring：東北大震災、そのときインターネットはどう動いたか？'>[翻訳News] NCC 2011 Spring：東北大震災、そのときインターネットはどう動いたか？</a></li>
+<li><a href='http://jp.startup-dating.com/2013/04/inviting-japanese-startups-to-ict-spring' rel='bookmark' title='ヨーロッパを目指す起業家に朗報、ルクセンブルク政府がICT Springへの招待スタートアップを募集中'>ヨーロッパを目指す起業家に朗報、ルクセンブルク政府がICT Springへの招待スタートアップを募集中</a></li>
+<li><a href='http://jp.startup-dating.com/2013/04/clearbridge-biomedics-raises-usd7-2m-series-b-from-vertex-venture-others' rel='bookmark' title='医療関連スタートアップClearbridge BioMedicsがシリーズBラウンドで720万米ドルを獲得'>医療関連スタートアップClearbridge BioMedicsがシリーズBラウンドで720万米ドルを獲得</a></li>
+</ol>
+<img src='http://yarpp.org/pixels/d52182e20a38a84cd2a3d238465356c1'/>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://jp.startup-dating.com/2013/05/10-japanese-startups-to-attend-ict-spring-2013/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Echelon 2013メインイベントのプログラムが発表、今年は開催会場をSingapore Expoに変え一段と大規模に</title>
+		<link>http://jp.startup-dating.com/2013/05/announcing-echelon2013</link>
+		<comments>http://jp.startup-dating.com/2013/05/announcing-echelon2013#comments</comments>
+		<pubDate>Fri, 10 May 2013 00:00:21 +0000</pubDate>
+		<dc:creator>Masaru IKEDA</dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[e27]]></category>
+		<category><![CDATA[Echelon 2013]]></category>
+		<category><![CDATA[singapore]]></category>
+
+		<guid isPermaLink="false">http://jp.startup-dating.com/?p=46277</guid>
+		<description><![CDATA[シンガポールで年に一度、SD Japan のメディア・パートナーでもある e27 が開催するテック・カンファレンス Echelon。そのプログラム要旨が今週発表された。これまでは、NUS（シンガポール [...]<div class='yarpp-related-rss'>
+<h3>Related posts:</h3><ol>
+<li><a href='http://jp.startup-dating.com/2012/03/announcing-echelon2012' rel='bookmark' title='Echelon 2012のメディアスポンサーを務めますー今年は東京予選もあるよ'>Echelon 2012のメディアスポンサーを務めますー今年は東京予選もあるよ</a></li>
+<li><a href='http://jp.startup-dating.com/2013/04/announcing-echelon-2013-tokyo-satellite' rel='bookmark' title='アジア最大のテック・カンファレンスEchelon 2013、東京のサテライトイベントが4月25日に開催'>アジア最大のテック・カンファレンスEchelon 2013、東京のサテライトイベントが4月25日に開催</a></li>
+<li><a href='http://jp.startup-dating.com/2012/06/echelon-live-the-closer-knit-future-of-japan-and-southeast-asia' rel='bookmark' title='[Echelon 2012] 距離が近づき結束が深まる日本と東南アジアの将来'>[Echelon 2012] 距離が近づき結束が深まる日本と東南アジアの将来</a></li>
+</ol>
+<img src='http://yarpp.org/pixels/d52182e20a38a84cd2a3d238465356c1'/>
+</div>
+]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter size-full wp-image-46333" alt="echelon2013_head" src="http://jp.startup-dating.com/wp/wp-content/uploads/2013/05/echelon2013_head.jpg" width="600" height="222" /></p>
+<p><span class='wp_keywordlink'><a href="http://jp.startup-dating.com/tag/singapore" title="シンガポール">シンガポール</a></span>で年に一度、SD Japan のメディア・パートナーでもある e27 が開催するテック・カンファレンス Echelon。そのプログラム要旨が今週発表された。これまでは、NUS（シンガポール国立大学）のオーディトリウムで開催されてきたが、今年は規模が一回り大きくなり、チャンギ国際空港の隣駅 Expo に接する Singapore Expo というイベント会場で開催される予定だ。</p>
+<ul>
+<li><img class="wp-image-46334 alignright" alt="max-atria" src="http://jp.startup-dating.com/wp/wp-content/uploads/2013/05/max-atria.jpg" width="259" height="146" /><strong>開催日時：</strong>　2013年6月4日（火）〜5日（水）</li>
+<li><strong>開催場所：</strong>　<a href="http://e27.co/echelon/venue/" target="_blank">Singapore Expo Max Atria</a><br />
+イベント開催中は、タクシーアプリ Uber を使うと、Max Atria を目的地にした乗車に対し、50シンガポールドル（約4,000円相当）の権利を無料進呈。</li>
+<li><strong>入場チケット：</strong>　この<a href="http://echelon-2013.eventbrite.com/?discount=StartupDating" target="_blank">リンク</a>をたどるか、チケットサイトからディスカウント・コード「StartupDating」の適用により、入場料金が10%割引。</li>
+<li><strong>イベント詳細：</strong>　<a href="http://e27.co/echelon/" target="_blank">Echelon 2013 オフィシャルサイト</a></li>
+</ul>
+<p>なお、今回の Echelon 2013 の東京予選イベントとなった Echelon Tokyo Satellite や、これまでの Echelon 2011、Echelon 2012 の様子については、以下のリンクから参照できる。</p>
+<ul>
+<li><a href="http://jp.startup-dating.com/tag/echelon-2011" target="_blank">Echelon 2011 関連記事</a></li>
+<li><a href="http://jp.startup-dating.com/tag/echelon-2012" target="_blank">Echelon 2012 関連記事</a>（<a href="http://www.youtube.com/watch?v=ed1y46f9eyo&amp;list=PL85F87E4622DAED1C" target="_blank">ピッチのビデオ</a>）</li>
+<li><a href="http://jp.startup-dating.com/tag/echelon-2013" target="_blank">Echelon 2013 Tokyo Satellite 関連記事</a></li>
+</ul>
+<p><center><iframe width="600" height="340" src="http://www.youtube.com/embed/0zxJOztIwxE?rel=0" frameborder="0" allowfullscreen></iframe></center></p>
+<div class='yarpp-related-rss'>
+<h3>Related posts:</h3><ol>
+<li><a href='http://jp.startup-dating.com/2012/03/announcing-echelon2012' rel='bookmark' title='Echelon 2012のメディアスポンサーを務めますー今年は東京予選もあるよ'>Echelon 2012のメディアスポンサーを務めますー今年は東京予選もあるよ</a></li>
+<li><a href='http://jp.startup-dating.com/2013/04/announcing-echelon-2013-tokyo-satellite' rel='bookmark' title='アジア最大のテック・カンファレンスEchelon 2013、東京のサテライトイベントが4月25日に開催'>アジア最大のテック・カンファレンスEchelon 2013、東京のサテライトイベントが4月25日に開催</a></li>
+<li><a href='http://jp.startup-dating.com/2012/06/echelon-live-the-closer-knit-future-of-japan-and-southeast-asia' rel='bookmark' title='[Echelon 2012] 距離が近づき結束が深まる日本と東南アジアの将来'>[Echelon 2012] 距離が近づき結束が深まる日本と東南アジアの将来</a></li>
+</ol>
+<img src='http://yarpp.org/pixels/d52182e20a38a84cd2a3d238465356c1'/>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://jp.startup-dating.com/2013/05/announcing-echelon2013/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>GMIC Day2: 北京の熱い2日間が閉幕、各種受賞スタートアップを一挙紹介</title>
+		<link>http://jp.startup-dating.com/2013/05/gmic-day2-award-winners</link>
+		<comments>http://jp.startup-dating.com/2013/05/gmic-day2-award-winners#comments</comments>
+		<pubDate>Thu, 09 May 2013 09:00:06 +0000</pubDate>
+		<dc:creator>Masaru IKEDA</dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[China]]></category>
+		<category><![CDATA[G-startup]]></category>
+		<category><![CDATA[gmic]]></category>
+
+		<guid isPermaLink="false">http://jp.startup-dating.com/?p=46163</guid>
+		<description><![CDATA[年に一度の GMIC（全球移動互連網大会）が幕を閉じた。PM2.5、鳥インフルエンザ、尖閣諸島問題などの問題が水を差したのか、これまでの回に比べて、日本人や日本企業（スタートアップ、大規模企業を含む） [...]<div class='yarpp-related-rss'>
+<h3>Related posts:</h3><ol>
+<li><a href='http://jp.startup-dating.com/2013/05/gmic-day1-growth-startups' rel='bookmark' title='GMIC Day1: グロースステージで披露されたスタートアップ10社を紹介'>GMIC Day1: グロースステージで披露されたスタートアップ10社を紹介</a></li>
+<li><a href='http://jp.startup-dating.com/2013/05/gmic-day1-seed-early-startups' rel='bookmark' title='GMIC Day1: シード／アーリーステージで披露されたスタートアップ10社を紹介'>GMIC Day1: シード／アーリーステージで披露されたスタートアップ10社を紹介</a></li>
+<li><a href='http://jp.startup-dating.com/2012/05/g-startup-2012-competitors-finalized' rel='bookmark' title='GMIC 2012: スタートアップ・コンペティション「G-Startup」出場のファイナリストが決定'>GMIC 2012: スタートアップ・コンペティション「G-Startup」出場のファイナリストが決定</a></li>
+</ol>
+<img src='http://yarpp.org/pixels/d52182e20a38a84cd2a3d238465356c1'/>
+</div>
+]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter size-full wp-image-46255" alt="gmic_ending" src="http://jp.startup-dating.com/wp/wp-content/uploads/2013/05/gmic_ending.jpg" width="600" height="343" /></p>
+<p>年に一度の <a href="http://beijing.thegmic.com/jp/" target="_blank">GMIC（全球移動互連網大会）</a>が幕を閉じた。PM2.5、鳥インフルエンザ、尖閣諸島問題などの問題が水を差したのか、これまでの回に比べて、日本人や日本企業（スタートアップ、大規模企業を含む）の存在感は、やや薄らいだのかもしれない。他方、<span class='wp_keywordlink'><a href="http://jp.startup-dating.com/tag/china" title="中国">中国</a></span>のネット企業の加勢は顕著であり、巨大な市場を狙って、<span class='wp_keywordlink'><a href="http://jp.startup-dating.com/tag/china" title="中国">中国</a></span>参入を試みる欧米のスタートアップも増えているようだ。</p>
+<p>GMIC では、メイン・ステージのパネル・ディスカッションと並行して、数本の分科会パネルやピッチセッションが会場内で繰り広げられるが、それぞれのセッションから優秀企業が表彰される。この表彰の機会は、GMICの中で熱気を帯びる部分で、受賞者の顔ぶれを見れば、その年の中国インターネット界のトレンドが読めると言ってもよい。</p>
+<h3>Startup Award／明星企業・初創企業成長奨（明星企业・初创企业成长奖）</h3>
+<p>GMIC G-Startup のシード／アーリーステージ、グロースステージに出場した全スタートアップは、以下に掲載。</p>
+<ul>
+<li><a href="http://jp.startup-dating.com/2013/05/gmic-day1-seed-early-startups">GMIC Day1: シード／アーリーステージで披露されたスタートアップ10社を紹介</a></li>
+<li><a href="http://jp.startup-dating.com/2013/05/gmic-day1-growth-startups">GMIC Day1: グロースステージで披露されたスタートアップ10社を紹介</a></li>
+</ul>
+<p><img class="alignright" alt="" src="http://jp.startup-dating.com/wp/wp-content/uploads/2013/05/mention_logo.png" width="100" height="33" /><strong><a href="http://mentionllc.com" target="_blank">Mention（中国）</a></strong></p>
+<p>行動心理学に基づいたソリューションを提供するスタートアップ。ゲーム開発会社に取っては興味があるだろう。昨日、Traintracks というツールを発表、ゲーム開発会社に提供する。ユーザがなぜ、そのゲームを遊びたくるのか、ということを調べられる、ビッグデータ分析ツール。Hadoop よりも100倍早い。</p>
+<div id="attachment_46254" class="wp-caption aligncenter" style="width: 610px"><img class=" wp-image-46254" alt="mention_onstage" src="http://jp.startup-dating.com/wp/wp-content/uploads/2013/05/mention_onstage.jpg" width="600" height="387" /><p class="wp-caption-text">Mention</p></div>
+<p><img class="alignright size-full wp-image-46077" alt="visualead_logo" src="http://jp.startup-dating.com/wp/wp-content/uploads/2013/05/visualead_logo.png" width="100" height="29" /><strong><a href="http://www.visualead.com" target="_blank">Visualead（イスラエル）</a></strong></p>
+<p>写真や絵にQRコードを付与し、特定のURLへ誘導する「画像」を創り出すソリューション。元の写真や絵の原型を留めつつ、認識率高いのQRコードを生成できることが特徴。6ヶ月前にリリース、毎月100%のスピードでユーザを伸ばしている。2012年2月に第1世代、2012年8月に第2世代、2013年のQ4には、より写真や原画を留めた表現を邪魔しない第3世代をリリース予定。</p>
+<p><center><iframe src="http://www.youtube.com/embed/-QFa3Kkl1tk?rel=0" height="400" width="600" allowfullscreen="" frameborder="0"></iframe></center></p>
+<h3>Application Award／創新応用奨（创新应用奖）</h3>
+<p>プレゼンター：Steven Goh／斯蒂芬（mig33）</p>
+<p><strong><img class="alignright size-full wp-image-46236" alt="diditaxi_logo" src="http://jp.startup-dating.com/wp/wp-content/uploads/2013/05/diditaxi_logo.jpg" width="100" height="91" /></strong></p>
+<p><strong><a href="http://www.xiaojukeji.com" target="_blank">嘀嘀打車／Didi（中国）</a></strong></p>
+<p>北京に拠点を置く、Uber 型タクシーアプリ。昔ながらの流しのタクシーは、あなたが手を上げても、せいぜい気づいてくれるのは100メートル手前であり、あなたがタクシーに乗るまで、運転手はあなたがどこに行くかもわからない。嘀嘀打車は自分がタクシーを捕まえたいこと、そして、どこに行きたいかを半径3〜5キロメートル内のタクシードライバーに伝え、現在地に来てもらうことができる。</p>
+<p>＜関連記事は<a href="http://jp.startup-dating.com/2013/05/a-beijing-taxi-driver-knows-better-about-taxi-apps">こちら</a>＞</p>
+<div id="attachment_46256" class="wp-caption aligncenter" style="width: 610px"><img class="size-full wp-image-46256" alt="didi_onstage" src="http://jp.startup-dating.com/wp/wp-content/uploads/2013/05/didi_onstage.jpg" width="600" height="404" /><p class="wp-caption-text">嘀嘀打車／Didi（中央は、プレゼンターを務めた mig33 の Steven Goh）</p></div>
+<h3>Mobile Game Award／創新遊戲（创新游戏）</h3>
+<p>プレゼンター　Jessie Yang／楊娟（InMobi）</p>
+<p><strong><img class="alignright size-full wp-image-46257" alt="cocoachina_logo" src="http://jp.startup-dating.com/wp/wp-content/uploads/2013/05/cocoachina_logo.jpeg" width="100" height="30" /></strong></p>
+<p><strong><a href="http://www.cocoachina.com" target="_blank">CocoaChina</a></strong></p>
+<p>Apple 向けゲーム開発環境プラットフォーム。</p>
+<div id="attachment_46260" class="wp-caption aligncenter" style="width: 610px"><img class="size-full wp-image-46260" alt="cocoachina_screenshot" src="http://jp.startup-dating.com/wp/wp-content/uploads/2013/05/cocoachina_screenshot.png" width="600" height="503" /><p class="wp-caption-text">Cocoa China</p></div>
+<p><a href="http://as.baidu.com/a/item?docid=1308512" target="_blank"><strong>神庙逃亡／TempleRun</strong></a></p>
+<p>インディ・ジョーンズのような、熱帯雨林の神殿から抜け出すロールプレイング・ゲーム。</p>
+<p><center><iframe src="http://player.youku.com/embed/XNTIyODgyNjk2" height="400" width="600" allowfullscreen="" frameborder="0"></iframe></center><a href="http://ng.d.cn/zhangu" target="_blank"><strong>War Valley／戦谷（战谷）</strong></a></p>
+<p>iPhone / Android 用ロールプレイング対戦型ゲーム。</p>
+<p><center><iframe src="http://player.youku.com/embed/XNDk5MDI0OTY4" height="400" width="600" allowfullscreen="" frameborder="0"></iframe></center></p>
+<h3>Mobile &amp; Marketing Award／最佳移動消費互動奨（最佳移动消费互动奖）</h3>
+<p><strong>飛度無限（飞度无限）</strong></p>
+<p>北京のゲーム開発会社。「<a href="http://pmsg.7you.com">泡面三国</a>&gt;」などのゲームシリーズがヒットしている。</p>
+<div id="attachment_46262" class="wp-caption aligncenter" style="width: 610px"><img class="size-full wp-image-46262" alt="泡面三国" src="http://jp.startup-dating.com/wp/wp-content/uploads/2013/05/paomiansanguo_screenshot.png" width="600" height="379" /><p class="wp-caption-text">泡面三国</p></div>
+<h3>Mobile Advertising Innovation Award／最佳移動広告創意（最佳移动广告创意）</h3>
+<p><img class="alignright size-full wp-image-46234" alt="hdtmobile_logo" src="http://jp.startup-dating.com/wp/wp-content/uploads/2013/05/hdtmobile_logo.jpg" width="100" height="30" /></p>
+<p><strong><a href="http://www.hdtmobile.com/" target="_blank">hdtMobile／掌握伝媒（掌握传媒）</a></strong></p>
+<p>1999年に創業した、モバイル企業グループ。デジタル広告プラットフォームhdtMEDIA、モバイル広告プラットフォームhdtMobile、デジタル広告取引プラットフォームhdtDXPを運営。</p>
+<p><center><iframe src="http://player.youku.com/embed/XMzk2ODQ2NDA4" height="400" width="600" allowfullscreen="" frameborder="0"></iframe></center></p>
+<h3>Mobile Advertising Technology Award／最佳移動広告技術（最佳移动广告技术）</h3>
+<p><img class="alignright size-full wp-image-46233" alt="letv_logo" src="http://jp.startup-dating.com/wp/wp-content/uploads/2013/05/letv_logo.gif" width="100" height="30" /></p>
+<p><a href="http://www.letv.com/" target="_blank"><strong>LeTV／楽視網（乐视网）</strong></a></p>
+<p>2004年に開設された、中国発のインターネット動画配信サービス。＜関連記事は<a href="http://jp.startup-dating.com/2013/05/a-beijing-taxi-driver-knows-better-about-taxi-apps">こちら</a>＞</p>
+<p><img class="aligncenter  wp-image-46263" alt="letv_screenshot" src="http://jp.startup-dating.com/wp/wp-content/uploads/2013/05/letv_screenshot.png" width="600" height="472" /></p>
+<h3>Mobile Internet Challenge Spirit Award／最具移動互連網開拓競争精神奨（最具移动互联网开拓竞争精神奖）</h3>
+<p><img class="alignright size-full wp-image-46232" alt="lakara_logo" src="http://jp.startup-dating.com/wp/wp-content/uploads/2013/05/lakara_logo.png" width="100" height="28" /></p>
+<p><strong><a href="http://www.lakala.com/" target="_blank">拉卡拉</a></strong></p>
+<p>携帯電話で支払いができる、中国版の PayPal Here ／ Square。</p>
+<p><center><iframe src="http://player.youku.com/embed/XMjc5Mzk0NDcy" height="400" width="600" allowfullscreen="" frameborder="0"></iframe></center></p>
+<h3>Member Award／最突出公益事業奨（最突出公益事业奖）</h3>
+<p><strong><img class="alignright size-full wp-image-46266" alt="adream_logo" src="http://jp.startup-dating.com/wp/wp-content/uploads/2013/05/adream_logo.jpeg" width="100" height="52" /><a href="http://www.adream.org" target="_blank">Adream／真愛夢想（真爱梦想）</a></strong></p>
+<p>金融企業家を中心に設立された、子供のためのチャリティ募金プラットフォーム。現在は<span class='wp_keywordlink'><a href="http://jp.startup-dating.com/tag/hongkong" title="香港">香港</a></span>に登記されており、<span class='wp_keywordlink'><a href="http://jp.startup-dating.com/tag/hongkong" title="香港">香港</a></span>政府からは非課税対象の認定を受けている。</p>
+<p><center><iframe src="http://player.youku.com/embed/XMzcwMTkzNDQ0" height="400" width="600" allowfullscreen="" frameborder="0"></iframe></center></p>
+<hr />
+<p>GMIC が終わった後、北京の繁華街・三里屯（サンリートン）近くの、地ビールレストラン・<a href="http://www.greatleapbrewing.com/" target="_blank">大跃啤酒／Great Leap Brewery</a> を借り切り、VIP向けのパーティーが開かれたので顔を出してみた。</p>
+<p><img class="aligncenter size-full wp-image-46265" alt="gmic_afterparty" src="http://jp.startup-dating.com/wp/wp-content/uploads/2013/05/gmic_afterparty.jpg" width="600" height="381" /></p>
+<p>毎年 GMIC に来てみて思うのは、テック・コミュニティに集まって来る女性達が年々キレイになっていくことだ。おそらく、日本もかつては通って来た道で、急進国においてはよく見られる。もともとは一部のギークのためのものでしかなかったテックが、相応の市場規模を形成するようになり、平均よりも高い労働環境と賃金を供給する。トレンドに敏感な女性達からすれば、「テックは、時代の先端を走る、イケてる業界」ということになり、これが男性を含め新たな起業家を生み出す動力になっていることは事実だ。</p>
+<p>東南アジアと違い、中国のスタートアップ・コミュニティが幸運なのは、中国国内にサクセス・ストーリーがあることだ。起業家は、<span class='wp_keywordlink'><a href="http://jp.startup-dating.com/tag/tencent" title="Tencent">Tencent</a></span>（騰訊）の馬化騰氏や、<span class='wp_keywordlink'><a href="http://jp.startup-dating.com/tag/xiaomi" title="Xiaomi">Xiaomi</a></span>（小米）の雷軍氏の雄姿に自らの姿を照らし合わせ、明日の成功を夢見ることができる。今回紹介したスタートアップの中から、明日のTencent（騰訊）や Sina（新浪）が生まれる日が楽しみだ。</p>
+<div class='yarpp-related-rss'>
+<h3>Related posts:</h3><ol>
+<li><a href='http://jp.startup-dating.com/2013/05/gmic-day1-growth-startups' rel='bookmark' title='GMIC Day1: グロースステージで披露されたスタートアップ10社を紹介'>GMIC Day1: グロースステージで披露されたスタートアップ10社を紹介</a></li>
+<li><a href='http://jp.startup-dating.com/2013/05/gmic-day1-seed-early-startups' rel='bookmark' title='GMIC Day1: シード／アーリーステージで披露されたスタートアップ10社を紹介'>GMIC Day1: シード／アーリーステージで披露されたスタートアップ10社を紹介</a></li>
+<li><a href='http://jp.startup-dating.com/2012/05/g-startup-2012-competitors-finalized' rel='bookmark' title='GMIC 2012: スタートアップ・コンペティション「G-Startup」出場のファイナリストが決定'>GMIC 2012: スタートアップ・コンペティション「G-Startup」出場のファイナリストが決定</a></li>
+</ol>
+<img src='http://yarpp.org/pixels/d52182e20a38a84cd2a3d238465356c1'/>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://jp.startup-dating.com/2013/05/gmic-day2-award-winners/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Sassorが電力コスト削減シミュレーションを搭載したビジネス向けサイトをローンチ</title>
+		<link>http://jp.startup-dating.com/2013/05/sassor-elp-for-biz</link>
+		<comments>http://jp.startup-dating.com/2013/05/sassor-elp-for-biz#comments</comments>
+		<pubDate>Thu, 09 May 2013 08:00:45 +0000</pubDate>
+		<dc:creator>Junya Mori</dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[energy]]></category>
+		<category><![CDATA[green tech]]></category>
+		<category><![CDATA[Japan]]></category>
+		<category><![CDATA[Sessor]]></category>
+
+		<guid isPermaLink="false">http://jp.startup-dating.com/?p=46238</guid>
+		<description><![CDATA[家庭内において電気がどのくらい消費されているかを知ることができる電力管理サービス「Energy Literacy Platform」の提供を行うSassorが、同サービスの飲食業・小売業・オフィス向け [...]<div class='yarpp-related-rss'>
+<h3>Related posts:</h3><ol>
+<li><a href='http://jp.startup-dating.com/2011/04/socialacts-encourages-your-contribution-to-society-by-action-based-check-in' rel='bookmark' title='SocialActs Encourages Your Contribution To Society By Action-based Check-in'>SocialActs Encourages Your Contribution To Society By Action-based Check-in</a></li>
+<li><a href='http://jp.startup-dating.com/2013/04/green-tech-startup-synapsense-helps-equinix-save-us1-3m-in-annual-datacenter-energy-costs' rel='bookmark' title='グリーンテックのスタートアップSynapSenseが、データセンターの年間エネルギーコスト130万米ドル削減に成功'>グリーンテックのスタートアップSynapSenseが、データセンターの年間エネルギーコスト130万米ドル削減に成功</a></li>
+<li><a href='http://jp.startup-dating.com/2011/04/gmic-g-startup-2011-seed-and-early-stage-startups' rel='bookmark' title='GMIC G-Startup 2011: シード／アーリーステージ部門のスタートアップ'>GMIC G-Startup 2011: シード／アーリーステージ部門のスタートアップ</a></li>
+</ol>
+<img src='http://yarpp.org/pixels/d52182e20a38a84cd2a3d238465356c1'/>
+</div>
+]]></description>
+				<content:encoded><![CDATA[<p><img src="http://jp.startup-dating.com/wp/wp-content/uploads/2013/05/sassor-elp.png" alt="sassor elp" width="620" height="345" class="aligncenter size-full wp-image-46239" /></p>
+<p>家庭内において電気がどのくらい消費されているかを知ることができる電力管理サービス「Energy Literacy Platform」の提供を行う<a href="http://www.sassor.com/" target="_blank">Sassor</a>が、同サービスの<a href="http://biz.sassor.com/" target="_blank">飲食業・小売業・オフィス向けビジネスサイト</a>をリニューアルした。</p>
+<p>通常、電力会社から送られてくる請求書からでは、冷蔵庫、エアコン、掃除機、テレビなどの家電がどのくらいの電力を消費しているのかはわからない。Energy Literacy Platform（以下、EPL）は、これらの生活シーンの中で利用されている機器が、各々どの程度電力を消費しているのかを可視化し、無駄な電力消費を抑えることにつながるようにとの目的で提供されている。</p>
+<p>これを運営しているSassorはユーザがELPを利用することで、日常的の電気消費量に対する意識を高め、電気消費傾向を学習して家庭内の電力リテラシーを高めることで、無駄な電力消費を抑え、家庭におけるエネルギー利用の効率化を促進しようとしてきた。</p>
+<p><center><iframe src="http://player.vimeo.com/video/15450411?title=0&amp;byline=0&amp;portrait=0&amp;color=bdbdbd" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<p><a href="http://vimeo.com/15450411">Energy Literacy Platform</a> from <a href="http://vimeo.com/user4844272">sassor</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+<p></center></p>
+<p>SassorではELPを飲食業・小売業・オフィスに向けのサイトも用意しており、今回はそのサイトのリニューアルを実施した。このリニューアルに伴い、ユーザの状況に応じたコスト削減のイメージが描けるように、シミュレーション機能を追加。</p>
+<p><img src="http://jp.startup-dating.com/wp/wp-content/uploads/2013/05/sassor-tob_image-trans1.png" alt="sassor-tob_image-trans" width="280" height="314" class="alignright size-full wp-image-46244" /></p>
+<p>Sessorは、節電活動に取り組んだ場合、およそ10～15％ほどの電力コスト削減へ繋がり、「Energy Literacy Platform」を利用することで消費電力削減と業務オペレーション最適化の実現をサポートできると述べている。</p>
+<p>飲食チェーン「Soup Stock Tokyo」の運営などで知られるスマイルズが、運営する同規模の店舗において、売り上げに関係なく毎月の電気料金に大きな違いがあることがあったため、原因究明と改善のためにこのELPの導入を実施したそうだ。</p>
+<p>家庭でも店舗でもオフィスでも、意識付けによる節電には限界があると筆者は考える。こうした仕組みを利用して、効率よく節電し、費用を低下させることができるようになれば、ゆくゆくは大きな消費電力の削減につながるかもしれない。</p>
+<div class='yarpp-related-rss'>
+<h3>Related posts:</h3><ol>
+<li><a href='http://jp.startup-dating.com/2011/04/socialacts-encourages-your-contribution-to-society-by-action-based-check-in' rel='bookmark' title='SocialActs Encourages Your Contribution To Society By Action-based Check-in'>SocialActs Encourages Your Contribution To Society By Action-based Check-in</a></li>
+<li><a href='http://jp.startup-dating.com/2013/04/green-tech-startup-synapsense-helps-equinix-save-us1-3m-in-annual-datacenter-energy-costs' rel='bookmark' title='グリーンテックのスタートアップSynapSenseが、データセンターの年間エネルギーコスト130万米ドル削減に成功'>グリーンテックのスタートアップSynapSenseが、データセンターの年間エネルギーコスト130万米ドル削減に成功</a></li>
+<li><a href='http://jp.startup-dating.com/2011/04/gmic-g-startup-2011-seed-and-early-stage-startups' rel='bookmark' title='GMIC G-Startup 2011: シード／アーリーステージ部門のスタートアップ'>GMIC G-Startup 2011: シード／アーリーステージ部門のスタートアップ</a></li>
+</ol>
+<img src='http://yarpp.org/pixels/d52182e20a38a84cd2a3d238465356c1'/>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://jp.startup-dating.com/2013/05/sassor-elp-for-biz/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>成長する国内クラウドファンディング市場ーーCAMPFIREで過去最高額の約600万を集めたのは「ジャーナリズム」</title>
+		<link>http://jp.startup-dating.com/2013/05/campfire-get-6m-yen-success-at-journalism-theme</link>
+		<comments>http://jp.startup-dating.com/2013/05/campfire-get-6m-yen-success-at-journalism-theme#comments</comments>
+		<pubDate>Thu, 09 May 2013 04:00:22 +0000</pubDate>
+		<dc:creator>Takeshi Hirano</dc:creator>
+				<category><![CDATA[News]]></category>
+		<category><![CDATA[campfire]]></category>
+		<category><![CDATA[crowdfunding]]></category>
+		<category><![CDATA[Japan]]></category>
+
+		<guid isPermaLink="false">http://jp.startup-dating.com/?p=46211</guid>
+		<description><![CDATA[注目のカテゴリのひとつとしても取り上げたが、クラウドファンディングの市場は少しずつ日本でも理解が進んでいるようだ。クラウドファンディング「CAMPFIRE」を運営するハイパーインターネッツは5月9日、 [...]<div class='yarpp-related-rss'>
+<h3>Related posts:</h3><ol>
+<li><a href='http://jp.startup-dating.com/2012/05/gushcloud-us-indonesia' rel='bookmark' title='シンガポール発の「Gushcloud」がサンフランシスコにオフィスを開設、インドネシアにも注目'>シンガポール発の「Gushcloud」がサンフランシスコにオフィスを開設、インドネシアにも注目</a></li>
+<li><a href='http://jp.startup-dating.com/2013/05/hottest-web-service-category-and-competitors-in-japan' rel='bookmark' title='日本で勢いづく6つのウェブサービス・カテゴリと注目されるスタートアップ・ライバルたち'>日本で勢いづく6つのウェブサービス・カテゴリと注目されるスタートアップ・ライバルたち</a></li>
+<li><a href='http://jp.startup-dating.com/2012/08/ikoma-sakelife' rel='bookmark' title='クラウドファンディングはユーザとの対話−−SAKELIFEを通じて感じたクラウドファンディングに必要な3つの考え'>クラウドファンディングはユーザとの対話−−SAKELIFEを通じて感じたクラウドファンディングに必要な3つの考え</a></li>
+</ol>
+<img src='http://yarpp.org/pixels/d52182e20a38a84cd2a3d238465356c1'/>
+</div>
+]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter" alt="スクリーンショット_2013_05_09_11_50" src="http://jp.startup-dating.com/wp/wp-content/uploads/2013/05/9f24cb353cf4c4ceb84a0d7ec738c09b.png" width="600" /></p>
+<p>注目のカテゴリのひとつとしても取り上げたが、クラウドファンディングの市場は少しずつ日本でも理解が進んでいるようだ。クラウドファンディング「<a href="http://camp-fire.jp/" target="_blank">CAMPFIRE</a>」を運営するハイパーインターネッツは5月9日、同プラットフォーム上での過去最高の支援額となる600万円を集めることに成功したと伝えた。</p>
+<h3>ジャーナリズム＋クラウドファンディングの可能性</h3>
+<p>目標金額の6倍の資金調達に成功したのはチェルノブイリの取材を通じてこれからの福島を考えよう、という「福島からチェルノブイリへ! 津田+開沼+東が観光地化復興の実態を探るプロジェクト」。以前、同プラットフォームで<a href="http://camp-fire.jp/projects/most_funded">大型の資金調達に成功した</a>のがガジェット系のプロジェクトだったことを考えると、社会的なテーマに支援が集まったことはひとつのポイントとなるだろう。</p>
+<p>海外のクラウドファンディング「kickstarter」にはジャーナリズムタグがあり、現時点での<a href="http://www.kickstarter.com/discover/categories/journalism/most-funded?ref=more">最高調達額が約17万ドルとなっている。</a></p>
+<p>また、国内でもジャーナリズムのクラウドファンディング活用例としては（若干方法は違うかもしれないが）元NHKアナウンサーの堀潤氏が運営する<a href="http://8bitnews.asia/wp/#.UYsPm0B5yGA">8bitNews</a>が<a href="http://8bitnews.asia/wp/?page_id=4965#.UYsKy0B5yGA">運営資金を広く集めており</a>、新たなメディア運営のあり方として興味深い。</p>
+<h3>国内クラウドファンディングでも1000万円規模の調達が出現</h3>
+<p>クラウドファンディングが市場として活況かどうかをみるには、やはりこの最高金額のインパクトによるところが大きい。もちろん小さい金額だからプロジェクトがダメだということは決してない。しかし看板のような成功事例はそのままこのプラットフォームの期待値へと変わる。実際、kickstarterの<a href="http://www.kickstarter.com/discover/most-funded?ref=footer">「most funded」ページ</a>には100万ドル、場合によっては10万ドルを超える数字が並ぶ。</p>
+<p>CAMPFIRE以外の国内プラットフォームでも例えば<a href="http://motion-gallery.net/projects/herbanddorothy5050">このMotionGallaryのプロジェクト</a>では約1400万円を集めているし、<a href="http://www.countdown-x.com/project/T2561401">COUNTDOWN</a>、<a href="https://readyfor.jp/projects/higashiyama">READYFOR?</a>など共に500万～1000万円レベルの規模を達成する事例も出てきているようだ。</p>
+<p>ちなみに期待値といえば先日、堀江貴文氏がCAMPFIREの<a href="http://jp.startup-dating.com/2013/04/kazuma-ieiri-and-takafumi-horie-show-their-new-project">特別顧問になってプロジェクトを立上げる</a>…という話題があったのだが、それについて今回ハイパーインターネッツ側からの回答は得られなかった。ただ、全く何も無しということはないだろうし、実際少し情報はあるので恐らく何らか始まるのだろう。</p>
+<p>いずれにせよ、今後この数千万円から場合によっては1億円超えの規模のプロジェクトがどこから生まれるのか興味深い。</p>
+<div class='yarpp-related-rss'>
+<h3>Related posts:</h3><ol>
+<li><a href='http://jp.startup-dating.com/2012/05/gushcloud-us-indonesia' rel='bookmark' title='シンガポール発の「Gushcloud」がサンフランシスコにオフィスを開設、インドネシアにも注目'>シンガポール発の「Gushcloud」がサンフランシスコにオフィスを開設、インドネシアにも注目</a></li>
+<li><a href='http://jp.startup-dating.com/2013/05/hottest-web-service-category-and-competitors-in-japan' rel='bookmark' title='日本で勢いづく6つのウェブサービス・カテゴリと注目されるスタートアップ・ライバルたち'>日本で勢いづく6つのウェブサービス・カテゴリと注目されるスタートアップ・ライバルたち</a></li>
+<li><a href='http://jp.startup-dating.com/2012/08/ikoma-sakelife' rel='bookmark' title='クラウドファンディングはユーザとの対話−−SAKELIFEを通じて感じたクラウドファンディングに必要な3つの考え'>クラウドファンディングはユーザとの対話−−SAKELIFEを通じて感じたクラウドファンディングに必要な3つの考え</a></li>
+</ol>
+<img src='http://yarpp.org/pixels/d52182e20a38a84cd2a3d238465356c1'/>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://jp.startup-dating.com/2013/05/campfire-get-6m-yen-success-at-journalism-theme/feed</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

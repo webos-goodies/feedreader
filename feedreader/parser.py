@@ -1,4 +1,5 @@
 import lxml.objectify
+import lxml.html
 import re
 
 __all__ = ('ParseError', 'InvalidFeed', 'from_string')
@@ -10,39 +11,76 @@ from feeds.rss20 import RSS20Feed
 from feeds.rss10 import RSS10Feed
 from feeds.rss091 import RSS091Feed
 
+from fallback.atom import AtomFallback
+from fallback.rss20 import RSS20Fallback
+from fallback.rss10 import RSS10Fallback
+from fallback.rss091 import RSS091Fallback
+
 feeds = (Atom10Feed, RSS20Feed, RSS10Feed, Atom03Feed, RSS091Feed)
-
-ACCEPT_HEADER = "application/atom+xml,application/rdf+xml,application/rss+xml,application/x-netcdf,application/xml;q=0.9,text/xml;q=0.2,*/*;q=0.1"
-
-USER_AGENT = 'py-feedreader'
+fallbacks = (AtomFallback, RSS20Fallback, RSS10Fallback, RSS091Fallback)
 
 class InvalidFeed(Exception): pass
 class ParseError(Exception): pass
 
+XML_RE    = re.compile(r'''^(\s*<\?xml[^>]+)encoding=['"]([^'">]+)['"]''')
 CDATA_RE  = re.compile(r'<!\[CDATA\[(.*?)\]\]>', re.DOTALL)
-ENTITY_RE = re.compile(r'&(?!(?:lt|gt|quot|amp|apos|#\d+|#x[0-9a-fA-F]+);)')
-
-def _preprocess(str):
-    cdata = []
-    def mask_cdata(m):
-        cdata.append(m.group(1))
-        return '<![CDATA[%d]]>' % (len(cdata) - 1)
-    def restore_cdata(m):
-        return '<![CDATA[%s]]>' % cdata.pop()
-    str = CDATA_RE.sub(mask_cdata, str)
-    str = ENTITY_RE.sub('&amp;', str)
-    cdata.reverse()
-    str = CDATA_RE.sub(restore_cdata, str)
-    return str
+LINK_RE   = re.compile(r'(</?)link', re.IGNORECASE)
+XML_ILLEGAL_RE = re.compile(u'([\u0000-\u0008\u000b-\u000c\u000e-\u001f\ufffe-\uffff])')
+# XML_ILLEGAL_RE = re.compile(
+#   u'([\u0000-\u0008\u000b-\u000c\u000e-\u001f\ufffe-\uffff])' +
+#   u'|' +
+#   u'([%s-%s][^%s-%s])|([^%s-%s][%s-%s])|([%s-%s]$)|(^[%s-%s])' % (
+#     unichr(0xd800),unichr(0xdbff),unichr(0xdc00),unichr(0xdfff),
+#     unichr(0xd800),unichr(0xdbff),unichr(0xdc00),unichr(0xdfff),
+#     unichr(0xd800),unichr(0xdbff),unichr(0xdc00),unichr(0xdfff)))
 
 
-def _from_parsed(parsed):
-    for feed in feeds:
-        result = feed(parsed)
-        if result.is_valid:
-            return result
-    raise InvalidFeed(parsed.tag)
+def _replace_encoding(s):
+  encoding = ['utf-8']
+  def to_utf8(m):
+    c = m.group(2).lower()
+    if c == 'shift_jis' or c == 'shift-jis' or c == 'shiftjis' or c == 'sjis':
+      encoding[0] = 'cp932'
+    else:
+      encoding[0] = m.group(2)
+    return m.group(1)
+  s = XML_RE.sub(to_utf8, s, 1)
+  if not isinstance(s, unicode):
+    s = unicode(s, encoding[0], 'ignore')
+  return s
+
+def _remove_illegals(s):
+  s = s[0:s.rfind(u'>') + 1]
+  s = XML_ILLEGAL_RE.sub('', s)
+  return s
+
+def _remove_cdata(s):
+  def escape_cdata(m):
+    escaped = m.group(1).replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
+    escaped = escaped.replace('"', '&quot;').replace("'", '&#39;')
+    return escaped
+  return CDATA_RE.sub(escape_cdata, s)
+
+def _replace_linktag(s):
+  return LINK_RE.sub(lambda m:m.group(1) + 'feedlink', s)
+
+
+def _from_parsed(parsed, classes):
+  for feed in classes:
+    result = feed(parsed)
+    if result.is_valid:
+      return result
+  raise InvalidFeed(parsed.tag)
 
 def from_string(data, *args, **kwargs):
-    parsed = lxml.objectify.fromstring(_preprocess(data), *args, **kwargs)
-    return _from_parsed(parsed)
+  data = _replace_encoding(data)
+  data = _remove_illegals(data)
+  try:
+    parsed = lxml.objectify.fromstring(data, *args, **kwargs)
+    return _from_parsed(parsed, feeds)
+  except:
+    pass
+  data = _remove_cdata(data)
+  data = _replace_linktag(data)
+  parsed = lxml.html.fromstring(data)
+  return _from_parsed(parsed, fallbacks)

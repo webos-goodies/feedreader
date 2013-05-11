@@ -1,0 +1,1391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Blog（ブログ）</title>
+    <link rel="alternate" type="text/html" href="http://mtl.recruit.co.jp/blog/" />
+    <link rel="self" type="application/atom+xml" href="http://mtl.recruit.co.jp/blog/atom.xml" />
+    <id>tag:mtl.recruit.co.jp,2011-08-05:/blog//26</id>
+    <updated>2013-04-23T02:49:09Z</updated>
+    
+    <generator uri="http://www.sixapart.com/movabletype/">Movable Type Pro 5.12</generator>
+
+<entry>
+    <title>newsHUBは、一言でいうと「中庸」なサービス。</title>
+    <link rel="alternate" type="text/html" href="http://mtl.recruit.co.jp/blog/2013/04/newshub_3.html" />
+    <id>tag:mtl.recruit.co.jp,2013:/blog//26.1815</id>
+
+    <published>2013-04-23T03:00:00Z</published>
+    <updated>2013-04-23T02:49:09Z</updated>
+
+    <summary>こんにちは。MTLの鈴木です。今日はキラキラではなく、newsHUBをやりながら考えていることを書いてみたいと思います。 過去のnewHUB関連の記事 #1 newsHUB（ニュースハブ）で目指してい...</summary>
+    <author>
+        <name>鈴木 慎介</name>
+        
+    </author>
+    
+        <category term="コラム" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://mtl.recruit.co.jp/blog/">
+        <![CDATA[<p>こんにちは。MTLの鈴木です。今日はキラキラではなく、newsHUBをやりながら考えていることを書いてみたいと思います。</p>
+
+<h3>過去のnewHUB関連の記事</h3>
+
+<p><a href="http://mtl.recruit.co.jp/blog/2013/03/newshub.html" target="_blank">#1 newsHUB（ニュースハブ）で目指している世界とは？</a><br />
+<a href="http://mtl.recruit.co.jp/blog/2013/04/newshub_infra.html" target="_blank">#2 超シンプル！クラウド時代のnewsHUBのサーバ構成</a></p>]]>
+        <![CDATA[<h3>newsHUBを作りながら、ぼんやり考えていること</h3>
+
+<p>最近、いろいろ、考えています。</p>
+
+<p>アプリのランキングを眺めていると、定番化していくものと、半年くらいで間違いなく消えるよなぁ、消えたなぁ、というものが結構明確に分かれていると感じています。アイコンが変わったり、あるいは新たな機種が出る（例えばiPhone4S→iPhone5などの）タイミングで何度も再浮上してくるエロ系出落ちアプリも多くありますが、ざっくり、二極化してるよなぁ、と。</p>
+
+<p>MTLでも、めっちゃたくさんアプリを作っています。年間40本とか。newsHUB 以外にも自分がプロデューサーやってる <a href="http://morikawa.in/" target="_blank">盛りカワchan</a> や <a href="http://nyarepos.com/" target="_blank">にゃるぽ</a> 、その他関わったものをすべて挙げると、年に5-10本くらいには何らか携わってるのですが、「これは短期的に消費される、でもネタとして面白いからやっとくかなぁ......」と自覚してやっているものも結構あるんですよね。二極の短命側の自覚。</p>
+
+<p>ユーザーにインタビューすると、必死に暮らしてるユーザーと、脱力そのもののユーザー（どちらもdisってるわけじゃないです）、こちらも二極化してしているなぁー、と感じることが多いです。どちらにも受け入れられ、長く使ってもらえるようなサービスって、どんなもんなのかな、と。</p>
+
+<p>派手な花火は確かにやってて楽しい。やってて楽しい反面、あと何年くらい企画職（みたいなハードワーク^^;）に耐えられるのかな、という、自分の賞味期限みたいなものを考えた場合に、定番化していけるような、毎日一緒にいられるようなサービス（ブランド）を作りたいと思うようになってきていて。</p>
+
+<p>今どき流行りのアプリから順当に考えると、コミュニケーションかゲームか、って感じなんですけど、コミュニケーションサービスって、数年サイクルで主役が入れ替わっていて、2013年4月現在、どう考えてもLINEなう、なわけで。絶好調なサービスに抗っても仕方がない......コミュニケーションは、時機を待とう、と（笑）（ちょっと矛盾したこと書いてるようにもみえますね。でも、定番と、主役は入れ替わるは、両立すると思っていますよ）。</p>
+
+<p>で、ちょっと視点変えて、リクルートって、いろんなサービスでユーザーと接点を持ってて、進学ネット、ＨｏｔＰｅｐｐｅｒ、リクナビ、ＳＵＵＭＯ、じゃらん、カーセンサー、などなど。繋げばスゴそう、って思われがちだけど、アレやコレや事情もあって、思われている以上にバラバラなんですよね。ってところで、コンテンツレイヤでのワンストップチャネル、というか、ゲートウェイ、というか、何て呼んだらいいのかわからないのですが、「ハブ」ポジションを狙ってみたくなるじゃないですか、やっぱり。</p>
+
+<p>そこに、「毎日一緒」なコンテンツということで、ニュースから登ってみようかな、ということで、newsHUB。自分自身、ニュースに関しては、週に何百本も、特にTech領域に関しては本家（英文）の記事を読んでいて、パーソナライズ系のサービスで（日本語翻訳記事の）情報が数日遅れでやってくると「え、これいつのニュース？」と困惑してしまうような大変偏ったユーザーなので（だからこそ、かなり気を付けなければいけないと思ってはいるのですが......）、定番って何なんだろうってことをうんうん考えながら作っています。</p>
+
+<p>斬新なものは求められていない。情報が充実してて、でも過剰じゃなくて、ちゃんと動くもの。一言でいうと「中庸」なサービス。あくまで王道で定番をとりたいので、難しいけどネタ消費型には走らずに、徐々に登っていければなぁ、と思っています。このあたりに共感していただける方と、いっぱい話したいなぁ、と思っている今日この頃です。</p>
+
+<h3>最近のnewsHUB関連アップデート</h3>
+
+<p>★newsHUBの使い方動画できました！<br />
+<iframe width="560" height="315" src="http://www.youtube.com/embed/zIDy4-T9GyU?rel=0" frameborder="0" allowfullscreen></iframe></p>
+
+<p>★newsHUBグッズ（シール）できました！<br />
+<a href="http://mtl.recruit.co.jp/blog/images/newsHUB.jpg"><img alt="newsHUB.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/newsHUB-thumb-640x640-798.jpg" width="640" height="640" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>若干在庫有りますので、MTLカフェ＠銀座へお立ち寄りの際は、ぜひお声掛けください＊</p>
+
+<p><br />
+<h3>さておき</h3></p>
+
+<p>いずれ、ゲームも、やりたいですね......。<br />
+</p>]]>
+    </content>
+</entry>
+
+<entry>
+    <title>にゃるぽの猫カフェ訪問日記　#2　Nyafe Melangeさん</title>
+    <link rel="alternate" type="text/html" href="http://mtl.recruit.co.jp/blog/2013/04/catcafe002.html" />
+    <id>tag:mtl.recruit.co.jp,2013:/blog//26.1801</id>
+
+    <published>2013-04-09T09:30:00Z</published>
+    <updated>2013-04-09T09:28:27Z</updated>
+
+    <summary>こんにちは。MTLの鈴木です。にゃるぽのプロモを担当している、にゃるぽさんに、記事を書いてもらいましたの第2弾です。ぜひ続きを読んでみて下さい！ どうも、こんにちは！癒し系にゃんこ画像アプリ「にゃるぽ...</summary>
+    <author>
+        <name>鈴木 慎介</name>
+        
+    </author>
+    
+        <category term="コラム" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://mtl.recruit.co.jp/blog/">
+        <![CDATA[<p>こんにちは。MTLの鈴木です。にゃるぽのプロモを担当している、にゃるぽさんに、記事を書いてもらいましたの第2弾です。ぜひ続きを読んでみて下さい！</p>
+
+<p>どうも、こんにちは！癒し系にゃんこ画像アプリ「にゃるぽ」のプロモを担当しているにゃるぽですにゃヽ(´ω`)ﾉ　にゃんこさんの魅力をもっと発信したいということで、猫カフェさんの訪問ブログを書かせていただいておりますにゃ♪　今回はにゃるぽ猫カフェ訪問日記の第2弾ですにゃ♪<br />
+</p>]]>
+        <![CDATA[<p>訪問させていただいたのは、ココ！</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/nyafe1.JPG"><img alt="nyafe1.JPG" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/nyafe1-thumb-640x853-772.jpg" width="640" height="853" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>「Nyafe Melange」さんですにゃ～(*´ω｀*)</p>
+
+<p>お店の紹介</p>
+
+<p>「Nyafe Melange」</p>
+
+<p>JR・日比谷線恵比寿駅の西口から駒場通りを明治通り渋谷方向へ徒歩３分。<br />
+無線LAN完備＆にゃんこさんに癒される、恵比寿で唯一のカフェですにゃ♪<br />
+"猫楽"と称して"猫と楽しむ落語会"不定期でイベントなども行なっておりますにゃ。<br />
+料金プランの中には平日限定でワンドリンク付きのものも♡<br />
+ということで、平日におじゃましたにゃるぽもドリンクごちそうににゃりましたにゃ>ω<</p>
+
+<p>お店のロゴの入ったカップが可愛いですにゃ♡</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/nyafe2.JPG"><img alt="nyafe2.JPG" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/nyafe2-thumb-640x853-774.jpg" width="640" height="853" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>...そこに、にゃるぽのドリンクを狙うにゃんこさんがっ!!</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/nyafe3.JPG"><img alt="nyafe3.JPG" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/nyafe3-thumb-640x853-776.jpg" width="640" height="853" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>にゃんでも、水滴をにゃめるのがだいすきにゃんだそうですにゃ。<br />
+かわゆい(*´ω｀*)</p>
+
+<p><br />
+にゃるぽ、今回はにゃんこさんたちとある遊びをしてきましたにゃ。</p>
+
+<p>その遊びとは...？</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/nyafe4.JPG"><img alt="nyafe4.JPG" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/nyafe4-thumb-640x480-778.jpg" width="640" height="480" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>「かくれんぼ」ですにゃ。</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/nyafe5.JPG"><img alt="nyafe5.JPG" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/nyafe5-thumb-640x853-780.jpg" width="640" height="853" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>みっけ。</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/nyafe6.JPG"><img alt="nyafe6.JPG" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/nyafe6-thumb-640x853-782.jpg" width="640" height="853" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>みっけ。</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/nyafe7.JPG"><img alt="nyafe7.JPG" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/nyafe7-thumb-640x853-784.jpg" width="640" height="853" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>かくれてますにゃ？w</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/nyafe8.JPG"><img alt="nyafe8.JPG" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/nyafe8-thumb-640x480-786.jpg" width="640" height="480" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>寝てますにゃ(●´ω｀●)</p>
+
+<p>たくさん遊んだところで看板にゃんこ紹介に移りたいと思いますにゃヽ(´ω`)ﾉ</p>
+
+<p>今回の看板にゃんこさんはこちら♪</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/nyafe9.JPG"><img alt="nyafe9.JPG" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/nyafe9-thumb-640x480-788.jpg" width="640" height="480" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>「モカ」<br />
+猫種：ヒマラヤン（もどき）だそうですにゃ<br />
+性別：オス<br />
+誕生日：2009年6月</p>
+
+<p>コロコロフワフワしていて愛らしいモカ♡<br />
+ボール遊び大好き♡投げるとにゃんどでもくわえて戻ってくる、<br />
+人にゃつっこい看板にゃんこさんですにゃ>ω<</p>
+
+<p><br />
+遊んでばかりでなくちゃんとにゃるぽの宣伝も。</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/nyafe10.JPG"><img alt="nyafe10.JPG" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/nyafe10-thumb-640x480-790.jpg" width="640" height="480" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>猫好きさんにぴったりの癒し系猫画像共有アプリ「<a href="https://itunes.apple.com/jp/app/id569885947?mt=8" target=_blank">にゃるぽ</a>」！<br />
+みにゃさんもぜひダウンロードしてくださいにゃ♡</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/nyafe11.JPG"><img alt="nyafe11.JPG" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/nyafe11-thumb-640x480-792.jpg" width="640" height="480" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>今回は、看板娘さんもご紹介♡</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/nyafe12.JPG"><img alt="nyafe12.JPG" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/nyafe12-thumb-640x853-794.jpg" width="640" height="853" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>Nyafe Melangeさんご協力どうもありがとうございましたにゃ>ω<<br />
+</p>]]>
+    </content>
+</entry>
+
+<entry>
+    <title>超シンプル！クラウド時代のnewsHUBのサーバ構成</title>
+    <link rel="alternate" type="text/html" href="http://mtl.recruit.co.jp/blog/2013/04/newshub_infra.html" />
+    <id>tag:mtl.recruit.co.jp,2013:/blog//26.1800</id>
+
+    <published>2013-04-06T03:00:00Z</published>
+    <updated>2013-04-08T04:53:46Z</updated>
+
+    <summary>こんにちは。大井宏友です。 3月11日（月）にリリースされたニュースアプリ「newsHUB（ニュースハブ）」、おかげさまで既にたくさんの皆様にご愛用いただいており、チーム一同感激しております。   ま...</summary>
+    <author>
+        <name>大井 宏友</name>
+        
+    </author>
+    
+        <category term="技術" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    <category term="amazonec2" label="Amazon EC2" scheme="http://www.sixapart.com/ns/types#tag" />
+    <category term="amazons3" label="Amazon S3" scheme="http://www.sixapart.com/ns/types#tag" />
+    <category term="infra" label="infra" scheme="http://www.sixapart.com/ns/types#tag" />
+    <category term="newshub" label="newsHUB" scheme="http://www.sixapart.com/ns/types#tag" />
+    
+    <content type="html" xml:lang="ja" xml:base="http://mtl.recruit.co.jp/blog/">
+        <![CDATA[<img alt="スクリーンショット 2013-03-21 11.44.18.png" src="http://mtl.recruit.co.jp/blog/images/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202013-03-21%2011.44.18.png" width="390" height="317" class="mt-image-left" style="float: left; margin: 0 20px 20px 0;" /><p>こんにちは。大井宏友です。</p>
+<p>3月11日（月）にリリースされたニュースアプリ「newsHUB（ニュースハブ）」、おかげさまで既にたくさんの皆様にご愛用いただいており、チーム一同感激しております。<br />
+  まだお試しいただいてない方は是非こちらからどうぞ！</p>
+<p><a href="http://bit.ly/newsHUBlp"><img alt="banner_appstore.png" src="http://newshubapp.com/assets/banner_appstore-5a49b51f3d584da1af8eaa8c96d6a68e.png" width="135" height="40" class="mt-image-none" style="" /></a></p>
+<p>今回は、newsHUBのサーバ側のアーキテクチャーをご紹介します。</p>]]>
+        <![CDATA[<p>これまでいくつかの機会で発表しておりますが、MTLのスマホアプリはほぼ全てAWSを利用しています。全体の考え方等は以下を参考にしていただければと思います。</p>
+<p><iframe src="http://www.slideshare.net/slideshow/embed_code/15756378?rel=0" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="http://www.slideshare.net/hiroohi/ss-15756378" title="沢山のスマホサービス環境を カジュアルにセキュアに運用する" target="_blank">沢山のスマホサービス環境を カジュアルにセキュアに運用する</a> </strong> from <strong><a href="http://www.slideshare.net/hiroohi" target="_blank">Hirotomo Oi</a></strong> </div></p>
+<p>newsHUBは我々では初めて手がける情報提供型のアプリですので、他のサービスとは異なるアーキテクチャを一から検討しました。<br />
+  ポイントは【シンプル】です。</p>
+<h4>サーバ構成</h4>
+<p><a href="http://mtl.recruit.co.jp/blog/images/newshub_architecture.082.png" title="newsHUB architecture"><img src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/newshub_architecture.082-thumb-427x320-766.png" width="427" height="320" alt="newsHUB architecture" /></a></p>
+<p>利用しているAWSのサービス：</p>
+<ul>
+  <li>EC2</li>
+  <li>RDS</li>
+  <li>S3</li>
+  <li>Route53</li>
+  <li>AutoScaling</li>
+  <li>ELB</li>
+  <li>IAM</li>
+</ul>
+<p>この中でnewsHUBの核となるのがS3です。</p>
+<p>現在のnewsHUBは、こちらでセレクトしたニュースを一斉配信しています。同一のデータをたくさんの端末に同時配送するために配信データはS3に一旦格納し、アプリは直接S3から記事を取得するようにしています。<br />
+  S3のWebHosting機能は非常に低額なのに同時アクセスでも全く問題ないスケーラビリティが特長ですので、それを有効活用しています。</p>
+<p>EC2は記事提携元からのニュース記事のクローラとアプリ紹介ページ、記事をTwitter等に投稿した時のページ用として利用していますが、非常にコンピューティングリソースの使用量が少ないため、最小限のインスタンスでまかなっています。</p>
+<p>現在のnewsHUBがとにかくシンプル（画面が全部入れても３個くらいしかない）な構造なので、サーバサイドも非常にシンプルになっています。</p>
+<p>将来◯◯機能が入るかもとかは考量してないのですか？とよく聞かれますが、クラウド利用ですので、その機能を入れるときに必要に応じて構成を見直していけばいいと考えていますので、今のnewsHUBに最適化したサーバ構成になっています。そしてこのような考え方を実現するにはクラウドが最適だと思っています。</p>
+<p>一見なんてことない構成かもしれませんが、この根底となる考え方はクラウド時代の考え方として参考にして頂ければ幸いです。</p>]]>
+    </content>
+</entry>
+
+<entry>
+    <title>キラキラ＊スマホカメラ女子会 by 盛りカワchan　※リア充につき閲覧注意</title>
+    <link rel="alternate" type="text/html" href="http://mtl.recruit.co.jp/blog/2013/04/morikawachan_event_camera_jyoshi.html" />
+    <id>tag:mtl.recruit.co.jp,2013:/blog//26.1798</id>
+
+    <published>2013-04-05T06:00:00Z</published>
+    <updated>2013-04-05T05:58:17Z</updated>
+
+    <summary>こんにちは。MTLの鈴木です。 盛りカワchan で「スマホカメラ女子会」というイベントを開催したので、企画担当のよっさんに、当日の様子をレポートしてもらいました。 超絶幸せな空間を、ぜひ追体験してく...</summary>
+    <author>
+        <name>鈴木 慎介</name>
+        
+    </author>
+    
+        <category term="イベント" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://mtl.recruit.co.jp/blog/">
+        <![CDATA[<p>こんにちは。MTLの鈴木です。</p>
+
+<p>盛りカワchan で「スマホカメラ女子会」というイベントを開催したので、企画担当のよっさんに、当日の様子をレポートしてもらいました。</p>
+
+<p>超絶幸せな空間を、ぜひ追体験してください・・・！<br />
+</p>]]>
+        <![CDATA[<p>盛りカワchan 企画担当のよっさんです。今回は、「盛りカワ」というけど、盛りカワ写メってどうやって撮るの！？ということで、「スマホカメラ女子会」という、スマホで可愛い写真を撮るための勉強会を開催しました。</p>
+
+<p>今回勉強会の講師をしてくださるのは、あっちんこと市岡麻美さん！</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/morikawaevent1.jpg"><img alt="morikawaevent1.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/morikawaevent1-thumb-600x600-698.jpg" width="600" height="600" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>株式会社フォトクリエイトに勤めながら、100人女子会のプロデューサーであり、フォトブロガーのスーパー社会人です！<br />
+あっちんさんの <a href="http://asamiichioka.com/">ブログ</a> | <a href="https://www.facebook.com/asamiichioka" target="_blank">Facebook</a> | <a href="http://twitter.com/#!/asamiichioka" target="_blank">twitter</a></p>
+
+<p>そんな素敵女子あっちんさんの講義内容は、(1)撮るコツ　(2)撮られるコツ　(3)加工マジック　の3つ！</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/morikawaevent2.jpg"><img alt="morikawaevent2.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/morikawaevent2-thumb-600x400-700.jpg" width="600" height="400" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>まず、(1)撮るコツとして、みんなで食べものを撮影しました。</p>
+
+<p>なんと、ラデュレのマカロンをご用意！</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/morikawaevent3.jpg"><img alt="morikawaevent3.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/morikawaevent3-thumb-600x600-704.jpg" width="600" height="600" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>みなさん、色々と工夫してとても可愛く撮影していました！</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/morikawaevent4.jpg"><img alt="morikawaevent4.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/morikawaevent4-thumb-600x600-706.jpg" width="600" height="600" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>マカロンをつんでみたり、周りに花冠を置いてみたり、ネイルの可愛い子が持ってみたり・・・</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/morikawaevent5.jpg"><img alt="morikawaevent5.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/morikawaevent5-thumb-600x400-708.jpg" width="600" height="400" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/morikawaevent6.jpg"><img alt="morikawaevent6.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/morikawaevent6-thumb-600x400-710.jpg" width="600" height="400" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>同じものを撮影するのでも、各チームアイディアがたくさん出て、種類豊富な写真が★</p>
+
+<p>次に、(2)撮られるコツでは、自分は撮られるのが苦手・・・！という人でも頑張れるアイディアをたくさん教えて頂きました！</p>
+
+<p>実践タイムでは、なんと各チーム本物のモデルさんがアドバイザーとしてついてくれてるのです。</p>
+
+<p>最初はモデルさんが、お手本となって撮影！</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/morikawaevent7.jpg"><img alt="morikawaevent7.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/morikawaevent7-thumb-600x400-712.jpg" width="600" height="400" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/morikawaevent8.jpg"><img alt="morikawaevent8.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/morikawaevent8-thumb-600x600-714.jpg" width="600" height="600" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/morikawaevent9.jpeg"><img alt="morikawaevent9.jpeg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/morikawaevent9-thumb-600x600-716.jpeg" width="600" height="600" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/morikawaevent10.jpg"><img alt="morikawaevent10.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/morikawaevent10-thumb-600x400-718.jpg" width="600" height="400" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/morikawaevent11.jpg"><img alt="morikawaevent11.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/morikawaevent11-thumb-600x400-720.jpg" width="600" height="400" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>みんなモデルさんを撮影するたび、ドキドキしてしまうとのこと（笑）　ですが、最終的に撮影するのも撮影されるのも参加者の皆さん！</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/morikawaevent12.jpg"><img alt="morikawaevent12.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/morikawaevent12-thumb-600x400-722.jpg" width="600" height="400" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>各自モデルさんのアドバイスを受けながら、たくさん工夫をして撮影♪<br />
+<a href="http://mtl.recruit.co.jp/blog/images/morikawaevent13.jpg"><img alt="morikawaevent13.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/morikawaevent13-thumb-600x400-724.jpg" width="600" height="400" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>(3)加工マジックでは、あっちんさんのオススメアプリなども教えてもらい加工！盛りカワchan や cameran がとても好評でした♪</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/morikawaevent14.jpg"><img alt="morikawaevent14.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/morikawaevent14-thumb-600x400-726.jpg" width="600" height="400" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>各自、自分が一番上手に盛って撮れた！という写メをFacebookのイベントページにUPしてもらいました。</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/morikawaevent15.jpg"><img alt="morikawaevent15.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/morikawaevent15-thumb-600x450-728.jpg" width="600" height="450" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/morikawaevent16.jpg"><img alt="morikawaevent16.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/morikawaevent16-thumb-600x600-730.jpg" width="600" height="600" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>皆さん、どれも可愛く撮れていますね。そして、たくさんの素敵な写真の中から選ばれた３つは、こちら！！</p>
+
+<p>第3位</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/morikawaevent17.jpg"><img alt="morikawaevent17.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/morikawaevent17-thumb-600x600-732.jpg" width="600" height="600" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>顔周りに手をおいたり、花冠の位置、雰囲気にあった加工の仕方・・・とても素敵です！</p>
+
+<p>第2位</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/morikawaevent18.jpg"><img alt="morikawaevent18.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/morikawaevent18-thumb-600x600-734.jpg" width="600" height="600" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>この方は、椅子を使用して、撮影をしていました！手の位置やにっこり笑った雰囲気はまるで天使のようですね・・・！</p>
+
+<p>第1位</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/morikawaevent19.jpg"><img alt="morikawaevent19.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/morikawaevent19-thumb-600x450-736.jpg" width="600" height="450" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>用意した背景布を利用したPOPな雰囲気と、元気なイメージが素敵！マカロンを持っていたり、写真のバックのボケ具合なども全てが素敵で1位に！！</p>
+
+<p>3位の方には、スターバックスギフト券</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/morikawaevent20.jpg"><img alt="morikawaevent20.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/morikawaevent20-thumb-600x400-738.jpg" width="600" height="400" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>2位の方には、JILLSTUARTコスメキット</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/morikawaevent21.jpg"><img alt="morikawaevent21.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/morikawaevent21-thumb-600x400-740.jpg" width="600" height="400" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>1位の方にはディズニーランドペアチケットをプレゼント！！！！！</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/morikawaevent22.jpg"><img alt="morikawaevent22.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/morikawaevent22-thumb-600x400-742.jpg" width="600" height="400" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>撮った、撮られた二人がお友達だったので、一緒にディズニーランドに行くそうです。おめでとうございます！</p>
+
+<p>最後に、女子会といえば・・・スイーツですよね♥</p>
+
+<p>じゃーん！！！！</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/morikawaevent23.jpg"><img alt="morikawaevent23.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/morikawaevent23-thumb-600x400-744.jpg" width="600" height="400" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>irinaのロールケーキタワーです＊　そんなケーキと可愛い布を使ってみんなで撮影！</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/morikawaevent24.jpg"><img alt="morikawaevent24.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/morikawaevent24-thumb-600x400-746.jpg" width="600" height="400" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/morikawaevent25.jpg"><img alt="morikawaevent25.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/morikawaevent25-thumb-600x400-748.jpg" width="600" height="400" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/morikawaevent26.jpg"><img alt="morikawaevent26.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/morikawaevent26-thumb-600x400-750.jpg" width="600" height="400" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>CDのジャケ写のような写真ができあがりましたね♥笑　ケーキをいただきながら、可愛い写真をたくさん撮りました★</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/morikawaevent27.jpg"><img alt="morikawaevent27.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/morikawaevent27-thumb-600x400-752.jpg" width="600" height="400" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/morikawaevent28.jpg"><img alt="morikawaevent28.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/morikawaevent28-thumb-600x400-754.jpg" width="600" height="400" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/morikawaevent29.jpg"><img alt="morikawaevent29.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/morikawaevent29-thumb-600x400-756.jpg" width="600" height="400" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>ところで、参加者の皆さんがとても可愛いドレスを着ていると思いませんか？</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/morikawaevent30.jpg"><img alt="morikawaevent30.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/morikawaevent30-thumb-600x400-758.jpg" width="600" height="400" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>なんとこちら、参加者の皆様全員分を提供していただいたのです！！！！提供してくださったのは、<a href="http://dorrydoll.com/" target="_blank">DorryDoll</a>様。どのドレスも可愛くて、皆さん選ぶときはとても迷っていました。笑</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/morikawaevent31.jpg"><img alt="morikawaevent31.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/morikawaevent31-thumb-600x401-760.jpg" width="600" height="401" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>DorryDoll様、素敵なドレスをありがとうございます！</p>
+
+<p>本当に素敵な写真が、たくさん撮れましたね★　イベント後、たくさんの方が今回の撮影した写真をSNSのプロフィール画像にしてくださいました(*^_^*)</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/morikawaevent32.jpg"><img alt="morikawaevent32.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/morikawaevent32-thumb-600x400-762.jpg" width="600" height="400" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>皆さんぜひ、今回学んだテクニックを生かして、これからもたくさん「盛りカワchan」な写真を撮ってください♪</p>]]>
+    </content>
+</entry>
+
+<entry>
+    <title>【イベント告知】4/13(土)じゃらんAPIを使ったWindowsストアアプリ開発イベント開催</title>
+    <link rel="alternate" type="text/html" href="http://mtl.recruit.co.jp/blog/2013/04/413apiwindows.html" />
+    <id>tag:mtl.recruit.co.jp,2013:/blog//26.1799</id>
+
+    <published>2013-04-05T04:45:50Z</published>
+    <updated>2013-04-05T04:54:40Z</updated>
+
+    <summary>フナミタカオです。 4/6(土)につづいて、4/13(土)はじゃらんAPIをつかったアプリ開発 WeekendでAPIの紹介をさせていただくことになりました。 「アプリ ソムリエとつくろう！ アプリ開...</summary>
+    <author>
+        <name>フナミ タカオ</name>
+        
+    </author>
+    
+        <category term="お知らせ" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="イベント" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://mtl.recruit.co.jp/blog/">
+        <![CDATA[<p>フナミタカオです。<br />
+4/6(土)につづいて、4/13(土)はじゃらんAPIをつかったアプリ開発 WeekendでAPIの紹介をさせていただくことになりました。</p>
+
+<p><a href="http://msdn.microsoft.com/ja-jp/jj984296"><img src="http://mtl.recruit.co.jp/blog/assets_c/2013/04/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202013-04-05%2013.47.46-thumb-600x237-764.png" width="600" height="237" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p><strong><a href="http://msdn.microsoft.com/ja-jp/jj984296">「アプリ ソムリエとつくろう！ アプリ開発 Weekend　<br />
+第 5 回 (4 月 13 日開催): じゃらんの API で Windows 8 アプリを作ろう!」</a></strong></p>
+
+<p>が開催されます。</p>
+
+<p>こちらのイベントにて、リクルートWebサービスのなかから、じゃらんWebサービスの紹介をさせていただきます。<br />
+お宿の検索アプリをつくりましょう</p>
+
+<ul>
+	<li>日時	2013 年 4 月 13 日 (土) 10:00 - 19:40 (受付開始: 9:15)</li>
+	<li>場所	 日本マイクロソフト 品川オフィス</li>
+	<li>参加費	無料 (事前登録制)</li>
+	<li>定員	20 名</li>
+	<li>参加条件<ul>
+	<li>Windows ストアの開発者登録を完了していること</li>
+	<li>開発環境の整ったパソコンを持参できること</li>
+</ul>	</li>
+</ul>
+
+<p><a href="http://msdn.microsoft.com/ja-jp/jj984296">詳細はこちら</a></p>
+
+<p>どうぞご参加ください！<br />
+</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>[実物あり！] 100万年後の未来まで残せる！デジタル記憶装置を発明！ 記録したいデータを大募集！</title>
+    <link rel="alternate" type="text/html" href="http://mtl.recruit.co.jp/blog/2013/04/permanent_digital_storage.html" />
+    <id>tag:mtl.recruit.co.jp,2013:/blog//26.1791</id>
+
+    <published>2013-03-31T21:00:00Z</published>
+    <updated>2013-04-01T23:13:34Z</updated>
+
+    <summary>公開は終了しました。たくさんのメッセージありがとうございました！ とんでもない発明をしてしまいました！ 100万年は疎か、1億年でも100億年でも残せる記憶装置を発明しました！ デジタルデバイス・・・...</summary>
+    <author>
+        <name>松川　進</name>
+        
+    </author>
+    
+        <category term="お知らせ" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="イベント" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="技術" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://mtl.recruit.co.jp/blog/">
+        <![CDATA[<p><span style="color: #ea285c; ">公開は終了しました。たくさんのメッセージありがとうございました！</span></p>
+
+<p>とんでもない発明をしてしまいました！</p>
+
+<h2>100万年は疎か、1億年でも100億年でも残せる記憶装置を発明しました！</h2>
+
+<p>デジタルデバイス・・・理論上では永遠に残せるデータも、記憶する装置に寿命が来てしまっては、せっかくのデータも台無しですよね。HDDなんかは10年程度で壊れてしまうし、CDやFlashメモリなども腐食によって数十年で認識が困難になってしまいます。</p>
+
+<p>ところがアナログな世界では、石碑というものが5000年もの時を越えてデータを保持し続けているではありませんか！　そこでMTLでは、石碑よりも長く、時空を超えて記録を残す事ができる記憶装置を発明しました！</p>
+
+<p><br />
+<h2>何を発明したの？</h2><br />
+【目的】本発明は、光記録媒体上に出力データの記録を確実かつ超長期に渡り保存することができる光記録媒体記録装置を提供する。<small style="font-size: smaller; ">（特訖出願中）</small></p>
+
+<p>【構成】本記録装置に入力される入力データは、入力データ処理回路を経由し電気信号に変換される。変換された電気信号は、ノイズ除去回路を経由し一時的に記憶回路へ保存される。データ出力判定回路はデータ出力制御回路の稼働状況を判定し、記憶回路にある電気信号をデータ出力制御回路へ送る。データ出力制御回路では、電気信号を出力データ処理回路が受け取り、一定の規則性のある２値データへと変換する。変換された２値データは、出力データ処理回路によって制御される規則性に従って、発光素子へ送信され、光信号として出力される。出力される光信号は、光記憶媒体の中へ出力される。出力される光記憶媒体は気圧１０（－１１）Ｐａ、体積９．１＊１０（７８）ｍ３の空間であって光信号を遮る、あるいは消失させる可能性が極端に低い。このようにして、光信号は光記憶媒体内で他の障害物にあたる事がなく出力時の情報を超長期間、ほぼ一定に保つことができる。</p>
+
+<p>【要約】<br />
+デジタルデータを処理する特殊なサーバーと、発光可能な人工衛星を開発しました。<br />
+これにより、情報を宇宙空間に「光粒子」の形で保存します！</p>
+
+<p>光粒子を出力する光球は出力約1000lm！<br />
+光を1080度全方位に向けて出力します<br />
+１方向にデータを送信する場合に比べ、データの損失率は約４６００万分の１！<small style="font-size: smaller; ">（当社独自の研究により）</small><br />
+保存先の宇宙空間は記憶装置としての寿命がこれまでの３億倍！！<small style="font-size: smaller; ">（当社比）</small></p>
+
+<p>保存されたデジタルデータは、光粒子の性質により、光の速度で地球から遠ざかってしまう為、すぐには復元できません。しかし遠い将来、人類がワープできる様になった暁には、その光の向かう先に回り込んで光源を観測すれば、どんなデータも自由自在に取り出せす事ができる様になるでしょう！</p>
+
+<div style="text-align: center;">
+
+<p><small style="font-size: smaller; ">↓↓図で説明するとこんな感じ↓↓</small><br />
+<img alt="anim.gif" src="http://mtl.recruit.co.jp/blog/2013/03/29/images/anim.gif" width="642" height="280" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px; border: 0 !important; outline: 0 !important;" /></p>
+
+<p></p>
+
+<p><br />
+<p><br />
+<span style="font-size: 162%; ">MTLでは実際に処理サーバーと人工衛星を用意！<br />
+</span><br />
+<span style="font-size: 162%; font-weight: bold; ">未来の人類に向けて残しておきたいデータを大募集！！<br />
+</span><br />
+<small style="font-size: smaller; ">※エネルギーの都合上、記事公開から約24時間で送信不能となります。お急ぎ下さい！<br />
+</small><br />
+<span style="font-size: 162%; font-weight: bold; ">↓　↓　↓　↓　↓　↓<br />
+</span><br />
+<span style="color: #ea285c; ">公開は終了しました。たくさんのメッセージありがとうございました！</span><br />
+</p></p>
+
+<p><br />
+<img alt="satelite.jpg" src="http://mtl.recruit.co.jp/blog/2013/03/30/images/satellite.jpg" width="642" height="442" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /><br />
+</div></p>
+
+<p><br />
+<hr /></p>
+
+<h3>さらに...</h3>
+さらに星空の瞬きをこの仕組みでいくつか観測してみたところ、興味深い事象を観測できましたので報告させていただきます
+
+<p></p>
+
+<p>・アンドロメダ銀河方面<br />
+<img alt="andromeda.jpg" src="http://mtl.recruit.co.jp/blog/2013/03/29/images/andromeda.jpg" width="164" height="120" class="mt-image-right" style="float: right; margin: 0 0 20px 20px;" />アンドロメダ銀河の極中心付近１点の瞬きについて観測を続けたところ、規則性のある数字の様なデータであることが解析の結果判明しました！<br />
+この数字の列挙は時間の様に解釈する事もでき、おそらくこれは銀河鉄道の時刻表なのではないかと推測できます！<br />
+<br style="clear: both; " /><br />
+・M78星雲方面<br />
+<img alt="m78.jpg" src="http://mtl.recruit.co.jp/blog/2013/03/29/images/m78.jpg" width="164" height="120" class="mt-image-right" style="float: right; margin: 0 0 20px 20px;" />この天体からも、たまに３分間だけメッセージの様な信号を観測できるのですが、いつも３分後に途絶えてしまうので、なかなか解析が進みません・・・。<br />
+<br style="clear: both; " /></p>
+
+<p>引き続き上記２天体に加え、大マゼラン方面の観測も続けていきたいと思います！</p>
+
+<hr />
+
+<h3>MTLとは</h3>
+MTLは宇宙航空の更なる可能性を追求し、豊かな社会へ貢献します。それがMTLの使命<br />
+人類共通の知的資産の拡大を図り、たゆまぬ進化と共に...！
+
+<p><br />
+<small style="font-size: smaller; ">※こちらは4/1エイプリルフールとして公開された記事です。<br />
+　内容は全てフィクションであり、実在する人物や団体とは一切関係ありません。</small><br />
+</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>【イベント告知】4/6(土)ホットペッパーAPIを使ったWindowsストアアプリ開発イベント開催</title>
+    <link rel="alternate" type="text/html" href="http://mtl.recruit.co.jp/blog/2013/04/46apiwindows.html" />
+    <id>tag:mtl.recruit.co.jp,2013:/blog//26.1796</id>
+
+    <published>2013-03-31T15:58:37Z</published>
+    <updated>2013-04-06T04:23:32Z</updated>
+
+    <summary>フナミタカオです。 4/6(土)に品川のマイクロソフト本社で 「アプリ ソムリエとつくろう！ アプリ開発 Weekend　 第四回 ホットペッパーの API で Windows 8 アプリを作ろう！」...</summary>
+    <author>
+        <name>フナミ タカオ</name>
+        
+    </author>
+    
+        <category term="お知らせ" scheme="http://www.sixapart.com/ns/types#category" />
+    
+        <category term="イベント" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    <category term="surfacert" label="Surface RT" scheme="http://www.sixapart.com/ns/types#tag" />
+    <category term="windowsストアアプリ" label="Windowsストアアプリ" scheme="http://www.sixapart.com/ns/types#tag" />
+    
+    <content type="html" xml:lang="ja" xml:base="http://mtl.recruit.co.jp/blog/">
+        <![CDATA[<p>フナミタカオです。<br />
+4/6(土)に品川のマイクロソフト本社で</p>
+
+<p><strong><a href="http://msdn.microsoft.com/ja-jp/jj984296">「アプリ ソムリエとつくろう！ アプリ開発 Weekend　<br />
+第四回 ホットペッパーの API で Windows 8 アプリを作ろう！」</a></strong></p>
+
+<p><a href="http://msdn.microsoft.com/ja-jp/jj984296"><img src="http://webservice.recruit.co.jp/common/images/windows8-app-dev.png"></a><br />
+が開催されます。</p>
+
+<p>こちらのイベントにて、リクルートWebサービスのなかから、グルメ検索用のAPIのホットペッパーWebサービスの紹介をさせていただきます</p>
+
+<ul>
+	<li>日時	2013 年 4 月 6 日 (土) 10:00 - 19:40 (受付開始: 9:15)</li>
+	<li>場所	 日本マイクロソフト 品川オフィス</li>
+	<li>参加費	無料 (事前登録制)</li>
+	<li>定員	20 名</li>
+	<li>参加条件<ul>
+	<li>Windows ストアの開発者登録を完了していること</li>
+	<li>開発環境の整ったパソコンを持参できること</li>
+</ul>	</li>
+</ul>
+
+<p><a href="http://msdn.microsoft.com/ja-jp/jj984296">詳細はこちら</a></p>
+
+<p>僕自身、最近はほとんどiOS関連の開発がほとんどだったので、WIndowsストアのことは気になってはいたものの、「後でやる」モードでなかなか手が動いていませんでした。<br />
+しかし、SurfaceRTも発売になったということで、いよいよ、Windowsストアアプリもこれから、ユーザーがどんどんのびてゆく可能性もあります。</p>
+
+<table border="0" cellpadding="0" cellspacing="0"><tr><td valign="top"><div style="border:1px solid;margin:0px;padding:6px 0px;width:320px;text-align:center;float:left"><a href="http://hb.afl.rakuten.co.jp/hgc/10ffc276.8f91190c.10ffc277.9fa44066/?pc=http%3a%2f%2fitem.rakuten.co.jp%2fbiccamera%2f4988648920491%2f%3fscid%3daf_link_tbl&amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbiccamera%2fn%2f4988648920491" target="_blank"><img src="http://hbb.afl.rakuten.co.jp/hgb/?pc=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbiccamera%2fcabinet%2fsyouhin%2fnagashi%2f130308%2f4988648920491.jpg%3f_ex%3d300x300&amp;m=http%3a%2f%2fthumbnail.image.rakuten.co.jp%2f%400_mall%2fbiccamera%2fcabinet%2fsyouhin%2fnagashi%2f130308%2f4988648920491.jpg%3f_ex%3d80x80" alt="【あす楽_関東】【送料無料】マイクロソフトSurface(サーフェス)RT 64GB Touch Coverセットモデル [Windowsタブレット] 9JR-00019 (2013年春モデル・カバーブラック) [9JR00019]" border="0" style="margin:0px;padding:0px"></a><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px"><a href="http://hb.afl.rakuten.co.jp/hgc/10ffc276.8f91190c.10ffc277.9fa44066/?pc=http%3a%2f%2fitem.rakuten.co.jp%2fbiccamera%2f4988648920491%2f%3fscid%3daf_link_tbl&amp;m=http%3a%2f%2fm.rakuten.co.jp%2fbiccamera%2fn%2f4988648920491" target="_blank">【あす楽_関東】【送料無料】マイクロソフトSurface(サーフェス)RT 64GB Touch Coverセットモデル [Windowsタブレット] 9JR-00019 (2013年春モデル・カバーブラック) [9JR00019]</a><br><span style="">価格：65,800円（税込、送料込）</span><br></p></div></td></tr></table>
+
+<p>iOSもAndroidも、ストア内でランキングをあげるだけでも一苦労だったりしますが、Windowsストアはすごいですよ！ジャンルにもよりますが、広大な土地がまだまだ、のこっている、パラダイスです。<br />
+まさに、新天地。<br />
+iOSも2009年はそんな感じだったですよね。<br />
+ちゃんとしたアプリをつくれば、かなり簡単に上位にいって、ダウンロードしてもらえました。<br />
+ということで、早速、開発環境(MacBookProに VMwareを入れて、WIndow8を用意しました）をそろえました。</p>
+
+<p>Windows8 OSも、開発者向けに、90日間有効の評価版が使えます</p>
+
+<blockquote>開発者向け Windows 8 評価版
+開発者の方は、Windows 8 Enterprise 90 日間評価版を使って、Windows 8 の最終版で Windows 8 アプリを構築し、テストすることができます。
+<a href="http://msdn.microsoft.com/ja-jp/library/windows/apps/jj554510.aspx?wt.mc_id=MEC_132_1_4">http://msdn.microsoft.com/ja-jp/library/windows/apps/jj554510.aspx?wt.mc_id=MEC_132_1_4</a>
+</blockquote>
+ということなので、Macをお使いのみなさまも、BootCamp &  Windows 8 評価版　あるいは　VMWareの評価版＋ Windows 8 評価版　とすれば、無償で開発環境の構築可能ですね！
+
+<p><br />
+<h4>この機会にはじめましょう〜</h4><br />
+iOS、Android、Webモバイルアプリ開発者のみなさんも、マッシュアップが得意なPCWeb開発者のみなさんも、Windowsアプリのことが気にはなってるけど、「後でやろう」と思っていても、きっと、やらずにおわっちゃいます。<br />
+もちろん、iOSもAndridもまだまだ隆盛を保つとは思いますが、Windowsアプリなら、一攫千金のチャンスもありそうです。「あのときやってればーなあ」と後悔しないためにも、ぜひ、この機会に初めてみましょうー<br />
+開発環境も無償でつくることもできるので、やるだけやっても、損はないです!</p>
+
+<p>おいそぎくださいませ<br />
+「アプリ ソムリエとつくろう！ アプリ開発 Weekend　第四回 ホットペッパーの API で Windows 8 アプリを作ろう！」詳細はー＞<a href="http://msdn.microsoft.com/ja-jp/jj984296">こちら</a></p>
+
+<h4>iOSなみなさまへ開発環境構築のための参考リンクです</h4>
+・<a href="http://msdn.microsoft.com/library/windows/apps/jj680134/">iOS 開発者向けリソース</a>
+
+<p>・<a href="http://msdn.microsoft.com/ja-jp/library/windows/apps/jj680133">Mac に Windows 8 と開発者ツールをインストールする</a><br />
+・<a href="http://msdn.microsoft.com/ja-jp/library/windows/apps/jj554510.aspx?wt.mc_id=MEC_132_1_4">Windows 8 Enterprise 評価版のダウンロード</a></p>
+
+<p><br />
+追記 4/6 イベント開催中<br />
+<iframe src='https://skydrive.live.com/embed?cid=2E3FFE5667464F1C&resid=2E3FFE5667464F1C%216288&authkey=AMi-Tp2sxis2fbc&em=2&wdAr=1.7777777777777777' width='610px' height='366px' frameborder='0'>これは、<a target='_blank' href='http://office.com/webapps'>Office Web Apps</a> の機能を利用した、<a target='_blank' href='http://office.com'>Microsoft Office</a> の埋め込み型のプレゼンテーションです。</iframe><br />
+ホットペッパーAPIの紹介スライドです。</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>newsHUB（ニュースハブ）で目指している世界とは？</title>
+    <link rel="alternate" type="text/html" href="http://mtl.recruit.co.jp/blog/2013/03/newshub.html" />
+    <id>tag:mtl.recruit.co.jp,2013:/blog//26.1788</id>
+
+    <published>2013-03-29T03:00:00Z</published>
+    <updated>2013-03-29T04:02:55Z</updated>
+
+    <summary> こんにちは。MTLの平尾譲二です。 3月11日（月）にリリースされたニュースアプリ「newsHUB（ニュースハブ）」、早速ご利用いただいてますでしょうか？ →newsHUBのダウンロード(iPhon...</summary>
+    <author>
+        <name>平尾 譲二</name>
+        
+    </author>
+    
+        <category term="コラム" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://mtl.recruit.co.jp/blog/">
+        <![CDATA[<p><img alt="スクリーンショット 2013-03-21 11.44.18.png" src="http://mtl.recruit.co.jp/blog/images/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202013-03-21%2011.44.18.png" width="390" height="317" class="mt-image-left" style="float: left; margin: 0 20px 20px 0;" /></p>
+
+<p>こんにちは。MTLの平尾譲二です。</p>
+
+<p>3月11日（月）にリリースされたニュースアプリ「<a href="http://newshubapp.com/">newsHUB（ニュースハブ）</a>」、早速ご利用いただいてますでしょうか？<br />
+→<a href="http://bit.ly/newsHUBlp">newsHUBのダウンロード(iPhone)</a></p>
+
+<p><br />
+今日は私たちが、どんな想いでこのnewsHUBを作っているかを少しだけお話できたらと思います。</p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p></p>
+
+<p><br />
+</p>]]>
+        <![CDATA[<p></p>
+
+<p><br />
+<h3>世の中のことってなんかわからない？</h3></p>
+
+<p>皆さん、ニュースってどうやって仕入れてますか？<br />
+テレビで見たり、新聞読んだりといろいろあると思いますが、どんどん情報量が増え続けていって、消化できてないことが多いんじゃないでしょうか？</p>
+
+<p>ただでさえ忙しい毎日。そこへきて、TwitterとかFacebookとかの友達の更新もチェックしなくちゃいけないし、返事しなきゃいけないメールもたくさんたまってるし、あとで読もうと思ってるページとか雑誌とかもほんとうにたくさん。</p>
+
+<p>自分のことでもせいいっぱいなのに、外のことなんて、とても追いつかなくなってるんじゃないでしょうか？</p>
+
+<p></p>
+
+<p><br />
+<h3>情報、偏ってない？</h3></p>
+
+<p>外のことも、なんとなくは入ってきてるんですよね。テレビとかでちらっと見たり、Twitterとかで友達がニュースをRTしていたり。<br />
+そういった自分の周りのニュースソースだけでもなんだか事足りている、というのが現状なんだと思うんです。</p>
+
+<p>でも、それって実は結構偏っているんじゃないかな、というのが私たちがもった課題感でした。</p>
+
+<p><br />
+たとえば情報にあふれる社会において、なんとか消化してやっていく方法は、いろいろありますよね。</p>
+
+<p><strong>●ソーシャルメディア経由で流れてくることだけを読むことにする</strong><br />
+TwitterとかFacebookとかで友達から流れてくるニュースだけを見ていれば大丈夫、な気はします。</p>
+
+<p><strong>●自分に最適化されたニュースだけを読むことにする</strong><br />
+自分が興味があるテーマ、よく読んでいる記事などを学習し、読むべき記事を提案してくれるサービスを利用すると、消化すべき情報の量はぐっと減ります。</p>
+
+<p><br />
+でも、それってすごく視野をせまくしちゃってないかなあ、と。<br />
+そして視野の外にある世界に対して、無関心になってしまっていないかなあ、と。</p>
+
+<p></p>
+
+<p><br />
+<h3>世の中をサクサク「見る」</h3></p>
+
+<p><img alt="iTunesArtwork.png" src="http://mtl.recruit.co.jp/blog/images/iTunesArtwork.png" width="250" height="250" class="mt-image-left" style="float: left; margin: 0 20px 20px 0;" /><br />
+私たちがこのアプリを通して実現したいのは、「無関心のハードルを越える」ということです。</p>
+
+<p>誰もが世の中のニュースにいつの間にか興味をもてている世界にできれば、人々の社会への関心が高まり、必ず世の中は良くなる。無関心のハードルを突破できると信じています。</p>
+
+<p>だから、ニュースソースは幅広く、バランス良く。<br />
+そして、世の中のニュースをサクサク、ストレスなく。<br />
+「読む」ではなくて、「見る」ことができるように。</p>
+
+<p>そんなコンセプトで、newsHUBを作っています。</p>
+
+<p><br />
+<img alt="open_iphone5.png" src="http://mtl.recruit.co.jp/blog/images/open_iphone5.png" width="320" height="567" class="mt-image-left" style="float: left; margin: 0 20px 20px 0;" /><img alt="jabara_iphone5.png" src="http://mtl.recruit.co.jp/blog/images/jabara_iphone5.png" width="320" height="567" class="mt-image-left" style="float: left; margin: 0 20px 20px 0;" /></p>
+
+<p></p>
+
+<p><br />
+<h3>私たちのビジョン</h3></p>
+
+<p>というわけで、最後にそんな私たちの想いを、言葉に落としましたのでご紹介させてください。<br />
+まだはじまったばかりのサービスですが、このビジョン・ミッション・ステートメントに軸をおいてサービス改善をつづけてまいります。ご期待ください！</p>
+
+<p><br />
+<img alt="v.png" src="http://mtl.recruit.co.jp/blog/images/v.png" width="640" height="394" class="mt-image-left" style="float: left; margin: 0 20px 20px 0;" /></p>
+
+<p><img alt="m.png" src="http://mtl.recruit.co.jp/blog/images/m.png" width="640" height="391" class="mt-image-left" style="float: left; margin: 0 20px 20px 0;" /></p>
+
+<p><img alt="s.png" src="http://mtl.recruit.co.jp/blog/images/s.png" width="640" height="393" class="mt-image-left" style="float: left; margin: 0 20px 20px 0;" /></p>
+
+<p></p>
+
+<p></p>
+
+<p><br />
+<a href="http://bit.ly/newsHUBlp">newsHUBのダウンロード(iPhone)</a></p>]]>
+    </content>
+</entry>
+
+<entry>
+    <title>にゃるぽの猫カフェ訪問日記　#1　CatCafeねころびさん</title>
+    <link rel="alternate" type="text/html" href="http://mtl.recruit.co.jp/blog/2013/03/catcafe001.html" />
+    <id>tag:mtl.recruit.co.jp,2013:/blog//26.1787</id>
+
+    <published>2013-03-12T10:00:00Z</published>
+    <updated>2013-03-12T10:15:14Z</updated>
+
+    <summary>こんにちは。MTLの鈴木です。にゃるぽのプロモを担当している、にゃるぽさんに、記事を書いてもらいました。ぜひ続きを読んでみて下さい！ どうも、はじめましてですにゃ。癒し系にゃんこ画像アプリ「にゃるぽ」...</summary>
+    <author>
+        <name>鈴木 慎介</name>
+        
+    </author>
+    
+        <category term="コラム" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://mtl.recruit.co.jp/blog/">
+        <![CDATA[<p>こんにちは。MTLの鈴木です。にゃるぽのプロモを担当している、にゃるぽさんに、記事を書いてもらいました。ぜひ続きを読んでみて下さい！</p>
+
+<p>どうも、はじめましてですにゃ。癒し系にゃんこ画像アプリ「にゃるぽ」のプロモを担当しているにゃるぽですにゃ。にゃんこさんの魅力をもっと発信したい！ということで、これから猫カフェさん訪問ブログを書いていきたいと思いますにゃ。<br />
+</p>]]>
+        <![CDATA[<p>今回は、その第一弾っ！</p>
+
+<p>訪問したのは「Cat Cafe ねころび」さんですにゃ。</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/1.JPG"><img alt="1.JPG" src="http://mtl.recruit.co.jp/blog/assets_c/2013/03/1-thumb-640x853-648.jpg" width="640" height="853" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<h3>お店紹介</h3>
+
+<p>「Cat Cafe ねころび」<br />
+池袋の東急ハンズ裏手のビルにあって、個性豊かな13匹のにゃんこさんたちとふれあえる猫カフェさん。年末年始を除き年中無休で、平日、土日祝日ともにAM11：00～PM10：00まで営業してるので、仕事帰りでもにゃんこさんと触れ合うことができますにゃ。デートで訪れるも良し、お友達どうしで訪れるも良し、もちろんひとりで訪れても楽しめますにゃ＊</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/2.JPG"><img alt="2.JPG" src="http://mtl.recruit.co.jp/blog/assets_c/2013/03/2-thumb-640x478-650.jpg" width="640" height="478" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>さっそくお店におじゃますると、お昼時だったせいかみんなでごはんタイム。その間ににゃるぽは前足を洗いますにゃ。にゃんこさんに触るときは、みにゃさん手をしっかり洗いましょう！（実は猫生初の猫カフェでドッキドキのにゃるぽ）</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/3.JPG"><img alt="3.JPG" src="http://mtl.recruit.co.jp/blog/assets_c/2013/03/3-thumb-480x640-652.jpg" width="480" height="640" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>いちばん初めににあいさつしたのが綺麗な灰色の毛並みをした「あんこちゃん」。<br />
+よろしくですにゃ～</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/4.JPG"><img alt="4.JPG" src="http://mtl.recruit.co.jp/blog/assets_c/2013/03/4-thumb-480x640-654.jpg" width="480" height="640" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>それから、いろんなにゃんこさんにあいさつ。</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/5.JPG"><img alt="5.JPG" src="http://mtl.recruit.co.jp/blog/assets_c/2013/03/5-thumb-480x640-656.jpg" width="480" height="640" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>にゃかよくしてくださいにゃ～</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/6.JPG"><img alt="6.JPG" src="http://mtl.recruit.co.jp/blog/assets_c/2013/03/6-thumb-480x640-658.jpg" width="480" height="640" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/7.JPG"><img alt="7.JPG" src="http://mtl.recruit.co.jp/blog/assets_c/2013/03/7-thumb-480x640-660.jpg" width="480" height="640" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p><br />
+...そんな時にお客様を足蹴にしているにゃんこさんを発見っ!!!!!</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/8.JPG"><img alt="8.JPG" src="http://mtl.recruit.co.jp/blog/assets_c/2013/03/8-thumb-640x480-662.jpg" width="640" height="480" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>にゃるぽもふまれt...じゃなくて、にゃんこさんともっとにゃかよくにゃりたいにゃー。にゃんこさんとひと通り触れ合って、ちょっと休憩しようと窓辺に近づくと、</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/9.JPG"><img alt="9.JPG" src="http://mtl.recruit.co.jp/blog/assets_c/2013/03/9-thumb-640x853-664.jpg" width="640" height="853" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>にゃんこさんの写真が書いてあるファイルを発見。中を開くと、アルバムになってましたにゃ～</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/10.JPG"><img alt="10.JPG" src="http://mtl.recruit.co.jp/blog/assets_c/2013/03/10-thumb-640x480-666.jpg" width="640" height="480" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a><br />
+名前の由来など、にゃんこさんのことにもっと詳しくなれちゃう工夫がされてますにゃ＊</p>
+
+<p>そして！今回の目玉、「看板にゃんこさん紹介」ですにゃ！</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/11.JPG"><img alt="11.JPG" src="http://mtl.recruit.co.jp/blog/assets_c/2013/03/11-thumb-640x853-668.jpg" width="640" height="853" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>「どらえもん」<br />
+猫種：Mix<br />
+性別：オス<br />
+誕生日：12月8日</p>
+
+<p>　とにかく人懐っこい性格のどらえもんくん。<br />
+　その愛くるしさは、ねころびさんのMixiでの第１回人気投票でぶっちぎりの１位を獲得したほど！<br />
+　どんなに写真を撮っても嫌な顔ひとつせず付き合ってくれましたにゃ>ω<</p>
+
+<p><br />
+最後に、</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/12.JPG"><img alt="12.JPG" src="http://mtl.recruit.co.jp/blog/assets_c/2013/03/12-thumb-640x853-670.jpg" width="640" height="853" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>にゃるぽの宣伝もしっかりしてきましたにゃ！</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/13.JPG"><img alt="13.JPG" src="http://mtl.recruit.co.jp/blog/assets_c/2013/03/13-thumb-640x480-672.jpg" width="640" height="480" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>（もうちょっと大きく描いても良かったかにゃ...？笑）</p>
+
+<p>良かったら皆さんもぜひダウンロードしてみてくださいにゃ！<br />
+</p>]]>
+    </content>
+</entry>
+
+<entry>
+    <title>友達と100,000種類のイントロクイズが楽しめるアプリ『Qusic』をリリースしました！</title>
+    <link rel="alternate" type="text/html" href="http://mtl.recruit.co.jp/blog/2013/03/100000qusic.html" />
+    <id>tag:mtl.recruit.co.jp,2013:/blog//26.1782</id>
+
+    <published>2013-03-07T05:00:00Z</published>
+    <updated>2013-03-07T07:42:54Z</updated>
+
+    <summary> はじめまして、MTLで7月から働いているじぇいです。 本日、AppStoreにて、友達と100,000種類のイントロクイズが楽しめるアプリ『Qusic』をリリースしました。 ぜひダウンロードして楽し...</summary>
+    <author>
+        <name>じぇい</name>
+        <uri>http://twitter.com/kasajei</uri>
+    </author>
+    
+        <category term="お知らせ" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://mtl.recruit.co.jp/blog/">
+        <![CDATA[<p><a href ="http://www.qusic.fm"><br />
+<img alt="QusicWeb.png" src="http://mtl.recruit.co.jp/blog/images/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202013-03-06%2011.55.27.png" width="100%" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /><br />
+</a></p>
+
+<p>はじめまして、MTLで7月から働いているじぇいです。<br />
+本日、AppStoreにて、友達と100,000種類のイントロクイズが楽しめるアプリ『<a href ="https://itunes.apple.com/jp/app/qusic/id603495869">Qusic</a>』をリリースしました。</p>
+
+<p>ぜひダウンロードして楽しんでください。ダウンロードは<a href ="https://itunes.apple.com/jp/app/qusic/id603495869">こちら</a></p>
+
+<p><a href = "https://itunes.apple.com/jp/app/qusic/id603495869"><br />
+                <img alt="appstore.png" src="http://mtl.recruit.co.jp/blog/images/appstore.png" width="270" height="80" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /><br />
+</a></p>
+
+<p></p>
+
+<h2>『Qusic』主な3つの機能</h2>
+<h3>1. 100,000種類以上のイントロクイズを無料で友達と遊べる</h3>
+- 曲名がわかったら早押ししましょう<br/><br/>
+- 友達からの挑戦で、リアルタイム感のあるバトルをすることができます
+<br/>
+<a href="http://mtl.recruit.co.jp/blog/images/P2.png"><img alt="P2.png" src="http://mtl.recruit.co.jp/blog/assets_c/2013/03/P2-thumb-320x480-629.png" width="320" height="480" class="mt-image-left" style="float: left; margin: 10px 20px 20px 0;" /></a><img alt="P1.png" src="http://mtl.recruit.co.jp/blog/images/P1.png" width="320" class="mt-image-right" style="float:left; margin: 10px 0 20px 20px;" />
+
+<p><br clear ="both"/><br />
+<h3>2. クイズの曲をお気に入りに登録できて、いつでも聴ける</h3><br />
+<a href="http://mtl.recruit.co.jp/blog/images/P3.png"><img alt="P3.png" src="http://mtl.recruit.co.jp/blog/assets_c/2013/03/P3-thumb-320x480-631.png" width="320" height="480" class="mt-image-right" style="float:left; margin: 0 10px 20px 10px;" /></a><br />
+- イントロクイズで出会った曲はお気にい入りにいれていつでも聞くことができます<br/><br />
+- お気に入りの曲を連続再生できます</p>
+
+<p></p>
+
+<p><br clear ="both"/><br />
+<h3>3. コミュニティー機能で好きなアーティストについて語り合える、仲良くなれる</h3><br />
+<a href="http://mtl.recruit.co.jp/blog/images/P4.png"><img alt="P4.png" src="http://mtl.recruit.co.jp/blog/assets_c/2013/03/P4-thumb-320x480-633.png" width="320" height="480" class="mt-image-right" style="float:left; margin: 0 10px 20px 10px;" /></a><br />
+- アーティストごとのコミュニティに自由にスレッドを立てることができます<br/><br />
+- 最新のアルバム情報やライブ情報などを共有して盛り上がりましょう</p>
+
+<p><br />
+<h2>ダウンロードしてみんなで盛り上がろう！</h2></p>
+
+<p>ダウンロードは<a href ="https://itunes.apple.com/jp/app/qusic/id603495869">こちら</a></p>
+
+<p><a href = "https://itunes.apple.com/jp/app/qusic/id603495869"><br />
+                <img alt="appstore.png" src="http://mtl.recruit.co.jp/blog/images/appstore.png" width="270" height="80" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /><br />
+</a></p>
+
+<p><br />
+<a href="http://click.linksynergy.com/fs-bin/click?id=kTCuJLP1H/Y&subid=0&offerid=94348.1&type=10&tmpid=3910&RD_PARM0=https%3A%2F%2Fitunes.apple.com%2Fjp%2Fapp%2Fqusic%2Fid603495869%3Fmt%3D8%2526uo%3D4&RD_PARM1=https%3A%2F%2Fitunes.apple.com%2Fjp%2Fapp%2Fqusic%2Fid603495869%3Fmt%3D8%2526uo%3D4" rel="nofollow" target="_blank"><img align="left" hspace="6" src="http://a319.phobos.apple.com/us/r30/Purple/v4/e7/4c/11/e74c11cd-be97-e6bb-3335-39f47ea4a2df/icon.png" width="75" style="margin-right: 6px;" /><b>Qusic</b> <img alt="App" src="http://ax.phobos.apple.com.edgesuite.net/ja_jp/images/web/linkmaker/badge_appstore-sm.gif" style="vertical-align: text-bottom;" /></b><br /><br />
+</a>カテゴリ: ゲーム<br /><br />
+価格: 無料<br clear="all" /><br />
+<div align="center" style="margin: 5px;"><a href="http://click.linksynergy.com/fs-bin/click?id=kTCuJLP1H/Y&subid=0&offerid=94348.1&type=10&tmpid=3910&RD_PARM0=https%3A%2F%2Fitunes.apple.com%2Fjp%2Fapp%2Fqusic%2Fid603495869%3Fmt%3D8%2526uo%3D4&RD_PARM1=https%3A%2F%2Fitunes.apple.com%2Fjp%2Fapp%2Fqusic%2Fid603495869%3Fmt%3D8%2526uo%3D4" rel="nofollow" target="_blank"><img src="http://a1560.phobos.apple.com/us/r30/Purple/v4/d5/29/35/d5293505-e342-ffeb-6ab0-1a1ee6b3eb68/mzl.hkhrhdin.png" class="iPhonePortrait" width="45%" /></a>　<a href="http://click.linksynergy.com/fs-bin/click?id=kTCuJLP1H/Y&subid=0&offerid=94348.1&type=10&tmpid=3910&RD_PARM0=https%3A%2F%2Fitunes.apple.com%2Fjp%2Fapp%2Fqusic%2Fid603495869%3Fmt%3D8%2526uo%3D4&RD_PARM1=https%3A%2F%2Fitunes.apple.com%2Fjp%2Fapp%2Fqusic%2Fid603495869%3Fmt%3D8%2526uo%3D4" rel="nofollow" target="_blank"><img src="http://a1736.phobos.apple.com/us/r30/Purple/v4/f5/67/72/f567721c-a318-8eb6-9a82-07981fda4e9a/mzl.ctqflybx.png" class="iPhonePortrait" width="45%" /></a></div><br />
+<img border="0" width="1" height="1" src="http://ad.linksynergy.com/fs-bin/show?id=Dk8JKvDVYwE&bids=186984.200232&type=3&subid=0"></p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>まるで別人！？女子大生に盛りカワの魔法をかけてみた</title>
+    <link rel="alternate" type="text/html" href="http://mtl.recruit.co.jp/blog/2013/02/morikawa_event.html" />
+    <id>tag:mtl.recruit.co.jp,2013:/blog//26.1771</id>
+
+    <published>2013-02-27T08:00:00Z</published>
+    <updated>2013-02-27T08:01:40Z</updated>
+
+    <summary>こんにちは。MTLの鈴木です。 先日、盛りカワchanの企画で「Cinderela Time（シンデレラタイム） ～16名限定の1日お姫様体験～」というイベントを実施しました。その内容について、盛りカ...</summary>
+    <author>
+        <name>鈴木 慎介</name>
+        
+    </author>
+    
+        <category term="イベント" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://mtl.recruit.co.jp/blog/">
+        <![CDATA[<p>こんにちは。MTLの鈴木です。</p>
+
+<p>先日、盛りカワchanの企画で「Cinderela Time（シンデレラタイム） ～16名限定の1日お姫様体験～」というイベントを実施しました。その内容について、盛りカワchan企画担当のよっさんに、レポートしてもらいました。</p>
+
+<p><br />
+</p>]]>
+        <![CDATA[<p>盛りカワchan企画担当のよっさんです。シンデレラタイム・・・その名の通り、参加した女の子たちに本当にお姫様のような贅沢な体験をしてもらう、夢のような企画を開催しました。あまりの人気っぷりに、あっという間に申し込みが埋まりました！</p>
+
+<p>その内容は...</p>
+
+<h3>(1)美容講座</h3>
+<a href="http://mtl.recruit.co.jp/blog/images/%E7%94%BB%E5%83%8F%EF%BC%91.jpeg"><img alt="image1.jpeg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/02/%E7%94%BB%E5%83%8F%EF%BC%91-thumb-640x425-588.jpeg" width="640" height="425" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a>
+まずは、プロのメイクアップアーティストさんをお呼びして、普段自分ではなかなかやらない「パーティーメイク講座」を実施しました。「普段と一味違うパーティーメイクってどうやるの！？」・・・そんなお悩みを解決！
+
+<p>アイシャドウののせ方、アイラインの引き方、つけまつげの付け方など、モデルさんに実践をしながら講座をして頂きました。参加者の皆さんは、食い入るように講座に聞きいっていましたね・・・！モデルさんには、顔半分パーティーメイク、顔半分はスッピンになってもらいました！</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/%E7%94%BB%E5%83%8F%EF%BC%92.jpeg"><img alt="morikawa_image2.jpeg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/02/%E7%94%BB%E5%83%8F%EF%BC%92-thumb-640x853-589.jpeg" width="640" height="853" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a><br />
+もともと可愛らしい顔のモデルさんも、パーティーメイクで一気にクール美人に！その人の「なりたい」で雰囲気を、何パターンにも変えることができるのです。メイクって、本当に凄いですね・・・！</p>
+
+<h3>(2)メイクお悩み相談教室</h3>
+<a href="http://mtl.recruit.co.jp/blog/images/%E7%94%BB%E5%83%8F%EF%BC%93.jpeg"><img alt="morikawa_image3.jpeg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/02/%E7%94%BB%E5%83%8F%EF%BC%93-thumb-640x425-590.jpeg" width="640" height="425" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a>
+メイクの悩み相談を、プロの方にできる機会って少ないですよね。少人数イベントならではの、講師の先生と参加者でわいわいした雰囲気の中お話しながら相談会を開催しました。
+
+<p>「下まつげのビューラーのやり方が分からない！」など、直接指導してもらいながら、相談にのってもらっていました＊　直接のご指導に、皆さんも沢山悩みを相談できて良かったみたいです。</p>
+
+<h3>(3)ヘアメイクアップ</h3>
+<a href="http://mtl.recruit.co.jp/blog/images/%E7%94%BB%E5%83%8F%EF%BC%94.jpeg"><img alt="morikawa_image4.jpeg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/02/%E7%94%BB%E5%83%8F%EF%BC%94-thumb-640x425-591.jpeg" width="640" height="425" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a>
+今回の一番のお楽しみ！プロのヘアメイクさんが、1人に1人ついて、パーティー風にヘアメイクアップ！先ほどのように、普段はできないようなメイクをプロのヘアメイクさんにして頂き、髪型までどんどん盛り盛りに・・・！
+
+<p>「成人式以外で、こんなに素敵にしてもらったことないです！凄いです！」と、参加者の皆さんも興奮気味でした（笑）</p>
+
+<p>皆さん、どんどんお姫様のように変身していきました・・・！！</p>
+
+<h3>(4)撮影</h3>
+「盛りカワchan」を使用しての撮影大会！みんなの大変身＋盛りカワchanで、Before撮影の時は照れながら撮影していた皆さんも、自信を持って写メをたくさん撮っていました★　皆さん、とーっても、盛れています！
+<a href="http://mtl.recruit.co.jp/blog/images/%E7%94%BB%E5%83%8F%EF%BC%95.jpeg"><img alt="morikawa_image5.jpeg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/02/%E7%94%BB%E5%83%8F%EF%BC%95-thumb-640x425-592.jpeg" width="640" height="425" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a>
+以下、皆さんの衝撃Before→Afterです！
+
+<p>Before<br />
+<a href="http://mtl.recruit.co.jp/blog/images/%E7%94%BB%E5%83%8F%EF%BC%96.jpeg"><img alt="morikawa_image6.jpeg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/02/%E7%94%BB%E5%83%8F%EF%BC%96-thumb-640x853-593.jpeg" width="320" height="426" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>After<br />
+<a href="http://mtl.recruit.co.jp/blog/images/%E7%94%BB%E5%83%8F%EF%BC%97.jpeg"><img alt="morikawa_image7.jpeg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/02/%E7%94%BB%E5%83%8F%EF%BC%97-thumb-640x640-594.jpeg" width="320" height="320" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>Before<br />
+<a href="http://mtl.recruit.co.jp/blog/images/%E7%94%BB%E5%83%8F%EF%BC%98.jpeg"><img alt="morikawa_image8.jpeg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/02/%E7%94%BB%E5%83%8F%EF%BC%98-thumb-640x853-602.jpeg" width="320" height="426" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>After<br />
+<a href="http://mtl.recruit.co.jp/blog/images/%E7%94%BB%E5%83%8F%EF%BC%99.jpeg"><img alt="morikawa_image9.jpeg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/02/%E7%94%BB%E5%83%8F%EF%BC%99-thumb-640x640-604.jpeg" width="320" height="320" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>Before<br />
+<a href="http://mtl.recruit.co.jp/blog/images/%E7%94%BB%E5%83%8F%EF%BC%91%EF%BC%90.jpeg"><img alt="morikawa_image10.jpeg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/02/%E7%94%BB%E5%83%8F%EF%BC%91%EF%BC%90-thumb-640x853-606.jpeg" width="320" height="426" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>After<br />
+<a href="http://mtl.recruit.co.jp/blog/images/%E7%94%BB%E5%83%8F%EF%BC%91%EF%BC%91.jpeg"><img alt="morikawa_image11.jpeg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/02/%E7%94%BB%E5%83%8F%EF%BC%91%EF%BC%91-thumb-640x640-608.jpeg" width="320" height="320" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>Before<br />
+<a href="http://mtl.recruit.co.jp/blog/images/%E7%94%BB%E5%83%8F%EF%BC%91%EF%BC%92.jpeg"><img alt="morikawa_image12.jpeg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/02/%E7%94%BB%E5%83%8F%EF%BC%91%EF%BC%92-thumb-640x853-610.jpeg" width="320" height="426" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>After<br />
+<a href="http://mtl.recruit.co.jp/blog/images/%E7%94%BB%E5%83%8F%EF%BC%91%EF%BC%93.jpeg"><img alt="morikawa_image13.jpeg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/02/%E7%94%BB%E5%83%8F%EF%BC%91%EF%BC%93-thumb-640x640-612.jpeg" width="320" height="320" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>Before<br />
+<a href="http://mtl.recruit.co.jp/blog/images/%E7%94%BB%E5%83%8F%EF%BC%91%EF%BC%94.jpeg"><img alt="morikawa_image14.jpeg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/02/%E7%94%BB%E5%83%8F%EF%BC%91%EF%BC%94-thumb-640x853-614.jpeg" width="320" height="426" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>After<br />
+<a href="http://mtl.recruit.co.jp/blog/images/%E7%94%BB%E5%83%8F%EF%BC%91%EF%BC%95.jpeg"><img alt="morikawa_image15.jpeg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/02/%E7%94%BB%E5%83%8F%EF%BC%91%EF%BC%95-thumb-640x640-616.jpeg" width="320" height="320" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>Before<br />
+<a href="http://mtl.recruit.co.jp/blog/images/%E7%94%BB%E5%83%8F%EF%BC%91%EF%BC%96.jpeg"><img alt="morikawa_image16.jpeg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/02/%E7%94%BB%E5%83%8F%EF%BC%91%EF%BC%96-thumb-640x853-618.jpeg" width="320" height="426" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>After<br />
+<a href="http://mtl.recruit.co.jp/blog/images/%E7%94%BB%E5%83%8F%EF%BC%91%EF%BC%97.jpg"><img alt="morikawa_image17.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/02/%E7%94%BB%E5%83%8F%EF%BC%91%EF%BC%97-thumb-640x640-620.jpg" width="320" height="320" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>皆さん、めちゃくちゃ素敵なシンデレラに大変身ですね・・・！</p>
+
+<h3>(5)ケーキを食べながら女子会</h3>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/%E7%94%BB%E5%83%8F%EF%BC%91%EF%BC%98.jpeg"><img alt="morikawa_image18.jpeg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/02/%E7%94%BB%E5%83%8F%EF%BC%91%EF%BC%98-thumb-640x425-622.jpeg" width="640" height="425" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>やっぱりヘアメイクをしたら、美味しいスイーツが必要です！　可愛いケーキが皆さんにとても似合っていました＊　美味しいケーキを食べながら、「この後誰と会うの？」とか「バレンタインはどうだった？」とか恋バナが盛り上がっていたようです。笑</p>
+
+<p><a href="http://mtl.recruit.co.jp/blog/images/%E7%94%BB%E5%83%8F%EF%BC%91%EF%BC%99.jpeg"><img alt="morikawa_image19.jpeg" src="http://mtl.recruit.co.jp/blog/assets_c/2013/02/%E7%94%BB%E5%83%8F%EF%BC%91%EF%BC%99-thumb-640x425-624.jpeg" width="640" height="425" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>皆さん、シンデレラになれましたでしょうか？やっぱり、女の子ってメイクや撮影方法で、新しい自分に出会えて楽しいですよね！</p>
+
+<p>是非、 <a href="http://morikawa.in/" target="_blank">盛りカワchan</a> を使用して、さらにさらに可愛く盛っちゃいましょう！！<br />
+</p>]]>
+    </content>
+</entry>
+
+<entry>
+    <title>アンドロイダー アイドル社員種ちゃんに　蜷川実花監修カメラアプリ『cameran』を突撃取材いただきました！</title>
+    <link rel="alternate" type="text/html" href="http://mtl.recruit.co.jp/blog/2013/02/_cameran_1.html" />
+    <id>tag:mtl.recruit.co.jp,2013:/blog//26.1769</id>
+
+    <published>2013-02-14T02:27:02Z</published>
+    <updated>2013-02-14T02:55:22Z</updated>
+
+    <summary>MTLの伴野です。 前回のエントリーで 「蜷川実花監修カメラアプリ cameran Android版リリース」 をご紹介させて頂きましたが、、 この度Androidレビューサイトであるアンドロイダーに...</summary>
+    <author>
+        <name>伴野 智樹</name>
+        
+    </author>
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://mtl.recruit.co.jp/blog/">
+        <![CDATA[<p>MTLの伴野です。</p>
+
+<p>前回のエントリーで<br />
+<a href="http://mtl.recruit.co.jp/blog/2012/12/mtl_1220cameran_android_android_chainandroid_iphone150.html">「蜷川実花監修カメラアプリ cameran Android版リリース」</a><br />
+をご紹介させて頂きましたが、、</p>
+
+<p>この度Androidレビューサイトである<strong><a href="http://androider.jp/">アンドロイダー</a></strong>に、<br />
+<strong><a href="http://androider.jp/official/app/4e0984343071f0bc/">「公認アンドロイドアプリ」</a></strong>として採用頂きました。<br />
+<img alt="topLogo.png" src="http://mtl.recruit.co.jp/blog/images/topLogo.png" width="262" height="59" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></p>
+
+<p><br />
+また、アンドロイダー　<strong>アイドル社員の<a href="http://androider.jp/page/2012/12/1533/">種ちゃん</a></strong><br />
+に突撃取材をして頂きましたので、ご報告いたします！</p>
+
+<p><img alt="top_image.png" src="http://mtl.recruit.co.jp/blog/images/top_image.png" width="480" height="434" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></p>
+
+<p><br />
+cameranのスタッフをインタビュー撮影し、動画で公開するスタイルの突撃取材です。</p>
+
+<p>cameranスタッフはこのような撮影初めてで、緊張感に包まれてはじまりました。。<br />
+アプリを取材される事はあっても、自分自身がインタビューされる機会は中々ありません。</p>
+
+<p>当日の様子1：緊張して真剣な面持ちのcameranスタッフ<br />
+<a href="http://mtl.recruit.co.jp/blog/images/%E5%86%99%E7%9C%9F%201%5B1%5D.JPG"><img alt="写真 1[1].JPG" src="http://mtl.recruit.co.jp/blog/assets_c/2013/02/%E5%86%99%E7%9C%9F%201%5B1%5D-thumb-500x375-571.jpg" width="500" height="375" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p><br />
+でも時間が経つにつれ、スタッフのみなさんと種ちゃんの心温かいフォローで<br />
+ようやく頬の筋肉も緩み、終盤は非常にリラックスして撮影に取り組むことができました。</p>
+
+<p>当日の様子2：リラックスし打ち解けた様子のcameranスタッフ<br />
+<a href="http://mtl.recruit.co.jp/blog/images/%E5%86%99%E7%9C%9F%203%5B1%5D.JPG"><img alt="写真 3[1].JPG" src="http://mtl.recruit.co.jp/blog/assets_c/2013/02/%E5%86%99%E7%9C%9F%203%5B1%5D-thumb-500x375-572.jpg" width="500" height="375" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p>詳細は出来上がったビデオを見ていただきたいのでこの場では割愛させて頂きますが、<br />
+とても素敵な動画になっておりますので公開をぜひお楽しみに頂けると幸いです！<br />
+※2月20日以降の公開予定しております（またこの場で報告いたします）</p>
+
+<p>実はこのような撮影に取り組んだ背景には、<br />
+我々のプロジェクトがもう少し利用者の方に近い存在でありたいという想いがあったためでした。</p>
+
+<p>私共は常にプロダクト開発にこだわりを持ち、心をこめて世に送り出しております。<br />
+ただ、そのようなこだわりを中々うまく利用者の方に伝えられる機会が無く、客観的にブラックボックス化しがちです。<br />
+少しでも我々の考え方や内部の様子を利用者の方に知って頂くために今回ような機会に参加させて頂くようになりました。</p>
+
+<p>今回はMTLのcameranプロジェクトの裏側も垣間見れると思いますので、お楽しみに！！</p>
+
+<p>※撮影にご協力頂きましたアンドロイダー様、アイドル社員種ちゃん、撮影スタッフのみなさま<br />
+本当にありがとうございました！</p>
+
+<p></p>
+
+<p></p>
+
+<p><br />
+</p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>学生限定アプリ企画＆開発大会『TechCafe for Students 2012 winter』 スペシャル審査員は、スプツニ子さん！またまたまた開催します＊</title>
+    <link rel="alternate" type="text/html" href="http://mtl.recruit.co.jp/blog/2013/01/TC4S_2012_winter.html" />
+    <id>tag:mtl.recruit.co.jp,2013:/blog//26.1768</id>
+
+    <published>2013-01-11T03:00:00Z</published>
+    <updated>2013-01-11T03:09:25Z</updated>
+
+    <summary>こんにちは。MTLの鈴木です。早速ですが、前回の結果報告です。 昨年夏に開催した『TechCafe for Students 2012 summer』は、審査の結果、3つの企画が実装の部に勝ち残り、す...</summary>
+    <author>
+        <name>鈴木 慎介</name>
+        
+    </author>
+    
+        <category term="イベント" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://mtl.recruit.co.jp/blog/">
+        <![CDATA[<p>こんにちは。MTLの鈴木です。早速ですが、前回の結果報告です。</p>
+
+<p>昨年夏に開催した『TechCafe for Students 2012 summer』は、審査の結果、3つの企画が実装の部に勝ち残り、すでに</p>
+
+<p><a href="http://animal-camera.jp/" target="_blank">AnimalCamera<br />
+<img alt="animalcamera.jpg" src="http://mtl.recruit.co.jp/blog/images/animalcamera.jpg" width="175" height="175" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /><br />
+</a></p>
+
+<p><a href="http://peoplequest.jp/" target="_blank">ぴぽクエ - 友達の本音ドキドキ探索アプリ<br />
+<img alt="peoplequest.jpg" src="http://mtl.recruit.co.jp/blog/images/peoplequest.jpg" width="175" height="175" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /><br />
+</a></p>
+
+<p>の2アプリをリリースし、残る1企画も間もなくAppleに申請、今月中にリリースできるのでは、というところまでやってきました......というわけで、3回目となる学生限定のアプリ開発イベント『TechCafe for Students 2012 winter』、またまたまた開催したいと思います！今回、<strong>スペシャルな審査員</strong>に参加いただく予定です！　ぜひぜひ続きをチェックしてみて下さい。</p>
+
+<p><img alt="TC4S2012winter_logo.png" src="http://mtl.recruit.co.jp/blog/images/TC4S2012winter_logo.png" width="640" height="210" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /><br />
+</p>]]>
+        <![CDATA[<h2>企画概要</h2>
+
+<p>2012年冬、メディアテクノロジーラボ（MTL）では、学生を対象とした、サービス企画＆実装のすごい開発合宿「TechCafe for Students」を開催します。</p>
+
+<p>テーマは、『自分たちが使いたくなるようなスマホアプリ（＋集客プランをセットで！）』。</p>
+
+<p>身近な誰かをハッピーにできるようなサービス企画に参加してみませんか。アイデアの部・実装の部の二部構成で、アイデアの部を勝ち残ったチームは、MTLのプランナー・エンジニアが実現・実装を（本気で！）しっかり支援します。開発や集客などの相談を、いつでも気軽にできる環境で、あなたのアイデアを実現していきましょう。MTLは「インターネットで何か面白いことをしたい！」という熱い想いを持った学生を応援します。</p>
+
+<p>※写真は前回の会場風景<br />
+<img alt="tc4s2012_2.JPG" src="http://mtl.recruit.co.jp/blog/images/tc4s2012_2.JPG" width="640" height="427" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></p>
+
+<h2>応募資格</h2>
+
+<p>インターネットで何か面白いことをやりたい学生。ネットでモテキを迎えたい学生。学年不問です。</p>
+
+<p>アイデアの部のDay1・Day2（後述）に参加できることが前提となります。明確な実績などは必要ありません。今回も、タイプごとの募集は行いません（もちろんエンジニアの方、デザイナーの方も歓迎です！）。</p>
+
+<h2>募集人数</h2>
+
+<p>20-40名程度を予定しています。4-5名でチームを作ります。個人での応募を前提としているので、仲良しグループでエントリーされた場合は、運営側でシャッフルいたします。</p>
+
+<p>こちらの予想を上回る多数の応募をいただいた場合、応募メールの内容によって、運営側で選抜させていただきます。また、当初の予定（1/18（金）20:00）より早いタイミングで応募を締め切る場合もあります（その場合、こちらのBlogにて広報します）。予めご了承ください。</p>
+
+<h2>開催スケジュール</h2>
+
+<p>アイデアの部と、実装の部に分かれています。アイデアの部で勝ち残ったチームには、原則、実装の部までやりきってもらいたいと考えていますが、実装の部に入る前に、コミットメントを確認させていただきます（この時点で、外部メンバーの導入も含め、チーム体制を組み直すことも可能です。4年生/修士2年など卒業年度の方も、ぜひご参加ください）。</p>
+
+<h3>アイデアの部</h3>
+
+<p>Day1（<strong>1/19（土）14:00～18:00</strong>）: チームメンバーで、<strong>アイデアソン</strong>を行います。テーマは『自分たちが使いたくなるようなスマホアプリ』です。</p>
+
+<p>ブラッシュアップ期間（1/19～1/30）: プレゼン大会（Day2）に向け、アイデアのブラッシュアップを行います。MTLのメンバーをメンターとして配置して、アイデアの壁打ち、ブラッシュアップ、全力サポートをお約束します。</p>
+
+<p>Day2（<strong>1/31（木）18:00～21:00</strong>）: チーム毎に、Day1のアイデアソンで出たアイデアから（あるいはブラッシュアップ期間中にチーム内で出たアイデア）1本を選んで、企画として仕立ててもらい、<strong>プレゼン大会</strong>を開催します。</p>
+
+<h3>実装の部</h3>
+
+<p>Goサインが得られたチームは、3月末に向けて、実装を進めていきます。場所は、MTLのカフェスペースを利用するか、リモートでの作業でもOKです。カフェスペースでは、サービスに関することを何でもMTLのメンバーに相談することができます。一緒にサービスを作りあげていきましょう（実装の部の具体的な進め方については、アイデアの部終了後に個別に相談させてください）。</p>
+
+<h2>応募方法</h2>
+
+<p>1. 名前<br />
+2. 所属（学部学科）・学年<br />
+3. Facebookアカウント（任意）<br />
+4. 自己PR<br />
+5. 実績</p>
+
+<p>の5点をメールで tc4s[アットマーク]waku-2.com 宛てに送ってください！ 送っていただいた情報に関しては、こちらの<a href="http://mtl.recruit.co.jp/policy.html" target="_blank">プライバシーポリシー</a>に則り、本イベントに関する連絡および案内に利用いたします。</p>
+
+<h2>書き方の例　※イメージ</h2>
+
+<p><a href="http://mtl.recruit.co.jp/blog/assets_c/2013/01/mailsample2012winter-566.html" onclick="window.open('http://mtl.recruit.co.jp/blog/assets_c/2013/01/mailsample2012winter-566.html','popup','width=612,height=438,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"><img src="http://mtl.recruit.co.jp/blog/assets_c/2013/01/mailsample2012winter-thumb-612x438-566.png" width="612" height="438" alt="mailsample2012winter.png" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a><br />
+なお添付ファイルによるアピールは不可です（読みません）。</p>
+
+<h2>応募期間</h2>
+
+<p>本日1/11（金） ～ 1/18（金）20:00までにメールで応募をお願いします。来週末です......！<br />
+※選考結果については、1/18（金）中にメールにて返信します</p>
+
+<h2>前回との違い</h2>
+
+<p>基本的には、前回同様、Day1 アイデアソン → Day2 プレゼン大会 → 実装という流れで進めていきますが、いくつか変更点があります。また、Day2はスペシャルな審査員の方に参加していただく予定です！</p>
+
+<h3>前回の反省</h3>
+
+<p>2012 summer では、3企画を実現することができたのですが、MTL側のフォローするパワーが分散してしまい、アプリリリースまでのスケジュールが予定より大幅に伸びてしまいました......そこで、</p>
+
+<h3>今回開催での変更ポイント</h3>
+
+<ul>
+<li>通過案件数は......おそらく1件になります！が、その分、手厚くサポートします！</li>
+<li>スペシャル審査員として、スプツニ子！さんにご参加いただきます！今回は、審査員（スプツニ子！さん＋MTLメンバー）票＋会場票で、優勝作品を決定します</li>
+</ul>
+
+<p>※スプツニ子！さんについて詳しくは、<a href="http://www.sputniko.com/" target="_blank">こちらのサイト</a>や<a href="http://mtl.recruit.co.jp/blog/2012/04/mtl_6.html" target="_blank">こちらの記事</a>をご参照ください</p>
+
+<h2>良くありそうな質問と答</h2>
+
+<p>Q. 交通費や宿泊費は出ますか？<br />
+A. アイデアの部（Day1, Day2それぞれ）の交通費は、各日程上限1,000円で負担いたします（手続きに必要なものについてはメールで連絡します）。宿泊費が発生する場合は自己負担でお願いします。ごめんなさい。。。</p>
+
+<p>Q. 作ったサービスは誰のものになりますか？<br />
+A. 提案いただいた内容や作成に携わっていただいた資料等に関する一切の権利は、弊社に帰属いたします。予めご了承いただきますようお願い申し上げます。アイデアの部でプレゼンされた企画については（このMTL Blogを含め）社内外のメディアで公開されることがあります。実装の部に進んだサービスについては、（その際に改めて契約書を取り交わさせていただきますが）リクルートのサービスとしてリリースします。予めご了承ください。</p>
+
+<h2>お問い合わせ窓口</h2>
+
+<p><a href="http://mtl.recruit.co.jp/contact.html" target="_blank">MTLのお問い合わせページ</a>まで<br />
+</p>]]>
+    </content>
+</entry>
+
+<entry>
+    <title>蜷川実花監修カメラアプリ『cameran』Android版をリリースしました！</title>
+    <link rel="alternate" type="text/html" href="http://mtl.recruit.co.jp/blog/2012/12/mtl_1220cameran_android_android_chainandroid_iphone150.html" />
+    <id>tag:mtl.recruit.co.jp,2012:/blog//26.1756</id>
+
+    <published>2012-12-20T06:08:54Z</published>
+    <updated>2012-12-25T01:48:09Z</updated>
+
+    <summary>　　　　　　MTL伴野です みなさま、おまたせしました。 本日12月20日に、世界各国のAppStoreで１位を獲得した、 あの蜷川実花監修カメラアプリ『cameran』　の Android版をリリー...</summary>
+    <author>
+        <name>伴野 智樹</name>
+        
+    </author>
+    
+        <category term="お知らせ" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://mtl.recruit.co.jp/blog/">
+        <![CDATA[<table><tr><td><img alt="unnamed (4).jpg" src="http://mtl.recruit.co.jp/blog/images/unnamed%20%284%29.jpg" width="288" height="512" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></td><th>　　　　　　</th><td><img alt="unnamed (5).jpg" src="http://mtl.recruit.co.jp/blog/images/unnamed%20%285%29.jpg" width="288" height="512" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></td></tr></table>MTL伴野です
+
+<p>みなさま、おまたせしました。<br />
+本日12月20日に、<strong>世界各国のAppStoreで１位を獲得した、<br />
+あの</strong><a href="http://cameran.in/"><big><strong>蜷川実花監修カメラアプリ『cameran』　</strong></big></a>の<br />
+<strong>Android版</strong>をリリースいたしました！</p>
+
+<p>今までご利用をいただけなかったAndroidユーザーのみなさま、<br />
+ぜひこれを機にダウンロードをお願いいたします！</p>
+
+<p>しかも、今回は<strong>「Chain」</strong>というAndroid版限定のフィルタも搭載しております<br />
+（確認したい方はぜひ<a href="https://play.google.com/store/apps/details?id=jp.co.recruit.mtl.cameran.android">ダウンロード</a>をお願いします）</p>
+
+<p><a href="https://play.google.com/store/apps/details?id=jp.co.recruit.mtl.cameran.android"><img alt="スクリーンショット 2012-12-22 3.10.46.png" src="http://mtl.recruit.co.jp/blog/images/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202012-12-22%203.10.46.png" width="152" height="51" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></p>
+
+<p><br />
+また、既に報告の通りiPhone版は150万以上の方にご利用を頂いております<br />
+本エントリーでは、フィルタの利用状況と、新しい壁紙についてご紹介いたします。<br />
+▼参考：以前の プレスリリース　<br />
+<a href="http://www.recruit.jp/news_data/release/2012/1211_6937.html">「蜷川実花監修カメラアプリ『cameran』150万ダウンロードを突破」</a></p>
+
+<h3>利用状況のご報告</h3>
+
+<p>フィルタの<strong>利用状況ランキング</strong></p>
+
+<p><strong>1位 UME<br />
+2位 GOKUSAI<br />
+3位 Marron<br />
+4位 Ornament<br />
+5位 Toy</strong><br />
+（iPhone版、12月14日現在）</p>
+
+<h3>各国の利用状況</h3>
+
+<table>
+<tr><th width="220"><strong>一番使われているUME</strong></th><th width="220"><strong>中国での利用が多いROSE</strong></th><th width="220"><strong>台湾利用が多いButterfly</strong></th></tr>
+<tr><td><img alt="ume.jpgのサムネイル画像" src="http://mtl.recruit.co.jp/blog/assets_c/2012/12/ume-thumb-200x200-517.jpg" width="200" height="200" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></td><td><img alt="rose.jpgのサムネイル画像" src="http://mtl.recruit.co.jp/blog/assets_c/2012/12/rose-thumb-200x200-518.jpg" width="200" height="200" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></td><td><img alt="butterfly.jpgのサムネイル画像" src="http://mtl.recruit.co.jp/blog/assets_c/2012/12/butterfly-thumb-200x200-519.jpg" width="200" height="200" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></td></tr></table>
+
+<p><br />
+<h3>最近追加された新壁紙</h3><br />
+<table><tr><td width="220"><a href="http://mtl.recruit.co.jp/blog/images/gallery21.jpg"><img alt="gallery21.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2012/12/gallery21-thumb-200x299-532.jpg" width="200" height="299" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a>　　</td><td width="220"><a href="http://mtl.recruit.co.jp/blog/images/gallery24.jpg"><img alt="gallery24.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2012/12/gallery24-thumb-200x299-534.jpg" width="200" height="299" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></td><td width="220"><a href="http://mtl.recruit.co.jp/blog/images/gallery22.jpg"><img alt="gallery22.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2012/12/gallery22-thumb-200x299-536.jpg" width="200" height="299" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></td></tr></table></p>
+
+<p><strong>「cameran」とは</strong><br />
+フォトグラファーの蜷川実花さんが監修した無料のiPhone、Android向けカメラアプリです。フィルターを選択するだけの非常にシンプルな操作で、蜷川実花さんの世界観を表現する事ができます。蜷川実花さんの世界観を表現する18のフィルター、季節に合わせた2つのフィルター等とともに、特典として蜷川実花さんがこのアプリのために撮りおろした壁紙が25枚ついています。<br />
+<strong>※蜷川実花監修カメラアプリ『cameran』は AppStore BEST OF 2012の無料カテゴリ　に選出されました </strong><br />
+<a href="http://mtl.recruit.co.jp/blog/2012/10/_cameran.html">参考：前回のエントリ</a><br />
+<h3>作った人</h3><br />
+<table><tr><th>大城哲也</th><th>楠田慶</th><th>笠島靖夫(じぇい)</th><th>松川進</th><th>水村俊介</th></tr><br />
+<tr><td><img alt="大城画像.jpgのサムネイル画像" src="http://mtl.recruit.co.jp/blog/assets_c/2012/10/%E5%A4%A7%E5%9F%8E%E7%94%BB%E5%83%8F-thumb-100x100-448.jpg" width="100" height="100" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></td><td><img alt="楠田さん写真.jpgのサムネイル画像" src="http://mtl.recruit.co.jp/blog/assets_c/2012/10/%E6%A5%A0%E7%94%B0%E3%81%95%E3%82%93%E5%86%99%E7%9C%9F-thumb-100x100-450.jpg" width="100" height="100" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></td><td><img alt="J画像.jpgのサムネイル画像" src="http://mtl.recruit.co.jp/blog/assets_c/2012/10/J%E7%94%BB%E5%83%8F-thumb-100x100-452.jpg" width="100" height="100" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></td><td><img alt="松川さん画像.jpgのサムネイル画像" src="http://mtl.recruit.co.jp/blog/assets_c/2012/10/%E6%9D%BE%E5%B7%9D%E3%81%95%E3%82%93%E7%94%BB%E5%83%8F-thumb-100x100-454.jpg" width="100" height="100" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></td><td><img alt="しゅんちゃん.jpgのサムネイル画像" src="http://mtl.recruit.co.jp/blog/assets_c/2012/10/%E3%81%97%E3%82%85%E3%82%93%E3%81%A1%E3%82%83%E3%82%93-thumb-100x99-458.jpg" width="100" height="99" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></td></tr><br />
+<tr><th>渡邊景亮</th><th>三原敦</th><th>黒田樹</th><th>木村 裕之</th><th>柘植大介</th></tr><br />
+<tr><td><img alt="けいすけ写真＿サシカエ.jpgのサムネイル画像" src="http://mtl.recruit.co.jp/blog/assets_c/2012/10/%E3%81%91%E3%81%84%E3%81%99%E3%81%91%E5%86%99%E7%9C%9F%EF%BC%BF%E3%82%B5%E3%82%B7%E3%82%AB%E3%82%A8-thumb-100x100-460.jpg" width="100" height="100" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></td><td><a href="http://mtl.recruit.co.jp/blog/images/%E5%86%99%E7%9C%9F%5B14%5D.JPG"><img alt="写真[14].JPG" src="http://mtl.recruit.co.jp/blog/assets_c/2012/12/%E5%86%99%E7%9C%9F%5B14%5D-thumb-100x100-541.jpg" width="100" height="100" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></td><td><a href="http://mtl.recruit.co.jp/blog/images/250402_2072710338670_2099088_n.jpg"><img alt="250402_2072710338670_2099088_n.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2012/12/250402_2072710338670_2099088_n-thumb-100x100-493.jpg" width="100" height="100" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></td><td><a href="http://mtl.recruit.co.jp/blog/images/230147_1013861343915_3943_a.jpg"><img alt="230147_1013861343915_3943_a.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2012/12/230147_1013861343915_3943_a-thumb-100x100-499.jpg" width="100" height="100" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></td><td><a href="http://mtl.recruit.co.jp/blog/images/253024_221232451237641_6247518_n.jpg"><img alt="253024_221232451237641_6247518_n.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2012/12/253024_221232451237641_6247518_n-thumb-100x100-505.jpg" width="100" height="100" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></td></tr><br />
+<tr><th>伴野智樹</th><th>細川 貴英</th><th>山本一誠</th></tr><br />
+<tr><td><a href="http://mtl.recruit.co.jp/blog/images/535657_440748042649202_815822607_n.jpg"><img alt="535657_440748042649202_815822607_n.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2012/12/535657_440748042649202_815822607_n-thumb-100x100-501.jpg" width="100" height="100" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></td><td><a href="http://mtl.recruit.co.jp/blog/images/420555_347520118622209_562572888_a.jpg"><img alt="420555_347520118622209_562572888_a.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2012/12/420555_347520118622209_562572888_a-thumb-100x100-507.jpg" width="100" height="100" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></td><td><a href="http://mtl.recruit.co.jp/blog/images/382431_468366439840595_1557681393_n.jpg"><img alt="382431_468366439840595_1557681393_n.jpg" src="http://mtl.recruit.co.jp/blog/assets_c/2012/12/382431_468366439840595_1557681393_n-thumb-100x100-497.jpg" width="100" height="100" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></a></td></tr></p>
+
+</table>
+
+<p><br />
+<img alt="unnamed (4).jpg" src="http://mtl.recruit.co.jp/blog/images/unnamed%20%284%29.jpg" width="288" height="512" class="mt-image-center" style="display: none; text-align: center;  margin: 0 auto 20px;" /></p>]]>
+        
+    </content>
+</entry>
+
+<entry>
+    <title>女子大生が2か月間で「はじめてのアプリ開発」に挑む！ - Tech Girls </title>
+    <link rel="alternate" type="text/html" href="http://mtl.recruit.co.jp/blog/2012/12/tech_girls.html" />
+    <id>tag:mtl.recruit.co.jp,2012:/blog//26.1746</id>
+
+    <published>2012-12-19T11:34:00Z</published>
+    <updated>2012-12-19T11:38:19Z</updated>
+
+    <summary>こんにちは。MTLの鈴木です。 スタイルレシピ、あさとけい、おしゃれ天気、盛りカワchanなど、女性をメインターゲットとしたアプリを立て続けにリリースしているMTLですが（「企画している女性のお話を伺...</summary>
+    <author>
+        <name>鈴木 慎介</name>
+        
+    </author>
+    
+        <category term="お知らせ" scheme="http://www.sixapart.com/ns/types#category" />
+    
+    
+    <content type="html" xml:lang="ja" xml:base="http://mtl.recruit.co.jp/blog/">
+        <![CDATA[<p>こんにちは。MTLの鈴木です。</p>
+
+<p><a href="https://itunes.apple.com/jp/app/wu-liaode-shieru-shuidemo/id559716450?mt=8" target="_blank">スタイルレシピ</a>、<a href="https://itunes.apple.com/jp/app/chaonoukkari-chi-ke-jie-xiao/id561320359?mt=8" target="_blank">あさとけい</a>、<a href="http://osharetenki.jp/" target="_blank">おしゃれ天気</a>、<a href="https://itunes.apple.com/jp/app/mei-jininarerukameraapuri!/id558817646?mt=8" target="_blank">盛りカワchan</a>など、女性をメインターゲットとしたアプリを立て続けにリリースしているMTLですが（「企画している女性のお話を伺いたいですっ！」といったお問い合わせをいただくこともあるほどです）、プランナー・エンジニアとも、（女子力高めな？）男性だったりします。</p>
+
+<p>「本当に女子が使いたいアプリを、女子が自ら考え、作ったら、とても良いものができるのでは、もっとみんながハッピーになれるのでは」と思い、こんな活動を始めました。現役女子大生で結成されたギークなIT女子部、名付けて「Tech Girls」。メンバーたちに、自己紹介のエントリーを書いてもらいました。ぜひぜひ続きを読んでみてください。</p>]]>
+        <![CDATA[<p><br />
+<img alt="itj1.jpg" src="http://mtl.recruit.co.jp/blog/images/itj1.jpg" width="640" height="640" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></p>
+
+<p>こんにちは。</p>
+
+<p>今回、「アプリやサービスの企画から実装まで、できるIT女子を増やす」をコンセプトに掲げ、大学生の女の子4人が集まってTech Girlsを立ち上げました！</p>
+
+<p>ITやアプリ製作と女子って結びつくイメージがあんまりないと思います。<br />
+事実私もアプリなんて大学理系学部出たおじさんが暗い部屋で難しい文字でコードを書いて作ってるんじゃないかと思っていました。こんなアプリがあればいいのにと思っても、自分で作るなんて考えたこともありませんでした。</p>
+
+<p>でも今回、普通に大学に通っている、どこにでもいるような私たちが実際にアプリを作って発信することで「頑張れば私でも作れるんじゃない？」「アプリ製作って楽しそう！やってみたい！」と世の中の女の子に思ってもらえたら嬉しいです。</p>
+
+<p>また、私たちが普段スマートフォンを使う中で欲しいもの・機能って、世の中の女の子たちの中でもあったらいいのにと思ってる人が多いんじゃないかと思います。私たちの強みの一つが"リアルな10/20代の女子の声を実際に形に出来ること"です。女子が本当に欲しいものを作って、それが誰かのお気に入りになればいいなと思います。</p>
+
+<p><img alt="itj2.jpg" src="http://mtl.recruit.co.jp/blog/images/itj2.jpg" width="663" height="663" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></p>
+
+<p><br />
+IT女子部メンバーの声です。</p>
+
+<p>初めまして＊作れるIT女子部「Tech Girls」リーダーの伊藤弥生（やよぴ）です。ファッションとグルメと新しいものが大好きな私は<a href="http://www.infinityventures.com/ivs/event/">IVS</a>というITイベントへの参加をきっかけにITの面白さを知りました。それ以来、プログラミング講座への参加や友人とwebサービス作成を経験し、０から自らの手で創る楽しさを感じると共に、もっとIT女子の仲間を増やしたいと思い、女子大生のメディア「<a href="http://www.girlpedia.jp/">Girlpedia</a>」のIT女子部ではIT女子イベントやアプリのプロモーション等を通してIT女子の仲間を増やしてきました。今回の「Tech Girls」はプログラミング・webデザインに興味のある女子大生で結成され、第一弾では女子向けのアプリを企画から実装・プロモーションまでを女子大生が手掛けることによって、女の子にITを身近に感じてもらいTech Girlをもっと増やして行きたいと思います♡</p>
+
+<p>＊＊＊</p>
+
+<p>初めまして、Tech Girlsメンバーの寺重瑛（あきんこ）です。様々な素敵な巡り会わせで、今回このプロジェクトに参加させて頂けることになりました。</p>
+
+<p>私はこの春から大学生になり、広島から上京してきたばかりなので色んなことにおいてまだまだ新米なのですが、毎週MTLで開かれている定例会議では、勉強になることがとても多く充実した日々を送っています。</p>
+
+<p>私は、この企画に参加させて頂く前、前期のうちは「やりたいことはあるけど、どうしたらいいのか分からない」というもどかしい日々を送っていたのですが、リーダーのやよぴさんとの出会いにより、たくさんの新しい出会いや発見、機会に巡り合って、少しずつ変わり始めることが出来ました。<br />
+せっかくの素敵な機会を最大限活かすために、私自身も専攻の情報科学の勉強や、デザインの技術をもっともっと磨いてたくさんのことを吸収して、Tech girlsと一緒に成長していければ！と思っています。</p>
+
+<p>皆さん、ぜひよろしくお願いします。</p>
+
+<p>＊＊＊</p>
+
+<p>はじめまして、メンバーの馬場李帆子（りほ）です：）<br />
+もともと２ちゃんねるまとめサイトやニコニコ動画などが好きで、そこからネットやWEBサービスなどに興味を持ち始めました。もっと女の子にWEBサービスやネットの楽しさを伝えたい！と思っていたところでIT女子部に出会い、参加させてもらいました♡<br />
+女子向けのサービスはまだまだ少ないと思うので、もっと作っていけたらいいなと思います！よろしくお願いしますヽ(´ｴ`)ﾉ</p>
+
+<p>＊＊＊</p>
+
+<p>初めまして，飯泉満里奈です。  今回、色々な人伝に話を聞きこのプロジェクトに参加させて頂くことになりました。 <br />
+私は前からデザインに興味を持っていて、趣味でPhotoshopやillustratorで画像編集をしていました。洋書とかデザイン書やネットで色々な国のウェブページを見るのが好きです！<br />
+今回のアプリも可愛いものになるように頑張って作りたいと思います！</p>
+
+<p>＊＊＊</p>
+
+<p><img alt="itj3.jpg" src="http://mtl.recruit.co.jp/blog/images/itj3.jpg" width="640" height="640" class="mt-image-center" style="text-align: center; display: block; margin: 0 auto 20px;" /></p>
+
+<p>既にカフェをメインにした可愛くて使い易いアプリを製作中です！是非楽しみにしていてください♥</p>]]>
+    </content>
+</entry>
+
+</feed>
+​
