@@ -22,7 +22,7 @@ fallbacks = (AtomFallback, RSS20Fallback, RSS10Fallback, RSS091Fallback)
 class InvalidFeed(Exception): pass
 class ParseError(Exception): pass
 
-XML_RE    = re.compile(r'''^(\s*<\?xml[^>]+)encoding=['"]([^'">]+)['"]''')
+XML_RE    = re.compile(r'''\A(\s*<\?xml[^>]+)encoding=['"]([^'">]+)['"]''')
 CDATA_RE  = re.compile(r'<!\[CDATA\[(.*?)\]\]>', re.DOTALL)
 LINK_RE   = re.compile(r'(</?)link', re.IGNORECASE)
 XML_ILLEGAL_RE = re.compile(u'([\u0000-\u0008\u000b-\u000c\u000e-\u001f\ufffe-\uffff])')
