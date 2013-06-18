@@ -84,7 +84,8 @@ class RSS20Item(Item):
 
   @property
   def description(self):
-    return get_xpath_text(self._element, 'descendant::description')
+    return (get_xpath_text(self._element, 'descendant::encoded') or
+            get_xpath_text(self._element, 'descendant::description'))
 
   @property
   def published(self):

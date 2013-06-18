@@ -150,4 +150,35 @@ RSS_FILES = (
             },
         )
     }),
+    ('rss/parttimepoker.xml', {
+        'title': 'Part Time Poker',
+        'link': 'http://www.parttimepoker.com',
+        'description': u'Poker strategy, news, jokes, interviews and reviews',
+        'entries': (
+            {
+                'title': u'HNR 6/17: WSOP Updates, Golden Sit and Go’s at PokerStars',
+                'link': 'http://www.parttimepoker.com/hnr-617-wsop-updates-golden-sit-and-gos-at-pokerstars',
+                'id': 'http://www.parttimepoker.com/?p=10767',
+                'description': u'<p><img src="http://www.parttimepoker.com/wp-',
+                'author_name': u"Michael Jones",
+                'published': parse('Mon, 17 Jun 2013 19:16:51 +0000')
+            },
+            {
+                'title': u'PokerStars Giving Away $1M in Golden Sit and Go’s',
+                'link': 'http://www.parttimepoker.com/pokerstars-giving-away-1m-in-golden-sit-and-gos',
+                'id': 'http://www.parttimepoker.com/?p=10768',
+                'description': u'<p><img src="http://www.parttimepoker.com/wp-content/',
+                'author_name': u"Michael Jones",
+                'published': parse('Mon, 17 Jun 2013 19:12:21 +0000')
+            },
+            {
+                'title': u'WSOP Update 6/17: Senior Champ Crowned; Cloutier in Running for No. 7',
+                'link': 'http://www.parttimepoker.com/wsop-update-617-senior-champ-crowned-cloutier-in-running-for-no-7',
+                'id': 'http://www.parttimepoker.com/?p=10764',
+                'description': u'<p><img src="http://www.parttimepoker.com/wp-content/',
+                'author_name': u"Michael Jones",
+                'published': parse('Mon, 17 Jun 2013 11:25:46 +0000')
+            },
+        )
+    }),
 )
