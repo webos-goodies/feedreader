@@ -22,7 +22,7 @@ class RSS20Fallback(Feed):
   @property
   def is_valid(self):
     return (self._element.tag.lower() == 'rss' and
-            self._element.attrib['version'] == '2.0' and
+            '2.0' in self._element.attrib['version'] and
             self.channel is not None)
 
   @property

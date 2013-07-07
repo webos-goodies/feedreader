@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="rss/2.0">
+  <channel>
+    <title>セキュリティホール memo 今月分</title>
+    <link>http://www.st.ryukoku.ac.jp/~kjm/security/memo/</link>
+    <description>セキュリティホール memo 今月分 (2013.7)</description>
+    <pubDate>Wed, 03 Jul 2013 19:53:17 +0900</pubDate>
+    <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>エジプト / ムスリム同胞団方面 ＵＡＥ反体制派６９人に最大懲役１５年 ...</title>
+      <link>http://www.st.ryukoku.ac.jp/~kjm/security/memo/2013/07.html#20130703__m</link>
+      <description>&lt;p&gt;
+&lt;a&gt;エジプト / ムスリム同胞団方面&lt;/a&gt; &lt;/p&gt; &lt;ul&gt; &lt;li&gt;&lt;p&gt; &lt;a href=&quot;http://www.asahi.com/international/update/0703/TKY201307020485.html&quot;&gt;ＵＡＥ反体制派６９人に最大懲役１５年　国家転覆罪など&lt;/a&gt; (朝日, 7/2) &lt;/p&gt; &lt;li&gt;&lt;p&gt; &lt;a href=&quot;http://mainichi.jp/select/news/20130703k0000e030223000c.html&quot;&gt;アルジャジーラ:報道政権寄り…エジプトのデモ巡り&lt;/a&gt; (毎日, 7/3) &lt;/p&gt; &lt;blockquote&gt; カタールは、大統領の出身母体である穏健派イスラム原理主義組織ムスリム同胞団を支援している。 &lt;/blockquote&gt; &lt;/ul&gt;</description>
+      <pubDate>Wed, 03 Jul 2013 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>スマホ少女の憂鬱、スマホ少年の暴走〜今、10代が危ない (日経 IT  ...</title>
+      <link>http://www.st.ryukoku.ac.jp/~kjm/security/memo/2013/07.html#20130703__smartphone</link>
+      <description>&lt;p&gt;
+&lt;a href=&quot;http://itpro.nikkeibp.co.jp/article/COLUMN/20130529/480551/&quot;&gt;スマホ少女の憂鬱、スマホ少年の暴走〜今、10代が危ない&lt;/a&gt; (日経 IT Pro, 6/3〜7/2) &lt;/p&gt;</description>
+      <pubDate>Wed, 03 Jul 2013 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>Windows Server 2012 R2 Preview &amp;gt; ...</title>
+      <link>http://www.st.ryukoku.ac.jp/~kjm/security/memo/2013/07.html#20130703__2012</link>
+      <description>&lt;p&gt;
+&lt;a href=&quot;http://yamanxworld.blogspot.jp/2013/07/windows-server-2012-r2-preview-copy.html&quot;&gt;Windows Server 2012 R2 Preview &amp;gt; Copy-VMFile って何だ！？ &lt;/a&gt; (山市良のえぬなんとかわーるど, 7/3) &lt;/p&gt;</description>
+      <pubDate>Wed, 03 Jul 2013 00:00:00 +0900</pubDate>
+    </item>
+    <item>
+      <title>Protecting Your ICS/SCADA Environme ...</title>
+      <link>http://www.st.ryukoku.ac.jp/~kjm/security/memo/2013/07.html#20130703__SCADA</link>
+      <description>&lt;p&gt;
+&lt;a href=&quot;http://blog.trendmicro.com/trendlabs-security-intelligence/protecting-your-icsscada-environment/&quot;&gt;Protecting Your ICS/SCADA Environment&lt;/a&gt; (trendmicro blog, 7/2) &lt;/p&gt;</description>
+      <pubDate>Wed, 03 Jul 2013 00:00:00 +0900</pubDate>
+    </item>
+    <generator>SM2RSS $Revision: 1.3 $</generator>
+    <ttl>60</ttl>
+  </channel>
+</rss>
