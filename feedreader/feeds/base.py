@@ -47,7 +47,7 @@ def search_child(element, node_name, attrs):
       condition = attrs[i + 1]
       if isinstance(condition, (list, tuple)):
         try:
-          l = l + (16 << (length - i) / 2) + len(condition) - indexOf(condition, value)
+          l = l + (16 << (length - i) / 2) + len(condition) - condition.index(value)
         except:
           pass
       elif value == condition:

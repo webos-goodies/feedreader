@@ -11,6 +11,10 @@ class RSS20Fallback(Feed):
 
   def __init__(self, element):
     self.__channel = None
+    if element.tag.lower() != 'rss':
+      el = get_xpath_node(element, 'descendant::rss')
+      if el is not None:
+        element = el
     super(RSS20Fallback, self).__init__(element)
 
   @property

@@ -1,11 +1,13 @@
 # -*- encoding: utf-8; -*-
 
 import itertools
+import sys
 import os
 import os.path
 import unittest2
 import traceback
 
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../..'))
 from feedreader.parser import from_string
 
 DIR = os.path.abspath(os.path.dirname(__file__))
