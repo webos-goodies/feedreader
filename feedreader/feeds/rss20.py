@@ -3,7 +3,8 @@ RSS 2.0 Support
 """
 
 from feedreader.feeds.base import (Feed, Item, get_element_text, get_attribute, search_child,
-                                   get_descendant, get_descendant_text, get_descendant_datetime)
+                                   get_descendant, get_descendant_text, get_descendant_datetime,
+                                   safe_strip, normalize_spaces)
 
 
 class RSS20Feed(Feed):
@@ -16,7 +17,7 @@ class RSS20Feed(Feed):
   @property
   def is_valid(self):
     return (self._element.tag == 'rss' and
-            self._element.attrib['version'] == '2.0' and
+            '2.0' in self._element.attrib['version'] and
             self.channel is not None)
 
   @property
@@ -25,11 +26,11 @@ class RSS20Feed(Feed):
 
   @property
   def title(self):
-    return get_descendant_text(self.channel, 'title')
+    return normalize_spaces(get_descendant_text(self.channel, 'title'))
 
   @property
   def link(self):
-    return get_descendant_text(self.channel, 'link')
+    return safe_strip(get_descendant_text(self.channel, 'link'))
 
   @property
   def description(self):
@@ -53,20 +54,21 @@ class RSS20Item(Item):
 
   @property
   def id(self):
-    return get_descendant_text(self._element, 'guid')
+    return safe_strip(get_descendant_text(self._element, 'guid'))
 
   @property
   def title(self):
-    return get_descendant_text(self._element, 'title')
+    return normalize_spaces(get_descendant_text(self._element, 'title'))
 
   @property
   def link(self):
-    return get_descendant_text(self._element, 'link')
+    return safe_strip(get_descendant_text(self._element, 'link'))
 
   @property
   def author_name(self):
-    return (get_descendant_text(self._element, 'author') or
-            get_descendant_text(self._element, '{http://purl.org/dc/elements/1.1/}creator'))
+    value = (get_descendant_text(self._element, 'author') or
+             get_descendant_text(self._element, '{http://purl.org/dc/elements/1.1/}creator'))
+    return normalize_spaces(value)
 
   @property
   def author_email(self):

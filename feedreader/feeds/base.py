@@ -7,6 +7,9 @@ PREFERRED_CONTENT_TYPES = base.PREFERRED_CONTENT_TYPES
 
 unicodify  = base.unicodify
 parse_date = base.parse_date
+safe_strip = base.safe_strip
+normalize_spaces = base.normalize_spaces
+
 
 def get_element_text(element):
   if element is None:
@@ -26,7 +29,7 @@ def get_descendant_text(element, *args):
 
 def get_descendant_datetime(element, *args):
   text = get_descendant_text(element, *args)
-  return parse_date(text)
+  return parse_date(safe_strip(text))
 
 def get_attribute(element, attr_name):
   if element is None:

@@ -5,7 +5,8 @@ Atom 0.3 Support
 from feedreader.feeds.base import (PREFERRED_TITLE_TYPES, PREFERRED_LINK_TYPES,
                                    PREFERRED_CONTENT_TYPES,
                                    Feed, Item, get_element_text, get_attribute, search_child,
-                                   get_descendant, get_descendant_text, get_descendant_datetime)
+                                   get_descendant, get_descendant_text, get_descendant_datetime,
+                                   safe_strip, normalize_spaces)
 
 
 class Atom03Feed(Feed):
@@ -18,17 +19,17 @@ class Atom03Feed(Feed):
 
   @property
   def id(self):
-    return get_descendant_text(self._element, 'id')
+    return safe_strip(get_descendant_text(self._element, 'id'))
 
   @property
   def title(self):
-    return get_descendant_text(self._element, 'title')
+    return normalize_spaces(get_descendant_text(self._element, 'title'))
 
   @property
   def link(self):
     link = search_child(self._element, '{http://purl.org/atom/ns#}link',
                         ('rel', 'alternate', 'type', PREFERRED_LINK_TYPES))
-    return get_attribute(link, 'href')
+    return safe_strip(get_attribute(link, 'href'))
 
   @property
   def description(self):
@@ -52,29 +53,29 @@ class Atom03Item(Item):
 
   @property
   def id(self):
-    return get_descendant_text(self._element, 'id')
+    return safe_strip(get_descendant_text(self._element, 'id'))
 
   @property
   def title(self):
-    return get_descendant_text(self._element, 'title')
+    return normalize_spaces(get_descendant_text(self._element, 'title'))
 
   @property
   def link(self):
     link = search_child(self._element, '{http://purl.org/atom/ns#}link',
                         ('rel', 'alternate', 'type', PREFERRED_LINK_TYPES))
-    return get_attribute(link, 'href')
+    return safe_strip(get_attribute(link, 'href'))
 
   @property
   def author_name(self):
-    return get_descendant_text(self._element, 'author', 'name')
+    return normalize_spaces(get_descendant_text(self._element, 'author', 'name'))
 
   @property
   def author_email(self):
-    return get_descendant_text(self._element, 'author', 'email')
+    return safe_strip(get_descendant_text(self._element, 'author', 'email'))
 
   @property
   def author_link(self):
-    return get_descendant_text(self._element, 'author', 'uri')
+    return safe_strip(get_descendant_text(self._element, 'author', 'uri'))
 
   @property
   def description(self):

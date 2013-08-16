@@ -3,7 +3,8 @@ RSS 0.91 Support
 """
 
 from feedreader.fallback.base import (Feed, Item, get_element_text, get_attribute, search_child,
-                                      get_xpath_node, get_xpath_text, get_xpath_datetime)
+                                      get_xpath_node, get_xpath_text, get_xpath_datetime,
+                                      safe_strip, normalize_spaces)
 
 
 class RSS091Fallback(Feed):
@@ -22,8 +23,7 @@ class RSS091Fallback(Feed):
   @property
   def is_valid(self):
     return (self._element.tag.lower() == 'rss' and
-            (self._element.attrib['version'] == '0.91' or
-             self._element.attrib['version'] == '0.92') and
+            '0.9' in self._element.attrib['version'] and
             self.channel is not None)
 
   @property
@@ -32,11 +32,11 @@ class RSS091Fallback(Feed):
 
   @property
   def title(self):
-    return get_xpath_text(self.channel, 'title')
+    return normalize_spaces(get_xpath_text(self.channel, 'title'))
 
   @property
   def link(self):
-    return get_xpath_text(self.channel, 'feedlink')
+    return safe_strip(get_xpath_text(self.channel, 'feedlink'))
 
   @property
   def description(self):
@@ -59,15 +59,15 @@ class RSS091Item(Item):
 
   @property
   def id(self):
-    return get_xpath_text(self._element, 'descendant::guid')
+    return safe_strip(get_xpath_text(self._element, 'descendant::guid'))
 
   @property
   def title(self):
-    return get_xpath_text(self._element, 'descendant::title')
+    return normalize_spaces(get_xpath_text(self._element, 'descendant::title'))
 
   @property
   def link(self):
-    return get_xpath_text(self._element, 'descendant::feedlink')
+    return safe_strip(get_xpath_text(self._element, 'descendant::feedlink'))
 
   @property
   def author_name(self):

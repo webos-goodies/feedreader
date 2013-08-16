@@ -1,8 +1,12 @@
+import re
 import dateutil.parser
 
 PREFERRED_TITLE_TYPES   = ('text', 'html')
 PREFERRED_LINK_TYPES    = ('text/html', 'application/xhtml+xml', 'text/plain')
 PREFERRED_CONTENT_TYPES = ('html', 'text')
+
+SPACES_RE = re.compile(r'\s+')
+
 
 def unicodify(s):
   if s is None:
@@ -19,6 +23,18 @@ def parse_date(s):
   except:
     pass
   return result
+
+def safe_strip(s):
+  if isinstance(s, basestring):
+    return s.strip()
+  else:
+    return s
+
+def normalize_spaces(s):
+  if isinstance(s, basestring):
+    return SPACES_RE.sub(' ', s.strip())
+  else:
+    return s
 
 
 class Base(object):

@@ -137,7 +137,7 @@ RSS_FILES = (
                 'link': 'http://groups.google.com/group/foobar/browse_thread/thread/xxx?hl=ja&show_docid=xxxx',
                 'id': 'http://groups.google.com/group/foobar/browse_thread/thread/xxx?hl=ja&show_docid=xxxx',
                 'description': u'先生、皆様、お元気でしょうか？ <br> <p>談話室が、',
-                'author_name': u"jun.cello1...@gmail.com\n  (かみや)",
+                'author_name': u"jun.cello1...@gmail.com (かみや)",
                 'published': None
             },
             {
@@ -145,7 +145,7 @@ RSS_FILES = (
                 'link': 'http://groups.google.com/group/foobar/browse_thread/thread/aaa?hl=ja&show_docid=aaa',
                 'id': 'http://groups.google.com/group/foobar/browse_thread/thread/aaa?hl=ja&show_docid=aaa',
                 'description': u"先生、皆様、お元気でしょうか？\n&lt;br&gt; &lt;p&gt;談話室が、",
-                'author_name': u"jun.cello1...@gmail.com\n  (かみや)",
+                'author_name': u"jun.cello1...@gmail.com (かみや)",
                 'published': None
             },
         )

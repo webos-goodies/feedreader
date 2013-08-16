@@ -3,7 +3,8 @@ RSS 1.0 Support
 """
 
 from feedreader.fallback.base import (Feed, Item, get_element_text, get_attribute, search_child,
-                                      get_xpath_node, get_xpath_text, get_xpath_datetime)
+                                      get_xpath_node, get_xpath_text, get_xpath_datetime,
+                                      safe_strip, normalize_spaces)
 
 
 class RSS10Fallback(Feed):
@@ -25,15 +26,15 @@ class RSS10Fallback(Feed):
 
   @property
   def id(self):
-    return get_attribute(self._element, 'about')
+    return safe_strip(get_attribute(self._element, 'about'))
 
   @property
   def title(self):
-    return get_xpath_text(self.channel, 'title')
+    return normalize_spaces(get_xpath_text(self.channel, 'title'))
 
   @property
   def link(self):
-    return get_xpath_text(self.channel, 'feedlink')
+    return safe_strip(get_xpath_text(self.channel, 'feedlink'))
 
   @property
   def description(self):
@@ -56,15 +57,15 @@ class RSS10Item(Item):
 
   @property
   def id(self):
-    return get_attribute(self._element, 'rdf:about')
+    return safe_strip(get_attribute(self._element, 'rdf:about'))
 
   @property
   def title(self):
-    return get_xpath_text(self._element, 'descendant::title')
+    return normalize_spaces(get_xpath_text(self._element, 'descendant::title'))
 
   @property
   def link(self):
-    return get_xpath_text(self._element, 'descendant::feedlink')
+    return safe_strip(get_xpath_text(self._element, 'descendant::feedlink'))
 
   @property
   def author_name(self):

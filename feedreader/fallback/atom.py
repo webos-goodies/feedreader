@@ -5,7 +5,8 @@ Malformed Atom fallback
 from feedreader.fallback.base import (PREFERRED_TITLE_TYPES, PREFERRED_LINK_TYPES,
                                       PREFERRED_CONTENT_TYPES,
                                       Feed, Item, get_element_text, get_attribute, search_child,
-                                      get_xpath_node, get_xpath_text, get_xpath_datetime)
+                                      get_xpath_node, get_xpath_text, get_xpath_datetime,
+                                      safe_strip, normalize_spaces)
 
 
 class AtomFallback(Feed):
@@ -18,17 +19,17 @@ class AtomFallback(Feed):
 
   @property
   def id(self):
-    return get_xpath_text(self._element, 'id')
+    return safe_strip(get_xpath_text(self._element, 'id'))
 
   @property
   def title(self):
-    return get_xpath_text(self._element, 'title')
+    return normalize_spaces(get_xpath_text(self._element, 'title'))
 
   @property
   def link(self):
     link = search_child(self._element, 'feedlink',
                         ('rel', 'alternate', 'type', PREFERRED_LINK_TYPES))
-    return get_attribute(link, 'href')
+    return safe_strip(get_attribute(link, 'href'))
 
   @property
   def description(self):
@@ -58,29 +59,29 @@ class Atom10Item(Item):
 
   @property
   def id(self):
-    return get_xpath_text(self._element, 'descendant::id')
+    return safe_strip(get_xpath_text(self._element, 'descendant::id'))
 
   @property
   def title(self):
-    return get_xpath_text(self._element, 'descendant::title')
+    return normalize_spaces(get_xpath_text(self._element, 'descendant::title'))
 
   @property
   def link(self):
     link = search_child(self._element, 'descendant::feedlink',
                         ('rel', 'alternate', 'type', PREFERRED_LINK_TYPES))
-    return get_attribute(link, 'href')
+    return safe_strip(get_attribute(link, 'href'))
 
   @property
   def author_name(self):
-    return get_xpath_text(self._element, 'descendant::author/descendant::name')
+    return normalize_spaces(get_xpath_text(self._element, 'descendant::author/descendant::name'))
 
   @property
   def author_email(self):
-    return get_xpath_text(self._element, 'descendant::author/descendant::email')
+    return safe_strip(get_xpath_text(self._element, 'descendant::author/descendant::email'))
 
   @property
   def author_link(self):
-    return get_xpath_text(self._element, 'descendant::author/descendant::uri')
+    return safe_strip(get_xpath_text(self._element, 'descendant::author/descendant::uri'))
 
   @property
   def description(self):
