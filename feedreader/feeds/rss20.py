@@ -2,6 +2,7 @@
 RSS 2.0 Support
 """
 
+import cgi
 from feedreader.feeds.base import (Feed, Item, get_element_text, get_attribute, search_child,
                                    get_descendant, get_descendant_text, get_descendant_datetime,
                                    safe_strip, normalize_spaces)
@@ -80,9 +81,16 @@ class RSS20Item(Item):
 
   @property
   def description(self):
-    return (get_descendant_text(self._element,
+    text = (get_descendant_text(self._element,
                                 '{http://purl.org/rss/1.0/modules/content/}encoded') or
             get_descendant_text(self._element, 'description'))
+    enclosures = [
+      '<enclosure url="%s" type="%s"></enclosure>' % (cgi.escape(e.get('url'), quote=True),
+                                                      cgi.escape(e.get('type'), quote=True))
+      for e in getattr(self._element, 'enclosure', ()) if e.get('url') and e.get('type')]
+    if enclosures:
+      text = "<feedeen>\n%s\n</feedeen>\n%s" % ("\n".join(enclosures), text)
+    return text
 
   @property
   def published(self):

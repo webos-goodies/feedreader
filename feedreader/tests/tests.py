@@ -4,7 +4,7 @@ import itertools
 import sys
 import os
 import os.path
-import unittest2
+import unittest
 import traceback
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../..'))
@@ -24,7 +24,7 @@ def from_file(fp):
   str = fp.read()
   return from_string(str)
 
-class RSSTestCase(unittest2.TestCase):
+class RSSTestCase(unittest.TestCase):
   def testParsing(self):
     for fname, test_data in RSS_FILES:
       fp = open(os.path.join(DIR, fname), 'r')
@@ -41,7 +41,7 @@ class RSSTestCase(unittest2.TestCase):
             self.assertEquals(getattr(entry, field), test_req[field])
 
 
-class AtomTestCase(unittest2.TestCase):
+class AtomTestCase(unittest.TestCase):
   def testParsing(self):
     for fname, test_data in ATOM_FILES:
       fp = open(os.path.join(DIR, fname), 'r')
@@ -61,7 +61,7 @@ class AtomTestCase(unittest2.TestCase):
             self.assertEquals(getattr(entry, field), test_req[field])
 
 
-class RSS10TestCase(unittest2.TestCase):
+class RSS10TestCase(unittest.TestCase):
   def testParsing(self):
     for fname, test_data in RSS10_FILES:
       fp = open(os.path.join(DIR, fname), 'r')
@@ -77,7 +77,7 @@ class RSS10TestCase(unittest2.TestCase):
           if field in test_req:
             self.assertEquals(getattr(entry, field), test_req[field])
 
-class RSS091TestCase(unittest2.TestCase):
+class RSS091TestCase(unittest.TestCase):
   def testParsing(self):
     for fname, test_data in RSS091_FILES:
       fp = open(os.path.join(DIR, fname), 'r')
@@ -93,7 +93,7 @@ class RSS091TestCase(unittest2.TestCase):
           if field in test_req:
             self.assertEquals(getattr(entry, field), test_req[field])
 
-class InvalidFeedsTestCase(unittest2.TestCase):
+class InvalidFeedsTestCase(unittest.TestCase):
   def testParsing(self):
     dirname = os.path.join(DIR, 'invalid_feeds')
     for fname in os.listdir(dirname):
@@ -114,4 +114,4 @@ class InvalidFeedsTestCase(unittest2.TestCase):
         traceback.print_exc()
 
 if __name__ == '__main__':
-    unittest2.main()
+    unittest.main()

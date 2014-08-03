@@ -181,4 +181,35 @@ RSS_FILES = (
             },
         )
     }),
+    ('rss/podcast1242.xml', {
+        'title': u'ザ・ボイス　そこまで言うか！',
+        'link': 'http://podcast.1242.com',
+        'description': u'毎日、日替わりでコメンテーターの方々と共に、',
+        'entries': (
+            {
+                'title': u'2014/07/30 長谷川幸洋 ニッポン放送 ザ・ボイス ニュースピックアップセブン',
+                'link': None,
+                'id': 'http://podcast.1242.com/sound/5926.mp3',
+                'description': u'<feedeen>\n<enclosure url="http://podcast.1242.com/sound/5926.mp3" type="audio/mpeg"></enclosure>\n</feedeen>\n2014/07/30 長谷川幸洋 ニッポン放送 ザ・ボイス ニュースピックアップセブン',
+                'author_name': None,
+                'published': parse('Wed, 30 Jul 2014 18:00:00 +0900')
+            },
+            {
+                'title': u'2014/07/29 宮崎哲弥 ニッポン放送 ザ・ボイス ニュースピックアップセブン',
+                'link': None,
+                'id': 'http://podcast.1242.com/sound/5919.mp3',
+                'description': u'<feedeen>\n<enclosure url="http://podcast.1242.com/sound/5919.mp3" type="audio/mpeg"></enclosure>\n</feedeen>\n2014/07/29 宮崎哲弥 ニッポン放送 ザ・ボイス ニュースピックアップセブン',
+                'author_name': None,
+                'published': parse('Tue, 29 Jul 2014 17:00:00 +0900')
+            },
+            {
+                'title': u'2014/07/28 勝谷誠彦 ニッポン放送 ザ・ボイス ニュースピックアップセブン',
+                'link': None,
+                'id': 'http://podcast.1242.com/sound/5914.mp3',
+                'description': u'<feedeen>\n<enclosure url="http://podcast.1242.com/sound/5914.mp3" type="audio/mpeg"></enclosure>\n</feedeen>\n2014/07/28 勝谷誠彦 ニッポン放送 ザ・ボイス ニュースピックアップセブン',
+                'author_name': None,
+                'published': parse('Mon, 28 Jul 2014 18:00:00 +0900')
+            },
+        )
+    }),
 )
