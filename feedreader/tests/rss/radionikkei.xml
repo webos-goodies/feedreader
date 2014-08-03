@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss xmlns:itunes="http://www.itunes.com/DTDs/Podcast-1.0.dtd" version="2.0">
+<channel>
+<title>伊藤洋一のRound Up World Now!</title>
+<link>http://www.radionikkei.jp/roundup/</link>
+<description>伊藤洋一氏が日本だけでなく世界中で起きた1週間の経済・社会・政治関連の出来事</description>
+<language>ja</language>
+<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+<itunes:author>ラジオNIKKEI</itunes:author>
+<itunes:image href="http://www.radionikkei.jp/archives/program/roundup/podcast.jpg"/>
+<itunes:owner>
+<itunes:email>webmaster@radionikkei.jp</itunes:email>
+<itunes:name>NIKKEI RADIO BROADCASTING CORPORATION</itunes:name>
+</itunes:owner>
+<itunes:summary>伊藤洋一氏が日本だけでなく世界中で起きた1週間の経済・社会・政治関連の出来事、指標、トピックスなどを分かりやすく解説。刻々と変化していく現代をグローバルに見渡すことのできる30分です。</itunes:summary>
+<item>
+<title>Round Up World Now!（2014.8.1放送分）</title>
+<link>http://www.radionikkei.jp/roundup/</link>
+<enclosure url="http://podcasting.radionikkei.jp/podcasting/roundup/roundup-140801.mp3" length="" type="audio/mpeg"/>
+<pubDate>Fri, 01 Aug 2014 22:59:00 +0900</pubDate>
+<itunes:author>ラジオNIKKEI</itunes:author>
+<description>安倍内閣支持率、初の50%割れ　日経・テ東世論調査／Amazon、PBブランド商品専用ストア開設　成城石井など15社参加／中国共産党「周永康・前党政治局常務委員を重大な規律違反の疑いで調査」</description>
+</item>
+<item>
+<title>Round Up World Now!（2014.7.25放送分）</title>
+<link>http://www.radionikkei.jp/roundup/</link>
+<enclosure url="http://podcasting.radionikkei.jp/podcasting/roundup/roundup-140725.mp3" length="" type="audio/mpeg"/>
+<pubDate>Fri, 25 Jul 2014 22:59:00 +0900</pubDate>
+<itunes:author>ラジオNIKKEI</itunes:author>
+<description>上半期の不動産取引、2兆5000億円　金融危機後の最高／マレーシア機撃墜でEU内に対ロ強硬論</description>
+</item>
+<item>
+<title>Round Up World Now!（2014.7.18放送分）</title>
+<link>http://www.radionikkei.jp/roundup/</link>
+<enclosure url="http://podcasting.radionikkei.jp/podcasting/roundup/roundup-140718.mp3" length="" type="audio/mpeg"/>
+<pubDate>Fri, 18 Jul 2014 22:59:00 +0900</pubDate>
+<itunes:author>ラジオNIKKEI</itunes:author>
+<description>携帯電話会社にSIMロック解除義務づけ　総務省の商習慣見直し案／JR東日本、2020年代半ばに都心・羽田結ぶ新線</description>
+</item>
+
+</channel>
+</rss>

@@ -48,10 +48,26 @@ class RSS20Feed(Feed):
 
   @property
   def entries(self):
-    return [RSS20Item(item) for item in self.channel.iterchildren(tag='item')]
+    entries = [RSS20Item(item) for item in self.channel.iterchildren(tag='item')]
+    ok      = True
+    links   = set()
+    for entry in entries:
+      link = entry.link
+      if link is None or link in links:
+        ok = False
+        break
+      links.add(link)
+    if not ok:
+      for entry in entries:
+        entry.use_enclosure_as_link()
+    return entries
 
 
 class RSS20Item(Item):
+
+  def __init__(self, element):
+    super(RSS20Item, self).__init__(element)
+    self.__link_cache = None
 
   @property
   def id(self):
@@ -63,7 +79,9 @@ class RSS20Item(Item):
 
   @property
   def link(self):
-    return safe_strip(get_descendant_text(self._element, 'link'))
+    if self.__link_cache is None:
+      self.__link_cache = safe_strip(get_descendant_text(self._element, 'link'))
+    return self.__link_cache
 
   @property
   def author_name(self):
@@ -100,3 +118,9 @@ class RSS20Item(Item):
   @property
   def updated(self):
     return None
+
+  def use_enclosure_as_link(self):
+    node = get_descendant(self._element, 'enclosure')
+    url  = safe_strip(get_attribute(node, 'url'))
+    if url:
+      self.__link_cache = url

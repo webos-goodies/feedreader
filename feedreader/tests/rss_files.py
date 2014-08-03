@@ -188,7 +188,7 @@ RSS_FILES = (
         'entries': (
             {
                 'title': u'2014/07/30 長谷川幸洋 ニッポン放送 ザ・ボイス ニュースピックアップセブン',
-                'link': None,
+                'link': 'http://podcast.1242.com/sound/5926.mp3',
                 'id': 'http://podcast.1242.com/sound/5926.mp3',
                 'description': u'<feedeen>\n<enclosure url="http://podcast.1242.com/sound/5926.mp3" type="audio/mpeg"></enclosure>\n</feedeen>\n2014/07/30 長谷川幸洋 ニッポン放送 ザ・ボイス ニュースピックアップセブン',
                 'author_name': None,
@@ -196,7 +196,7 @@ RSS_FILES = (
             },
             {
                 'title': u'2014/07/29 宮崎哲弥 ニッポン放送 ザ・ボイス ニュースピックアップセブン',
-                'link': None,
+                'link': 'http://podcast.1242.com/sound/5919.mp3',
                 'id': 'http://podcast.1242.com/sound/5919.mp3',
                 'description': u'<feedeen>\n<enclosure url="http://podcast.1242.com/sound/5919.mp3" type="audio/mpeg"></enclosure>\n</feedeen>\n2014/07/29 宮崎哲弥 ニッポン放送 ザ・ボイス ニュースピックアップセブン',
                 'author_name': None,
@@ -204,11 +204,67 @@ RSS_FILES = (
             },
             {
                 'title': u'2014/07/28 勝谷誠彦 ニッポン放送 ザ・ボイス ニュースピックアップセブン',
-                'link': None,
+                'link': 'http://podcast.1242.com/sound/5914.mp3',
                 'id': 'http://podcast.1242.com/sound/5914.mp3',
                 'description': u'<feedeen>\n<enclosure url="http://podcast.1242.com/sound/5914.mp3" type="audio/mpeg"></enclosure>\n</feedeen>\n2014/07/28 勝谷誠彦 ニッポン放送 ザ・ボイス ニュースピックアップセブン',
                 'author_name': None,
                 'published': parse('Mon, 28 Jul 2014 18:00:00 +0900')
+            },
+        )
+    }),
+    ('rss/nhk_podcast.xml', {
+        'title': u'ラジオあさいちばん「ビジネス展望」',
+        'link': 'http://www.nhk.or.jp/r-asa/',
+        'description': u'専門家が経済問題を深く切り込みます。',
+        'entries': (
+            {
+                'title': u'14年07月28日「完全雇用を考える」同志社大学大学院教授 浜 矩子さん',
+                'link': 'http://www.nhk.or.jp/r-asa/podcast/bmp308/140728.mp3',
+                'description': u'<feedeen>\n<enclosure url="http://www.nhk.or.jp/r-asa/podcast/bmp308/140728.mp3" type="audio/mpeg"></enclosure>\n</feedeen>\n「完全雇用を考える」同志社大学大学院教授 浜 矩子さん',
+                'author_name': None,
+                'published': parse('Sat, 2 august 2014 00:00:00 +0900')
+            },
+            {
+                'title': u'14年07月29日「人口減少と地方中枢拠点都市構想」京都大学大学院経済学研究科教授 諸富 徹さん',
+                'link': 'http://www.nhk.or.jp/r-asa/podcast/bmp308/140729.mp3',
+                'description': u'<feedeen>\n<enclosure url="http://www.nhk.or.jp/r-asa/podcast/bmp308/140729.mp3" type="audio/mpeg"></enclosure>\n</feedeen>\n「人口減少と地方中枢拠点都市構想」京都大学大学院経済学研究科教授 諸富 徹さん',
+                'author_name': None,
+                'published': parse('Sat, 2 august 2014 00:00:00 +0900')
+            },
+            {
+                'title': u'14年07月30日「地方創生はできるのか」慶応義塾大学教授 金子 勝さん',
+                'link': 'http://www.nhk.or.jp/r-asa/podcast/bmp308/140730.mp3',
+                'description': u'<feedeen>\n<enclosure url="http://www.nhk.or.jp/r-asa/podcast/bmp308/140730.mp3" type="audio/mpeg"></enclosure>\n</feedeen>\n「地方創生はできるのか」慶応義塾大学教授 金子 勝さん',
+                'author_name': None,
+                'published': parse('Sat, 2 august 2014 00:00:00 +0900')
+            },
+        )
+    }),
+    ('rss/radionikkei.xml', {
+        'title': u'伊藤洋一のRound Up World Now!',
+        'link': 'http://www.radionikkei.jp/roundup/',
+        'description': u'伊藤洋一氏が日本だけでなく世界中で起きた1週間の経済・社会・政治関連の出来事',
+        'entries': (
+            {
+                'title': u'Round Up World Now!（2014.8.1放送分）',
+                'link': 'http://podcasting.radionikkei.jp/podcasting/roundup/roundup-140801.mp3',
+                'description': u'<feedeen>\n<enclosure url="http://podcasting.radionikkei.jp/podcasting/roundup/roundup-140801.mp3" type="audio/mpeg"></enclosure>\n</feedeen>\n安倍内閣支持率、初の50%割れ　日経・テ東世論調査／Amazon、PBブランド商品専用ストア開設　成城石井など15社参加／中国共産党「周永康・前党政治局常務委員を重大な規律違反の疑いで調査」',
+                'author_name': None,
+                'published': parse('Fri, 01 Aug 2014 22:59:00 +0900')
+            },
+            {
+                'title': u'Round Up World Now!（2014.7.25放送分）',
+                'link': 'http://podcasting.radionikkei.jp/podcasting/roundup/roundup-140725.mp3',
+                'description': u'<feedeen>\n<enclosure url="http://podcasting.radionikkei.jp/podcasting/roundup/roundup-140725.mp3" type="audio/mpeg"></enclosure>\n</feedeen>\n上半期の不動産取引、2兆5000億円　金融危機後の最高／マレーシア機撃墜でEU内に対ロ強硬論',
+                'author_name': None,
+                'published': parse('Fri, 25 Jul 2014 22:59:00 +0900')
+            },
+            {
+                'title': u'Round Up World Now!（2014.7.18放送分）',
+                'link': 'http://podcasting.radionikkei.jp/podcasting/roundup/roundup-140718.mp3',
+                'description': u'<feedeen>\n<enclosure url="http://podcasting.radionikkei.jp/podcasting/roundup/roundup-140718.mp3" type="audio/mpeg"></enclosure>\n</feedeen>\n携帯電話会社にSIMロック解除義務づけ　総務省の商習慣見直し案／JR東日本、2020年代半ばに都心・羽田結ぶ新線',
+                'author_name': None,
+                'published': parse('Fri, 18 Jul 2014 22:59:00 +0900')
             },
         )
     }),
