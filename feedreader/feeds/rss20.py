@@ -48,15 +48,15 @@ class RSS20Feed(Feed):
 
   @property
   def entries(self):
-    entries = [RSS20Item(item) for item in self.channel.iterchildren(tag='item')]
-    ok      = True
-    links   = set()
+    entries   = [RSS20Item(item) for item in self.channel.iterchildren(tag='item')]
+    ok        = True
+    prev_link = None
     for entry in entries:
       link = entry.link
-      if link is None or link in links:
+      if link is None or link == prev_link:
         ok = False
         break
-      links.add(link)
+      prev_link = link
     if not ok:
       for entry in entries:
         entry.use_enclosure_as_link()
@@ -68,6 +68,7 @@ class RSS20Item(Item):
   def __init__(self, element):
     super(RSS20Item, self).__init__(element)
     self.__link_cache = None
+    self.__enclosures_cache = None
 
   @property
   def id(self):
@@ -103,9 +104,9 @@ class RSS20Item(Item):
                                 '{http://purl.org/rss/1.0/modules/content/}encoded') or
             get_descendant_text(self._element, 'description'))
     enclosures = [
-      '<enclosure url="%s" type="%s"></enclosure>' % (cgi.escape(e.get('url'), quote=True),
-                                                      cgi.escape(e.get('type'), quote=True))
-      for e in getattr(self._element, 'enclosure', ()) if e.get('url') and e.get('type')]
+      '<enclosure url="%s" type="%s"></enclosure>' % (
+        cgi.escape(e['url'], quote=True), cgi.escape(e['type'], quote=True))
+      for e in self.enclosures]
     if enclosures:
       text = "<feedeen>\n%s\n</feedeen>\n%s" % ("\n".join(enclosures), text)
     return text
@@ -119,8 +120,18 @@ class RSS20Item(Item):
   def updated(self):
     return None
 
+  @property
+  def enclosures(self):
+    if self.__enclosures_cache is None:
+      self.__enclosures_cache = []
+      for e in getattr(self._element, 'enclosure', ()):
+        url  = get_attribute(e, 'url')
+        type = get_attribute(e, 'type')
+        if url and type:
+          self.__enclosures_cache.append({ 'url':url, 'type':type })
+    return self.__enclosures_cache
+
   def use_enclosure_as_link(self):
-    node = get_descendant(self._element, 'enclosure')
-    url  = safe_strip(get_attribute(node, 'url'))
-    if url:
-      self.__link_cache = url
+    entries = self.enclosures
+    if entries:
+      self.__link_cache = entries[0]['url']
