@@ -2,8 +2,7 @@
 Malformed Atom fallback
 """
 
-from feedreader.fallback.base import (PREFERRED_TITLE_TYPES, PREFERRED_LINK_TYPES,
-                                      PREFERRED_CONTENT_TYPES,
+from feedreader.fallback.base import (PREFERRED_LINK_TYPES, PREFERRED_CONTENT_TYPES,
                                       Feed, Item, get_element_text, get_attribute, search_child,
                                       get_xpath_node, get_xpath_text, get_xpath_datetime,
                                       safe_strip, normalize_spaces)

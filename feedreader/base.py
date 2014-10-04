@@ -1,11 +1,13 @@
 import re
 import dateutil.parser
 
-PREFERRED_TITLE_TYPES   = ('text', 'html')
 PREFERRED_LINK_TYPES    = ('text/html', 'application/xhtml+xml', 'text/plain')
-PREFERRED_CONTENT_TYPES = ('html', 'text')
+PREFERRED_CONTENT_TYPES = ('html', 'xhtml', 'text')
 
-SPACES_RE = re.compile(r'\s+')
+SPACES_RE    = re.compile(r'\s+')
+TAG_RE       = re.compile(r'<[a-zA-Z<!\?][^>]*>')
+ENTITY_RE    = re.compile(r'[<>&"]')
+ENTITY_MAP   = { '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;' }
 
 
 def unicodify(s):
@@ -33,6 +35,18 @@ def safe_strip(s):
 def normalize_spaces(s):
   if isinstance(s, basestring):
     return SPACES_RE.sub(' ', s.strip())
+  else:
+    return s
+
+def remove_tags(s):
+  if isinstance(s, basestring):
+    return TAG_RE.sub('', s)
+  else:
+    return s
+
+def escape_html(s):
+  if isinstance(s, basestring):
+    return ENTITY_RE.sub(lambda m:ENTITY_MAP[m.group(0)], s)
   else:
     return s
 

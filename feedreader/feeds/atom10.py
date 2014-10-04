@@ -2,11 +2,12 @@
 Atom 1.0 Support
 """
 
-from feedreader.feeds.base import (PREFERRED_TITLE_TYPES, PREFERRED_LINK_TYPES,
-                                   PREFERRED_CONTENT_TYPES,
+from feedreader.base import remove_tags, escape_html
+from feedreader.feeds.base import (PREFERRED_LINK_TYPES, PREFERRED_CONTENT_TYPES,
                                    Feed, Item, get_element_text, get_attribute, search_child,
                                    get_descendant, get_descendant_text, get_descendant_datetime,
-                                   safe_strip, normalize_spaces)
+                                   safe_strip, normalize_spaces,
+                                   collect_descendant_text, collect_descendant_xml)
 
 
 class Atom10Feed(Feed):
@@ -59,7 +60,17 @@ class Atom10Item(Item):
 
   @property
   def title(self):
-    return normalize_spaces(get_descendant_text(self._element, 'title'))
+    value   = None
+    element = get_descendant(self._element, 'title')
+    if element is not None:
+      type = element.get('type', 'text').lower()
+      if type == 'xhtml' or element.countchildren() > 0:
+        value = escape_html(collect_descendant_text(element))
+      elif type == 'html':
+        value = remove_tags(get_element_text(element))
+      else:
+        value = escape_html(get_element_text(element))
+    return normalize_spaces(value)
 
   @property
   def link(self):
@@ -81,12 +92,21 @@ class Atom10Item(Item):
 
   @property
   def description(self):
+    value   = None
     content = search_child(self._element, '{http://www.w3.org/2005/Atom}content',
                            ('type', PREFERRED_CONTENT_TYPES))
     if content is None:
       content = search_child(self._element, '{http://www.w3.org/2005/Atom}summary',
                              ('type', PREFERRED_CONTENT_TYPES))
-    return get_element_text(content)
+    if content is not None:
+      type = content.get('type', 'text').lower()
+      if type == 'xhtml' or content.countchildren() > 0:
+        value = collect_descendant_xml(content)
+      elif type == 'html':
+        value = get_element_text(content)
+      else:
+        value = escape_html(get_element_text(content))
+    return safe_strip(value)
 
   @property
   def published(self):

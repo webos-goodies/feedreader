@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Gentoo Packages </title>
+  <icon>http://www.gentoo.org/favicon.ico</icon>
+  <id>http://packages.gentoo.org/feed/</id>
+  <generator uri="http://packages.gentoo.org/">Gentoo Packages2</generator>
+  <link rel="alternate" href="http://packages.gentoo.org/" type="text/html"/>
+  <link rel="self" href="http://packages.gentoo.org/feed/" type="application/atom+xml"/>
+  <updated>2014-10-04T12:34:01Z</updated>
+  <entry>
+	<title xmlns:xhtml="http://www.w3.org/1999/xhtml" type="xhtml">
+	  <div>
+        <span class="cpvstr">sys-apps/roccat-tools-2.2.0</span>: <span class="description">Utility for advanced configuration of Roccat devices</span>
+      </div>
+    </title>
+    <link rel="alternate" href="http://packages.gentoo.org/package/sys-apps/roccat-tools" type="text/html"/>
+    <id>http://packages.gentoo.org/package/sys-apps/roccat-tools?ts=2014-10-04T12:34:01Z</id>
+    <author>
+      <name>Markos Chandras (hwoarang)</name>
+      <uri>http://cia.vc/stats/author/hwoarang</uri>
+    </author>
+    <updated>2014-10-04T12:34:01Z</updated>
+    <summary xmlns:xhtml="http://www.w3.org/1999/xhtml" type="xhtml"><div>*roccat-tools-2.2.0 (04 Oct 2014)<br/>04 Oct 2014; Markos Chandras (<a href="http://cia.vc/stats/author/hwoarang">hwoarang</a>) +<a href="http://sources.gentoo.org/viewcvs.py/gentoo-x86/sys-apps/roccat-tools/roccat-tools-2.2.0.ebuild?view=markup">roccat-tools-2.2.0.ebuild</a>:<br/>Version bump. Bug #<a href="https://bugs.gentoo.org/show_bug.cgi?id=523974">523974</a></div></summary>
+  </entry><entry>
+	<title xmlns:xhtml="http://www.w3.org/1999/xhtml" type="xhtml">
+	  <div>
+        <span class="cpvstr">dev-libs/libgaminggear-0.5.0</span>: <span class="description">Provides functionality for gaming input devices</span>
+      </div>
+    </title>
+    <link rel="alternate" href="http://packages.gentoo.org/package/dev-libs/libgaminggear" type="text/html"/>
+    <id>http://packages.gentoo.org/package/dev-libs/libgaminggear?ts=2014-10-04T12:32:52Z</id>
+    <author>
+      <name>Markos Chandras (hwoarang)</name>
+      <uri>http://cia.vc/stats/author/hwoarang</uri>
+    </author>
+    <updated>2014-10-04T12:32:52Z</updated>
+    <summary xmlns:xhtml="http://www.w3.org/1999/xhtml" type="xhtml"><div>*libgaminggear-0.5.0 (04 Oct 2014)<br/>04 Oct 2014; Markos Chandras (<a href="http://cia.vc/stats/author/hwoarang">hwoarang</a>) <br/>+<a href="http://sources.gentoo.org/viewcvs.py/gentoo-x86/dev-libs/libgaminggear/libgaminggear-0.5.0.ebuild?view=markup">libgaminggear-0.5.0.ebuild</a>:<br/>Version bump. Bug #<a href="https://bugs.gentoo.org/show_bug.cgi?id=523976">523976</a></div></summary>
+  </entry><entry>
+	<title xmlns:xhtml="http://www.w3.org/1999/xhtml" type="xhtml">
+	  <div>
+        <span class="cpvstr">x11-misc/imake-1.0.7</span>: <span class="description">C preprocessor interface to the make utility</span>
+      </div>
+    </title>
+    <link rel="alternate" href="http://packages.gentoo.org/package/x11-misc/imake" type="text/html"/>
+    <id>http://packages.gentoo.org/package/x11-misc/imake?ts=2014-10-04T12:31:19Z</id>
+    <author>
+      <name>Markus Meier (maekke)</name>
+      <uri>http://cia.vc/stats/author/maekke</uri>
+    </author>
+    <updated>2014-10-04T12:31:19Z</updated>
+    <summary xmlns:xhtml="http://www.w3.org/1999/xhtml" type="xhtml"><div>04 Oct 2014; Markus Meier (<a href="http://cia.vc/stats/author/maekke">maekke</a>) <a href="http://sources.gentoo.org/viewcvs.py/gentoo-x86/x11-misc/imake/imake-1.0.7.ebuild?view=markup">imake-1.0.7.ebuild</a>:<br/>arm stable, bug #<a href="https://bugs.gentoo.org/show_bug.cgi?id=499166">499166</a></div></summary>
+  </entry><entry>
+	<title xmlns:xhtml="http://www.w3.org/1999/xhtml" type="xhtml">
+	  <div>
+        <span class="cpvstr">net-wireless/wpa_supplicant-2.2-r1</span>: <span class="description">IEEE 802.1X/WPA supplicant for secure wireless transfers</span>
+      </div>
+    </title>
+    <link rel="alternate" href="http://packages.gentoo.org/package/net-wireless/wpa_supplicant" type="text/html"/>
+    <id>http://packages.gentoo.org/package/net-wireless/wpa_supplicant?ts=2014-10-04T12:31:15Z</id>
+    <author>
+      <name>Markus Meier (maekke)</name>
+      <uri>http://cia.vc/stats/author/maekke</uri>
+    </author>
+    <updated>2014-10-04T12:31:15Z</updated>
+    <summary xmlns:xhtml="http://www.w3.org/1999/xhtml" type="xhtml"><div>04 Oct 2014; Markus Meier (<a href="http://cia.vc/stats/author/maekke">maekke</a>) <a href="http://sources.gentoo.org/viewcvs.py/gentoo-x86/net-wireless/wpa_supplicant/wpa_supplicant-2.2-r1.ebuild?view=markup">wpa_supplicant-2.2-r1.ebuild</a>:<br/>arm stable, bug #<a href="https://bugs.gentoo.org/show_bug.cgi?id=522852">522852</a></div></summary>
+  </entry>
+</feed>

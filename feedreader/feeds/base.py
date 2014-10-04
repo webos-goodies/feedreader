@@ -1,7 +1,8 @@
+import re
 import dateutil.parser
+import lxml.etree
 from feedreader import base
 
-PREFERRED_TITLE_TYPES   = base.PREFERRED_TITLE_TYPES
 PREFERRED_LINK_TYPES    = base.PREFERRED_LINK_TYPES
 PREFERRED_CONTENT_TYPES = base.PREFERRED_CONTENT_TYPES
 
@@ -9,6 +10,8 @@ unicodify  = base.unicodify
 parse_date = base.parse_date
 safe_strip = base.safe_strip
 normalize_spaces = base.normalize_spaces
+
+ROOT_TAG_RE  = re.compile(r'^\s*<[^>]+>|</[^>]+>\s*$')
 
 
 def get_element_text(element):
@@ -58,6 +61,15 @@ def search_child(element, node_name, attrs):
     if l > level:
       candidate, level = el, l
   return candidate
+
+def collect_descendant_text(element):
+  return lxml.etree.tostring(element, encoding=unicode, with_tail=False, method='text')
+
+def collect_descendant_xml(element):
+  if element is None:
+    return None
+  xml = lxml.etree.tostring(element, encoding=unicode, with_tail=False)
+  return ROOT_TAG_RE.sub('', xml)
 
 
 class Item(base.Item):

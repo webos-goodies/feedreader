@@ -2,8 +2,7 @@
 Atom 0.3 Support
 """
 
-from feedreader.feeds.base import (PREFERRED_TITLE_TYPES, PREFERRED_LINK_TYPES,
-                                   PREFERRED_CONTENT_TYPES,
+from feedreader.feeds.base import (PREFERRED_LINK_TYPES, PREFERRED_CONTENT_TYPES,
                                    Feed, Item, get_element_text, get_attribute, search_child,
                                    get_descendant, get_descendant_text, get_descendant_datetime,
                                    safe_strip, normalize_spaces)

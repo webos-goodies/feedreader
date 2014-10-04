@@ -167,4 +167,112 @@ ATOM_FILES = (
             },
         )
     }),
+    ('atom/gentoo.xml', {
+        'id': 'http://packages.gentoo.org/feed/',
+        'title': 'Gentoo Packages',
+        'link': 'http://packages.gentoo.org/',
+        'description': None,
+        'updated': parse('2014-10-04T12:34:01Z'),
+        'entries': (
+            {
+                'id': 'http://packages.gentoo.org/package/sys-apps/roccat-tools?ts=2014-10-04T12:34:01Z',
+                'title': u'sys-apps/roccat-tools-2.2.0: Utility for advanced configuration of Roccat devices',
+                'link': 'http://packages.gentoo.org/package/sys-apps/roccat-tools',
+                'description': u'<div>*roccat-tools-2.2.0 (04 Oct 2014)<br/>04 Oct 2014; Markos Chandras (<a href="http://cia.vc/stats/author/hwoarang">hwoarang</a>) +<a href="http://sources.gentoo.org/viewcvs.py/gentoo-x86/sys-apps/roccat-tools/roccat-tools-2.2.0.ebuild?view=markup">roccat-tools-2.2.0.ebuild</a>:<br/>Version bump. Bug #<a href="https://bugs.gentoo.org/show_bug.cgi?id=523974">523974</a></div>',
+                'published': None,
+                'updated': parse('2014-10-04T12:34:01Z'),
+                'author_name': u'Markos Chandras (hwoarang)'
+            },
+            {
+                'id': 'http://packages.gentoo.org/package/dev-libs/libgaminggear?ts=2014-10-04T12:32:52Z',
+                'title': u'dev-libs/libgaminggear-0.5.0: Provides functionality for gaming input devices',
+                'link': 'http://packages.gentoo.org/package/dev-libs/libgaminggear',
+                'description': u'<div>*libgaminggear-0.5.0 (04 Oct 2014)<br/>04 Oct 2014; Markos Chandras (<a href="http://cia.vc/stats/author/hwoarang">hwoarang</a>) <br/>+<a href="http://sources.gentoo.org/viewcvs.py/gentoo-x86/dev-libs/libgaminggear/libgaminggear-0.5.0.ebuild?view=markup">libgaminggear-0.5.0.ebuild</a>:<br/>Version bump. Bug #<a href="https://bugs.gentoo.org/show_bug.cgi?id=523976">523976</a></div>',
+                'published': None,
+                'updated': parse('2014-10-04T12:32:52Z'),
+                'author_name': u'Markos Chandras (hwoarang)'
+            },
+            {
+                'id': 'http://packages.gentoo.org/package/x11-misc/imake?ts=2014-10-04T12:31:19Z',
+                'title': u'x11-misc/imake-1.0.7: C preprocessor interface to the make utility',
+                'link': 'http://packages.gentoo.org/package/x11-misc/imake',
+                'description': u'<div>04 Oct 2014; Markus Meier (<a href="http://cia.vc/stats/author/maekke">maekke</a>) <a href="http://sources.gentoo.org/viewcvs.py/gentoo-x86/x11-misc/imake/imake-1.0.7.ebuild?view=markup">imake-1.0.7.ebuild</a>:<br/>arm stable, bug #<a href="https://bugs.gentoo.org/show_bug.cgi?id=499166">499166</a></div>',
+                'published': None,
+                'updated': parse('2014-10-04T12:31:19Z'),
+                'author_name': u'Markus Meier (maekke)'
+            },
+            {
+                'id': 'http://packages.gentoo.org/package/net-wireless/wpa_supplicant?ts=2014-10-04T12:31:15Z',
+                'title': u'net-wireless/wpa_supplicant-2.2-r1: IEEE 802.1X/WPA supplicant for secure wireless transfers',
+                'link': 'http://packages.gentoo.org/package/net-wireless/wpa_supplicant',
+                'description': u'<div>04 Oct 2014; Markus Meier (<a href="http://cia.vc/stats/author/maekke">maekke</a>) <a href="http://sources.gentoo.org/viewcvs.py/gentoo-x86/net-wireless/wpa_supplicant/wpa_supplicant-2.2-r1.ebuild?view=markup">wpa_supplicant-2.2-r1.ebuild</a>:<br/>arm stable, bug #<a href="https://bugs.gentoo.org/show_bug.cgi?id=522852">522852</a></div>',
+                'published': None,
+                'updated': parse('2014-10-04T12:31:15Z'),
+                'author_name': u'Markus Meier (maekke)'
+            },
+        )
+    }),
+    ('atom/aws_j.xml', {
+        'id': 'tag:typepad.com,2003:weblog-86842883779368716',
+        'title': u'Amazon Web Services ブログ',
+        'link': 'http://aws.typepad.com/aws_japan/',
+        'description': u'開発者、ITプロフェッショナル向けにAmazon Web Services(AWS)が提供するアマゾンクラウド(Amazon EC2, S3, RDS, EMR他)の公式ブログです。最新情報をエバンジェリストが伝えます [AWSブログ]',
+        'updated': parse('2014-10-02T00:19:48Z'),
+        'entries': (
+            {
+                'id': 'tag:typepad.com,2003:post-6a00d8341c534853ef01b7c6eb6d3b970b',
+                'title': u'EC2メンテナンスについての続報',
+                'link': 'http://aws.typepad.com/aws_japan/2014/10/ec2ment-update.html',
+                'description': u'<div xmlns="http://www.w3.org/1999/xhtml"><p>本日は先週末(2014/9/27から)に実施した、再起動を伴う</p></div>',
+                'published': parse('2014-10-01T17:15:23-07:00'),
+                'updated': parse('2014-10-02T00:19:48Z'),
+                'author_name': u'AWS Evangelist'
+            },
+            {
+                'id': 'tag:typepad.com,2003:post-6a00d8341c534853ef01b8d074aed3970c',
+                'title': u'Amazon AppStreamが東京リージョンで利用可能に',
+                'link': 'http://aws.typepad.com/aws_japan/2014/09/appstream-tokyo.html',
+                'description': u'<div xmlns="http://www.w3.org/1999/xhtml"><p>Amazon AppStreamは、クラウドベースのグラフィックレンダリング（2Dも3Dも）を利用しており、ローカルの計算能力やストレージを削減することができることで、複雑なアプリケーションをシンプルなデバイスで実行することができます。</p></div>',
+                'published': parse('2014-09-30T22:25:17-07:00'),
+                'updated': parse('2014-10-01T01:32:16Z'),
+                'author_name': u'AWS Evangelist'
+            },
+            {
+                'id': 'tag:typepad.com,2003:post-6a00d8341c534853ef01bb078cece7970d',
+                'title': u'EC2メンテナンスアップデートに関して',
+                'link': 'http://aws.typepad.com/aws_japan/2014/09/ec2mente.html',
+                'description': u'<div xmlns="http://www.w3.org/1999/xhtml"><p>今週末から来週頭において実施されるEC2メンテナンスに関して、複数のお客様からご質問を頂きましたので、こちらのブログでもお知らせさせて頂きたいと思います。</p></div>',
+                'published': parse('2014-09-25T18:16:55-07:00'),
+                'updated': parse('2014-09-26T01:17:39Z'),
+                'author_name': u'AWS Evangelist'
+            },
+            {
+                'id': 'tag:typepad.com,2003:post-6a00d8341c534853ef01a73e147e7e970d',
+                'title': u'【AWS発表】ElastiCacheでもT2インスタンスタイプを利用可能に',
+                'link': 'http://aws.typepad.com/aws_japan/2014/09/elasticache-t2-support.html',
+                'description': u'<div xmlns="http://www.w3.org/1999/xhtml"><p>すでにご存知化と思いますが、<a href="https://aws.amazon.com/ec2/">Amazon Elastic Compute Cloud</a> (EC2)の新しい<strong>T2</strong>インスタンスタイプは、しっかりしたベースライン性能と、必要に応じて、ベースラインを超えてバーストする能力を提供します。 <a href="http://aws.typepad.com/aws_japan/2014/07/low-cost-burstable-ec2-instances.html">以前にブログ記事に書いた</a>ように、このインスタンスタイプは開発、テスト、中規模トラフィックのWebサイトに最適です。</p></div>',
+                'published': parse('2014-09-12T01:26:50-07:00'),
+                'updated': parse('2014-09-12T08:26:50Z'),
+                'author_name': u'AWS Evangelist'
+            },
+        )
+    }),
+    ('atom/devopera.xml', {
+        'id': 'https://dev.opera.com/',
+        'title': 'Dev.Opera',
+        'link': 'https://dev.opera.com/',
+        'description': None,
+        'updated': parse('2014-09-29T15:26:19+02:00'),
+        'entries': (
+            {
+                'id': 'https://dev.opera.com/articles/better-font-face/',
+                'title': u'Better @font-face with Font Load Events',
+                'link': 'https://dev.opera.com/articles/better-font-face/',
+                'description': u'<p><code>@font-face</code> is an established staple in the diet of almost half of the web. According to the HTTP Archive, 47% of web sites make a request for at least one custom web font.',
+                'published': parse('2014-09-26T00:00:00+02:00'),
+                'updated': parse('2014-09-26T00:00:00+02:00'),
+                'author_name': u'Zach Leatherman'
+            },
+        )
+    }),
 )
