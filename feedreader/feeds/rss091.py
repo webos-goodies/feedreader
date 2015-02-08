@@ -30,7 +30,7 @@ class RSS091Feed(Feed):
 
   @property
   def link(self):
-    return safe_strip(get_descendant_text(self.channel, 'link'))
+    return safe_strip(get_descendant_text(self.channel, 'link', is_url=True))
 
   @property
   def description(self):
@@ -61,7 +61,7 @@ class RSS091Item(Item):
 
   @property
   def link(self):
-    return safe_strip(get_descendant_text(self._element, 'link'))
+    return safe_strip(get_descendant_text(self._element, 'link', is_url=True))
 
   @property
   def author_name(self):

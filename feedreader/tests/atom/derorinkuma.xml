@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><feed
+  xmlns="http://www.w3.org/2005/Atom"
+  xmlns:thr="http://purl.org/syndication/thread/1.0"
+  xml:lang="ja"
+  xml:base="http://derorinkuma.com/wp-atom.php"
+   >
+	<title type="text">サッカーコラム速報でろブロ</title>
+	<subtitle type="text">でろりんクマとかサッカー好きがネットのニュースや試合を見てグダグダサッカーについて語っています。</subtitle>
+
+	<updated>2015-02-08T05:43:33Z</updated>
+
+	<link rel="alternate" type="text/html" href="//derorinkuma.com" />
+	<id>http://derorinkuma.com/feed/atom</id>
+	<link rel="self" type="application/atom+xml" href="//derorinkuma.com/feed/atom" />
+
+	<generator uri="http://wordpress.org/" version="4.1">WordPress</generator>
+	<entry>
+		<author>
+			<name>でろりん</name>
+					</author>
+		<title type="html"><![CDATA[鈴木隆行選手がジェフユナイテッド市原・千葉に移籍…気が付いたらもう38歳]]></title>
+		<link rel="alternate" type="text/html" href="//derorinkuma.com/65438" />
+		<id>http://derorinkuma.com/?p=65438</id>
+		<updated>2015-02-08T05:43:33Z</updated>
+		<published>2015-02-08T05:43:33Z</published>
+		<category scheme="http://derorinkuma.com" term="移籍情報" /><category scheme="http://derorinkuma.com" term="ジェフユナイテッド市原・千葉" /><category scheme="http://derorinkuma.com" term="移籍情報2015" /><category scheme="http://derorinkuma.com" term="鈴木隆行" />		<summary type="html"><![CDATA[元日本代表FWで水戸ホーリーホックに所属していた鈴木隆行選手がジェフユナイテッド市原・千葉に加入する事が正式に決まったようです。公式サイトが伝えています。 Source:http://jefunited.co.jp/ne…]]></summary>
+			<link rel="replies" type="text/html" href="//derorinkuma.com/65438#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="//derorinkuma.com/65438/feed/atom" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>でろりん</name>
+					</author>
+		<title type="html"><![CDATA[セリエA第22節 ユヴェントス 3-1 ミラン 本田圭佑はトップ下でフル出場もインパクト残せず完敗]]></title>
+		<link rel="alternate" type="text/html" href="//derorinkuma.com/65434" />
+		<id>http://derorinkuma.com/?p=65434</id>
+		<updated>2015-02-07T21:57:31Z</updated>
+		<published>2015-02-07T21:57:31Z</published>
+		<category scheme="http://derorinkuma.com" term="セリエA" /><category scheme="http://derorinkuma.com" term="ACミラン" /><category scheme="http://derorinkuma.com" term="アルバロ・モラタ" /><category scheme="http://derorinkuma.com" term="カルロス・テベス" /><category scheme="http://derorinkuma.com" term="セリエA2014/15" /><category scheme="http://derorinkuma.com" term="ユヴェントス" /><category scheme="http://derorinkuma.com" term="ルカ・アントネッリ" /><category scheme="http://derorinkuma.com" term="レオナルド・ボヌッチ" /><category scheme="http://derorinkuma.com" term="本田圭佑" /><category scheme="http://derorinkuma.com" term="試合の感想" />		<summary type="html"><![CDATA[セリエA第22節 1位ユヴェントスvs8位ACミラン 試合の感想です。 出場選手 Away： ACミラン GK 23 ディエゴ・ロペス DF 29 ガブリエル・パレッタ DF 31 ルカ・アントネッリ DF 33 アレッ…]]></summary>
+			<link rel="replies" type="text/html" href="//derorinkuma.com/65434#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="//derorinkuma.com/65434/feed/atom" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>でろりん</name>
+					</author>
+		<title type="html"><![CDATA[ブンデス第20節 フライブルク 0-3 ドルトムント　香川真司はフル出場1アシスト]]></title>
+		<link rel="alternate" type="text/html" href="//derorinkuma.com/65430" />
+		<id>http://derorinkuma.com/?p=65430</id>
+		<updated>2015-02-07T16:24:23Z</updated>
+		<published>2015-02-07T16:24:23Z</published>
+		<category scheme="http://derorinkuma.com" term="ブンデスリーガ" /><category scheme="http://derorinkuma.com" term="SCフライブルク" /><category scheme="http://derorinkuma.com" term="ピエール・エメリク・オーバメヤン" /><category scheme="http://derorinkuma.com" term="ブンデスリーガ2014/15" /><category scheme="http://derorinkuma.com" term="ボルシア・ドルトムント" /><category scheme="http://derorinkuma.com" term="マルコ・ロイス" /><category scheme="http://derorinkuma.com" term="香川真司" />		<summary type="html"><![CDATA[ブンデスリーガ第20節 15位SCフライブルクvs18位（最下位）ボルシア・ドルトムント 試合の感想です。 出場選手 Away： ボルシア・ドルトムント GK 1 ロマン・ヴァイデンフェラー DF 4 ネヴェン・スボティ…]]></summary>
+			<link rel="replies" type="text/html" href="//derorinkuma.com/65430#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="//derorinkuma.com/65430/feed/atom" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+		<entry>
+		<author>
+			<name>でろりん</name>
+					</author>
+		<title type="html"><![CDATA[サッカー協会が日本代表の新監督候補に5人程度の外国人をリストアップ]]></title>
+		<link rel="alternate" type="text/html" href="//derorinkuma.com/65428" />
+		<id>http://derorinkuma.com/?p=65428</id>
+		<updated>2015-02-06T09:01:12Z</updated>
+		<published>2015-02-06T09:01:12Z</published>
+		<category scheme="http://derorinkuma.com" term="日本代表" /><category scheme="http://derorinkuma.com" term="日本代表2015" />		<summary type="html"><![CDATA[日本サッカー協会が日本代表の新監督の候補について、5人程度の外国人をリストアップしている事を明らかにしているようです。なんとNHKが報じています。 Source:http://www3.nhk.or.jp/news/ht…]]></summary>
+			<link rel="replies" type="text/html" href="//derorinkuma.com/65428#comments" thr:count="0"/>
+		<link rel="replies" type="application/atom+xml" href="//derorinkuma.com/65428/feed/atom" thr:count="0"/>
+		<thr:total>0</thr:total>
+	</entry>
+	</feed>

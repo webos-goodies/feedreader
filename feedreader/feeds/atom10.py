@@ -30,7 +30,7 @@ class Atom10Feed(Feed):
   def link(self):
     link = search_child(self._element, '{http://www.w3.org/2005/Atom}link',
                         ('rel', 'alternate', 'type', PREFERRED_LINK_TYPES))
-    return safe_strip(get_attribute(link, 'href'))
+    return safe_strip(get_attribute(link, 'href', is_url=True))
 
   @property
   def description(self):
@@ -76,7 +76,7 @@ class Atom10Item(Item):
   def link(self):
     link = search_child(self._element, '{http://www.w3.org/2005/Atom}link',
                         ('rel', 'alternate', 'type', PREFERRED_LINK_TYPES))
-    return safe_strip(get_attribute(link, 'href'))
+    return safe_strip(get_attribute(link, 'href', is_url=True))
 
   @property
   def author_name(self):
@@ -88,7 +88,7 @@ class Atom10Item(Item):
 
   @property
   def author_link(self):
-    return safe_strip(get_descendant_text(self._element, 'author', 'uri'))
+    return safe_strip(get_descendant_text(self._element, 'author', 'uri', is_url=True))
 
   @property
   def description(self):

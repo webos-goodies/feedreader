@@ -28,7 +28,7 @@ class Atom03Feed(Feed):
   def link(self):
     link = search_child(self._element, '{http://purl.org/atom/ns#}link',
                         ('rel', 'alternate', 'type', PREFERRED_LINK_TYPES))
-    return safe_strip(get_attribute(link, 'href'))
+    return safe_strip(get_attribute(link, 'href', is_url=True))
 
   @property
   def description(self):
@@ -62,7 +62,7 @@ class Atom03Item(Item):
   def link(self):
     link = search_child(self._element, '{http://purl.org/atom/ns#}link',
                         ('rel', 'alternate', 'type', PREFERRED_LINK_TYPES))
-    return safe_strip(get_attribute(link, 'href'))
+    return safe_strip(get_attribute(link, 'href', is_url=True))
 
   @property
   def author_name(self):
@@ -74,7 +74,7 @@ class Atom03Item(Item):
 
   @property
   def author_link(self):
-    return safe_strip(get_descendant_text(self._element, 'author', 'uri'))
+    return safe_strip(get_descendant_text(self._element, 'author', 'uri', is_url=True))
 
   @property
   def description(self):

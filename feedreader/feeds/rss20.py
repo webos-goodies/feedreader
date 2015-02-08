@@ -31,7 +31,7 @@ class RSS20Feed(Feed):
 
   @property
   def link(self):
-    return safe_strip(get_descendant_text(self.channel, 'link'))
+    return safe_strip(get_descendant_text(self.channel, 'link', is_url=True))
 
   @property
   def description(self):
@@ -81,7 +81,7 @@ class RSS20Item(Item):
   @property
   def link(self):
     if self.__link_cache is None:
-      self.__link_cache = safe_strip(get_descendant_text(self._element, 'link'))
+      self.__link_cache = safe_strip(get_descendant_text(self._element, 'link', is_url=True))
     return self.__link_cache
 
   @property
@@ -125,7 +125,7 @@ class RSS20Item(Item):
     if self.__enclosures_cache is None:
       self.__enclosures_cache = []
       for e in getattr(self._element, 'enclosure', ()):
-        url  = get_attribute(e, 'url')
+        url  = get_attribute(e, 'url', is_url=True)
         type = get_attribute(e, 'type')
         if url and type:
           self.__enclosures_cache.append({ 'url':url, 'type':type })

@@ -74,5 +74,20 @@ RSS10_FILES = (
                 'description': u'<p>米Gartnerは4月4日(英国時間)、PC、タブレット、スマートフォン'
             }
         )
+    }),
+    ('rssone/mycom_relative.xml', {
+        'id': 'http://news.mynavi.jp/enterprise/',
+        'title': u'マイナビニュース エンタープライズ',
+        'link': 'http://news.mynavi.jp/enterprise/',
+        'description': u'「マイナビニュース」は、ニュースと読み物を中心とした総合専門サイトです。',
+        'entries': (
+            {
+                'id': 'http://news.mynavi.jp/news/2013/04/05/220/index.html',
+                'title': u'PostgreSQLセキュリティアップデート版登場',
+                'link': 'http://news.mynavi.jp/news/2013/04/05/220/index.html',
+                'published': parse('2013-04-05T17:45:46+09:00'),
+                'description': u'<p>PostgreSQL Global Development Groupは4月4日(米国時間)'
+            },
+        )
     })
 )

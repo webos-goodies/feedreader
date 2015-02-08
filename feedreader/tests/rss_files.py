@@ -268,4 +268,18 @@ RSS_FILES = (
             },
         )
     }),
+    ('rss/digg_relative.xml', {
+        'title': 'digg / kevinrose / history',
+        'link': 'http://digg.com/users/kevinrose/history',
+        'description': 'A history of kevinrose\'s activity at digg.com',
+        'entries': (
+            {
+                'id': 'http://digg.com/food_drink/Tea_Measurements_What_is_the_best_way_to_measure_loose_tea',
+                'title': 'Tea Measurements: What is the best way to measure loose tea?',
+                'link': 'http://digg.com/food_drink/Tea_Measurements_What_is_the_best_way_to_measure_loose_tea',
+                'author_name': 'kevinrose',
+                'published': parse('Sat, 25 Jul 2009 04:34:22 UTC')
+            },
+        )
+    }),
 )

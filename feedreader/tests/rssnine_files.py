@@ -55,4 +55,18 @@ RSS091_FILES = (
             }
         )
     }),
+    ('rssnine/getnews_relative.xml', {
+        'title': u'ガジェット通信',
+        'link': 'http://getnews.jp/',
+        'description': u'デジタル世代のレビュー＆ニュース＆カルチャーマガジン',
+        'entries': (
+            {
+                'id': 'http://getnews.jp/archives/336896',
+                'title': u'長嶋茂雄　脳梗塞で倒れてから9年でリハビリ休んだのは2回',
+                'link': 'http://getnews.jp/archives/336896',
+                'published': parse('Fri, 10 May 2013 01:15:16 +0900'),
+                'description': u'今から9年前の2004年3月4日、自宅で倒れた長嶋茂雄さん（77才）。'
+            },
+        )
+    }),
 )

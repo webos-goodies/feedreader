@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns:admin="http://webns.net/mvcb/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xml:base="http://news.mynavi.jp/">
+  <channel rdf:about="http://news.mynavi.jp/enterprise/">
+    <title>マイナビニュース エンタープライズ</title>
+    <link>//news.mynavi.jp/enterprise/</link>
+    <description>「マイナビニュース」は、ニュースと読み物を中心とした総合専門サイトです。</description>
+  </channel>
+  <item rdf:about="http://news.mynavi.jp/news/2013/04/05/220/index.html">
+    <title>PostgreSQLセキュリティアップデート版登場</title>
+    <description><![CDATA[<p>PostgreSQL Global Development Groupは4月4日(米国時間)]]></description>
+    <link>/news/2013/04/05/220/index.html</link>
+    <dc:date>2013-04-05T17:45:46+09:00</dc:date>
+  </item>
+</rdf:RDF>

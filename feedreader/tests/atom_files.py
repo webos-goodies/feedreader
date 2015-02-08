@@ -275,4 +275,49 @@ ATOM_FILES = (
             },
         )
     }),
+    ('atom/derorinkuma.xml', {
+        'id': 'http://derorinkuma.com/feed/atom',
+        'title': u'サッカーコラム速報でろブロ',
+        'link': 'http://derorinkuma.com',
+        'description': u'でろりんクマとかサッカー好きがネットのニュースや試合を見てグダグダサッカーについて語っています。',
+        'updated': parse('2015-02-08T05:43:33Z'),
+        'entries': (
+            {
+                'id': 'http://derorinkuma.com/?p=65438',
+                'title': u'鈴木隆行選手がジェフユナイテッド市原・千葉に移籍…気が付いたらもう38歳',
+                'link': 'http://derorinkuma.com/65438',
+                'description': u'元日本代表FWで水戸ホーリーホックに所属していた鈴木隆行選手がジェフユナイテッド市原・千葉に加入する事が正式に決まったようです。公式サイトが伝えています。 Source:http://jefunited.co.jp/ne…',
+                'published': parse('2015-02-08T05:43:33Z'),
+                'updated': parse('2015-02-08T05:43:33Z'),
+                'author_name': u'でろりん'
+            },
+            {
+                'id': 'http://derorinkuma.com/?p=65434',
+                'title': u'セリエA第22節 ユヴェントス 3-1 ミラン 本田圭佑はトップ下でフル出場もインパクト残せず完敗',
+                'link': 'http://derorinkuma.com/65434',
+                'description': u'セリエA第22節 1位ユヴェントスvs8位ACミラン 試合の感想です。 出場選手 Away： ACミラン GK 23 ディエゴ・ロペス DF 29 ガブリエル・パレッタ DF 31 ルカ・アントネッリ DF 33 アレッ…',
+                'published': parse('2015-02-07T21:57:31Z'),
+                'updated': parse('2015-02-07T21:57:31Z'),
+                'author_name': u'でろりん'
+            },
+            {
+                'id': 'http://derorinkuma.com/?p=65430',
+                'title': u'ブンデス第20節 フライブルク 0-3 ドルトムント　香川真司はフル出場1アシスト',
+                'link': 'http://derorinkuma.com/65430',
+                'description': u'ブンデスリーガ第20節 15位SCフライブルクvs18位（最下位）ボルシア・ドルトムント 試合の感想です。 出場選手 Away： ボルシア・ドルトムント GK 1 ロマン・ヴァイデンフェラー DF 4 ネヴェン・スボティ…',
+                'published': parse('2015-02-07T16:24:23Z'),
+                'updated': parse('2015-02-07T16:24:23Z'),
+                'author_name': u'でろりん'
+            },
+            {
+                'id': 'http://derorinkuma.com/?p=65428',
+                'title': u'サッカー協会が日本代表の新監督候補に5人程度の外国人をリストアップ',
+                'link': 'http://derorinkuma.com/65428',
+                'description': u'日本サッカー協会が日本代表の新監督の候補について、5人程度の外国人をリストアップしている事を明らかにしているようです。なんとNHKが報じています。 Source:http://www3.nhk.or.jp/news/ht…',
+                'published': parse('2015-02-06T09:01:12Z'),
+                'updated': parse('2015-02-06T09:01:12Z'),
+                'author_name': u'でろりん'
+            },
+        )
+    }),
 )

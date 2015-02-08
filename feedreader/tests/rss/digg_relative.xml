@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xml:base="http://digg.com/">
+    <channel>
+        <title>digg / kevinrose / history</title>
+        <link>users/kevinrose/history</link>
+        <description>A history of kevinrose's activity at digg.com</description>
+        <language>en-us</language>
+        <pubDate>Sun, 26 Jul 2009 01:24:21 UTC</pubDate>
+        <lastBuildDate>Sun, 26 Jul 2009 01:24:21 UTC</lastBuildDate>
+        <generator>Digg.com</generator>
+        <item>
+            <title>Tea Measurements: What is the best way to measure loose tea?</title>
+            <link>//digg.com/food_drink/Tea_Measurements_What_is_the_best_way_to_measure_loose_tea</link>
+            <description><![CDATA[
+                "What's Your Cup Size" ? how to properly measure tea!            ]]></description>
+            <pubDate>Sat, 25 Jul 2009 04:34:22 UTC</pubDate>
+            <author>kevinrose</author>
+            <guid>http://digg.com/food_drink/Tea_Measurements_What_is_the_best_way_to_measure_loose_tea</guid>
+                    </item>
+    </channel>
+</rss>

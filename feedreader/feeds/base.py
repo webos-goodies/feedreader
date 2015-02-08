@@ -1,4 +1,5 @@
 import re
+import urlparse
 import dateutil.parser
 import lxml.etree
 from feedreader import base
@@ -14,10 +15,14 @@ normalize_spaces = base.normalize_spaces
 ROOT_TAG_RE  = re.compile(r'^\s*<[^>]+>|</[^>]+>\s*$')
 
 
-def get_element_text(element):
+def get_element_text(element, is_url=False):
   if element is None:
     return None
-  return unicodify(element.text).strip()
+  text = unicodify(element.text).strip()
+  base = is_url and element.base
+  if base:
+    text = urlparse.urljoin(base, text)
+  return text
 
 def get_descendant(element, *args):
   for node_name in args:
@@ -26,21 +31,25 @@ def get_descendant(element, *args):
     element = getattr(element, node_name, None)
   return element
 
-def get_descendant_text(element, *args):
+def get_descendant_text(element, *args, **kwargs):
   element = get_descendant(element, *args)
-  return get_element_text(element)
+  return get_element_text(element, **kwargs)
 
 def get_descendant_datetime(element, *args):
   text = get_descendant_text(element, *args)
   return parse_date(safe_strip(text))
 
-def get_attribute(element, attr_name):
+def get_attribute(element, attr_name, is_url=False):
   if element is None:
     return None
   attr = element.get(attr_name, None)
   if attr is None:
     return None
-  return unicodify(attr).strip()
+  attr = unicodify(attr).strip()
+  base = is_url and element.base
+  if base:
+    attr = urlparse.urljoin(base, attr)
+  return attr
 
 def search_child(element, node_name, attrs):
   if element is None:
