@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <feed version="0.3" xmlns="http://purl.org/atom/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:lang="ja">
-<title>Atom 0.3 sample</title> 
+<title>Broken atom sample</title> 
 <link rel="alternate" type="text/html" href="http://atom03.example.com/" />
 <link rel="self" href="http://example.com" />
 <modified>2013-04-06T05:45:46Z</modified> 
@@ -26,4 +26,3 @@
 <name>hogehoge</name> 
 </author>
 </entry>
-</feed>

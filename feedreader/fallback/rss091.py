@@ -4,7 +4,7 @@ RSS 0.91 Support
 
 from feedreader.fallback.base import (Feed, Item, get_element_text, get_attribute, search_child,
                                       get_xpath_node, get_xpath_text, get_xpath_datetime,
-                                      safe_strip, normalize_spaces)
+                                      safe_strip, normalize_spaces, unescape_html)
 
 
 class RSS091Fallback(Feed):
@@ -63,7 +63,7 @@ class RSS091Item(Item):
 
   @property
   def title(self):
-    return normalize_spaces(get_xpath_text(self._element, 'descendant::title'))
+    return normalize_spaces(unescape_html(get_xpath_text(self._element, 'descendant::title')))
 
   @property
   def link(self):

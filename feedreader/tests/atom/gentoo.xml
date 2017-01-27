@@ -10,7 +10,7 @@
   <entry>
 	<title xmlns:xhtml="http://www.w3.org/1999/xhtml" type="xhtml">
 	  <div>
-        <span class="cpvstr">sys-apps/roccat-tools-2.2.0</span>: <span class="description">Utility for advanced configuration of Roccat devices</span>
+        <span class="cpvstr">sys-apps/roccat-tools-2.2.0</span>: <span class="description">Utility for advanced configuration of Roccat devices &amp; machines</span>
       </div>
     </title>
     <link rel="alternate" href="http://packages.gentoo.org/package/sys-apps/roccat-tools" type="text/html"/>

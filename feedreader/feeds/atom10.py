@@ -6,7 +6,7 @@ from feedreader.base import remove_tags, escape_html
 from feedreader.feeds.base import (PREFERRED_LINK_TYPES, PREFERRED_CONTENT_TYPES,
                                    Feed, Item, get_element_text, get_attribute, search_child,
                                    get_descendant, get_descendant_text, get_descendant_datetime,
-                                   safe_strip, normalize_spaces,
+                                   safe_strip, normalize_spaces, unescape_html,
                                    collect_descendant_text, collect_descendant_xml)
 
 
@@ -63,13 +63,13 @@ class Atom10Item(Item):
     value   = None
     element = get_descendant(self._element, 'title')
     if element is not None:
-      type = element.get('type', 'text').lower()
+      type = element.get('type', 'text').lower().strip()
       if type == 'xhtml' or element.countchildren() > 0:
-        value = escape_html(collect_descendant_text(element))
+        value = collect_descendant_text(element)
       elif type == 'html':
-        value = remove_tags(get_element_text(element))
+        value = unescape_html(remove_tags(get_element_text(element)))
       else:
-        value = escape_html(get_element_text(element))
+        value = get_element_text(element)
     return normalize_spaces(value)
 
   @property
@@ -99,7 +99,7 @@ class Atom10Item(Item):
       content = search_child(self._element, '{http://www.w3.org/2005/Atom}summary',
                              ('type', PREFERRED_CONTENT_TYPES))
     if content is not None:
-      type = content.get('type', 'text').lower()
+      type = content.get('type', 'text').lower().strip()
       if type == 'xhtml' or content.countchildren() > 0:
         value = collect_descendant_xml(content)
       elif type == 'html':

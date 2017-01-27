@@ -4,7 +4,7 @@ RSS 0.91 Support
 
 from feedreader.feeds.base import (Feed, Item, get_element_text, get_attribute, search_child,
                                    get_descendant, get_descendant_text, get_descendant_datetime,
-                                   safe_strip, normalize_spaces)
+                                   safe_strip, normalize_spaces, unescape_html)
 
 
 class RSS091Feed(Feed):
@@ -57,7 +57,7 @@ class RSS091Item(Item):
 
   @property
   def title(self):
-    return normalize_spaces(get_descendant_text(self._element, 'title'))
+    return normalize_spaces(unescape_html(get_descendant_text(self._element, 'title')))
 
   @property
   def link(self):

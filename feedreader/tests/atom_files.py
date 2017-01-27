@@ -158,7 +158,7 @@ ATOM_FILES = (
         'entries': (
             {
                 'id': 'tag:example.com,2006:hogehoge.50450919',
-                'title': u'タイトル',
+                'title': u'"タイトル"',
                 'link': 'http://example.com/articles/01.html',
                 'description': u'コンテンツ',
                 'published': parse('2006-12-16T15:18:25+09:00'),
@@ -176,7 +176,7 @@ ATOM_FILES = (
         'entries': (
             {
                 'id': 'http://packages.gentoo.org/package/sys-apps/roccat-tools?ts=2014-10-04T12:34:01Z',
-                'title': u'sys-apps/roccat-tools-2.2.0: Utility for advanced configuration of Roccat devices',
+                'title': u'sys-apps/roccat-tools-2.2.0: Utility for advanced configuration of Roccat devices & machines',
                 'link': 'http://packages.gentoo.org/package/sys-apps/roccat-tools',
                 'description': u'<div>*roccat-tools-2.2.0 (04 Oct 2014)<br/>04 Oct 2014; Markos Chandras (<a href="http://cia.vc/stats/author/hwoarang">hwoarang</a>) +<a href="http://sources.gentoo.org/viewcvs.py/gentoo-x86/sys-apps/roccat-tools/roccat-tools-2.2.0.ebuild?view=markup">roccat-tools-2.2.0.ebuild</a>:<br/>Version bump. Bug #<a href="https://bugs.gentoo.org/show_bug.cgi?id=523974">523974</a></div>',
                 'published': None,
@@ -221,7 +221,7 @@ ATOM_FILES = (
         'entries': (
             {
                 'id': 'tag:typepad.com,2003:post-6a00d8341c534853ef01b7c6eb6d3b970b',
-                'title': u'EC2メンテナンスについての続報',
+                'title': u'EC2<メンテナンスについての続報>',
                 'link': 'http://aws.typepad.com/aws_japan/2014/10/ec2ment-update.html',
                 'description': u'<div xmlns="http://www.w3.org/1999/xhtml"><p>本日は先週末(2014/9/27から)に実施した、再起動を伴う</p></div>',
                 'published': parse('2014-10-01T17:15:23-07:00'),
@@ -317,6 +317,24 @@ ATOM_FILES = (
                 'published': parse('2015-02-06T09:01:12Z'),
                 'updated': parse('2015-02-06T09:01:12Z'),
                 'author_name': u'でろりん'
+            },
+        )
+    }),
+    ('atom/fallback.xml', {
+        'id': 'tag:example.com,2006:hogehoge',
+        'title': u'Broken atom sample',
+        'link': 'http://atom03.example.com/',
+        'description': u'A sample of Atom 0.3 feed.',
+        'updated': parse('2013-04-06T05:45:46Z'),
+        'entries': (
+            {
+                'id': 'tag:example.com,2006:hogehoge.50450919',
+                'title': u'"タイトル"',
+                'link': 'http://example.com/articles/01.html',
+                'description': u'コンテンツ',
+                'published': parse('2006-12-16T15:18:25+09:00'),
+                'updated': parse('2006-12-16T06:22:55Z'),
+                'author_name': u'hogehoge'
             },
         )
     }),

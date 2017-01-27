@@ -29,7 +29,9 @@ class RSSTestCase(unittest.TestCase):
     for fname, test_data in RSS_FILES:
       fp = open(os.path.join(DIR, fname), 'r')
       parsed = from_file(fp)
-      if parsed.feed != 'RSS 2.0 Fallback':
+      if fname == 'rss/googlegroups.xml':
+        self.assertEquals(parsed.feed, 'RSS 2.0 Fallback')
+      else:
         self.assertEquals(parsed.feed, 'RSS 2.0')
       self.assertEquals(parsed.title, test_data['title'])
       self.assertEquals(parsed.link, test_data['link'])
@@ -46,11 +48,12 @@ class AtomTestCase(unittest.TestCase):
     for fname, test_data in ATOM_FILES:
       fp = open(os.path.join(DIR, fname), 'r')
       parsed = from_file(fp)
-      if parsed.feed != 'Atom Fallback':
-        if fname != 'atom/atom03.xml':
-          self.assertEquals(parsed.feed, 'Atom 1.0')
-        else:
-          self.assertEquals(parsed.feed, 'Atom 0.3')
+      if fname == 'atom/fallback.xml':
+        self.assertEquals(parsed.feed, 'Atom Fallback')
+      elif fname == 'atom/atom03.xml':
+        self.assertEquals(parsed.feed, 'Atom 0.3')
+      else:
+        self.assertEquals(parsed.feed, 'Atom 1.0')
       self.assertEquals(parsed.title, test_data['title'])
       self.assertEquals(parsed.link, test_data['link'])
       self.assertEquals(parsed.description, test_data['description'])
@@ -66,7 +69,9 @@ class RSS10TestCase(unittest.TestCase):
     for fname, test_data in RSS10_FILES:
       fp = open(os.path.join(DIR, fname), 'r')
       parsed = from_file(fp)
-      if parsed.feed != 'RSS 1.0 Fallback':
+      if fname == 'rssone/fallback.xml':
+        self.assertEquals(parsed.feed, 'RSS 1.0 Fallback')
+      else:
         self.assertEquals(parsed.feed, 'RSS 1.0')
       self.assertEquals(parsed.title, test_data['title'])
       self.assertEquals(parsed.link, test_data['link'])
@@ -82,7 +87,9 @@ class RSS091TestCase(unittest.TestCase):
     for fname, test_data in RSS091_FILES:
       fp = open(os.path.join(DIR, fname), 'r')
       parsed = from_file(fp)
-      if parsed.feed != 'RSS 0.91 Fallback':
+      if fname == 'rssnine/fallback.xml':
+        self.assertEquals(parsed.feed, 'RSS 0.91 Fallback')
+      else:
         self.assertEquals(parsed.feed, 'RSS 0.91')
       self.assertEquals(parsed.title, test_data['title'])
       self.assertEquals(parsed.link, test_data['link'])

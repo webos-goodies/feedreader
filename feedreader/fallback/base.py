@@ -8,6 +8,7 @@ unicodify  = base.unicodify
 parse_date = base.parse_date
 safe_strip = base.safe_strip
 normalize_spaces = base.normalize_spaces
+unescape_html = base.unescape_html
 
 
 def get_element_text(element):

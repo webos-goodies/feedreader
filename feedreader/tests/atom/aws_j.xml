@@ -9,7 +9,7 @@
     <subtitle>開発者、ITプロフェッショナル向けにAmazon Web Services(AWS)が提供するアマゾンクラウド(Amazon EC2, S3, RDS, EMR他)の公式ブログです。最新情報をエバンジェリストが伝えます [AWSブログ]</subtitle>
     <generator uri="http://www.typepad.com/">TypePad</generator>
     <entry>
-        <title>EC2メンテナンスについての続報</title>
+        <title type="html"><![CDATA[　<b>EC2</b>&lt;メンテナンスについての続報&gt;　]]></title>
         <link rel="alternate" type="text/html" href="http://aws.typepad.com/aws_japan/2014/10/ec2ment-update.html" />
         <link rel="service.edit" type="application/atom+xml" href="http://www.typepad.com/t/atom/weblog/blog_id=86842883779368716/entry_id=6a00d8341c534853ef01b7c6eb6d3b970b" title="EC2メンテナンスについての続報" />
         <link rel="replies" type="text/html" href="http://aws.typepad.com/aws_japan/2014/10/ec2ment-update.html" thr:count="0"/>

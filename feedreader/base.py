@@ -1,11 +1,13 @@
 import re
 import dateutil.parser
+from oxy import strutil
 
 PREFERRED_LINK_TYPES    = ('text/html', 'application/xhtml+xml', 'text/plain')
 PREFERRED_CONTENT_TYPES = ('html', 'xhtml', 'text')
 
-SPACES_RE    = re.compile(r'\s+')
-TAG_RE       = re.compile(r'<[a-zA-Z<!\?][^>]*>')
+SPACES_RE    = re.compile(ur'[\u0009-\u000d\u0020\u0085\u2028\u2029]+')
+STRIP_RE     = re.compile(ur'\A[\s\u200b-\u200d\ufeff]+|[\s\u200b-\u200d\ufeff]+\Z', re.U)
+TAG_RE       = re.compile(r'</?[a-zA-Z<!\?][^>]*>')
 ENTITY_RE    = re.compile(r'[<>&"]')
 ENTITY_MAP   = { '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;' }
 
@@ -33,10 +35,11 @@ def safe_strip(s):
     return s
 
 def normalize_spaces(s):
-  if isinstance(s, basestring):
-    return SPACES_RE.sub(' ', s.strip())
-  else:
+  if isinstance(s, bytes):
+    s = unicode(s, errors='replace')
+  elif not isinstance(s, unicode):
     return s
+  return SPACES_RE.sub(u' ', STRIP_RE.sub(u'', s))
 
 def remove_tags(s):
   if isinstance(s, basestring):
@@ -50,6 +53,11 @@ def escape_html(s):
   else:
     return s
 
+def unescape_html(s):
+  if isinstance(s, basestring):
+    return strutil.unescape_html(s)
+  else:
+    return s
 
 class Base(object):
   def __init__(self, element):

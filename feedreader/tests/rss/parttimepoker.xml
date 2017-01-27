@@ -12,7 +12,7 @@
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 			<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/ptp-feed" /><feedburner:info uri="ptp-feed" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><feedburner:browserFriendly></feedburner:browserFriendly><item>
-		<title>HNR 6/17: WSOP Updates, Golden Sit and Go’s at PokerStars</title>
+		<title>HNR 6/17: WSOP Updates, Golden Sit &amp; Go’s at PokerStars</title>
 		<link>http://www.parttimepoker.com/hnr-617-wsop-updates-golden-sit-and-gos-at-pokerstars</link>
 		<comments>http://www.parttimepoker.com/hnr-617-wsop-updates-golden-sit-and-gos-at-pokerstars#comments</comments>
 		<pubDate>Mon, 17 Jun 2013 19:16:51 +0000</pubDate>
@@ -27,7 +27,7 @@
 		<slash:comments>0</slash:comments>
 		</item>
 		<item>
-		<title>PokerStars Giving Away $1M in Golden Sit and Go’s</title>
+		<title><![CDATA[PokerStars Giving Away $1M in Golden Sit &amp; Go’s]]></title>
 		<link>http://www.parttimepoker.com/pokerstars-giving-away-1m-in-golden-sit-and-gos</link>
 		<comments>http://www.parttimepoker.com/pokerstars-giving-away-1m-in-golden-sit-and-gos#comments</comments>
 		<pubDate>Mon, 17 Jun 2013 19:12:21 +0000</pubDate>

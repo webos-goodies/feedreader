@@ -133,7 +133,7 @@ RSS_FILES = (
         'description': u'いわゆる掲示板',
         'entries': (
             {
-                'title': u'おひさしぶりです。',
+                'title': u'おひさしぶりです。\u00a9',
                 'link': 'http://groups.google.com/group/foobar/browse_thread/thread/xxx?hl=ja&show_docid=xxxx',
                 'id': 'http://groups.google.com/group/foobar/browse_thread/thread/xxx?hl=ja&show_docid=xxxx',
                 'description': u'先生、皆様、お元気でしょうか？ <br> <p>談話室が、',
@@ -141,7 +141,7 @@ RSS_FILES = (
                 'published': None
             },
             {
-                'title': u'おひさしぶりです。',
+                'title': u'おひさしぶりです。&',
                 'link': 'http://groups.google.com/group/foobar/browse_thread/thread/aaa?hl=ja&show_docid=aaa',
                 'id': 'http://groups.google.com/group/foobar/browse_thread/thread/aaa?hl=ja&show_docid=aaa',
                 'description': u"先生、皆様、お元気でしょうか？\n&lt;br&gt; &lt;p&gt;談話室が、",
@@ -156,7 +156,7 @@ RSS_FILES = (
         'description': u'Poker strategy, news, jokes, interviews and reviews',
         'entries': (
             {
-                'title': u'HNR 6/17: WSOP Updates, Golden Sit and Go’s at PokerStars',
+                'title': u'HNR 6/17: WSOP Updates, Golden Sit & Go’s at PokerStars',
                 'link': 'http://www.parttimepoker.com/hnr-617-wsop-updates-golden-sit-and-gos-at-pokerstars',
                 'id': 'http://www.parttimepoker.com/?p=10767',
                 'description': u'<p><img src="http://www.parttimepoker.com/wp-',
@@ -164,7 +164,7 @@ RSS_FILES = (
                 'published': parse('Mon, 17 Jun 2013 19:16:51 +0000')
             },
             {
-                'title': u'PokerStars Giving Away $1M in Golden Sit and Go’s',
+                'title': u'PokerStars Giving Away $1M in Golden Sit & Go’s',
                 'link': 'http://www.parttimepoker.com/pokerstars-giving-away-1m-in-golden-sit-and-gos',
                 'id': 'http://www.parttimepoker.com/?p=10768',
                 'description': u'<p><img src="http://www.parttimepoker.com/wp-content/',
