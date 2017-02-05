@@ -67,6 +67,7 @@ class RSS20Item(Item):
 
   def __init__(self, element):
     super(RSS20Item, self).__init__(element)
+    self.__podcast = None
     self.__link_cache = None
     self.__enclosures_cache = None
 
@@ -100,16 +101,9 @@ class RSS20Item(Item):
 
   @property
   def description(self):
-    text = (get_descendant_text(self._element,
+    return (get_descendant_text(self._element,
                                 '{http://purl.org/rss/1.0/modules/content/}encoded') or
             get_descendant_text(self._element, 'description'))
-    enclosures = [
-      '<enclosure url="%s" type="%s"></enclosure>' % (
-        cgi.escape(e['url'], quote=True), cgi.escape(e['type'], quote=True))
-      for e in self.enclosures]
-    if enclosures:
-      text = "<feedeen>\n%s\n</feedeen>\n%s" % ("\n".join(enclosures), text)
-    return text
 
   @property
   def published(self):
@@ -121,17 +115,26 @@ class RSS20Item(Item):
     return None
 
   @property
+  def podcast(self):
+    if self.__podcast is None:
+      for item in self.enclosures:
+        if item['url'] and (item['type'] or u'').lower().startswith('audio/'):
+          self.__podcast = item['url']
+          break
+    return self.__podcast
+
+  @property
   def enclosures(self):
     if self.__enclosures_cache is None:
       self.__enclosures_cache = []
       for e in getattr(self._element, 'enclosure', ()):
-        url  = get_attribute(e, 'url', is_url=True)
-        type = get_attribute(e, 'type')
+        url  = safe_strip(get_attribute(e, 'url', is_url=True))
+        type = safe_strip(get_attribute(e, 'type'))
         if url and type:
           self.__enclosures_cache.append({ 'url':url, 'type':type })
     return self.__enclosures_cache
 
   def use_enclosure_as_link(self):
-    entries = self.enclosures
-    if entries:
-      self.__link_cache = entries[0]['url']
+    podcast = self.podcast
+    if podcast:
+      self.__link_cache = podcast

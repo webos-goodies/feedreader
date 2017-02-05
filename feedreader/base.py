@@ -65,7 +65,9 @@ class Base(object):
 
 
 class Item(Base):
-  pass
+  @property
+  def podcast(self):
+    return None
 
 
 class Feed(Base):

@@ -18,7 +18,7 @@ from rssone_files import RSS10_FILES
 from rssnine_files import RSS091_FILES
 
 ATTRIBUTES = ('author_name', 'author_link', 'author_email',
-              'title', 'link', 'description', 'id', 'published', 'pudated')
+              'title', 'link', 'description', 'id', 'podcast', 'published', 'pudated')
 
 def from_file(fp):
   str = fp.read()
